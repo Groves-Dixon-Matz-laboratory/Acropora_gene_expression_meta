@@ -1,0 +1,10 @@
+#steps for analyses after data processing
+
+#metadata
+	wrangle_sample_data.R
+		organizes all the trait data for each sample into tables
+
+#pipeline counts
+	pipeline_read_counts_all.R
+		format and plot read counts for each sample from processing pipeline
+

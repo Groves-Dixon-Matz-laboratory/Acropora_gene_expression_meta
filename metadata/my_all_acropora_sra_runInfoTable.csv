@@ -1,0 +1,1260 @@
+my_title,BioSample,Run,Library_Name,Sample_Name,isolate,Organism,my_treatment,my_stage
+A_moya_acid_PRJNA149513,SAMN00778841,SRR401853,GSM818457: Control 1,GSM818457,NA,Acropora millepora,NA,recruit
+A_moya_acid_PRJNA149513,SAMN00778842,SRR401854,GSM818458: Control 2,GSM818458,NA,Acropora millepora,NA,recruit
+A_moya_acid_PRJNA149513,SAMN00778843,SRR401855,GSM818459: Control 3,GSM818459,NA,Acropora millepora,NA,recruit
+A_moya_acid_PRJNA149513,SAMN00778844,SRR401856,GSM818460: 750 ppm 1,GSM818460,NA,Acropora millepora,NA,recruit
+A_moya_acid_PRJNA149513,SAMN00778845,SRR401857,GSM818461: 750 ppm 2,GSM818461,NA,Acropora millepora,NA,recruit
+A_moya_acid_PRJNA149513,SAMN00778846,SRR401858,GSM818462: 750 ppm 3,GSM818462,NA,Acropora millepora,NA,recruit
+A_moya_acid_PRJNA149513,SAMN00778847,SRR401859,GSM818463: 1000 ppm 1,GSM818463,NA,Acropora millepora,NA,recruit
+A_moya_acid_PRJNA149513,SAMN00778848,SRR401860,GSM818464: 1000 ppm 2,GSM818464,NA,Acropora millepora,NA,recruit
+A_moya_acid_PRJNA149513,SAMN00778849,SRR401861,GSM818465: 1000 ppm 3,GSM818465,NA,Acropora millepora,NA,recruit
+B_whiteBand_PRJNA222758,SAMN02376557,SRR1015321,Acervicornis.IlluminaOnly10,Acervicornis.IlluminaOnly.fsa,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02376557,SRR1015323,Acervicornis.IlluminaOnly10,Acervicornis.IlluminaOnly.fsa,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02376557,SRR1015327,Acervicornis.IlluminaOnly10,Acervicornis.IlluminaOnly.fsa,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02380460,SRR1015340,Acervicornis.IlluminaOnly.fsa9,Acervicornis.raw2,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02380460,SRR1015349,Acervicornis.IlluminaOnly.fsa9,Acervicornis.raw2,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02380460,SRR1015354,Acervicornis.IlluminaOnly.fsa9,Acervicornis.raw2,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02376557,SRR1015298,Acervicornis.IlluminaOnly10,Acervicornis.IlluminaOnly.fsa,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02376557,SRR1015358,Acervicornis.IlluminaOnly10,Acervicornis.IlluminaOnly.fsa,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02376557,SRR1015325,Acervicornis.IlluminaOnly10,Acervicornis.IlluminaOnly.fsa,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02380460,SRR1015331,Acervicornis.IlluminaOnly.fsa9,Acervicornis.raw2,NA,Acropora cervicornis,NA,adult
+B_whiteBand_PRJNA222758,SAMN02380460,SRR1015344,Acervicornis.IlluminaOnly.fsa9,Acervicornis.raw2,NA,Acropora cervicornis,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709461,SRR1206126,NA,GSM1358270,o300_t300,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709463,SRR1206127,NA,GSM1358271,o300_t300,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709458,SRR1206128,NA,GSM1358272,o300_t300,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709468,SRR1206129,NA,GSM1358273,o300_t400,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709465,SRR1206130,NA,GSM1358274,o300_t400,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709459,SRR1206131,NA,GSM1358275,o300_t400,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709462,SRR1206132,NA,GSM1358276,o400_t300,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709464,SRR1206133,NA,GSM1358277,o400_t300,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709460,SRR1206134,NA,GSM1358278,o400_t300,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709467,SRR1206135,NA,GSM1358279,o400_t400,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709466,SRR1206136,NA,GSM1358280,o400_t400,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+C_palumbi_pools_PRJNA242821,SAMN02709472,SRR1206137,NA,GSM1358281,o400_t400,Acropora hyacinthus complex sp. E JTL-2012,NA,adult
+E_aspera_PRJNA266455,SAMN03165193,SRR1653615,NA,Acropora aspera (C24),NA,Acropora aspera,ambient 24 hrs,adult
+E_aspera_PRJNA266455,SAMN03165193,SRR1654665,NA,Acropora aspera (C24),NA,Acropora aspera,ambient 24 hrs,adult
+E_aspera_PRJNA266455,SAMN03165194,SRR1653613,C72,Acropora aspera (C72),NA,Acropora aspera,ambient 72 hrs,adult
+E_aspera_PRJNA266455,SAMN03165194,SRR1654664,C72,Acropora aspera (C72),NA,Acropora aspera,ambient 72 hrs,adult
+E_aspera_PRJNA266455,SAMN03165196,SRR1653611,STE,Acropora aspera (STE),NA,Acropora aspera,short thermal stress,adult
+E_aspera_PRJNA266455,SAMN03165197,SRR1653608,LTE,Acropora aspera (LTE),NA,Acropora aspera,long thermal stress,adult
+E_aspera_PRJNA266455,SAMN03165198,SRR1653606,N,Acropora aspera (N),NA,Acropora aspera,amonia,adult
+F_Uqueensland_ph_PRJNA269992,SAMN03261518,SRR1703716,Am G1,Am G1,reef flat colony,Acropora millepora,preindusctrial,adult
+F_Uqueensland_ph_PRJNA269992,SAMN03261520,SRR1703717,Am B1,Am B1,reef flat colony,Acropora millepora,present day,adult
+F_Uqueensland_ph_PRJNA269992,SAMN03261521,SRR1706955,Am Y1,Am Y1,reef flat colony,Acropora millepora,RCP4.5,adult
+F_Uqueensland_ph_PRJNA269992,SAMN03261522,SRR1703718,Am R1,Am R1,reef flat colony,Acropora millepora,RCP8.5,adult
+G_barilanU_moonlight_PRJNA276913,SAMN03382359,SRR1843797,Gamete,AcroporaGamete,NA,Acropora millepora,NA,gamete
+G_barilanU_moonlight_PRJNA276913,SAMN05597952,SRR1842722,NewMoon12pm,AcroporaNewMoon12pm,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597953,SRR1842771,NewMoon6pm,AcroporaNewMoon6pm,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597954,SRR1842773,NewMoon12am,AcroporaNewMoon12am,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597955,SRR1842776,FullMoon12pm,AcroporaFullMoon12pm,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597956,SRR1842777,FullMoon6pm,AcroporaFullMoon6pm,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597957,SRR1842828,FullMoon12am,AcroporaFullMoon12am,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597958,SRR1853176,0615PM_Ambient_16/11/2011,Spawning0615PM_Ambient_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597959,SRR1853185,0615PM_Dark_16/11/2011,Spawning0615PM_Dark_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597960,SRR1853188,0615PM_Light_16/11/2011,Spawning0615PM_Light_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597961,SRR1853192,0730PM_Ambient_16/11/2011,Spawning0730PM_Ambient_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597962,SRR1853195,0730PM_Dark_16/11/2011,Spawning0730PM_Dark_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597963,SRR1853198,0730PM_Light_16/11/2011,Spawning0730PM_Light_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597964,SRR1853201,0900PM_Ambient_16/11/2011,Spawning0900PM_Ambient_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597965,SRR1853204,1030PM_Ambient_16/11/2011,Spawning1030PM_Ambient_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597966,SRR1853208,1000PM_Dark_16/11/2011,Spawning1000PM_Dark_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597967,SRR1853209,1000PM_Light_16/11/2011,Spawning1000PM_Light_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597968,SRR1853210,1000PM_Ambient_16/11/2011,Spawning1000PM_Ambient_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597969,SRR1853211,1220AM_Ambient_17/11/2011,Spawning1220AM_Ambient_17/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597970,SRR1853246,0900PM_Light_16/11/2011,Spawning0900PM_Light_16/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597971,SRR1853247,0900PM_Ambient_10/11/2011,Spawning0900PM_Ambient_10/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597972,SRR1853248,1200AM_Ambient_14/11/2011,Spawning1200AM_Ambient_14/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597973,SRR1853249,0730PM_Light_15/11/2011,Spawning0730PM_Light_15/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597974,SRR1853250,0730PM_Ambient_15/11/2011,Spawning0730PM_Ambient_15/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597975,SRR1853251,0600PM_Ambient_15/11/2011,Spawning0600PM_Ambient_15/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597976,SRR1853252,0600PM_Light_15/11/2011,Spawning0600PM_Light_15/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597977,SRR1853253,0900PM_Ambient_12/11/2011,Spawning0900PM_Ambient_12/11/2011,NA,Acropora millepora,NA,adult
+G_barilanU_moonlight_PRJNA276913,SAMN05597978,SRR1853254,0900PM_Light_12/11/2011,Spawning0900PM_Light_12/11/2011,NA,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437946,SRR1929634,DC3,DC3,DC3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437945,SRR1929633,DC2,DC2,DC2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437943,SRR1929631,CD3,CD3,CD3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437944,SRR1929632,DC1,DC1,DC1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437942,SRR1929630,CD2,CD2,CD2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437941,SRR1929629,CD1,CD1,CD1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437940,SRR1929628,CB3,CB3,CB3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437939,SRR1929627,CB2,CB2,CB2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437938,SRR1929626,CB1,CB1,CB1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437937,SRR1929625,CA3,CA3,CA3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437936,SRR1929624,CA2,CA2,CA2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437935,SRR1929623,CA1,CA1,CA1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437934,SRR1929622,BD3,BD3,BD3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437933,SRR1929621,BD2,BD2,BD2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437932,SRR1929620,BD1,BD1,BD1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437930,SRR1929618,BC2,BC2,BC2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437931,SRR1929619,BC3,BC3,BC3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437929,SRR1929617,BC1,BC1,BC1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437928,SRR1929616,BA3,BA3,BA3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437927,SRR1929615,BA2,BA2,BA2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437926,SRR1929614,BA1,BA1,BA1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437925,SRR1929613,AD3,AD3,AD3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437924,SRR1929612,AD2,AD2,AD2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437923,SRR1929611,AD1,AD1,AD1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437922,SRR1929610,AC3,AC3,AC3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437920,SRR1929608,AC1,AC1,AC1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437921,SRR1929609,AC2,AC2,AC2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437919,SRR1929607,AB3,AB3,AB3,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437918,SRR1929606,AB2,AB2,AB2,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437917,SRR1929605,AB1,AB1,AB1,Acropora millepora,NA,larval
+H_matz_heatTolLat_PRJNA279192,SAMN03437916,SRR1929604,D6,D6,D6,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437915,SRR1929603,D5,D5,D5,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437913,SRR1929601,D3,D3,D3,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437914,SRR1929602,D4,D4,D4,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437912,SRR1929600,D2,D2,D2,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437911,SRR1929599,D1,D1,D1,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437910,SRR1929598,C6,C6,C6,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437909,SRR1929597,C5,C5,C5,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437908,SRR1929596,C4,C4,C4,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437907,SRR1929595,C3,C3,C3,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437906,SRR1929594,C2,C2,C2,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437905,SRR1929593,C1,C1,C1,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437904,SRR1929592,B6,B6,B6,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437903,SRR1929591,B5,B5,B5,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437902,SRR1929590,B4,B4,B4,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437901,SRR1929589,B3,B3,B3,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437900,SRR1929588,B2,B2,B2,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437899,SRR1929587,B1,B1,B1,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437898,SRR1929586,A6,A6,A6,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437897,SRR1929585,A5,A5,A5,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437896,SRR1929584,A4,A4,A4,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437895,SRR1929583,A3,A3,A3,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437894,SRR1929582,A2,A2,A2,Acropora millepora,NA,adult
+H_matz_heatTolLat_PRJNA279192,SAMN03437893,SRR1929581,A1,A1,A1,Acropora millepora,NA,adult
+I_bertucci_dayNight_PRJNA288809,SAMN03838760,SRR2086162,NA,GSM1783234,NA,Acropora millepora,night3,adult
+I_bertucci_dayNight_PRJNA288809,SAMN03838759,SRR2086161,NA,GSM1783233,NA,Acropora millepora,night2,adult
+I_bertucci_dayNight_PRJNA288809,SAMN03838758,SRR2086160,NA,GSM1783231,NA,Acropora millepora,night1,adult
+I_bertucci_dayNight_PRJNA288809,SAMN03838757,SRR2086159,NA,GSM1783230,NA,Acropora millepora,day3,adult
+I_bertucci_dayNight_PRJNA288809,SAMN03838756,SRR2086158,NA,GSM1783229,NA,Acropora millepora,day2,adult
+I_bertucci_dayNight_PRJNA288809,SAMN03838755,SRR2086157,NA,GSM1783228,NA,Acropora millepora,day1,adult
+J_weiss_immune_PRJNA200542,SAMN02086203,SRR835875,NA,GSM1129653,NA,Acropora millepora,control1,adult
+J_weiss_immune_PRJNA200542,SAMN02086203,SRR835876,NA,GSM1129653,NA,Acropora millepora,control1,adult
+J_weiss_immune_PRJNA200542,SAMN02086204,SRR835877,NA,GSM1129654,NA,Acropora millepora,control2,adult
+J_weiss_immune_PRJNA200542,SAMN02086204,SRR835878,NA,GSM1129654,NA,Acropora millepora,control2,adult
+J_weiss_immune_PRJNA200542,SAMN02086205,SRR835879,NA,GSM1129655,NA,Acropora millepora,control3,adult
+J_weiss_immune_PRJNA200542,SAMN02086205,SRR835880,NA,GSM1129655,NA,Acropora millepora,control3,adult
+J_weiss_immune_PRJNA200542,SAMN02086206,SRR835881,NA,GSM1129656,NA,Acropora millepora,control4,adult
+J_weiss_immune_PRJNA200542,SAMN02086206,SRR835882,NA,GSM1129656,NA,Acropora millepora,control4,adult
+J_weiss_immune_PRJNA200542,SAMN02086207,SRR835883,NA,GSM1129657,NA,Acropora millepora,mdp1,adult
+J_weiss_immune_PRJNA200542,SAMN02086207,SRR835884,NA,GSM1129657,NA,Acropora millepora,mdp1,adult
+J_weiss_immune_PRJNA200542,SAMN02086208,SRR835885,NA,GSM1129658,NA,Acropora millepora,mdp2,adult
+J_weiss_immune_PRJNA200542,SAMN02086208,SRR835886,NA,GSM1129658,NA,Acropora millepora,mdp2,adult
+J_weiss_immune_PRJNA200542,SAMN02086209,SRR835887,NA,GSM1129659,NA,Acropora millepora,mdp3,adult
+J_weiss_immune_PRJNA200542,SAMN02086209,SRR835888,NA,GSM1129659,NA,Acropora millepora,mdp3,adult
+J_weiss_immune_PRJNA200542,SAMN02086211,SRR835891,NA,GSM1129661,NA,Acropora millepora,pic1,adult
+J_weiss_immune_PRJNA200542,SAMN02086210,SRR835889,NA,GSM1129660,NA,Acropora millepora,mdp4,adult
+J_weiss_immune_PRJNA200542,SAMN02086210,SRR835890,NA,GSM1129660,NA,Acropora millepora,mdp4,adult
+J_weiss_immune_PRJNA200542,SAMN02086212,SRR835892,NA,GSM1129662,NA,Acropora millepora,pic2,adult
+J_weiss_immune_PRJNA200542,SAMN02086212,SRR835893,NA,GSM1129662,NA,Acropora millepora,pic2,adult
+J_weiss_immune_PRJNA200542,SAMN02086214,SRR835895,NA,GSM1129664,NA,Acropora millepora,pic4,adult
+J_weiss_immune_PRJNA200542,SAMN02086214,SRR835896,NA,GSM1129664,NA,Acropora millepora,pic4,adult
+J_weiss_immune_PRJNA200542,SAMN02086213,SRR835894,NA,GSM1129663,NA,Acropora millepora,pic3,adult
+K_strader_redDiapause_PRJNA292574,SAMN03981761,SRR2912594,g1r1,g1r1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981779,SRR2912603,R1g1,R1g1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981787,SRR2912607,R2r1,R2r1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981785,SRR2912606,R2g1,R2g1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981783,SRR2912605,R2d1,R2d1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981781,SRR2912604,R1r1,R1r1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981774,SRR2912601,M2r1,M2r1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981773,SRR2912600,g2r1,g2r1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981770,SRR2912599,M2g1,M2g1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981769,SRR2912598,g2g1,g2g1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981766,SRR2912597,M2d1,M2d1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981765,SRR2912596,g2d1,g2d1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981762,SRR2912595,M1r1,M1r1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981758,SRR2912593,M1g1,M1g1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981757,SRR2912592,g1g1,g1g1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981754,SRR2912591,M1d1,M1d1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981753,SRR2912590,g1d1,g1d1,NA,Acropora millepora,NA,larval
+K_strader_redDiapause_PRJNA292574,SAMN03981777,SRR2912602,R1d1,R1d1,NA,Acropora millepora,NA,larval
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818609,SRR629090,BE05,01_h_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818610,SRR629091,TA00,02_c_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818611,SRR629092,ME02,02_h_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818612,SRR629093,WL03,03_c_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818613,SRR629094,SG00,06_c_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818615,SRR629096,KD01,09_c_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818616,SRR629126,SY03,09_h_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818620,SRR629130,BR00,31_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818621,SRR629131,HL03,40_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818622,SRR629132,DL19,40_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818625,SRR629135,DL13,45_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818627,SRR629150,NA,55_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818628,SRR629151,NA,55_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818632,SRR629155,NA06,65_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818608,SRR629089,NA,01_c_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818614,SRR629095,RC02,06_h_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818617,SRR629127,PA00,75_c_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818618,SRR629128,MC01,75_h_HV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818619,SRR629129,SH00,31_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818623,SRR629133,NA,44_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818624,SRR629134,NA,44_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818626,SRR629136,MD01,45_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818629,SRR629152,ME00,61_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818630,SRR629153,GW03,61_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818631,SRR629154,PA01,65_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818633,SRR629156,HB06,68_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818634,SRR629157,BF02,68_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818635,SRR629158,LI03,70_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818636,SRR629159,NA,70_h_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818637,SRR629160,PA08,71_c_MV,NA,Acropora hyacinthus,NA,adult
+L_Barshis_bleachResillience_PRJNA177515,SAMN01818638,SRR629161,SU12,71_h_MV,NA,Acropora hyacinthus,NA,adult
+M_moya_juvenilePh_PRJNA260269,SAMN03019619,SRR1566164,NA,GSM1496920,NA,Acropora millepora,380 ppm CO2,recruit
+M_moya_juvenilePh_PRJNA260269,SAMN03019620,SRR1566165,NA,GSM1496921,NA,Acropora millepora,380 ppm CO2,recruit
+M_moya_juvenilePh_PRJNA260269,SAMN03019621,SRR1566166,NA,GSM1496922,NA,Acropora millepora,380 ppm CO2,recruit
+M_moya_juvenilePh_PRJNA260269,SAMN03019623,SRR1566168,NA,GSM1496924,NA,Acropora millepora,750 ppm CO2,recruit
+M_moya_juvenilePh_PRJNA260269,SAMN03019622,SRR1566167,NA,GSM1496923,NA,Acropora millepora,750 ppm CO2,recruit
+M_moya_juvenilePh_PRJNA260269,SAMN03019624,SRR1566169,NA,GSM1496925,NA,Acropora millepora,750 ppm CO2,recruit
+N_Hainan_U_heat_PRJNA308355,SAMN04394604,SRR3095777,NA,Aa_Control,missing,Acropora aculeus,NA,adult
+N_Hainan_U_heat_PRJNA308355,SAMN04394604,SRR3095778,NA,Aa_Control,missing,Acropora aculeus,NA,adult
+N_Hainan_U_heat_PRJNA308355,SAMN04394605,SRR3095779,NA,Aa_Heat,missing,Acropora aculeus,NA,adult
+N_Hainan_U_heat_PRJNA308355,SAMN04394605,SRR3095780,NA,Aa_Heat,missing,Acropora aculeus,NA,adult
+O_Mohamed_zoox_PRJNA309168,SAMN04421954,SRR3106399,NA,GSM2041798,NA,Acropora digitifera,infected_48h_rep3,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421953,SRR3106398,NA,GSM2041797,NA,Acropora digitifera,infected_48h_rep2,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421952,SRR3106397,NA,GSM2041796,NA,Acropora digitifera,infected_48h_rep1,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421951,SRR3106396,NA,GSM2041795,NA,Acropora digitifera,control_48h_rep3,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421950,SRR3106395,NA,GSM2041794,NA,Acropora digitifera,control_48h_rep2,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421949,SRR3106394,NA,GSM2041793,NA,Acropora digitifera,control_48h_rep1,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421948,SRR3106393,NA,GSM2041792,NA,Acropora digitifera,infected_12h_rep3,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421947,SRR3106392,NA,GSM2041791,NA,Acropora digitifera,infected_12h_rep2,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421946,SRR3106391,NA,GSM2041790,NA,Acropora digitifera,control_12h_rep3,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421945,SRR3106390,NA,GSM2041789,NA,Acropora digitifera,control_12h_rep2,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421944,SRR3106389,NA,GSM2041788,NA,Acropora digitifera,infected_4h_rep3,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421943,SRR3106388,NA,GSM2041787,NA,Acropora digitifera,infected_4h_rep2,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421942,SRR3106387,NA,GSM2041786,NA,Acropora digitifera,infected_4h_rep1,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421941,SRR3106386,NA,GSM2041785,NA,Acropora digitifera,control_4h_rep3,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421940,SRR3106385,NA,GSM2041784,NA,Acropora digitifera,control_4h_rep2,larval
+O_Mohamed_zoox_PRJNA309168,SAMN04421939,SRR3106384,NA,GSM2041783,NA,Acropora digitifera,control_4h_rep1,larval
+P_Vize_timeKeeping_PRJNA293100,SAMN04486084,SRR3169421,F3NFM,F3NFM,Field - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486054,SRR3169422,F1D3Q,F1D3Q,Field - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486055,SRR3169423,F1DNM,F1DNM,Field - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486056,SRR3169425,F1DFM,F1DFM,Field - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486057,SRR3169426,F1N3Q,F1N3Q,Field - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486058,SRR3169518,F1NNM,F1NNM,Field - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486059,SRR3169527,F1N1Q,F1N1Q,Field - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486062,SRR3169529,F2D3Q,F2D3Q,Field - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486063,SRR3169530,F2DNM,F2DNM,Field - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486064,SRR3169531,F2DFM,F2DFM,Field - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486065,SRR3169532,F2N3Q,F2N3Q,Field - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486073,SRR3169533,F2NNM,F2NNM,Field - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486074,SRR3169534,F2N1Q,F2N1Q,Field - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486075,SRR3169535,F2NFM,F2NFM,Field - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486076,SRR3169536,F3D3Q,F3D3Q,Field - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486077,SRR3169537,F3DNM,F3DNM,Field - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486078,SRR3169538,F3DFM,F3DFM,Field - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486079,SRR3169539,F3N3Q,F3N3Q,Field - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486081,SRR3169540,F3NNM,F3NNM,Field - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486083,SRR3169541,F3N1Q,F3N1Q,Field - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486061,SRR3169528,F1NFM,F1NFM,Field - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485676,SRR3182557,H1D3Q,H1D3Q,Tank - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485677,SRR3182684,H1DNM,H1DNM,Tank - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485679,SRR3182685,H1DFM,H1DFM,Tank - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485683,SRR3182686,H1N3Q,H1N3Q,Tank - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485849,SRR3182775,H1N1Q,H1N1Q,Tank - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485851,SRR3182776,H1NFM,H1NFM,Tank - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485853,SRR3182777,H2D3Q,H2D3Q,Tank - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485856,SRR3182778,H2DNM,H2DNM,Tank - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485858,SRR3182779,H2D1Q,H2D1Q,Tank - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485861,SRR3182780,H2DFM,H2DFM,Tank - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486041,SRR3182781,H2N3Q,H2N3Q,Tank - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486042,SRR3182784,H2NNM,H2NNM,Tank - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486043,SRR3182785,H2N1Q,H2N1Q,Tank - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486044,SRR3182786,H2NFM,H2NFM,Tank - biological replicate 2,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486045,SRR3182787,H3D3Q,H3D3Q,Tank - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486046,SRR3182788,H3DNM,H3DNM,Tank - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486048,SRR3182790,H3DFM,H3DFM,Tank - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486049,SRR3182791,H3N3Q,H3N3Q,Tank - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486052,SRR3182793,H3N1Q,H3N1Q,Tank - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486050,SRR3182792,H3NNM,H3NNM,Tank - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486053,SRR3182794,H3NFM,H3NFM,Tank - biological replicate 3,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485847,SRR3182410,H1NNM,H1NNM,Tank - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04485678,SRR3182448,H1D1Q (SE),H1D1Q,Tank - biological replicate 1,Acropora gemmifera,NA,adult
+P_Vize_timeKeeping_PRJNA293100,SAMN04486047,SRR3182789,H3D1Q,H3D1Q,Tank - biological replicate 3,Acropora gemmifera,NA,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590204,SRR3316340,Y7,Y7,NA,Acropora digitifera,Full_Moon_22:15,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590203,SRR3316339,Y6,Y6,NA,Acropora digitifera,Full_Moon_11:45,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590202,SRR3316338,Y5,Y5,NA,Acropora digitifera,Bundles,gamete
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590201,SRR3316337,Y4,Y4,NA,Acropora digitifera,Post_Spawning,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590200,SRR3316336,Y3,Y3,NA,Acropora digitifera,Spawning,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590208,SRR3316334,Y11,Y11,NA,Acropora digitifera,Super_Moon_11:45,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590199,SRR3316333,Y2,Y2,NA,Acropora digitifera,Setting,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590198,SRR3316332,Y1,Y1,NA,Acropora digitifera,Pre_Spawning,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590207,SRR3316343,Y10,Y10,NA,Acropora digitifera,New_Moon_21:00,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590206,SRR3316342,Y9,Y9,NA,Acropora digitifera,New_Moon_11:45,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590205,SRR3316341,Y8,Y8,NA,Acropora digitifera,Full_Moon_00:15,adult
+Q_bar_ilanU_lightSpawn_PRJNA316795,SAMN04590209,SRR3316335,Y12,Y12,NA,Acropora digitifera,Super_Moon_21:15,adult
+R_oist_devoStage_PRJDB3244,SAMD00021034,DRR024466,Adult 1,SAMD00021034,NA,Acropora digitifera,NA,adult
+R_oist_devoStage_PRJDB3244,SAMD00021034,DRR024468,Adult 3,SAMD00021034,NA,Acropora digitifera,NA,adult
+R_oist_devoStage_PRJDB3244,SAMD00021034,DRR024467,Adult 2,SAMD00021034,NA,Acropora digitifera,NA,adult
+R_oist_devoStage_PRJDB3244,SAMD00021035,DRR024469,Blastula 1,SAMD00021035,NA,Acropora digitifera,NA,embryo
+R_oist_devoStage_PRJDB3244,SAMD00021035,DRR024471,Blastula 3,SAMD00021035,NA,Acropora digitifera,NA,embryo
+R_oist_devoStage_PRJDB3244,SAMD00021035,DRR024470,Blastula 2,SAMD00021035,NA,Acropora digitifera,NA,embryo
+R_oist_devoStage_PRJDB3244,SAMD00021036,DRR024472,Gastrula 1,SAMD00021036,NA,Acropora digitifera,NA,embryo
+R_oist_devoStage_PRJDB3244,SAMD00021036,DRR024473,Gastrula 2,SAMD00021036,NA,Acropora digitifera,NA,embryo
+R_oist_devoStage_PRJDB3244,SAMD00021036,DRR024474,Gastrula 3,SAMD00021036,NA,Acropora digitifera,NA,embryo
+R_oist_devoStage_PRJDB3244,SAMD00021037,DRR024475,Planula 1,SAMD00021037,NA,Acropora digitifera,NA,larval
+R_oist_devoStage_PRJDB3244,SAMD00021037,DRR024476,Planula 2,SAMD00021037,NA,Acropora digitifera,NA,larval
+R_oist_devoStage_PRJDB3244,SAMD00021037,DRR024477,Planula 3,SAMD00021037,NA,Acropora digitifera,NA,larval
+R_oist_devoStage_PRJDB3244,SAMD00021038,DRR024479,Sphere 2,SAMD00021038,NA,Acropora digitifera,NA,embryo
+R_oist_devoStage_PRJDB3244,SAMD00021038,DRR024480,Sphere 3,SAMD00021038,NA,Acropora digitifera,NA,embryo
+R_oist_devoStage_PRJDB3244,SAMD00021038,DRR024478,Sphere 1,SAMD00021038,NA,Acropora digitifera,NA,embryo
+S_rachel_immune_PRJNA319662,SAMN04908494,SRR3622488,SampleAC221_ATTCCTATCACG_L003_R1_001.fastq,SampleAC221_ATTCCTATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908504,SRR3622490,SampleAC261_ATTCCTGGCTAC_L004_R1_001.fastq,SampleAC261_ATTCCTGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908594,SRR3622491,SampleAD91_AGAATCTAGCTT_L004_R1_001.fastq,SampleAD91_AGAATCTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908495,SRR3622489,SampleAC221_ATTCCTATCACG_L004_R1_001.fastq,SampleAC221_ATTCCTATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908595,SRR3622492,SampleAD91_AGAATCTAGCTT_L005_R1_001.fastq,SampleAD91_AGAATCTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908596,SRR3622493,SampleAD92_AGAATCGGCTAC_L003_R1_001.fastq,SampleAD92_AGAATCGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908597,SRR3622494,SampleAD92_AGAATCGGCTAC_L004_R1_001.fastq,SampleAD92_AGAATCGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908598,SRR3622495,SampleAD92_AGAATCGGCTAC_L005_R1_001.fastq,SampleAD92_AGAATCGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908599,SRR3622496,SampleAD93_TGTTAGGGCTAC_L003_R1_001.fastq,SampleAD93_TGTTAGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908600,SRR3622497,SampleAD93_TGTTAGGGCTAC_L004_R1_001.fastq,SampleAD93_TGTTAGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908601,SRR3622498,SampleAD93_TGTTAGGGCTAC_L005_R1_001.fastq,SampleAD93_TGTTAGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908602,SRR3622499,SampleAO221_CGGAATATCACG_L003_R1_001.fastq,SampleAO221_CGGAATATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908603,SRR3622500,SampleAO221_CGGAATATCACG_L004_R1_001.fastq,SampleAO221_CGGAATATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908505,SRR3622501,SampleAC261_ATTCCTGGCTAC_L005_R1_001.fastq,SampleAC261_ATTCCTGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908604,SRR3622502,SampleAO221_CGGAATATCACG_L005_R1_001.fastq,SampleAO221_CGGAATATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908605,SRR3622503,SampleAO222_CGGAATACTTGA_L003_R1_001.fastq,SampleAO222_CGGAATACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908606,SRR3622504,SampleAO222_CGGAATACTTGA_L004_R1_001.fastq,SampleAO222_CGGAATACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908607,SRR3622505,SampleAO222_CGGAATACTTGA_L005_R1_001.fastq,SampleAO222_CGGAATACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908608,SRR3622506,SampleAO223_CGGAATTAGCTT_L003_R1_001.fastq,SampleAO223_CGGAATTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908609,SRR3622507,SampleAO223_CGGAATTAGCTT_L004_R1_001.fastq,SampleAO223_CGGAATTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908610,SRR3622508,SampleAO223_CGGAATTAGCTT_L005_R1_001.fastq,SampleAO223_CGGAATTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908611,SRR3622509,SampleAO262_CGGAATGGCTAC_L003_R1_001.fastq,SampleAO262_CGGAATGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908612,SRR3622510,SampleAO262_CGGAATGGCTAC_L004_R1_001.fastq,SampleAO262_CGGAATGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908613,SRR3622511,SampleAO262_CGGAATGGCTAC_L005_R1_001.fastq,SampleAO262_CGGAATGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908506,SRR3622512,SampleAC262_AAGGGAATCACG_L003_R1_001.fastq,SampleAC262_AAGGGAATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908614,SRR3622513,SampleAO263_ATTGGGATCACG_L003_R1_001.fastq,SampleAO263_ATTGGGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908615,SRR3622514,SampleAO263_ATTGGGATCACG_L004_R1_001.fastq,SampleAO263_ATTGGGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908616,SRR3622515,SampleAO263_ATTGGGATCACG_L005_R1_001.fastq,SampleAO263_ATTGGGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908617,SRR3622516,SampleAO273_ATTGGGACTTGA_L003_R1_001.fastq,SampleAO273_ATTGGGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908618,SRR3622517,SampleAO273_ATTGGGACTTGA_L004_R1_001.fastq,SampleAO273_ATTGGGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908619,SRR3622518,SampleAO273_ATTGGGACTTGA_L005_R1_001.fastq,SampleAO273_ATTGGGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908620,SRR3622519,SampleAO301_ATTGGGTAGCTT_L003_R1_001.fastq,SampleAO301_ATTGGGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908621,SRR3622520,SampleAO301_ATTGGGTAGCTT_L004_R1_001.fastq,SampleAO301_ATTGGGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908622,SRR3622521,SampleAO301_ATTGGGTAGCTT_L005_R1_001.fastq,SampleAO301_ATTGGGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908623,SRR3622522,SampleAO302_ATTGGGGGCTAC_L003_R1_001.fastq,SampleAO302_ATTGGGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908507,SRR3622523,SampleAC262_AAGGGAATCACG_L004_R1_001.fastq,SampleAC262_AAGGGAATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908624,SRR3622524,SampleAO302_ATTGGGGGCTAC_L004_R1_001.fastq,SampleAO302_ATTGGGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908625,SRR3622525,SampleAO302_ATTGGGGGCTAC_L005_R1_001.fastq,SampleAO302_ATTGGGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908626,SRR3622526,SampleAO303_TAATCGATCACG_L003_R1_001.fastq,SampleAO303_TAATCGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908627,SRR3622527,SampleAO303_TAATCGATCACG_L004_R1_001.fastq,SampleAO303_TAATCGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908628,SRR3622528,SampleAO303_TAATCGATCACG_L005_R1_001.fastq,SampleAO303_TAATCGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908629,SRR3622529,SampleAO41_TAATCGACTTGA_L003_R1_001.fastq,SampleAO41_TAATCGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908630,SRR3622530,SampleAO41_TAATCGACTTGA_L004_R1_001.fastq,SampleAO41_TAATCGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908631,SRR3622531,SampleAO41_TAATCGACTTGA_L005_R1_001.fastq,SampleAO41_TAATCGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908632,SRR3622532,SampleAO42_TAATCGTAGCTT_L003_R1_001.fastq,SampleAO42_TAATCGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908633,SRR3622533,SampleAO42_TAATCGTAGCTT_L004_R1_001.fastq,SampleAO42_TAATCGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908508,SRR3622534,SampleAC262_AAGGGAATCACG_L005_R1_001.fastq,SampleAC262_AAGGGAATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908634,SRR3622535,SampleAO42_TAATCGTAGCTT_L005_R1_001.fastq,SampleAO42_TAATCGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908635,SRR3622536,SampleAO43_TAATCGGGCTAC_L003_R1_001.fastq,SampleAO43_TAATCGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908636,SRR3622537,SampleAO43_TAATCGGGCTAC_L004_R1_001.fastq,SampleAO43_TAATCGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908637,SRR3622538,SampleAO43_TAATCGGGCTAC_L005_R1_001.fastq,SampleAO43_TAATCGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908638,SRR3622539,SampleAO52_CCGCGTATCACG_L003_R1_001.fastq,SampleAO52_CCGCGTATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908639,SRR3622540,SampleAO52_CCGCGTATCACG_L004_R1_001.fastq,SampleAO52_CCGCGTATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908641,SRR3622542,SampleAO53_CCGCGTACTTGA_L003_R1_001.fastq,SampleAO53_CCGCGTACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908640,SRR3622541,SampleAO52_CCGCGTATCACG_L005_R1_001.fastq,SampleAO52_CCGCGTATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908642,SRR3622543,SampleAO53_CCGCGTACTTGA_L004_R1_001.fastq,SampleAO53_CCGCGTACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908643,SRR3622544,SampleAO53_CCGCGTACTTGA_L005_R1_001.fastq,SampleAO53_CCGCGTACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908644,SRR3622546,SampleAO71_CCGCGTTAGCTT_L003_R1_001.fastq,SampleAO71_CCGCGTTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908509,SRR3622545,SampleAC272_AAGGGAACTTGA_L003_R1_001.fastq,SampleAC272_AAGGGAACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908645,SRR3622547,SampleAO71_CCGCGTTAGCTT_L004_R1_001.fastq,SampleAO71_CCGCGTTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908647,SRR3622549,SampleAO72_CCGCGTGGCTAC_L003_R1_001.fastq,SampleAO72_CCGCGTGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908648,SRR3622550,SampleAO72_CCGCGTGGCTAC_L004_R1_001.fastq,SampleAO72_CCGCGTGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908646,SRR3622548,SampleAO71_CCGCGTTAGCTT_L005_R1_001.fastq,SampleAO71_CCGCGTTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908649,SRR3622551,SampleAO72_CCGCGTGGCTAC_L005_R1_001.fastq,SampleAO72_CCGCGTGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908651,SRR3622553,SampleAO73_TACAGCATCACG_L004_R1_001.fastq,SampleAO73_TACAGCATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908650,SRR3622552,SampleAO73_TACAGCATCACG_L003_R1_001.fastq,SampleAO73_TACAGCATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908652,SRR3622554,SampleAO73_TACAGCATCACG_L005_R1_001.fastq,SampleAO73_TACAGCATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908653,SRR3622555,SampleAO91_TACAGCACTTGA_L003_R1_001.fastq,SampleAO91_TACAGCACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908510,SRR3622556,SampleAC272_AAGGGAACTTGA_L004_R1_001.fastq,SampleAC272_AAGGGAACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908654,SRR3622557,SampleAO91_TACAGCACTTGA_L004_R1_001.fastq,SampleAO91_TACAGCACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908655,SRR3622558,SampleAO91_TACAGCACTTGA_L005_R1_001.fastq,SampleAO91_TACAGCACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908656,SRR3622559,SampleAO93_TTCTATATCACG_L003_R1_001.fastq,SampleAO93_TTCTATATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908657,SRR3622560,SampleAO93_TTCTATATCACG_L004_R1_001.fastq,SampleAO93_TTCTATATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908658,SRR3622561,SampleAO93_TTCTATATCACG_L005_R1_001.fastq,SampleAO93_TTCTATATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908659,SRR3622562,SampleL4.1_TCACATATCACG_L003_R1_001.fastq,SampleL4.1_TCACATATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908660,SRR3622563,SampleL4.1_TCACATATCACG_L004_R1_001.fastq,SampleL4.1_TCACATATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908661,SRR3622564,SampleL4.1_TCACATATCACG_L005_R1_001.fastq,SampleL4.1_TCACATATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908662,SRR3622565,SampleL4.2_TCACATACTTGA_L003_R1_001.fastq,SampleL4.2_TCACATACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908663,SRR3622566,SampleL4.2_TCACATACTTGA_L004_R1_001.fastq,SampleL4.2_TCACATACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908511,SRR3622567,SampleAC272_AAGGGAACTTGA_L005_R1_001.fastq,SampleAC272_AAGGGAACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908664,SRR3622568,SampleL4.2_TCACATACTTGA_L005_R1_001.fastq,SampleL4.2_TCACATACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908665,SRR3622569,SampleL5.1_TCACATTAGCTT_L003_R1_001.fastq,SampleL5.1_TCACATTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908666,SRR3622570,SampleL5.1_TCACATTAGCTT_L004_R1_001.fastq,SampleL5.1_TCACATTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908667,SRR3622571,SampleL5.1_TCACATTAGCTT_L005_R1_001.fastq,SampleL5.1_TCACATTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908668,SRR3622572,SampleL5.2_TCACATGGCTAC_L003_R1_001.fastq,SampleL5.2_TCACATGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908669,SRR3622573,SampleL5.2_TCACATGGCTAC_L004_R1_001.fastq,SampleL5.2_TCACATGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908670,SRR3622574,SampleL5.2_TCACATGGCTAC_L005_R1_001.fastq,SampleL5.2_TCACATGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908671,SRR3622575,SampleL7.1_TCTATAATCACG_L003_R1_001.fastq,SampleL7.1_TCTATAATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908672,SRR3622576,SampleL7.1_TCTATAATCACG_L004_R1_001.fastq,SampleL7.1_TCTATAATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908512,SRR3622578,SampleAC273_AAGGGATAGCTT_L003_R1_001.fastq,SampleAC273_AAGGGATAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908673,SRR3622577,SampleL7.1_TCTATAATCACG_L005_R1_001.fastq,SampleL7.1_TCTATAATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908674,SRR3622579,SampleL7.2_TCTATAACTTGA_L003_R1_001.fastq,SampleL7.2_TCTATAACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908675,SRR3622580,SampleL7.2_TCTATAACTTGA_L004_R1_001.fastq,SampleL7.2_TCTATAACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908676,SRR3622581,SampleL7.2_TCTATAACTTGA_L005_R1_001.fastq,SampleL7.2_TCTATAACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908677,SRR3622582,SampleL9.1_TCTATATAGCTT_L003_R1_001.fastq,SampleL9.1_TCTATATAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908678,SRR3622583,SampleL9.1_TCTATATAGCTT_L004_R1_001.fastq,SampleL9.1_TCTATATAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908679,SRR3622584,SampleL9.1_TCTATATAGCTT_L005_R1_001.fastq,SampleL9.1_TCTATATAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908680,SRR3622585,SampleL9.2_TCTATAGGCTAC_L003_R1_001.fastq,SampleL9.2_TCTATAGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908681,SRR3622586,SampleL9.2_TCTATAGGCTAC_L004_R1_001.fastq,SampleL9.2_TCTATAGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908682,SRR3622587,SampleL9.2_TCTATAGGCTAC_L005_R1_001.fastq,SampleL9.2_TCTATAGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908683,SRR3622588,SampleNC221_TACAGCTAGCTT_L003_R1_001.fastq,SampleNC221_TACAGCTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908513,SRR3622589,SampleAC273_AAGGGATAGCTT_L004_R1_001.fastq,SampleAC273_AAGGGATAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908684,SRR3622590,SampleNC221_TACAGCTAGCTT_L004_R1_001.fastq,SampleNC221_TACAGCTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908685,SRR3622591,SampleNC221_TACAGCTAGCTT_L005_R1_001.fastq,SampleNC221_TACAGCTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908686,SRR3622592,SampleNC222_TACAGCGGCTAC_L003_R1_001.fastq,SampleNC222_TACAGCGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908687,SRR3622593,SampleNC222_TACAGCGGCTAC_L004_R1_001.fastq,SampleNC222_TACAGCGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908688,SRR3622594,SampleNC222_TACAGCGGCTAC_L005_R1_001.fastq,SampleNC222_TACAGCGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908689,SRR3622595,SampleNC223_CGCCCTATCACG_L003_R1_001.fastq,SampleNC223_CGCCCTATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908690,SRR3622596,SampleNC223_CGCCCTATCACG_L004_R1_001.fastq,SampleNC223_CGCCCTATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908691,SRR3622597,SampleNC223_CGCCCTATCACG_L005_R1_001.fastq,SampleNC223_CGCCCTATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908692,SRR3622598,SampleNC261_CGCCCTACTTGA_L003_R1_001.fastq,SampleNC261_CGCCCTACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908693,SRR3622599,SampleNC261_CGCCCTACTTGA_L004_R1_001.fastq,SampleNC261_CGCCCTACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908514,SRR3622601,SampleAC273_AAGGGATAGCTT_L005_R1_001.fastq,SampleAC273_AAGGGATAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908496,SRR3622600,SampleAC221_ATTCCTATCACG_L005_R1_001.fastq,SampleAC221_ATTCCTATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908695,SRR3622603,SampleNC262_CGCCCTTAGCTT_L003_R1_001.fastq,SampleNC262_CGCCCTTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908694,SRR3622602,SampleNC261_CGCCCTACTTGA_L005_R1_001.fastq,SampleNC261_CGCCCTACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908696,SRR3622604,SampleNC262_CGCCCTTAGCTT_L004_R1_001.fastq,SampleNC262_CGCCCTTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908698,SRR3622606,SampleNC263_CGCCCTGGCTAC_L003_R1_001.fastq,SampleNC263_CGCCCTGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908699,SRR3622607,SampleNC263_CGCCCTGGCTAC_L004_R1_001.fastq,SampleNC263_CGCCCTGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908700,SRR3622608,SampleNC263_CGCCCTGGCTAC_L005_R1_001.fastq,SampleNC263_CGCCCTGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908701,SRR3622609,SampleNC271_TGTCGTATCACG_L003_R1_001.fastq,SampleNC271_TGTCGTATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908702,SRR3622610,SampleNC271_TGTCGTATCACG_L004_R1_001.fastq,SampleNC271_TGTCGTATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908703,SRR3622611,SampleNC271_TGTCGTATCACG_L005_R1_001.fastq,SampleNC271_TGTCGTATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908697,SRR3622605,SampleNC262_CGCCCTTAGCTT_L005_R1_001.fastq,SampleNC262_CGCCCTTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908515,SRR3622612,SampleAC301_AAGGGAGGCTAC_L003_R1_001.fastq,SampleAC301_AAGGGAGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908704,SRR3622613,SampleNC272_TGTCGTACTTGA_L003_R1_001.fastq,SampleNC272_TGTCGTACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908705,SRR3622614,SampleNC272_TGTCGTACTTGA_L004_R1_001.fastq,SampleNC272_TGTCGTACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908706,SRR3622615,SampleNC272_TGTCGTACTTGA_L005_R1_001.fastq,SampleNC272_TGTCGTACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908707,SRR3622616,SampleNC273_TGTCGTTAGCTT_L003_R1_001.fastq,SampleNC273_TGTCGTTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908708,SRR3622617,SampleNC273_TGTCGTTAGCTT_L004_R1_001.fastq,SampleNC273_TGTCGTTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908710,SRR3622619,SampleNC301_TGTCGTGGCTAC_L003_R1_001.fastq,SampleNC301_TGTCGTGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908709,SRR3622618,SampleNC273_TGTCGTTAGCTT_L005_R1_001.fastq,SampleNC273_TGTCGTTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908712,SRR3622621,SampleNC301_TGTCGTGGCTAC_L005_R1_001.fastq,SampleNC301_TGTCGTGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908713,SRR3622622,SampleNC302_CTGCAGATCACG_L003_R1_001.fastq,SampleNC302_CTGCAGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908516,SRR3622623,SampleAC301_AAGGGAGGCTAC_L004_R1_001.fastq,SampleAC301_AAGGGAGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908714,SRR3622624,SampleNC302_CTGCAGATCACG_L004_R1_001.fastq,SampleNC302_CTGCAGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908715,SRR3622625,SampleNC302_CTGCAGATCACG_L005_R1_001.fastq,SampleNC302_CTGCAGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908711,SRR3622620,SampleNC301_TGTCGTGGCTAC_L004_R1_001.fastq,SampleNC301_TGTCGTGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908716,SRR3622626,SampleNC303_CTGCAGACTTGA_L003_R1_001.fastq,SampleNC303_CTGCAGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908717,SRR3622627,SampleNC303_CTGCAGACTTGA_L004_R1_001.fastq,SampleNC303_CTGCAGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908718,SRR3622628,SampleNC303_CTGCAGACTTGA_L005_R1_001.fastq,SampleNC303_CTGCAGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908719,SRR3622629,SampleNC41_CTGCAGTAGCTT_L003_R1_001.fastq,SampleNC41_CTGCAGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908720,SRR3622630,SampleNC41_CTGCAGTAGCTT_L004_R1_001.fastq,SampleNC41_CTGCAGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908721,SRR3622631,SampleNC41_CTGCAGTAGCTT_L005_R1_001.fastq,SampleNC41_CTGCAGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908722,SRR3622632,SampleNC42_CTGCAGGGCTAC_L003_R1_001.fastq,SampleNC42_CTGCAGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908723,SRR3622633,SampleNC42_CTGCAGGGCTAC_L004_R1_001.fastq,SampleNC42_CTGCAGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908517,SRR3622634,SampleAC301_AAGGGAGGCTAC_L005_R1_001.fastq,SampleAC301_AAGGGAGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908724,SRR3622635,SampleNC42_CTGCAGGGCTAC_L005_R1_001.fastq,SampleNC42_CTGCAGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908725,SRR3622636,SampleNC43_CCCTTGATCACG_L003_R1_001.fastq,SampleNC43_CCCTTGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908726,SRR3622637,SampleNC43_CCCTTGATCACG_L004_R1_001.fastq,SampleNC43_CCCTTGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908727,SRR3622638,SampleNC43_CCCTTGATCACG_L005_R1_001.fastq,SampleNC43_CCCTTGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908728,SRR3622639,SampleNC51_CCCTTGACTTGA_L003_R1_001.fastq,SampleNC51_CCCTTGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908729,SRR3622640,SampleNC51_CCCTTGACTTGA_L004_R1_001.fastq,SampleNC51_CCCTTGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908730,SRR3622641,SampleNC51_CCCTTGACTTGA_L005_R1_001.fastq,SampleNC51_CCCTTGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908731,SRR3622642,SampleNC52_CCCTTGTAGCTT_L003_R1_001.fastq,SampleNC52_CCCTTGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908732,SRR3622643,SampleNC52_CCCTTGTAGCTT_L004_R1_001.fastq,SampleNC52_CCCTTGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908733,SRR3622644,SampleNC52_CCCTTGTAGCTT_L005_R1_001.fastq,SampleNC52_CCCTTGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908518,SRR3622645,SampleAC302_CACCGGATCACG_L003_R1_001.fastq,SampleAC302_CACCGGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908734,SRR3622646,SampleNC53_CCCTTGGGCTAC_L003_R1_001.fastq,SampleNC53_CCCTTGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908735,SRR3622647,SampleNC53_CCCTTGGGCTAC_L004_R1_001.fastq,SampleNC53_CCCTTGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908736,SRR3622648,SampleNC53_CCCTTGGGCTAC_L005_R1_001.fastq,SampleNC53_CCCTTGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908737,SRR3622649,SampleNC71_GAAGTTATCACG_L003_R1_001.fastq,SampleNC71_GAAGTTATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908738,SRR3622650,SampleNC71_GAAGTTATCACG_L004_R1_001.fastq,SampleNC71_GAAGTTATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908739,SRR3622651,SampleNC71_GAAGTTATCACG_L005_R1_001.fastq,SampleNC71_GAAGTTATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908740,SRR3622652,SampleNC72_GAAGTTACTTGA_L003_R1_001.fastq,SampleNC72_GAAGTTACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908741,SRR3622653,SampleNC72_GAAGTTACTTGA_L004_R1_001.fastq,SampleNC72_GAAGTTACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908742,SRR3622654,SampleNC72_GAAGTTACTTGA_L005_R1_001.fastq,SampleNC72_GAAGTTACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908743,SRR3622655,SampleNC73_GAAGTTTAGCTT_L003_R1_001.fastq,SampleNC73_GAAGTTTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908519,SRR3622656,SampleAC302_CACCGGATCACG_L004_R1_001.fastq,SampleAC302_CACCGGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908744,SRR3622657,SampleNC73_GAAGTTTAGCTT_L004_R1_001.fastq,SampleNC73_GAAGTTTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908745,SRR3622658,SampleNC73_GAAGTTTAGCTT_L005_R1_001.fastq,SampleNC73_GAAGTTTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908746,SRR3622659,SampleNC91_GAAGTTGGCTAC_L003_R1_001.fastq,SampleNC91_GAAGTTGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908747,SRR3622660,SampleNC91_GAAGTTGGCTAC_L004_R1_001.fastq,SampleNC91_GAAGTTGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908748,SRR3622661,SampleNC91_GAAGTTGGCTAC_L005_R1_001.fastq,SampleNC91_GAAGTTGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908749,SRR3622662,SampleNC92_ACCGGCATCACG_L003_R1_001.fastq,SampleNC92_ACCGGCATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908750,SRR3622663,SampleNC92_ACCGGCATCACG_L004_R1_001.fastq,SampleNC92_ACCGGCATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908751,SRR3622664,SampleNC92_ACCGGCATCACG_L005_R1_001.fastq,SampleNC92_ACCGGCATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908753,SRR3622666,SampleNC93_ACCGGCACTTGA_L004_R1_001.fastq,SampleNC93_ACCGGCACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908752,SRR3622665,SampleNC93_ACCGGCACTTGA_L003_R1_001.fastq,SampleNC93_ACCGGCACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908754,SRR3622668,SampleNC93_ACCGGCACTTGA_L005_R1_001.fastq,SampleNC93_ACCGGCACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908755,SRR3622669,SampleND261_ACCGGCTAGCTT_L003_R1_001.fastq,SampleND261_ACCGGCTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908756,SRR3622670,SampleND261_ACCGGCTAGCTT_L004_R1_001.fastq,SampleND261_ACCGGCTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908757,SRR3622671,SampleND261_ACCGGCTAGCTT_L005_R1_001.fastq,SampleND261_ACCGGCTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908758,SRR3622672,SampleND262_TTCTATACTTGA_L003_R1_001.fastq,SampleND262_TTCTATACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908759,SRR3622673,SampleND262_TTCTATACTTGA_L004_R1_001.fastq,SampleND262_TTCTATACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908760,SRR3622674,SampleND262_TTCTATACTTGA_L005_R1_001.fastq,SampleND262_TTCTATACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908520,SRR3622667,SampleAC302_CACCGGATCACG_L005_R1_001.fastq,SampleAC302_CACCGGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908762,SRR3622676,SampleND271_ACCGGCGGCTAC_L004_R1_001.fastq,SampleND271_ACCGGCGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908763,SRR3622677,SampleND271_ACCGGCGGCTAC_L005_R1_001.fastq,SampleND271_ACCGGCGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908761,SRR3622675,SampleND271_ACCGGCGGCTAC_L003_R1_001.fastq,SampleND271_ACCGGCGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908521,SRR3622678,SampleAC303_CACCGGACTTGA_L003_R1_001.fastq,SampleAC303_CACCGGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908765,SRR3622680,SampleND273_GCACCCATCACG_L004_R1_001.fastq,SampleND273_GCACCCATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908766,SRR3622681,SampleND273_GCACCCATCACG_L005_R1_001.fastq,SampleND273_GCACCCATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908767,SRR3622682,SampleND301_GCACCCACTTGA_L003_R1_001.fastq,SampleND301_GCACCCACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908764,SRR3622679,SampleND273_GCACCCATCACG_L003_R1_001.fastq,SampleND273_GCACCCATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908768,SRR3622683,SampleND301_GCACCCACTTGA_L004_R1_001.fastq,SampleND301_GCACCCACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908770,SRR3622685,SampleND302_GCACCCTAGCTT_L003_R1_001.fastq,SampleND302_GCACCCTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908769,SRR3622684,SampleND301_GCACCCACTTGA_L005_R1_001.fastq,SampleND301_GCACCCACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908771,SRR3622686,SampleND302_GCACCCTAGCTT_L004_R1_001.fastq,SampleND302_GCACCCTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908772,SRR3622687,SampleND302_GCACCCTAGCTT_L005_R1_001.fastq,SampleND302_GCACCCTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908773,SRR3622688,SampleND303_GCACCCGGCTAC_L003_R1_001.fastq,SampleND303_GCACCCGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908522,SRR3622689,SampleAC303_CACCGGACTTGA_L004_R1_001.fastq,SampleAC303_CACCGGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908774,SRR3622690,SampleND303_GCACCCGGCTAC_L004_R1_001.fastq,SampleND303_GCACCCGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908775,SRR3622691,SampleND303_GCACCCGGCTAC_L005_R1_001.fastq,SampleND303_GCACCCGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908776,SRR3622692,SampleND41_TTACTGATCACG_L003_R1_001.fastq,SampleND41_TTACTGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908777,SRR3622693,SampleND41_TTACTGATCACG_L004_R1_001.fastq,SampleND41_TTACTGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908778,SRR3622694,SampleND41_TTACTGATCACG_L005_R1_001.fastq,SampleND41_TTACTGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908779,SRR3622695,SampleND42_TTCTATTAGCTT_L003_R1_001.fastq,SampleND42_TTCTATTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908780,SRR3622696,SampleND42_TTCTATTAGCTT_L004_R1_001.fastq,SampleND42_TTCTATTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908781,SRR3622697,SampleND42_TTCTATTAGCTT_L005_R1_001.fastq,SampleND42_TTCTATTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908782,SRR3622698,SampleND51_TTACTGACTTGA_L003_R1_001.fastq,SampleND51_TTACTGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908783,SRR3622699,SampleND51_TTACTGACTTGA_L004_R1_001.fastq,SampleND51_TTACTGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908523,SRR3622700,SampleAC303_CACCGGACTTGA_L005_R1_001.fastq,SampleAC303_CACCGGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908784,SRR3622701,SampleND51_TTACTGACTTGA_L005_R1_001.fastq,SampleND51_TTACTGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908785,SRR3622702,SampleND52_TTACTGTAGCTT_L003_R1_001.fastq,SampleND52_TTACTGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908787,SRR3622704,SampleND52_TTACTGTAGCTT_L005_R1_001.fastq,SampleND52_TTACTGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908788,SRR3622705,SampleND53_TTACTGGGCTAC_L003_R1_001.fastq,SampleND53_TTACTGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908786,SRR3622703,SampleND52_TTACTGTAGCTT_L004_R1_001.fastq,SampleND52_TTACTGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908789,SRR3622706,SampleND53_TTACTGGGCTAC_L004_R1_001.fastq,SampleND53_TTACTGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908790,SRR3622707,SampleND53_TTACTGGGCTAC_L005_R1_001.fastq,SampleND53_TTACTGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908791,SRR3622708,SampleND71_GCAGGAATCACG_L003_R1_001.fastq,SampleND71_GCAGGAATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908792,SRR3622709,SampleND71_GCAGGAATCACG_L004_R1_001.fastq,SampleND71_GCAGGAATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908793,SRR3622710,SampleND71_GCAGGAATCACG_L005_R1_001.fastq,SampleND71_GCAGGAATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908497,SRR3622711,SampleAC222_ATTCCTACTTGA_L003_R1_001.fastq,SampleAC222_ATTCCTACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908524,SRR3622712,SampleAC41_CACCGGTAGCTT_L003_R1_001.fastq,SampleAC41_CACCGGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908794,SRR3622713,SampleND73_GCAGGAACTTGA_L003_R1_001.fastq,SampleND73_GCAGGAACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908795,SRR3622714,SampleND73_GCAGGAACTTGA_L004_R1_001.fastq,SampleND73_GCAGGAACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908796,SRR3622715,SampleND73_GCAGGAACTTGA_L005_R1_001.fastq,SampleND73_GCAGGAACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908798,SRR3622717,SampleND91_GCAGGATAGCTT_L004_R1_001.fastq,SampleND91_GCAGGATAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908797,SRR3622716,SampleND91_GCAGGATAGCTT_L003_R1_001.fastq,SampleND91_GCAGGATAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908799,SRR3622718,SampleND91_GCAGGATAGCTT_L005_R1_001.fastq,SampleND91_GCAGGATAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908800,SRR3622719,SampleND93_GCAGGAGGCTAC_L003_R1_001.fastq,SampleND93_GCAGGAGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908801,SRR3622720,SampleND93_GCAGGAGGCTAC_L004_R1_001.fastq,SampleND93_GCAGGAGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908803,SRR3622722,SampleNO221_AAAAGTATCACG_L003_R1_001.fastq,SampleNO221_AAAAGTATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908802,SRR3622721,SampleND93_GCAGGAGGCTAC_L005_R1_001.fastq,SampleND93_GCAGGAGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908525,SRR3622723,SampleAC41_CACCGGTAGCTT_L004_R1_001.fastq,SampleAC41_CACCGGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908804,SRR3622724,SampleNO221_AAAAGTATCACG_L004_R1_001.fastq,SampleNO221_AAAAGTATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908805,SRR3622725,SampleNO221_AAAAGTATCACG_L005_R1_001.fastq,SampleNO221_AAAAGTATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908806,SRR3622726,SampleNO222_AAAAGTACTTGA_L003_R1_001.fastq,SampleNO222_AAAAGTACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908807,SRR3622727,SampleNO222_AAAAGTACTTGA_L004_R1_001.fastq,SampleNO222_AAAAGTACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908809,SRR3622729,SampleNO261_AAAAGTTAGCTT_L003_R1_001.fastq,SampleNO261_AAAAGTTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908808,SRR3622728,SampleNO222_AAAAGTACTTGA_L005_R1_001.fastq,SampleNO222_AAAAGTACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908810,SRR3622730,SampleNO261_AAAAGTTAGCTT_L004_R1_001.fastq,SampleNO261_AAAAGTTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908812,SRR3622732,SampleNO262_AAAAGTGGCTAC_L003_R1_001.fastq,SampleNO262_AAAAGTGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908811,SRR3622731,SampleNO261_AAAAGTTAGCTT_L005_R1_001.fastq,SampleNO261_AAAAGTTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908813,SRR3622733,SampleNO262_AAAAGTGGCTAC_L004_R1_001.fastq,SampleNO262_AAAAGTGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908526,SRR3622734,SampleAC41_CACCGGTAGCTT_L005_R1_001.fastq,SampleAC41_CACCGGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908814,SRR3622735,SampleNO262_AAAAGTGGCTAC_L005_R1_001.fastq,SampleNO262_AAAAGTGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908815,SRR3622736,SampleNO263_GCCGCGATCACG_L003_R1_001.fastq,SampleNO263_GCCGCGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908816,SRR3622737,SampleNO263_GCCGCGATCACG_L004_R1_001.fastq,SampleNO263_GCCGCGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908817,SRR3622738,SampleNO263_GCCGCGATCACG_L005_R1_001.fastq,SampleNO263_GCCGCGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908818,SRR3622739,SampleNO271_GCCGCGACTTGA_L003_R1_001.fastq,SampleNO271_GCCGCGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908820,SRR3622741,SampleNO271_GCCGCGACTTGA_L005_R1_001.fastq,SampleNO271_GCCGCGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908819,SRR3622740,SampleNO271_GCCGCGACTTGA_L004_R1_001.fastq,SampleNO271_GCCGCGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908821,SRR3622742,SampleNO273_GCCGCGTAGCTT_L003_R1_001.fastq,SampleNO273_GCCGCGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908822,SRR3622743,SampleNO273_GCCGCGTAGCTT_L004_R1_001.fastq,SampleNO273_GCCGCGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908823,SRR3622744,SampleNO273_GCCGCGTAGCTT_L005_R1_001.fastq,SampleNO273_GCCGCGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908527,SRR3622745,SampleAC42_CACCGGGGCTAC_L003_R1_001.fastq,SampleAC42_CACCGGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908824,SRR3622746,SampleNO301_GCCGCGGGCTAC_L003_R1_001.fastq,SampleNO301_GCCGCGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908825,SRR3622747,SampleNO301_GCCGCGGGCTAC_L004_R1_001.fastq,SampleNO301_GCCGCGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908826,SRR3622748,SampleNO301_GCCGCGGGCTAC_L005_R1_001.fastq,SampleNO301_GCCGCGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908827,SRR3622749,SampleNO302_GGCGGTATCACG_L003_R1_001.fastq,SampleNO302_GGCGGTATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908828,SRR3622750,SampleNO302_GGCGGTATCACG_L004_R1_001.fastq,SampleNO302_GGCGGTATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908830,SRR3622752,SampleNO303_GGCGGTACTTGA_L003_R1_001.fastq,SampleNO303_GGCGGTACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908829,SRR3622751,SampleNO302_GGCGGTATCACG_L005_R1_001.fastq,SampleNO302_GGCGGTATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908831,SRR3622753,SampleNO303_GGCGGTACTTGA_L004_R1_001.fastq,SampleNO303_GGCGGTACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908832,SRR3622754,SampleNO303_GGCGGTACTTGA_L005_R1_001.fastq,SampleNO303_GGCGGTACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908833,SRR3622755,SampleNO41_GGCGGTTAGCTT_L003_R1_001.fastq,SampleNO41_GGCGGTTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908528,SRR3622756,SampleAC42_CACCGGGGCTAC_L004_R1_001.fastq,SampleAC42_CACCGGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908834,SRR3622757,SampleNO41_GGCGGTTAGCTT_L004_R1_001.fastq,SampleNO41_GGCGGTTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908835,SRR3622770,SampleNO41_GGCGGTTAGCTT_L005_R1_001.fastq,SampleNO41_GGCGGTTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908836,SRR3622771,SampleNO42_GGCGGTGGCTAC_L003_R1_001.fastq,SampleNO42_GGCGGTGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908837,SRR3622772,SampleNO42_GGCGGTGGCTAC_L004_R1_001.fastq,SampleNO42_GGCGGTGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908838,SRR3622773,SampleNO42_GGCGGTGGCTAC_L005_R1_001.fastq,SampleNO42_GGCGGTGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908839,SRR3622774,SampleNO43_GTATTAATCACG_L003_R1_001.fastq,SampleNO43_GTATTAATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908840,SRR3622775,SampleNO43_GTATTAATCACG_L004_R1_001.fastq,SampleNO43_GTATTAATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908841,SRR3622776,SampleNO43_GTATTAATCACG_L005_R1_001.fastq,SampleNO43_GTATTAATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908842,SRR3622777,SampleNO52_GTATTAACTTGA_L003_R1_001.fastq,SampleNO52_GTATTAACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908843,SRR3622778,SampleNO52_GTATTAACTTGA_L004_R1_001.fastq,SampleNO52_GTATTAACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908529,SRR3622779,SampleAC42_CACCGGGGCTAC_L005_R1_001.fastq,SampleAC42_CACCGGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908845,SRR3622781,SampleNO53_GTATTATAGCTT_L003_R1_001.fastq,SampleNO53_GTATTATAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908844,SRR3622780,SampleNO52_GTATTAACTTGA_L005_R1_001.fastq,SampleNO52_GTATTAACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908846,SRR3622782,SampleNO53_GTATTATAGCTT_L004_R1_001.fastq,SampleNO53_GTATTATAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908847,SRR3622783,SampleNO53_GTATTATAGCTT_L005_R1_001.fastq,SampleNO53_GTATTATAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908848,SRR3622784,SampleNO71_GTATTAGGCTAC_L003_R1_001.fastq,SampleNO71_GTATTAGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908849,SRR3622785,SampleNO71_GTATTAGGCTAC_L004_R1_001.fastq,SampleNO71_GTATTAGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908850,SRR3622786,SampleNO71_GTATTAGGCTAC_L005_R1_001.fastq,SampleNO71_GTATTAGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908851,SRR3622787,SampleNO72_TTCTATGGCTAC_L003_R1_001.fastq,SampleNO72_TTCTATGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908852,SRR3622788,SampleNO72_TTCTATGGCTAC_L004_R1_001.fastq,SampleNO72_TTCTATGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908853,SRR3622789,SampleNO72_TTCTATGGCTAC_L005_R1_001.fastq,SampleNO72_TTCTATGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908530,SRR3622790,SampleAC51_ACGATTATCACG_L003_R1_001.fastq,SampleAC51_ACGATTATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908854,SRR3622791,SampleNO73_TACGTGATCACG_L003_R1_001.fastq,SampleNO73_TACGTGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908855,SRR3622792,SampleNO73_TACGTGATCACG_L004_R1_001.fastq,SampleNO73_TACGTGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908856,SRR3622793,SampleNO73_TACGTGATCACG_L005_R1_001.fastq,SampleNO73_TACGTGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908857,SRR3622794,SampleNO91_TACGTGACTTGA_L003_R1_001.fastq,SampleNO91_TACGTGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908859,SRR3622796,SampleNO91_TACGTGACTTGA_L005_R1_001.fastq,SampleNO91_TACGTGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908858,SRR3622795,SampleNO91_TACGTGACTTGA_L004_R1_001.fastq,SampleNO91_TACGTGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908860,SRR3622797,SampleNO92_TACGTGTAGCTT_L003_R1_001.fastq,SampleNO92_TACGTGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908861,SRR3622798,SampleNO92_TACGTGTAGCTT_L004_R1_001.fastq,SampleNO92_TACGTGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908862,SRR3622799,SampleNO92_TACGTGTAGCTT_L005_R1_001.fastq,SampleNO92_TACGTGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908863,SRR3622800,SampleNO93_TACGTGGGCTAC_L003_R1_001.fastq,SampleNO93_TACGTGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908531,SRR3622801,SampleAC51_ACGATTATCACG_L004_R1_001.fastq,SampleAC51_ACGATTATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908864,SRR3622802,SampleNO93_TACGTGGGCTAC_L004_R1_001.fastq,SampleNO93_TACGTGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908865,SRR3622803,SampleNO93_TACGTGGGCTAC_L005_R1_001.fastq,SampleNO93_TACGTGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908866,SRR3622804,SampleW22.1_TGCAAAATCACG_L003_R1_001.fastq,SampleW22.1_TGCAAAATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908867,SRR3622805,SampleW22.1_TGCAAAATCACG_L004_R1_001.fastq,SampleW22.1_TGCAAAATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908868,SRR3622806,SampleW22.1_TGCAAAATCACG_L005_R1_001.fastq,SampleW22.1_TGCAAAATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908869,SRR3622807,SampleW22.2_TGCAAAACTTGA_L003_R1_001.fastq,SampleW22.2_TGCAAAACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908870,SRR3622808,SampleW22.2_TGCAAAACTTGA_L004_R1_001.fastq,SampleW22.2_TGCAAAACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908871,SRR3622809,SampleW22.2_TGCAAAACTTGA_L005_R1_001.fastq,SampleW22.2_TGCAAAACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908873,SRR3622829,SampleW26.1_TGCAAATAGCTT_L004_R1_001.fastq,SampleW26.1_TGCAAATAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908872,SRR3622828,SampleW26.1_TGCAAATAGCTT_L003_R1_001.fastq,SampleW26.1_TGCAAATAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908532,SRR3622830,SampleAC51_ACGATTATCACG_L005_R1_001.fastq,SampleAC51_ACGATTATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908875,SRR3622832,SampleW26.2_TGCAAAGGCTAC_L003_R1_001.fastq,SampleW26.2_TGCAAAGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908874,SRR3622831,SampleW26.1_TGCAAATAGCTT_L005_R1_001.fastq,SampleW26.1_TGCAAATAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908876,SRR3622833,SampleW26.2_TGCAAAGGCTAC_L004_R1_001.fastq,SampleW26.2_TGCAAAGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908877,SRR3622834,SampleW26.2_TGCAAAGGCTAC_L005_R1_001.fastq,SampleW26.2_TGCAAAGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908878,SRR3622835,SampleW27.1_TGGCACATCACG_L003_R1_001.fastq,SampleW27.1_TGGCACATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908879,SRR3622836,SampleW27.1_TGGCACATCACG_L004_R1_001.fastq,SampleW27.1_TGGCACATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908880,SRR3622837,SampleW27.1_TGGCACATCACG_L005_R1_001.fastq,SampleW27.1_TGGCACATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908882,SRR3622839,SampleW27.2_TGGCACACTTGA_L004_R1_001.fastq,SampleW27.2_TGGCACACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908881,SRR3622838,SampleW27.2_TGGCACACTTGA_L003_R1_001.fastq,SampleW27.2_TGGCACACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908883,SRR3622840,SampleW27.2_TGGCACACTTGA_L005_R1_001.fastq,SampleW27.2_TGGCACACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908533,SRR3622841,SampleAC53_ACGATTACTTGA_L003_R1_001.fastq,SampleAC53_ACGATTACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908884,SRR3622842,SampleW30.1_TGGCACTAGCTT_L003_R1_001.fastq,SampleW30.1_TGGCACTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908885,SRR3622843,SampleW30.1_TGGCACTAGCTT_L004_R1_001.fastq,SampleW30.1_TGGCACTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908886,SRR3622844,SampleW30.1_TGGCACTAGCTT_L005_R1_001.fastq,SampleW30.1_TGGCACTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908887,SRR3622845,SampleW30.2_TGGCACGGCTAC_L003_R1_001.fastq,SampleW30.2_TGGCACGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908888,SRR3622846,SampleW30.2_TGGCACGGCTAC_L004_R1_001.fastq,SampleW30.2_TGGCACGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908498,SRR3622848,SampleAC222_ATTCCTACTTGA_L004_R1_001.fastq,SampleAC222_ATTCCTACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908889,SRR3622847,SampleW30.2_TGGCACGGCTAC_L005_R1_001.fastq,SampleW30.2_TGGCACGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908534,SRR3622849,SampleAC53_ACGATTACTTGA_L004_R1_001.fastq,SampleAC53_ACGATTACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908536,SRR3622851,SampleAC71_ACGATTTAGCTT_L003_R1_001.fastq,SampleAC71_ACGATTTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908535,SRR3622850,SampleAC53_ACGATTACTTGA_L005_R1_001.fastq,SampleAC53_ACGATTACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908537,SRR3622852,SampleAC71_ACGATTTAGCTT_L004_R1_001.fastq,SampleAC71_ACGATTTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908538,SRR3622853,SampleAC71_ACGATTTAGCTT_L005_R1_001.fastq,SampleAC71_ACGATTTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908539,SRR3622854,SampleAC72_ACGATTGGCTAC_L003_R1_001.fastq,SampleAC72_ACGATTGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908541,SRR3622856,SampleAC72_ACGATTGGCTAC_L005_R1_001.fastq,SampleAC72_ACGATTGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908540,SRR3622855,SampleAC72_ACGATTGGCTAC_L004_R1_001.fastq,SampleAC72_ACGATTGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908542,SRR3622857,SampleAC73_CACTCAATCACG_L003_R1_001.fastq,SampleAC73_CACTCAATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908543,SRR3622858,SampleAC73_CACTCAATCACG_L004_R1_001.fastq,SampleAC73_CACTCAATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908499,SRR3622859,SampleAC222_ATTCCTACTTGA_L005_R1_001.fastq,SampleAC222_ATTCCTACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908544,SRR3622860,SampleAC73_CACTCAATCACG_L005_R1_001.fastq,SampleAC73_CACTCAATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908545,SRR3622861,SampleAC91_CACTCAACTTGA_L003_R1_001.fastq,SampleAC91_CACTCAACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908546,SRR3622862,SampleAC91_CACTCAACTTGA_L004_R1_001.fastq,SampleAC91_CACTCAACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908547,SRR3622863,SampleAC91_CACTCAACTTGA_L005_R1_001.fastq,SampleAC91_CACTCAACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908548,SRR3622864,SampleAC92_TGTTAGATCACG_L003_R1_001.fastq,SampleAC92_TGTTAGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908549,SRR3622865,SampleAC92_TGTTAGATCACG_L004_R1_001.fastq,SampleAC92_TGTTAGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908550,SRR3622866,SampleAC92_TGTTAGATCACG_L005_R1_001.fastq,SampleAC92_TGTTAGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908551,SRR3622867,SampleAC93_TGTTAGACTTGA_L003_R1_001.fastq,SampleAC93_TGTTAGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908552,SRR3622868,SampleAC93_TGTTAGACTTGA_L004_R1_001.fastq,SampleAC93_TGTTAGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908553,SRR3622869,SampleAC93_TGTTAGACTTGA_L005_R1_001.fastq,SampleAC93_TGTTAGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908500,SRR3622870,SampleAC223_ATTCCTTAGCTT_L003_R1_001.fastq,SampleAC223_ATTCCTTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908555,SRR3622872,SampleAD221_CACTCATAGCTT_L004_R1_001.fastq,SampleAD221_CACTCATAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908556,SRR3622873,SampleAD221_CACTCATAGCTT_L005_R1_001.fastq,SampleAD221_CACTCATAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908554,SRR3622871,SampleAD221_CACTCATAGCTT_L003_R1_001.fastq,SampleAD221_CACTCATAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908557,SRR3622874,SampleAD222_CACTCAGGCTAC_L003_R1_001.fastq,SampleAD222_CACTCAGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908558,SRR3622875,SampleAD222_CACTCAGGCTAC_L004_R1_001.fastq,SampleAD222_CACTCAGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908559,SRR3622876,SampleAD222_CACTCAGGCTAC_L005_R1_001.fastq,SampleAD222_CACTCAGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908560,SRR3622877,SampleAD223_ACGCCGATCACG_L003_R1_001.fastq,SampleAD223_ACGCCGATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908561,SRR3622878,SampleAD223_ACGCCGATCACG_L004_R1_001.fastq,SampleAD223_ACGCCGATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908562,SRR3622879,SampleAD223_ACGCCGATCACG_L005_R1_001.fastq,SampleAD223_ACGCCGATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908563,SRR3622880,SampleAD261_ACGCCGACTTGA_L003_R1_001.fastq,SampleAD261_ACGCCGACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908501,SRR3622881,SampleAC223_ATTCCTTAGCTT_L004_R1_001.fastq,SampleAC223_ATTCCTTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908564,SRR3622882,SampleAD261_ACGCCGACTTGA_L004_R1_001.fastq,SampleAD261_ACGCCGACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908565,SRR3622883,SampleAD261_ACGCCGACTTGA_L005_R1_001.fastq,SampleAD261_ACGCCGACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908566,SRR3622884,SampleAD262_ACGCCGTAGCTT_L003_R1_001.fastq,SampleAD262_ACGCCGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908567,SRR3622885,SampleAD262_ACGCCGTAGCTT_L004_R1_001.fastq,SampleAD262_ACGCCGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908568,SRR3622886,SampleAD262_ACGCCGTAGCTT_L005_R1_001.fastq,SampleAD262_ACGCCGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908569,SRR3622887,SampleAD271_ACGCCGGGCTAC_L003_R1_001.fastq,SampleAD271_ACGCCGGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908570,SRR3622888,SampleAD271_ACGCCGGGCTAC_L004_R1_001.fastq,SampleAD271_ACGCCGGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908571,SRR3622889,SampleAD271_ACGCCGGGCTAC_L005_R1_001.fastq,SampleAD271_ACGCCGGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908572,SRR3622890,SampleAD301_CATGGCATCACG_L003_R1_001.fastq,SampleAD301_CATGGCATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908573,SRR3622891,SampleAD301_CATGGCATCACG_L004_R1_001.fastq,SampleAD301_CATGGCATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908502,SRR3622892,SampleAC223_ATTCCTTAGCTT_L005_R1_001.fastq,SampleAC223_ATTCCTTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908574,SRR3622893,SampleAD301_CATGGCATCACG_L005_R1_001.fastq,SampleAD301_CATGGCATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908575,SRR3622894,SampleAD302_CATGGCACTTGA_L003_R1_001.fastq,SampleAD302_CATGGCACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908576,SRR3622895,SampleAD302_CATGGCACTTGA_L004_R1_001.fastq,SampleAD302_CATGGCACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908577,SRR3622896,SampleAD302_CATGGCACTTGA_L005_R1_001.fastq,SampleAD302_CATGGCACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908578,SRR3622897,SampleAD303_CATGGCTAGCTT_L003_R1_001.fastq,SampleAD303_CATGGCTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908579,SRR3622898,SampleAD303_CATGGCTAGCTT_L004_R1_001.fastq,SampleAD303_CATGGCTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908580,SRR3622899,SampleAD303_CATGGCTAGCTT_L005_R1_001.fastq,SampleAD303_CATGGCTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908581,SRR3622900,SampleAD51_CATGGCGGCTAC_L003_R1_001.fastq,SampleAD51_CATGGCGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908582,SRR3622901,SampleAD51_CATGGCGGCTAC_L004_R1_001.fastq,SampleAD51_CATGGCGGCTAC_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908583,SRR3622902,SampleAD51_CATGGCGGCTAC_L005_R1_001.fastq,SampleAD51_CATGGCGGCTAC_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908503,SRR3622903,SampleAC261_ATTCCTGGCTAC_L003_R1_001.fastq,SampleAC261_ATTCCTGGCTAC_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908584,SRR3622904,SampleAD71_AGAATCATCACG_L003_R1_001.fastq,SampleAD71_AGAATCATCACG_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908585,SRR3622905,SampleAD71_AGAATCATCACG_L004_R1_001.fastq,SampleAD71_AGAATCATCACG_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908586,SRR3622906,SampleAD71_AGAATCATCACG_L005_R1_001.fastq,SampleAD71_AGAATCATCACG_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908587,SRR3622907,SampleAD72_AGAATCACTTGA_L003_R1_001.fastq,SampleAD72_AGAATCACTTGA_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908588,SRR3622908,SampleAD72_AGAATCACTTGA_L004_R1_001.fastq,SampleAD72_AGAATCACTTGA_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908589,SRR3622909,SampleAD72_AGAATCACTTGA_L005_R1_001.fastq,SampleAD72_AGAATCACTTGA_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908590,SRR3622910,SampleAD73_TGTTAGTAGCTT_L003_R1_001.fastq,SampleAD73_TGTTAGTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908591,SRR3622911,SampleAD73_TGTTAGTAGCTT_L004_R1_001.fastq,SampleAD73_TGTTAGTAGCTT_L004_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908592,SRR3622912,SampleAD73_TGTTAGTAGCTT_L005_R1_001.fastq,SampleAD73_TGTTAGTAGCTT_L005_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+S_rachel_immune_PRJNA319662,SAMN04908593,SRR3622913,SampleAD91_AGAATCTAGCTT_L003_R1_001.fastq,SampleAD91_AGAATCTAGCTT_L003_R1_001.fastq,not applicable,Acropora millepora,NA,adult
+T_yasuoka_brachyury_PRJDB4579,SAMD00047032,DRR055155,Adi_bra morphants,DRS033305,NA,Acropora digitifera,NA,embryo
+T_yasuoka_brachyury_PRJDB4579,SAMD00047032,DRR055156,uninjected controls of control morphants,DRS033305,NA,Acropora digitifera,NA,embryo
+T_yasuoka_brachyury_PRJDB4579,SAMD00047032,DRR055157,control morphants,DRS033305,NA,Acropora digitifera,NA,embryo
+T_yasuoka_brachyury_PRJDB4579,SAMD00047032,DRR055154,uninjected controls of Adi_bra morphants,DRS033305,NA,Acropora digitifera,NA,embryo
+U_standford_natEnvChange_PRJNA338455,SAMN05559078,SRR4029951,OfuAug2013_06_01,OfuAug2013_06_01,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559079,SRR4029952,OfuAug2013_06_02,OfuAug2013_06_02,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559088,SRR4029953,OfuAug2013_06_11,OfuAug2013_06_11,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559089,SRR4029954,OfuAug2013_06_12,OfuAug2013_06_12,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559090,SRR4029955,OfuAug2013_06_13,OfuAug2013_06_13,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559091,SRR4029956,OfuAug2013_06_14,OfuAug2013_06_14,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559092,SRR4029957,OfuAug2013_06_15,OfuAug2013_06_15,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559093,SRR4029958,OfuAug2013_06_16,OfuAug2013_06_16,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559094,SRR4029959,OfuAug2013_06_17,OfuAug2013_06_17,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559095,SRR4029960,OfuAug2013_75_01,OfuAug2013_75_01,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559096,SRR4029961,OfuAug2013_75_02,OfuAug2013_75_02,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559097,SRR4029962,OfuAug2013_75_03,OfuAug2013_75_03,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559080,SRR4029963,OfuAug2013_06_03,OfuAug2013_06_03,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559098,SRR4029964,OfuAug2013_75_04,OfuAug2013_75_04,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559099,SRR4029965,OfuAug2013_75_05,OfuAug2013_75_05,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559100,SRR4029966,OfuAug2013_75_06,OfuAug2013_75_06,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559101,SRR4029967,OfuAug2013_75_07,OfuAug2013_75_07,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559102,SRR4029968,OfuAug2013_75_08,OfuAug2013_75_08,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559103,SRR4029969,OfuAug2013_75_09,OfuAug2013_75_09,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559104,SRR4029970,OfuAug2013_75_10,OfuAug2013_75_10,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559105,SRR4029971,OfuAug2013_75_11,OfuAug2013_75_11,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559106,SRR4029972,OfuAug2013_75_12,OfuAug2013_75_12,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559107,SRR4029973,OfuAug2013_75_13,OfuAug2013_75_13,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559081,SRR4029974,OfuAug2013_06_04,OfuAug2013_06_04,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559109,SRR4029976,OfuAug2013_75_15,OfuAug2013_75_15,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559110,SRR4029977,OfuAug2013_75_16,OfuAug2013_75_16,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559111,SRR4029978,OfuAug2013_75_17,OfuAug2013_75_17,AH75,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559112,SRR4029979,OfuAug2013_88_01,OfuAug2013_88_01,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559113,SRR4029980,OfuAug2013_88_02,OfuAug2013_88_02,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559114,SRR4029981,OfuAug2013_88_03,OfuAug2013_88_03,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559115,SRR4029982,OfuAug2013_88_04,OfuAug2013_88_04,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559116,SRR4029983,OfuAug2013_88_05,OfuAug2013_88_05,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559117,SRR4029984,OfuAug2013_88_06,OfuAug2013_88_06,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559082,SRR4029985,OfuAug2013_06_05,OfuAug2013_06_05,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559118,SRR4029986,OfuAug2013_88_07,OfuAug2013_88_07,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559119,SRR4029987,OfuAug2013_88_08,OfuAug2013_88_08,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559120,SRR4029988,OfuAug2013_88_09,OfuAug2013_88_09,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559121,SRR4029989,OfuAug2013_88_10,OfuAug2013_88_10,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559122,SRR4029990,OfuAug2013_88_11,OfuAug2013_88_11,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559123,SRR4029991,OfuAug2013_88_12,OfuAug2013_88_12,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559124,SRR4029992,OfuAug2013_88_13,OfuAug2013_88_13,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559125,SRR4029993,OfuAug2013_88_14,OfuAug2013_88_14,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559126,SRR4029994,OfuAug2013_88_15,OfuAug2013_88_15,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559127,SRR4029995,OfuAug2013_88_16,OfuAug2013_88_16,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559083,SRR4029996,OfuAug2013_06_06,OfuAug2013_06_06,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559128,SRR4029997,OfuAug2013_88_17,OfuAug2013_88_17,AH88,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559084,SRR4029998,OfuAug2013_06_07,OfuAug2013_06_07,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559085,SRR4029999,OfuAug2013_06_08,OfuAug2013_06_08,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559086,SRR4030000,OfuAug2013_06_09,OfuAug2013_06_09,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559087,SRR4030001,OfuAug2013_06_10,OfuAug2013_06_10,AH06,Acropora hyacinthus,NA,adult
+U_standford_natEnvChange_PRJNA338455,SAMN05559108,SRR4029975,OfuAug2013_75_14,OfuAug2013_75_14,AH75,Acropora hyacinthus,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244758,SRR5190737,IC9,IC9_ACTGAT_L005_R1_001.fastq,IC9,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244757,SRR5190738,IC8,IC8_TGCAAA_L005_R1_001.fastq,IC8,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244756,SRR5190739,IC7,IC7_GCCGCG_L005_R1_001.fastq,IC7,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244755,SRR5190740,IC6,IC6_CCAACA_L006_R1_001.fastq,IC6,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244754,SRR5190741,IC5,IC5_CACCGG_L006_R1_001.fastq,IC5,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244753,SRR5190742,IC4,IC4_GGTAGC_L006_R1_001.fastq,IC4,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244752,SRR5190743,IC3,IC3_TCTATA_L006_R1_001.fastq,IC3,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244751,SRR5190744,IC2,IC2_GCAGGA_L006_R1_001.fastq,IC2,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244750,SRR5190745,IC1,IC1_CCAACA_L005_R1_001.fastq,IC1,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244749,SRR5190746,IC15,IC15_CACGAT_L006_R1_001.fastq,IC15,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244748,SRR5190747,IC14,IC14_ACTGAT_L006_R1_001.fastq,IC14,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244747,SRR5190748,IC13,IC13_TGCAAA_L006_R1_001.fastq,IC13,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244746,SRR5190749,IC12,IC12_GCCGCG_L006_R1_001.fastq,IC12,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244745,SRR5190750,IC11,IC11_CGGAAT_L005_R1_001.fastq,IC11,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244744,SRR5190751,IC10,IC10_CACGAT_L005_R1_001.fastq,IC10,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244743,SRR5190752,IB9,IB9_GAGTGG_L006_R1_001.fastq,IB9,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244742,SRR5190753,IB8,IB8_TCACAT_L006_R1_001.fastq,IB8,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244741,SRR5190754,IB7,IB7_GCACCC_L006_R1_001.fastq,IB7,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244740,SRR5190755,IB6,IB6_CATTTT_L005_R1_001.fastq,IB6,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244739,SRR5190756,IB5,IB5_CAACTA_L005_R1_001.fastq,IB5,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244738,SRR5190757,IB4,IB4_GAGTGG_L005_R1_001.fastq,IB4,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244737,SRR5190758,IB3,IB3_TCACAT_L005_R1_001.fastq,IB3,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244736,SRR5190759,IB2,IB2_GCACCC_L005_R1_001.fastq,IB2,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244735,SRR5190760,IB1,IB1_CATGGC_L006_R1_001.fastq,IB1,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244734,SRR5190761,IB15,IB15_CACCGG_L005_R1_001.fastq,IB15,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244733,SRR5190762,IB14,IB14_GGTAGC_L005_R1_001.fastq,IB14,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244732,SRR5190763,IB13,IB13_TCTATA_L005_R1_001.fastq,IB13,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244731,SRR5190764,IB12,IB12_GCAGGA_L005_R1_001.fastq,IB12,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244730,SRR5190765,IB11,IB11_CATTTT_L006_R1_001.fastq,IB11,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244729,SRR5190766,IB10,IB10_CAACTA_L006_R1_001.fastq,IB10,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244728,SRR5190767,DC9,DC9_TTCTAT_L005_R1_001.fastq,DC9,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244727,SRR5190768,DC8,DC8_TACGTG_L005_R1_001.fastq,DC8,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244726,SRR5190769,DC7,DC7_GAAGTT_L005_R1_001.fastq,DC7,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244725,SRR5190770,DC6,DC6_CAGGCG_L006_R1_001.fastq,DC6,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244724,SRR5190771,DC5,DC5_ATTCCT_L006_R1_001.fastq,DC5,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244723,SRR5190772,DC4,DC4_TGTTAG_L006_R1_001.fastq,DC4,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244722,SRR5190773,DC3,DC3_GTATTA_L006_R1_001.fastq,DC3,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244721,SRR5190774,DC2,DC2_CTGCAG_L006_R1_001.fastq,DC2,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244720,SRR5190775,DC1,DC1_CAGGCG_L005_R1_001.fastq,DC1,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244719,SRR5190776,DC15,DC15_CAAAAG_L006_R1_001.fastq,DC15,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244718,SRR5190777,DC14,DC14_TTCTAT_L006_R1_001.fastq,DC14,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244717,SRR5190778,DC13,DC13_TACGTG_L006_R1_001.fastq,DC13,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244716,SRR5190779,DC12,DC12_GAAGTT_L006_R1_001.fastq,DC12,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244715,SRR5190780,DC11,DC11_CATGGC_L005_R1_001.fastq,DC11,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244714,SRR5190781,DC10,DC10_CAAAAG_L005_R1_001.fastq,DC10,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244713,SRR5190782,DB9,DB9_TGGCAC_L006_R1_001.fastq,DB9,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244712,SRR5190783,DB8,DB8_GGCGGT_L006_R1_001.fastq,DB8,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244711,SRR5190784,DB7,DB7_CGCCCT_L006_R1_001.fastq,DB7,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244710,SRR5190785,DB6,DB6_CACTCA_L005_R1_001.fastq,DB6,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244709,SRR5190786,DB5,DB5_ATGAGC_L005_R1_001.fastq,DB5,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244707,SRR5190788,DB3,DB3_GGCGGT_L005_R1_001.fastq,DB3,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244708,SRR5190787,DB4,DB4_TGGCAC_L005_R1_001.fastq,DB4,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244706,SRR5190789,DB2,DB2_CGCCCT_L005_R1_001.fastq,DB2,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244705,SRR5190790,DB15,DB15_ATTCCT_L005_R1_001.fastq,DB15,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244704,SRR5190791,DB14,DB14_TGTTAG_L005_R1_001.fastq,DB14,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244703,SRR5190792,DB13,DB13_GTATTA_L005_R1_001.fastq,DB13,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244702,SRR5190793,DB12,DB12_CTGCAG_L005_R1_001.fastq,DB12,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244701,SRR5190794,DB11,DB11_CACTCA_L006_R1_001.fastq,DB11,Acropora millepora,NA,adult
+V_kenkel_co2seep_PRJNA362652,SAMN06244700,SRR5190795,DB10,DB10_ATGAGC_L006_R1_001.fastq,DB10,Acropora millepora,NA,adult
+W_gajigan_thermalMicroRNA_PRJNA298496,SAMN04027765,SRR5236068,DG96,Adig adult 34C 4hrs col 1,coral fragment from a A. digitifera colony,Acropora digitifera,NA,adult
+W_gajigan_thermalMicroRNA_PRJNA298496,SAMN04027766,SRR5236067,DG98,Adig adult 34C 4hrs col 2,coral fragment from a A. digitifera colony,Acropora digitifera,NA,adult
+W_gajigan_thermalMicroRNA_PRJNA298496,SAMN04027764,SRR5236069,DG95,Adig adult 29C 4hrs col 2,coral fragment from a A. digitifera colony,Acropora digitifera,NA,adult
+W_gajigan_thermalMicroRNA_PRJNA298496,SAMN04027763,SRR5236070,DG93,Adig adult 29C 4hrs col 1,coral fragment from a A. digitifera colony,Acropora digitifera,NA,adult
+X_strader_larvalCompetance_PRJNA379147,SAMN06602599,SRR5343281,D9,D9,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602598,SRR5343282,D8,D8,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602597,SRR5343283,D7,D7,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602596,SRR5343284,D6,D6,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602595,SRR5343285,D5,D5,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602594,SRR5343286,D4,D4,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602593,SRR5343287,D3,D3,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602592,SRR5343288,D2,D2,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602591,SRR5343289,D1,D1,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602590,SRR5343290,D11,D11,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602589,SRR5343291,D10,D10,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602588,SRR5343292,D0,D0,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602587,SRR5343293,C9,C9,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602586,SRR5343294,C8,C8,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602585,SRR5343295,C7,C7,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602584,SRR5343296,C6,C6,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602583,SRR5343297,C5,C5,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602582,SRR5343298,C4,C4,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602581,SRR5343299,C3,C3,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602580,SRR5343300,C2,C2,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602579,SRR5343301,C1,C1,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602578,SRR5343302,C12,C12,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602577,SRR5343303,C10,C10,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602576,SRR5343304,C0,C0,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602575,SRR5343305,B9,B9,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602574,SRR5343306,B8,B8,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602573,SRR5343307,B7,B7,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602572,SRR5343308,B6,B6,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602571,SRR5343309,B5,B5,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602570,SRR5343310,B4,B4,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602569,SRR5343311,B3,B3,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602568,SRR5343312,B2,B2,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602567,SRR5343313,B1,B1,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602566,SRR5343314,B12,B12,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602565,SRR5343315,B10,B10,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602564,SRR5343316,B0,B0,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602563,SRR5343317,A9,A9,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602562,SRR5343318,A8,A8,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602561,SRR5343319,A7,A7,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602560,SRR5343320,A6,A6,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602559,SRR5343321,A5,A5,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602558,SRR5343322,A4,A4,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602556,SRR5343323,A2,A2,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602555,SRR5343324,A1,A1,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602554,SRR5343325,A12,A12,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602553,SRR5343326,A11,A11,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602552,SRR5343327,A10,A10,larval pool,Acropora millepora,NA,larval
+X_strader_larvalCompetance_PRJNA379147,SAMN06602551,SRR5343328,A0,A0,larval pool,Acropora millepora,NA,larval
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608516,SRR5362791,rab-field.AHS6_Aug2011,rab-field.AHS6_Aug2011,AHS6,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608515,SRR5362792,rab-field.AHS5_Aug2011,rab-field.AHS5_Aug2011,AHS5,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608514,SRR5362793,rab-field.AHS4_Aug2011,rab-field.AHS4_Aug2011,AHS4,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608513,SRR5362794,rab-field.AHS3_Aug2011,rab-field.AHS3_Aug2011,AHS3,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608512,SRR5362795,rab-field.AHS2_Aug2011,rab-field.AHS2_Aug2011,AHS2,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608511,SRR5362796,rab-field.AHS1_Aug2011,rab-field.AHS1_Aug2011,AHS1,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608510,SRR5362797,rab-field.AH95_Aug2011,rab-field.AH95_Aug2011,AH95,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608509,SRR5362798,rab-field.AH91_Aug2011,rab-field.AH91_Aug2011,AH91,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608508,SRR5362799,rab-field.AH89_Aug2011,rab-field.AH89_Aug2011,AH89,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608501,SRR5362806,rab-field.AH70_Aug2011,rab-field.AH70_Aug2011,AH70,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608500,SRR5362807,rab-field.AH69_Aug2011,rab-field.AH69_Aug2011,AH69,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608499,SRR5362808,rab-field.AH68_Aug2011,rab-field.AH68_Aug2011,AH68,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608498,SRR5362809,rab-field.AH65_Aug2011,rab-field.AH65_Aug2011,AH65,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608497,SRR5362810,rab-field.AH64_Aug2011,rab-field.AH64_Aug2011,AH64,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608496,SRR5362811,rab-field.AH61_Aug2011,rab-field.AH61_Aug2011,AH61,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608495,SRR5362812,rab-field.AH44_Aug2011,rab-field.AH44_Aug2011,AH44,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608494,SRR5362813,rab-field.AH40_Aug2011,rab-field.AH40_Aug2011,AH40,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608493,SRR5362814,rab-field.AH29_Aug2011,rab-field.AH29_Aug2011,AH29,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608491,SRR5362816,rab-field.AH27_Aug2011,rab-field.AH27_Aug2011,AH27,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608490,SRR5362817,rab-field.AH26_Aug2011,rab-field.AH26_Aug2011,AH26,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608489,SRR5362818,rab-field.AH25_Aug2011,rab-field.AH25_Aug2011,AH25,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608488,SRR5362819,rab-field.AH22_Aug2011,rab-field.AH22_Aug2011,AH22,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608487,SRR5362820,rab-field.AH21_Aug2011,rab-field.AH21_Aug2011,AH21,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608486,SRR5362821,rab-field.AH18_Aug2011,rab-field.AH18_Aug2011,AH18,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608485,SRR5362822,rab-field.AH14_Aug2011,rab-field.AH14_Aug2011,AH14,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608484,SRR5362823,rab-field.AH13_Aug2011,rab-field.AH13_Aug2011,AH13,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608483,SRR5362824,rab-field.AH11_Aug2011,rab-field.AH11_Aug2011,AH11,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608479,SRR5362828,rab-field.AH04all_Aug2011,rab-field.AH04all_Aug2011,AH04,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608504,SRR5362803,rab-field.AH83_Aug2011,rab-field.AH83_Aug2011,AH83,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608492,SRR5362815,rab-field.AH28_Aug2011,rab-field.AH28_Aug2011,AH28,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608507,SRR5362800,rab-field.AH88_Aug2011,rab-field.AH88_Aug2011,AH88,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608506,SRR5362801,rab-field.AH86-87_Aug2011,rab-field.AH86-87_Aug2011,AH86-87,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608505,SRR5362802,rab-field.AH85_Aug2011,rab-field.AH85_Aug2011,AH85,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608503,SRR5362804,rab-field.AH82all_Aug2011,rab-field.AH82all_Aug2011,AH82,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608502,SRR5362805,rab-field.AH75_Aug2011,rab-field.AH75_Aug2011,AH75,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608482,SRR5362825,rab-field.AH102_Aug2011,rab-field.AH102_Aug2011,AH102,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608481,SRR5362826,rab-field.AH07_Aug2011,rab-field.AH07_Aug2011,AH07,Acropora hyacinthus,NA,adult
+Y_rose_polygenicThermal_PRJNA379450,SAMN06608480,SRR5362827,rab-field.AH06_Aug2011,rab-field.AH06_Aug2011,AH06,Acropora hyacinthus,NA,adult
+Z_takahashiKariyazono_fluorescentCN_PRJDB4562,SAMD00046867,DRR054772,Library_Da,SAMD00046867,NA,Acropora digitifera,NA,adult
+Z_takahashiKariyazono_fluorescentCN_PRJDB4562,SAMD00046868,DRR054773,Library_Dl,SAMD00046868,NA,Acropora digitifera,NA,larval
+Z_takahashiKariyazono_fluorescentCN_PRJDB4562,SAMD00046869,DRR054775,Library_Tl,SAMD00046869,NA,Acropora tenuis,NA,larval
+Z_takahashiKariyazono_fluorescentCN_PRJDB4562,SAMD00046870,DRR054774,Library_Ta,SAMD00046870,NA,Acropora tenuis,NA,adult
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628689,SRR5367050,NA,GSM2546279,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628688,SRR5367051,NA,GSM2546280,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628687,SRR5367052,NA,GSM2546281,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628686,SRR5367053,NA,GSM2546282,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628685,SRR5367054,NA,GSM2546283,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628684,SRR5367055,NA,GSM2546284,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628683,SRR5367056,NA,GSM2546285,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628682,SRR5367057,NA,GSM2546286,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628681,SRR5367058,NA,GSM2546287,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628648,SRR5367059,NA,GSM2546288,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628647,SRR5367060,NA,GSM2546289,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628678,SRR5367061,NA,GSM2546290,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628677,SRR5367062,NA,GSM2546291,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628676,SRR5367063,NA,GSM2546292,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628690,SRR5367064,NA,GSM2546293,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628680,SRR5367065,NA,GSM2546294,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628679,SRR5367066,NA,GSM2546295,NA,Acropora gemmifera,NA,recruit
+a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628675,SRR5367067,NA,GSM2546296,NA,Acropora gemmifera,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639186,SRR5374529,NA,GSM2545832,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639185,SRR5374530,NA,GSM2545833,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639184,SRR5374531,NA,GSM2545834,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639183,SRR5374532,NA,GSM2545835,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639204,SRR5374533,NA,GSM2545836,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639171,SRR5374534,NA,GSM2545837,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639170,SRR5374535,NA,GSM2545838,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639179,SRR5374536,NA,GSM2545839,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639181,SRR5374537,NA,GSM2545840,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639169,SRR5374538,NA,GSM2545841,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639172,SRR5374539,NA,GSM2545842,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639173,SRR5374540,NA,GSM2545843,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639180,SRR5374541,NA,GSM2545844,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639182,SRR5374542,NA,GSM2545845,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639205,SRR5374543,NA,GSM2545846,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639206,SRR5374544,NA,GSM2545847,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639207,SRR5374545,NA,GSM2545848,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639209,SRR5374546,NA,GSM2545849,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639208,SRR5374547,NA,GSM2545850,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639210,SRR5374548,NA,GSM2545851,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639212,SRR5374549,NA,GSM2545852,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639211,SRR5374550,NA,GSM2545853,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639214,SRR5374551,NA,GSM2545854,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639213,SRR5374552,NA,GSM2545855,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639215,SRR5374553,NA,GSM2545856,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639216,SRR5374554,NA,GSM2545857,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639217,SRR5374555,NA,GSM2545858,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639218,SRR5374556,NA,GSM2545859,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639219,SRR5374557,NA,GSM2545860,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639220,SRR5374558,NA,GSM2545861,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639222,SRR5374559,NA,GSM2545862,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639221,SRR5374560,NA,GSM2545863,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639223,SRR5374561,NA,GSM2545864,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639174,SRR5374562,NA,GSM2545865,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639175,SRR5374563,NA,GSM2545866,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639177,SRR5374564,NA,GSM2545867,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639176,SRR5374565,NA,GSM2545868,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639178,SRR5374566,NA,GSM2545869,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639224,SRR5374567,NA,GSM2545870,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639225,SRR5374568,NA,GSM2545871,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639226,SRR5374569,NA,GSM2545872,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06644702,SRR5378429,NA,GSM2550476,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06644701,SRR5378430,NA,GSM2550477,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06644700,SRR5378431,NA,GSM2550478,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06644699,SRR5378432,NA,GSM2550479,NA,Acropora millepora,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129229,SRR5569448,ApalVI_33B,ApalVI_33B,ApalVI_33B,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129237,SRR5569447,ApalVI_4A,ApalVI_4A,ApalVI_4A,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129238,SRR5569449,ApalVI_3middle,ApalVI_3middle,ApalVI_3mid,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129230,SRR5569450,ApalVI_30A,ApalVI_30A,ApalVI_30A,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129236,SRR5569445,ApalVI_6,ApalVI_6,ApalVI_6,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129228,SRR5569446,ApalVI_38,ApalVI_38,ApalVI_38,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129235,SRR5569444,ApalVI_12,ApalVI_12,ApalVI_12,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129233,SRR5569442,ApalVI_15,ApalVI_15,ApalVI_15,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129226,SRR5569441,ApalVI_54,ApalVI_54,ApalVI_54,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129225,SRR5569440,ApalVI_53,ApalVI_53,ApalVI_53,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129224,SRR5569439,ApalVI_58B,ApalVI_58B,ApalVI_58B,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129223,SRR5569438,ApalVI_60,ApalVI_60,ApalVI_60,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129227,SRR5569437,ApalVI_39,ApalVI_39,ApalVI_39,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129231,SRR5569435,ApalVI_23A,ApalVI_23A,ApalVI_23A,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129232,SRR5569436,ApalVI_19,ApalVI_19,ApalVI_19,Acropora palmata,NA,adult
+c1_uga_diseaseTolerance_PRJNA386795,SAMN07129234,SRR5569443,ApalVI_14,ApalVI_14,ApalVI_14,Acropora palmata,NA,adult
+d1_mohamed_microalga_PRJNA398338,SAMN07508283,SRR5934181,NA,GSM2742624,NA,Acropora digitifera,Negative_control_12h_rep2,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508286,SRR5934178,NA,GSM2742621,NA,Acropora digitifera,Chromera_infected_04h_rep1,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508284,SRR5934180,NA,GSM2742623,NA,Acropora digitifera,Chromera_infected_04h_rep3,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508282,SRR5934182,NA,GSM2742625,NA,Acropora digitifera,Negative_control_12h_rep3,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508278,SRR5934184,NA,GSM2742627,NA,Acropora digitifera,Chromera_infected_12h_rep2,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508281,SRR5934183,NA,GSM2742626,NA,Acropora digitifera,Chromera_infected_12h_rep1,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508277,SRR5934185,NA,GSM2742628,NA,Acropora digitifera,Chromera_infected_12h_rep3,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508276,SRR5934186,NA,GSM2742629,NA,Acropora digitifera,Negative_control_48h_rep1,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508275,SRR5934187,NA,GSM2742630,NA,Acropora digitifera,Negative_control_48h_rep2,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508274,SRR5934188,NA,GSM2742631,NA,Acropora digitifera,Negative_control_48h_rep3,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508273,SRR5934189,NA,GSM2742632,NA,Acropora digitifera,Chromera_infected_48h_rep1,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508272,SRR5934190,NA,GSM2742633,NA,Acropora digitifera,Chromera_infected_48h_rep2,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508271,SRR5934191,NA,GSM2742634,NA,Acropora digitifera,Chromera_infected_48h_rep3,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508279,SRR5934177,NA,GSM2742620,NA,Acropora digitifera,Negative_control_04h_rep3,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508287,SRR5934175,NA,GSM2742618,NA,Acropora digitifera,Negative_control_04h_rep1,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508285,SRR5934179,NA,GSM2742622,NA,Acropora digitifera,Chromera_infected_04h_rep2,larval
+d1_mohamed_microalga_PRJNA398338,SAMN07508280,SRR5934176,NA,GSM2742619,NA,Acropora digitifera,Negative_control_04h_rep2,larval
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691943,SRR6064932,R_A1_290_S1,R_A1_290_S1,R_A1_290_S1,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691942,SRR6064931,R_A1_290_S2,R_A1_290_S2,R_A1_290_S2,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691937,SRR6064930,R_A1_335_S1,R_A1_335_S1,R_A1_335_S1,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691936,SRR6064929,R_A1_335_S2,R_A1_335_S2,R_A1_335_S2,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691935,SRR6064928,R_A1_335_S3,R_A1_335_S3,R_A1_335_S3,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691934,SRR6064927,R_A1_335_S4,R_A1_335_S4,R_A1_335_S4,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691941,SRR6064926,R_A1_290_S3,R_A1_290_S3,R_A1_290_S3,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691940,SRR6064925,R_A1_290_S4,R_A1_290_S4,R_A1_290_S4,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691939,SRR6064924,R_A1_290_S5,R_A1_290_S5,R_A1_290_S5,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691938,SRR6064923,R_A1_290_S6,R_A1_290_S6,R_A1_290_S6,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691922,SRR6064922,R_IS_290_S4,R_IS_290_S4,R_IS_290_S4,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691923,SRR6064921,R_IS_290_S3,R_IS_290_S3,R_IS_290_S3,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691918,SRR6064920,R_IS_335_S2,R_IS_335_S2,R_IS_335_S2,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691919,SRR6064919,R_IS_335_S1,R_IS_335_S1,R_IS_335_S1,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691920,SRR6064918,R_IS_290_S6,R_IS_290_S6,R_IS_290_S6,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691921,SRR6064917,R_IS_290_S5,R_IS_290_S5,R_IS_290_S5,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691914,SRR6064916,R_IS_335_S6,R_IS_335_S6,R_IS_335_S6,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691915,SRR6064915,R_IS_335_S5,R_IS_335_S5,R_IS_335_S5,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691916,SRR6064914,R_IS_335_S4,R_IS_335_S4,R_IS_335_S4,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691917,SRR6064913,R_IS_335_S3,R_IS_335_S3,R_IS_335_S3,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691932,SRR6064912,R_A1_335_S6,R_A1_335_S6,R_A1_335_S6,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691933,SRR6064911,R_A1_335_S5,R_A1_335_S5,R_A1_335_S5,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691930,SRR6064910,R_A1_345_S2,R_A1_345_S2,R_A1_345_S2,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691931,SRR6064909,R_A1_345_S1,R_A1_345_S1,R_A1_345_S1,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691928,SRR6064908,R_A1_345_S4,R_A1_345_S4,R_A1_345_S4,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691929,SRR6064907,R_A1_345_S3,R_A1_345_S3,R_A1_345_S3,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691926,SRR6064906,R_A1_345_S6,R_A1_345_S6,R_A1_345_S6,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691927,SRR6064905,R_A1_345_S5,R_A1_345_S5,R_A1_345_S5,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691924,SRR6064904,R_IS_290_S2,R_IS_290_S2,R_IS_290_S2,Acropora hyacinthus,NA,adult
+e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691925,SRR6064903,R_IS_290_S1,R_IS_290_S1,R_IS_290_S1,Acropora hyacinthus,NA,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213383,SRR6396371,NA,GSM2895562,NA,Acropora cervicornis,ambient_summer_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213393,SRR6396373,NA,GSM2895564,NA,Acropora cervicornis,hot_summer_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213392,SRR6396374,NA,GSM2895565,NA,Acropora cervicornis,ambient_summer_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213391,SRR6396375,NA,GSM2895566,NA,Acropora cervicornis,cold_summer_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213390,SRR6396376,NA,GSM2895567,NA,Acropora cervicornis,hot_summer_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213389,SRR6396377,NA,GSM2895568,NA,Acropora cervicornis,ambient_winter_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213388,SRR6396378,NA,GSM2895569,NA,Acropora cervicornis,cold_winter_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213387,SRR6396379,NA,GSM2895570,NA,Acropora cervicornis,hot_winter_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213386,SRR6396380,NA,GSM2895571,NA,Acropora cervicornis,ambient_winter_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213385,SRR6396381,NA,GSM2895572,NA,Acropora cervicornis,cold_winter_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213384,SRR6396382,NA,GSM2895573,NA,Acropora cervicornis,hot_winter_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213394,SRR6396372,NA,GSM2895563,NA,Acropora cervicornis,cold_summer_LowerKeys,adult
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050255,DRR119956,NA,SAMD00050255,NA,Acropora tenuis,transcriptome of 10day Aposymbiotic Acropora_replicate1,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050256,DRR119957,NA,SAMD00050256,NA,Acropora tenuis,transcriptome of 10day Aposymbiotic Acropora_replicate2,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050257,DRR119958,NA,SAMD00050257,NA,Acropora tenuis,transcriptome of 20day Aposymbiotic Acropora_replicate1,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050258,DRR119959,NA,SAMD00050258,NA,Acropora tenuis,transcriptome of 20day Aposymbiotic Acropora_replicate2,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050259,DRR119960,NA,SAMD00050259,NA,Acropora tenuis,transcriptome of 10day clade C symbiotic Acropora_replicate1,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050260,DRR119961,NA,SAMD00050260,NA,Acropora tenuis,transcriptome of 10day clade C symbiotic Acropora_replicate2,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050261,DRR119962,NA,SAMD00050261,NA,Acropora tenuis,transcriptome of 20day clade C symbioticc Acropora_replicate1,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050262,DRR119963,NA,SAMD00050262,NA,Acropora tenuis,transcriptome of 20day clade C symbiotic Acropora_replicate2,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050263,DRR119964,NA,SAMD00050263,NA,Acropora tenuis,transcriptome of 10day clade D symbiotic Acropora_replicate1,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050264,DRR119965,NA,SAMD00050264,NA,Acropora tenuis,transcriptome of 10day clade D symbiotic Acropora_replicate2,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050265,DRR119966,NA,SAMD00050265,NA,Acropora tenuis,transcriptome of 20day clade D symbiotic Acropora_replicate1,recruit
+g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050266,DRR119967,NA,SAMD00050266,NA,Acropora tenuis,transcriptome of 20day clade D symbiotic Acropora_replicate2,recruit
+h1_rocker_waterQuality_PRJNA476311,SAMN09429690,SRR7347363,PI_15.2,PI_15.2_GCACCC_L008_R1_001.fastq,PI_15.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429689,SRR7347362,PI_15.1,PI_15.1_GCCGCG_L008_R1_001.fastq,PI_15.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429688,SRR7347361,PI_11.2,PI_11.2_CACGAT_L008_R1_001.fastq,PI_11.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429687,SRR7347360,PI_11.1,PI_11.1_CAAAAG_L008_R1_001.fastq,PI_11.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429686,SRR7347359,PI_10.2,PI_10.2_CAAAAG_L007_R1_001.fastq,PI_10.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429685,SRR7347358,PI_10.1,PI_10.1_CACGAT_L007_R1_001.fastq,PI_10.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429684,SRR7347357,PI_9.2,PI_9.2_GCCGCG_L007_R1_001.fastq,PI_9.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429683,SRR7347356,PI_9.1,PI_9.1_GCACCC_L007_R1_001.fastq,PI_9.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429681,SRR7347354,PI_8.1,PI_8.1_TGCAAA_L008_R1_001.fastq,PI_8.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429702,SRR7347353,GB_31.2,GB_31.2_GCAGGA_L007_R1_001.fastq,GB_31.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429701,SRR7347352,GB_31.1,GB_31.1_TGTTAGTCTTTC_L007_R1_001.fastq,GB_31.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429704,SRR7347351,GB_32.2,GB_32.2_TACGTG_L007_R1_001.fastq,GB_32.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429703,SRR7347350,GB_32.1,GB_32.1_CAGGCG_L007_R1_001.fastq,GB_32.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429706,SRR7347349,GB_33.2,GB_33.2_CAGGCG_L008_R1_001.fastq,GB_33.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429705,SRR7347348,GB_33.1,GB_33.1_TACGTG_L008_R1_001.fastq,GB_33.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429708,SRR7347347,GB_35.2,GB_35.2_TGTTAG_L008_R1_001.fastq,GB_35.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429707,SRR7347346,GB_35.1,GB_35.1_GCAGGA_L008_R1_001.fastq,GB_35.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429710,SRR7347345,GB_37.2,GB_37.2_CAACTA_L007_R1_001.fastq,GB_37.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429709,SRR7347344,GB_37.1,GB_37.1_GAAGTT_L007_R1_001.fastq,GB_37.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429680,SRR7347343,PI_7.2,PI_7.2_ATTCCT_L008_R1_001.fastq,PI_7.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429679,SRR7347342,PI_7.1,PI_7.1_GTATTA_L008_R1_001.fastq,PI_7.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429674,SRR7347341,PI_3.2,PI_3.2_GAAGTT_L008_R1_001.fastq,PI_3.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429673,SRR7347340,PI_3.1,PI_3.1_CAACTA_L008_R1_001.fastq,PI_3.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429682,SRR7347355,PI_8.2,PI_8.2_TGGCAC_L008_R1_001.fastq,PI_8.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429672,SRR7347339,PI_2.2,PI_2.2_TTCTAT_L008_R1_001.fastq,PI_2.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429671,SRR7347338,PI_2.1,PI_2.1_CACTCA_L008_R1_001.fastq,PI_2.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429678,SRR7347337,PI_5.2,PI_5.2_GTATTA_L007_R1_001.fastq,PI_5.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429677,SRR7347336,PI_5.1,PI_5.1_ATTCCT_L007_R1_001.fastq,PI_5.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429676,SRR7347335,PI_4.2,PI_4.2_TGCAAA_L007_R1_001.fastq,PI_4.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429675,SRR7347334,PI_4.1,PI_4.1_TGGCACTCTTTC_L007_R1_001.fastq,PI_4.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429711,SRR7347333,GB_39.1,GB_39.1_TTCTATTCTTTC_L007_R1_001.fastq,GB_39.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429712,SRR7347332,GB_39.2,GB_39.2_CACTCA_L007_R1_001.fastq,GB_39.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429693,SRR7347331,GB_24.1,GB_24.1_CACCGG_L007_R1_001.fastq,GB_24.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429694,SRR7347330,GB_24.2,GB_24.2_GGCGGT_L007_R1_001.fastq,GB_24.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429691,SRR7347329,PI_17.1,PI_17.1_TCACAT_L007_R1_001.fastq,PI_17.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429692,SRR7347328,PI_17.2,PI_17.2_TCACAT_L008_R1_001.fastq,PI_17.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429697,SRR7347327,GB_26.1,GB_26.1_ATGAGC_L008_R1_001.fastq,GB_26.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429698,SRR7347326,GB_26.2,GB_26.2_TCTATA_L008_R1_001.fastq,GB_26.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429695,SRR7347325,GB_25.1,GB_25.1_TCTATA_L007_R1_001.fastq,GB_25.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429696,SRR7347324,GB_25.2,GB_25.2_ATGAGC_L007_R1_001.fastq,GB_25.2,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429699,SRR7347323,GB_29.1,GB_29.1_GGCGGT_L008_R1_001.fastq,GB_29.1,Acropora tenuis,NA,adult
+h1_rocker_waterQuality_PRJNA476311,SAMN09429700,SRR7347322,GB_29.2,GB_29.2_CACCGG_L008_R1_001.fastq,GB_29.2,Acropora tenuis,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098210,DRR108013,NA,SAMD00098210,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098211,DRR108014,NA,SAMD00098211,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098212,DRR108015,NA,SAMD00098212,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098213,DRR108016,NA,SAMD00098213,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098214,DRR108017,NA,SAMD00098214,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098215,DRR108018,NA,SAMD00098215,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098216,DRR108019,NA,SAMD00098216,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098217,DRR108020,NA,SAMD00098217,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098218,DRR108021,NA,SAMD00098218,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098219,DRR108022,NA,SAMD00098219,NA,Acropora digitifera,NA,adult
+i1_TakahashiKariyazono_fluorescentPolymorph_PRJDB6468,SAMD00098220,DRR108023,NA,SAMD00098220,NA,Acropora digitifera,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812166,NA,X12_86_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812167,NA,X2_6_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812168,NA,X26_27_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812169,NA,X30_87_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812170,NA,X34_83_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812171,NA,X36_85_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812172,NA,X56_75_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812173,NA,X58_4_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812174,NA,X60_7_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812175,NA,X62_88_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812176,NA,X24_86_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812177,NA,X14_6_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812178,NA,X38_27_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812179,NA,X42_87_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812180,NA,X46_83_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812181,NA,X48_85_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812182,NA,X70_75_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812183,NA,X72_4_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812184,NA,X74_7_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812185,NA,X76_88_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812186,NA,X27_102_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812187,NA,X3_70_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812188,NA,X31_28_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812189,NA,X33_11_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812190,NA,X49_89_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812191,NA,X5_65_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812192,NA,X51_68_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812193,NA,X53_64_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812194,NA,X7_40_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812195,NA,X39_102_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812196,NA,X15_70_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812197,NA,X43_28_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812198,NA,X45_11_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812199,NA,X63_89_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812200,NA,X17_65_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812201,NA,X65_68_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812202,NA,X67_64_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812203,NA,X19_40_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812204,NA,X11_86_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812205,NA,X1_6_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812206,NA,X25_27_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812207,NA,X29_87_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812208,NA,X9_83_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812209,NA,X35_85_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812210,NA,X55_75_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812211,NA,X57_4_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812212,NA,X59_7_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812213,NA,X61_88_400_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812214,NA,X23_86_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812215,NA,X13_6_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812216,NA,X37_27_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812217,NA,X41_87_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812218,NA,X21_83_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812219,NA,X47_85_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812220,NA,X69_75_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812221,NA,X71_4_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812222,NA,X73_7_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812223,NA,X75_88_400_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812224,NA,X28_102_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812225,NA,X4_70_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812226,NA,X32_28_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812227,NA,X10_11_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812228,NA,X50_89_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812229,NA,X6_65_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812230,NA,X52_61_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812231,NA,X54_64_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812232,NA,X8_40_300_c_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812233,NA,X40_102_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812234,NA,X16_70_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812235,NA,X44_28_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812236,NA,X22_11_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812237,NA,X64_89_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812238,NA,X18_65_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812239,NA,X66_61_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812240,NA,X68_64_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812241,NA,X20_40_300_h_5h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812242,NA,X140_86_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812243,NA,X130_6_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812244,NA,X78_27_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812245,NA,X82_87_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812246,NA,X86_83_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812247,NA,X88_85_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812248,NA,X108_75_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812249,NA,X110_4_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812250,NA,X112_7_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812251,NA,X114_88_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812252,NA,X152_86_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812253,NA,X142_6_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812254,NA,X90_27_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812255,NA,X94_87_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812256,NA,X98_83_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812257,NA,X100_85_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812258,NA,X122_75_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812259,NA,X124_4_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812260,NA,X126_7_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812261,NA,X128_88_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812262,NA,X79_102_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812263,NA,X131_70_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812264,NA,X83_28_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812265,NA,X85_11_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812266,NA,X101_89_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812267,NA,X133_65_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812268,NA,X103_68_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812269,NA,X105_64_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812270,NA,X135_40_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812271,NA,X91_102_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812272,NA,X143_70_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812273,NA,X95_28_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812274,NA,X97_11_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812275,NA,X115_89_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812276,NA,X145_65_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812277,NA,X117_68_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812278,NA,X119_64_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812279,NA,X147_40_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812280,NA,X139_86_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812281,NA,X129_6_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812282,NA,X77_27_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812283,NA,X81_87_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812284,NA,X137_83_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812285,NA,X87_85_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812286,NA,X107_75_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812287,NA,X109_4_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812288,NA,X111_7_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812289,NA,X113_88_400_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812290,NA,X151_86_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812291,NA,X141_6_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812292,NA,X89_27_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812293,NA,X93_87_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812294,NA,X149_83_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812295,NA,X99_85_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812296,NA,X121_75_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812297,NA,X123_4_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812298,NA,X125_7_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812299,NA,X127_88_400_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812300,NA,X80_102_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812301,NA,X132_70_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812302,NA,X84_28_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812303,NA,X138_11_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812304,NA,X102_89_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812305,NA,X134_65_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812306,NA,X104_61_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812307,NA,X106_64_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812308,NA,X136_40_300_c_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812309,NA,X92_102_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812310,NA,X144_70_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812311,NA,X96_28_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812312,NA,X150_11_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812313,NA,X116_89_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812314,NA,X146_65_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812315,NA,X118_61_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812316,NA,X120_64_300_h_20h,NA,Acropora hyacinthus,NA,adult
+k1_Palumbi_lab_heat_resilience_PRJNA274410,NA,SRR1812317,NA,X148_40_300_h_20h,NA,Acropora hyacinthus,NA,adult

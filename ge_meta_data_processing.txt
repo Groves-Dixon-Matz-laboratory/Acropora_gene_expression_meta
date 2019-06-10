@@ -42,8 +42,6 @@ done
 #move repaired files to new dir and rename them to basic .fastq files again to continue pipeline
 
 
-
-
 #######################################
 ###### PREPARE READS FOR MAPPING ######
 #######################################
@@ -203,13 +201,7 @@ launcher_creator.py -n removeDups -j removeDups -t 6:00:00 -q normal -a $allo -e
 
 MY_GFF="$WORK/Amil_Zach_Fullers_v2.00/Amil.coding.gff3"; GENE_ID="ID"
 
-
-
-#------- run in single batch -------#
-echo "/work/02260/grovesd/stampede2/subread-1.6.3-source/bin/featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_1of3.txt -T 64 --primary *_dupsRemoved_NameSorted.bam" > runFeatureCounts
-
-
-#------- or in sets of 4 -------#
+#------- or in sets of 5 for enough memory -------#
 echo "featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_1of5.txt -T 64 --primary *[0-1]_dupsRemoved_NameSorted.bam
 featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_2of5.txt -T 64 --primary *[2-3]_dupsRemoved_NameSorted.bam
 featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_3of5.txt -T 64 --primary *[4-5]_dupsRemoved_NameSorted.bam
@@ -220,7 +212,6 @@ launcher_creator.py -n fetNoDedupMeta -j runFeatureCounts -q normal -N 5 -w 1 -a
 
 #merge
 merge_feature_counts.R 
-
 
 
 #fix names eg:
@@ -236,17 +227,6 @@ sum_lane_dups.R lane_duplicate_runs.csv all_featureCounts_geneCounts.tsv all_fea
 #back up all feature counts results on coral
 #send the laneDupSummary.tsv to metadata directory for use in wrangle_sample_data.R
 
-
-###############################################
-############# FPKM WITH CUFFLINKS #############
-###############################################
-
-#Choose GFF from above
-
-
-module load intel/17.0.4
-module load cufflinks
-echo "cuffnorm --library-norm-method classic-fpkm --output-dir cuffnorm_results/ -p 24 $MY_GFF *_dupsRemoved.bam" > getFPKM
 
 
 #######################################
@@ -396,47 +376,15 @@ DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput
 
 #-- CHOOSE OTHER INPUTS
 COUNTS=all_featureCounts_geneCounts_laneDupsRemd.tsv
-COLDATA=stress_noCold_Coldata.csv
+COLDATA=stress_noSalinity_Coldata.csv
 
 
 ## RUN INITIALIZATION, CONTROL FOR COVARIATES AND DESEQ IN SINGLE JOB 
 echo "initialize_raw_featureCounts.TACC_V2.R --counts $COUNTS --coldat $COLDATA --treeCut 5000 --mnCountCut 3 --callOutliers FALSE
 control_for_covariates.R
 $DESEQCOMMAND" > runRscripts
-launcher_creator.py -n stress -j runRscripts -q normal -N 1 -w 1 -a $allo -t 04:00:00
+launcher_creator.py -n noSalt -j runRscripts -q normal -N 1 -w 1 -a $allo -t 06:00:00
 
-
-
-##########################################
-################ RUN PCAS ################
-##########################################
-#best to send back results to PC now to run 
-
-
-#######################################
-################ DESEQ ################
-#######################################
-#made scripts on TACC for faster running
-echo "Rscript ~/bin/geMetaScripts/deseq_ALL.R" > adultVlarvae
-Rscript ~/bin/geMetaScripts/deseq_stress.R
-Rscript ~/bin/geMetaScripts/deseq_temp.R
-Rscript ~/bin/geMetaScripts/deseq_heat.R
-Rscript ~/bin/geMetaScripts/deseq_immune.R
-Rscript ~/bin/geMetaScripts/deseq_ph.R
-
-
-#FOR COLD
-Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t cold --c control
-#FOR HEAT WITHOUT BEWW
-Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t heat --c control --pt temp
-#FOR IMMUNE
-Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t challenge --c control --pt immune
-#FOR pH
-Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t low_pH --c control --pt pH
-#FOR SALINITY
-Rscript ~/bin/geMetaScripts/deseq_general.R deseqBaselineInput.Rdata treat low_salinity control
-#FOR ALL STRESS
-Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v stress --t stressed --c control
 
 #######################################
 ################ WGCNA ################
@@ -460,31 +408,3 @@ echo "$runMyR ~/bin/wgcna3b_step-wise_network_construction.R \
  
 
 #optionally re-run with merging
-
-
-##########################################
-################ ANALYSIS ################
-##########################################
-
-
-
-
-###############################################
-######## WINDOW ANALYSES ACROSS GENOME ########
-###############################################
-
-#pick window sizes
-WSIZE=10000
-SLIDE=5000
-
-#get chrom lengths
-fasta_sequence_characters.py -fa /work/02260/grovesd/stampede2/Amil_Zach_Fullers_v2.00/Amil.v2.00.chrs.fasta > chr_lengths.txt
-
-
-#make windows
-module load bedtools
-bedtools makewindows -g chr_lengths.txt -w $WSIZE -s $SLIDE > windows_w${WSIZE}_s${SLIDE}.bed
-
-#get fold coverages
-ls *.bam | sed 's/_dupsRemoved.bam//' | tr "\n" "\t" > coverages_w${WSIZE}_s${SLIDE}.tsv
-bedtools multicov -bams *.bam -bed windows_w${WSIZE}_s${SLIDE}.bed >> coverages_w${WSIZE}_s${SLIDE}.tsv

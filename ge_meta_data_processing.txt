@@ -1,0 +1,490 @@
+#gene_expression_meta
+
+
+#################################
+########## AQUIRE DATA ##########
+#################################
+#searched Acropora on SRA
+#run info table saved as:
+all_acropora_sra_runInfoTable.txt
+
+#my working spreadsheet saved as:
+my_all_acropora_sra_runInfoTable.xlsx
+
+#running through each project one by one (tried all at once and things got confusing)
+
+#download reads by following instructions in SRA_downloading.txt
+
+
+#note different methods for Solid data are given below
+
+
+####################################################
+## FIXING READS FROM C_palumbi_pools_PRJNA242821  ##
+####################################################
+#These fastq files has some weird reads as downloaded from NCBI
+#These steps clean them up so that they will map with bowtie
+#Expected to be run in Idev session
+
+
+#first remove non-printable ASCII characters from the files
+for file in *.fastq
+do echo "tr -cd '\11\12\15\40-\176' < $file > ${file/.fastq/}_clean.fastq &"
+done
+
+#Then remove reads that have different lengths for the quality string and the read,
+#or non-DNA characters in the read
+for file in *_clean.fastq
+do echo "fastq_repairV4.py -fq $file -o ${file/_clean.fastq/}_repaired.fastq > ${file/_clean.fastq/}.repairlog &"
+done
+
+
+#move repaired files to new dir and rename them to basic .fastq files again to continue pipeline
+
+
+
+
+#######################################
+###### PREPARE READS FOR MAPPING ######
+#######################################
+
+#SET UP DIRECTORY WITH SUBSETS FOR QUICK TESTS
+
+NTEST=400000
+mkdir testRun
+for file in *.trim
+do head -n $NTEST $file > testRun/${file}
+done
+
+
+#Run FastQC on subsets
+
+module load fastqc
+mkdir Fastqc_Restults_raw/
+> runFQC
+for file in *.fastq
+do echo "fastqc -o Fastqc_Restults_raw/ -f fastq $file &" >> runFQC
+done
+
+launcher_creator.py -n runFQC -j runFQC -q normal -N 1 -w 48 -a $allo -e $email -t 05:00:00
+sbatch runFQC.slurm
+
+
+#------ RUN A TRIMMING TEST ------#
+
+#FOR PAIRED END READS
+
+>trimpe
+for file in *_2.fastq
+do echo "cutadapt \
+-a GATCGGAAGAGCA \
+-A GATCGGAAGAGCA \
+-a AGATCGGAAGAGC \
+-A AGATCGGAAGAGC \
+--minimum-length 20 \
+-q 20 \
+-o ${file/_2.fastq/}_1.trim \
+-p ${file/_2.fastq/}_2.trim \
+${file/_2.fastq/}_1.fastq \
+$file > ${file}_trimlog.txt" >> trimpe
+done
+
+
+launcher_creator.py -n trim_robustAnts -j trimpe -a $allo -e $email -q normal -t 12:00:00 -N 1 -w 8
+sbatch trimpe.slurm
+
+
+#or
+
+
+#FOR SINGLE END READS
+
+>trimse
+for file in *_1.fastq
+do echo "cutadapt \
+-a GATCGGAAGAGCA \
+-a AGATCGGAAGAGC \
+--minimum-length 20 \
+-q 20 \
+-o ${file/_1.fastq/}_1.trim \
+$file > ${file}_trimlog.txt" >> trimse
+done
+
+launcher_creator.py -n trimC -j trimse -q normal -N 1 -w 12 -a $allo -e $email -t 08:00:00
+
+
+#REPEAT THE FASTQC
+
+module load fastqc
+mkdir Fastqc_Restults_postTrim/
+> runFQC2
+for file in *.trim
+do echo "fastqc -o Fastqc_Restults_postTrim/ -f fastq $file &" >> runFQC2
+done
+
+
+#if things look good run trimming as before on full dataset
+
+
+#################################
+############ MAPPING ############
+#################################
+
+#---- FOR PAIRED END READS ----#
+
+module load bowtie
+export REFERENCE_GENOME="/work/02260/grovesd/stampede2/Amil_Zach_Fullers_v2.00/Amil.v2.00.chrs"
+
+
+
+#make a file with names
+ls *_1.trim | awk '{split($0, a, "_");print a[1]}'> paired_runIDs.txt
+
+>mappe
+while read runID
+do echo "\
+bowtie2 -x $REFERENCE_GENOME -1 ${runID}_1.trim -2 ${runID}_2.trim --local -p 24 -S ${runID}.sam" >> mappe
+done < paired_runIDs.txt
+
+launcher_creator.py -n map_k1 -j mappe -q normal -N 11 -w 4 -a $allo -t 24:00:00
+
+
+
+#---- FOR SINGLE END READS ----#
+
+#make a file with names
+ls *.trim| awk '{split($0, a, "_");print a[1]}'> single_runIDs.txt
+
+#build mapping commands
+module load bowtie
+>mapse
+while read runID
+do echo "\
+bowtie2 -x $REFERENCE_GENOME -U ${runID}_1.trim --local -p 8 -S ${runID}.sam">> mapse
+done < single_runIDs.txt
+
+#note wayness more than 6 is no good for this
+launcher_creator.py -n mapC -j mapse -q normal -N 4 -w 3 -a $allo -e $email -t 10:00:00
+
+
+
+###########################################
+##### PREPARE ALIGNMENTS FOR COUNTING #####
+###########################################
+
+#SORT, REMOVE DUPLICATES, THEN CONVERT BACK TO SAM FOR COUNTING
+
+
+#NOTE!!! LOOK INTO USING 'samtools fixmate' here
+
+module load samtools
+>removeDups
+for file in *.sam
+do runID=${file/.sam/}
+ echo "samtools view -bS $file |\
+ samtools sort -O bam -o ${runID}_sorted.bam - &&\
+ java -Xms4g -jar /work/02260/grovesd/lonestar/picard/picard-tools-1.119/MarkDuplicates.jar\
+ INPUT=${runID}_sorted.bam\
+ OUTPUT=${runID}_dupsRemoved.bam\
+ METRICS_FILE=${runID}_dupMetrics.txt\
+ REMOVE_DUPLICATES=true &&\
+ samtools sort -n -O bam -o ${runID}_dupsRemoved_NameSorted.bam  ${runID}_dupsRemoved.bam" >> removeDups
+ done
+ 
+launcher_creator.py -n removeDups -j removeDups -t 6:00:00 -q normal -a $allo -e $email -N 4 -w 3
+
+
+
+######################################
+############# GET COUNTS #############
+######################################
+
+#Choose the GFF
+
+MY_GFF="$WORK/Amil_Zach_Fullers_v2.00/Amil.coding.gff3"; GENE_ID="ID"
+
+
+
+#------- run in single batch -------#
+echo "/work/02260/grovesd/stampede2/subread-1.6.3-source/bin/featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_1of3.txt -T 64 --primary *_dupsRemoved_NameSorted.bam" > runFeatureCounts
+
+
+#------- or in sets of 4 -------#
+echo "featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_1of5.txt -T 64 --primary *[0-1]_dupsRemoved_NameSorted.bam
+featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_2of5.txt -T 64 --primary *[2-3]_dupsRemoved_NameSorted.bam
+featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_3of5.txt -T 64 --primary *[4-5]_dupsRemoved_NameSorted.bam
+featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_4of5.txt -T 64 --primary *[6-7]_dupsRemoved_NameSorted.bam
+featureCounts -a $MY_GFF -p -t gene -g $GENE_ID -o feature_counts_out_5of5.txt -T 64 --primary *[8-9]_dupsRemoved_NameSorted.bam" > runFeatureCounts
+
+launcher_creator.py -n fetNoDedupMeta -j runFeatureCounts -q normal -N 5 -w 1 -a $allo -e $email -t 4:00:00
+
+#merge
+merge_feature_counts.R 
+
+
+
+#fix names eg:
+sed -i.bak 's/_dupsRemoved_NameSorted.bam//g' all_featureCounts_geneCounts.tsv
+
+
+#IF ANY SRA PROJECTS INCLUDED LANE DUPLICATES, DEAL WITH THEM NOW
+#only PRJNA319662 seemed to include them
+#fix with this band-aid summing script
+
+sum_lane_dups.R lane_duplicate_runs.csv all_featureCounts_geneCounts.tsv all_featureCounts_geneCounts_laneDupsRemd.tsv
+
+#back up all feature counts results on coral
+#send the laneDupSummary.tsv to metadata directory for use in wrangle_sample_data.R
+
+
+###############################################
+############# FPKM WITH CUFFLINKS #############
+###############################################
+
+#Choose GFF from above
+
+
+module load intel/17.0.4
+module load cufflinks
+echo "cuffnorm --library-norm-method classic-fpkm --output-dir cuffnorm_results/ -p 24 $MY_GFF *_dupsRemoved.bam" > getFPKM
+
+
+#######################################
+####### PIPELINE COUNTS RESULTS #######
+#######################################
+
+
+wc -l *.fastq |\
+ awk '{split($2, a, ".fastq")
+ print a[1]"\t"$1/4"\trawCounts"}' |\
+ grep -v total > raw_read_counts.tsv &
+
+
+
+
+#GET POST TRIMMING READ COUNT
+wc -l *.trim |\
+ awk '{split($2, a, ".trim")
+ print a[1]"\t"$1/4"\ttrimmedCounts"}' |\
+ grep -v total > trimmed_read_counts.tsv &
+
+
+
+
+#get alignment counts before removal
+>getInitialAlignment
+for file in *sorted.bam
+do echo "samtools flagstat $file > ${file/_sorted.bam/}_prededup_flagstats.txt" >> getInitialAlignment
+done
+
+#get post removal alignment counts
+>getDupRemAlignment
+for file in *dupsRemoved.bam
+do echo "samtools flagstat $file > ${file/.bam/}_post_dedup_flagstats.txt &" >> getDupRemAlignment
+done
+
+
+
+#format properly paired reads
+>prededup_properly_paired_count.tsv
+for file in *prededup_flagstats.txt
+do pp=$(grep "properly paired" $file); echo -e "$file\t$pp" |\
+ awk '{split($1, a, "_prededup_flagstats.txt")
+ split($7, b, "(")
+ print a[1]"\t"$2"\tpredupPropPaired"}' >> prededup_properly_paired_count.tsv
+ done
+
+#format total reads
+>prededup_mapped_count.tsv
+for file in *prededup_flagstats.txt
+do pp=$(grep "mapped" $file | head -n 1)
+ echo -e "$file\t$pp" |\
+ awk '{split($1, a, "_prededup_flagstats.txt")
+ print a[1]"\t"$2"\tpredupMapped"}' >> prededup_mapped_count.tsv
+ done
+
+
+#removal metrics
+>dupRemovalMetrics.tsv
+for file in *dupMetrics.txt
+do pct=$(sed '8q;d' $file | cut -f 8)
+echo -e "$file\t$pct" |\
+ awk '{split($1, a, "_dupMetrics.txt")
+ print a[1]"\t"$2"\tdupRemProp"}' >> dupRemovalMetrics.tsv
+done
+
+
+#format properly paired reads
+>dedup_properly_paired_count.tsv
+for file in *_post_dedup_flagstats.txt
+do pp=$(grep "properly paired" $file)
+ echo -e "$file\t$pp" |\
+ awk '{split($1, a, "_dupsRemoved_post_dedup_flagstats.txt")
+ print a[1]"\t"$2"\tdedupPropPair"}' >> dedup_properly_paired_count.tsv
+done
+
+#format total reads
+>dedup_mapped_count.tsv
+for file in *_post_dedup_flagstats.txt
+do pp=$(grep "mapped" $file | head -n 1)
+ echo -e "$file\t$pp" |\
+ awk '{split($1, a, "_dupsRemoved_post_dedup_flagstats.txt")
+ print a[1]"\t"$2"\tdedupMapped"}' >> dedup_mapped_count.tsv
+ done
+
+
+#COUNTED ON GENES
+total_gene_counts_featureCounts.R all_featureCounts_geneCounts_laneDupsRemd.tsv
+
+
+
+#DATA PROCESSING RESULTS FILES SO FAR:
+raw_read_counts.tsv
+trimmed_read_counts.tsv
+prededup_properly_paired_count.tsv
+prededup_mapped_count.tsv
+prededup_mapping_eff.tsv
+dupRemovalMetrics.tsv
+dedup_properly_paired_count.tsv
+dedup_mapped_count.tsv
+dedup_mapping_eff.tsv
+
+
+#Assemble them all
+cat *.tsv > all_pipeline_counts.txt
+sed -i.bak 's/_dupsRemoved_NameSorted.bam//' all_pipeline_counts.txt
+sed -i.bak 's/geneCountedFCs/geneCounted/' all_pipeline_counts.txt
+sed -i.bak 's/_1//' all_pipeline_counts.txt
+sed -i.bak '/dedupEff/d' all_pipeline_counts.txt
+
+#plot the results from all of these with pipeline_read_counts_all.R and pipeline_read_counts_single_project.R
+
+
+########################################
+######## ORGANIZE SAMPLE TRAITS ########
+########################################
+
+#first wrangle sample data with wrangle_sample_data.R
+
+
+######################################################
+### INITIALIZE COUNTS/CONTROL FOR COVARIATES/DESEQ ###
+######################################################
+
+#make a directory for the particular subset of the dataset you're working with
+
+#grab raw counts from corral
+cp /corral-repl/utexas/tagmap/dixon_backups/gene_expression_meta/dupRemoval/featureCounts/all_featureCounts_geneCounts_laneDupsRemd.tsv .
+
+
+#------- CHOOSE DESEQ COMMAND TO USE
+#FOR COLD
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t cold --c control"
+#FOR HEAT WITHOUT BEWW
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t heat --c control --pt temp"
+#FOR IMMUNE
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t challenge --c control --pt immune"
+#FOR pH
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t low_pH --c control --pt pH"
+#FOR SALINITY
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R deseqBaselineInput.Rdata treat low_salinity control"
+#FOR ALL STRESS
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v stress --t stressed --c control --runInd TRUE"
+#FOR SUBSET STRESSES
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v stress --t stressed --c control"
+
+
+#-- CHOOSE OTHER INPUTS
+COUNTS=all_featureCounts_geneCounts_laneDupsRemd.tsv
+COLDATA=stress_noCold_Coldata.csv
+
+
+## RUN INITIALIZATION, CONTROL FOR COVARIATES AND DESEQ IN SINGLE JOB 
+echo "initialize_raw_featureCounts.TACC_V2.R --counts $COUNTS --coldat $COLDATA --treeCut 5000 --mnCountCut 3 --callOutliers FALSE
+control_for_covariates.R
+$DESEQCOMMAND" > runRscripts
+launcher_creator.py -n stress -j runRscripts -q normal -N 1 -w 1 -a $allo -t 04:00:00
+
+
+
+##########################################
+################ RUN PCAS ################
+##########################################
+#best to send back results to PC now to run 
+
+
+#######################################
+################ DESEQ ################
+#######################################
+#made scripts on TACC for faster running
+echo "Rscript ~/bin/geMetaScripts/deseq_ALL.R" > adultVlarvae
+Rscript ~/bin/geMetaScripts/deseq_stress.R
+Rscript ~/bin/geMetaScripts/deseq_temp.R
+Rscript ~/bin/geMetaScripts/deseq_heat.R
+Rscript ~/bin/geMetaScripts/deseq_immune.R
+Rscript ~/bin/geMetaScripts/deseq_ph.R
+
+
+#FOR COLD
+Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t cold --c control
+#FOR HEAT WITHOUT BEWW
+Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t heat --c control --pt temp
+#FOR IMMUNE
+Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t challenge --c control --pt immune
+#FOR pH
+Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t low_pH --c control --pt pH
+#FOR SALINITY
+Rscript ~/bin/geMetaScripts/deseq_general.R deseqBaselineInput.Rdata treat low_salinity control
+#FOR ALL STRESS
+Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v stress --t stressed --c control
+
+#######################################
+################ WGCNA ################
+#######################################
+#select the input
+WGCNA_INPUT="count_controlled.Rdata"
+WGCNA_INPUT="project_controlled.Rdata"
+
+#get soft threshold
+echo "wgcna2_get_soft_threshold.R --input $WGCNA_INPUT --networkType signed" > getSoft
+
+
+#run
+echo "$runMyR ~/bin/wgcna3b_step-wise_network_construction.R \
+ --softPower 12\
+ --minSize 20\
+ --mergeCutoff 0\
+ --input $WGCNA_INPUT\
+ --nCores 24\
+ --networkType signed" > runWGCNA
+ 
+
+#optionally re-run with merging
+
+
+##########################################
+################ ANALYSIS ################
+##########################################
+
+
+
+
+###############################################
+######## WINDOW ANALYSES ACROSS GENOME ########
+###############################################
+
+#pick window sizes
+WSIZE=10000
+SLIDE=5000
+
+#get chrom lengths
+fasta_sequence_characters.py -fa /work/02260/grovesd/stampede2/Amil_Zach_Fullers_v2.00/Amil.v2.00.chrs.fasta > chr_lengths.txt
+
+
+#make windows
+module load bedtools
+bedtools makewindows -g chr_lengths.txt -w $WSIZE -s $SLIDE > windows_w${WSIZE}_s${SLIDE}.bed
+
+#get fold coverages
+ls *.bam | sed 's/_dupsRemoved.bam//' | tr "\n" "\t" > coverages_w${WSIZE}_s${SLIDE}.tsv
+bedtools multicov -bams *.bam -bed windows_w${WSIZE}_s${SLIDE}.bed >> coverages_w${WSIZE}_s${SLIDE}.tsv

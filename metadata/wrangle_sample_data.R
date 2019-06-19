@@ -136,7 +136,7 @@ pdat = datList[[selectProject]]
 data.frame(pdat)
 mod = pdat %>% 
   mutate(projType = 'temp',
-         treatDescription = Sample_Name,
+         treatDescription = my_treatment,
          treat = if_else(grepl('(C', Sample_Name, fixed=T),
                          'control',
                          'heat'),
@@ -644,16 +644,20 @@ assembleList[[selectProject]] = mod
 
 # f1_parkinson_hotCold_PRJNA423227 ----------------------------------------
 
+#note, the cold treated samples in these surprisingly look less stressed than the ambient
+#not sure what's going on there, but double-checked the treatment calls against those
+#on SRA database for the samples on 6-17-19
+
 selectProject = 'f1_parkinson_hotCold_PRJNA423227'
 pdat = datList[[selectProject]]
 data.frame(pdat)
 mod = pdat %>% 
   mutate(projType = 'temp',
          treatDescription = my_treatment,
-         treat = if_else(grepl('hot_', my_treatment),
+         treat = if_else(grepl('_35C_', my_treatment),
                          'heat',
                          'control'),
-         treat = if_else(grepl('cold_', my_treatment),
+         treat = if_else(grepl('_10C_', my_treatment),
                          'cold',
                          treat),
          special = 'none'
@@ -734,6 +738,8 @@ selectProject = 'j1_BLEACH_EWW'
 pdat = datList[[selectProject]]
 data.frame(pdat)
 mod = pdat %>% 
+  #remove mismatched samples (This was based on PCA data where they are clearly mixed up)
+  filter(!Run %in% c('s37_S74', 's38_S75', 's39_S76', 's40_S77', 's41_S78')) %>% 
   mutate(projType = if_else(grepl('low_salinity', Library_Name),
                             'salinity',
                             'temp'),
@@ -761,7 +767,7 @@ mod = pdat %>%
   ) %>% 
   data.frame()
 assembleList[[selectProject]] = mod
-
+dim(mod)
 
 # k1_Palumbi_lab_heat_resilience_PRJNA274410 ------------------------------
 
@@ -889,8 +895,13 @@ temp %>%
 
 # heat --------------------------------------------------------------------
 
+#want to add additional data columns to heat:
+#temp = the temperature in deg C
+#degOverAmb = degrees above ambient in C
+#hoursExposed = duration of exposure in hours
+#so break back down into subdfs first
 heat = frdat %>% 
-  filter(projType %in% c('temp', 'temperature_resilience'),
+  filter(projType %in% c('temp'),
          !(my_title=='j1_BLEACH_EWW' & !grepl('Ht', treatDescription)),
          !(my_title=='j1_BLEACH_EWW' & grepl('HtC.', treatDescription)),
          treat !='cold')
@@ -907,6 +918,7 @@ snoHeat=stress %>%
          !projType=='multiple') %>% 
   write_csv('./subset_tables/stress_noHeat_Coldata.csv')
 
+#NOTE, THERE IS AN ADDITIONAL heat_coldata.csv file called my_heat_cd.csv that has manual edits for comparison with the stress DAPC
 
 
 #ALSO OUTPUT A HEAT SET WITH NO SAMPLES FROM BLEACH EVERY WHICH WAY
@@ -917,10 +929,30 @@ heat %>%
 
 
 
+# ORAGNIZE BLEACHED -------------------------------------------------------
+
+bleached = frdat %>% 
+  filter(my_title=='j1_BLEACH_EWW') %>% 
+  mutate(bleached = if_else(treat=='control',
+                            'control',
+                            'bleached'))
+
+
+bleached %>% 
+  write_csv(path='./subset_tables/bleached_Coldata.csv')
+
+
+#make a stress no-bleached set
+stress %>% 
+  filter(my_title!='j1_BLEACH_EWW') %>% 
+  write_csv('./subset_tables/stress_noBEWW_Coldata.csv')
+  
+
+
 # ORGANIZE pH SET ---------------------------------------------------------
 
 #subset
-stressTypes = c('pH', 'pH_resilience')
+stressTypes = c('pH')
 ph = frdat %>% 
   filter(projType %in% stressTypes)
 
@@ -936,7 +968,6 @@ ph %>%
 
 
 #output the stress_noHeat set
-unique(snoHeat$treat)
 stress %>% 
   filter(!Run %in% ph$Run) %>% 
   write_csv('./subset_tables/stress_noph_Coldata.csv')
@@ -973,6 +1004,7 @@ stress %>%
 #subset
 stressTypes = c('salinity')
 salt = frdat %>% 
+  filter(my_stage == 'adult') %>% 
   filter(projType %in% stressTypes)
 
 #check counts
@@ -983,7 +1015,11 @@ salt %>%
   write_csv(path='./subset_tables/salinityColdata.csv')
 
 
-#Note don't bother making a noBEWW version, since this is just b1_Aguilar_hypoosmotic stress_PRJNA380267
+#write out a no BEWW version
+salt %>% 
+  filter(my_title != 'j1_BLEACH_EWW') %>% 
+  write_csv(path='./subset_tables/salinity_NOBEWW_Coldata.csv')
+  
 
 #output the stress_noSalinity set
 stress %>% 
@@ -1021,7 +1057,10 @@ cold %>%
 cold %>% 
   write_csv(path='./subset_tables/coldColdata.csv')
 
-#Note* don't bother making a no BEWW version, as this is just f1_parkinson_hotCold_PRJNA423227
+#make a no BEWW version
+cold %>% 
+  filter(my_title != 'j1_BLEACH_EWW') %>% 
+  write_csv(path='./subset_tables/cold_NOBEWW_Coldata.csv')
 
 
 #output the stress_noCold set
@@ -1031,4 +1070,5 @@ stress %>%
   write_csv('./subset_tables/stress_noCold_Coldata.csv')
 
 
-
+#set back to default working dir
+setwd('../')

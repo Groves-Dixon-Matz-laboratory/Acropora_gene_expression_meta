@@ -1,52 +1,10 @@
 my_title,Run,my_stage,Organism,projType,treat,treatDescription,special,geneCounted,rawCounts
-C_palumbi_pools_PRJNA242821,SRR1206126,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,HVP_to_HVP,HVP_to_HVP,none,1240968,NA
-C_palumbi_pools_PRJNA242821,SRR1206127,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,HVP_to_HVP,HVP_to_HVP,none,2384724,NA
-C_palumbi_pools_PRJNA242821,SRR1206128,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,HVP_to_HVP,HVP_to_HVP,none,1575103,NA
-C_palumbi_pools_PRJNA242821,SRR1206129,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,HVP_to_MVP,HVP_to_MVP,none,1112883,NA
-C_palumbi_pools_PRJNA242821,SRR1206130,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,HVP_to_MVP,HVP_to_MVP,none,1514972,NA
-C_palumbi_pools_PRJNA242821,SRR1206131,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,HVP_to_MVP,HVP_to_MVP,none,1549001,NA
-C_palumbi_pools_PRJNA242821,SRR1206132,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,MVP_to_HVP,MVP_to_HVP,none,2498499,NA
-C_palumbi_pools_PRJNA242821,SRR1206133,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,MVP_to_HVP,MVP_to_HVP,none,1387999,NA
-C_palumbi_pools_PRJNA242821,SRR1206134,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,MVP_to_HVP,MVP_to_HVP,none,1676935,NA
-C_palumbi_pools_PRJNA242821,SRR1206135,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,MVP_to_MVP,MVP_to_MVP,none,1579921,NA
-C_palumbi_pools_PRJNA242821,SRR1206136,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,MVP_to_MVP,MVP_to_MVP,none,1124821,NA
-C_palumbi_pools_PRJNA242821,SRR1206137,adult,Acropora hyacinthus complex sp. E JTL-2012,temperature_resilience,MVP_to_MVP,MVP_to_MVP,none,3037249,NA
-E_aspera_PRJNA266455,SRR1653615,adult,Acropora aspera,temp,control,Acropora aspera (C24),none,2097660,4446938
-E_aspera_PRJNA266455,SRR1654665,adult,Acropora aspera,temp,control,Acropora aspera (C24),none,6787560,19865403
-E_aspera_PRJNA266455,SRR1653613,adult,Acropora aspera,temp,control,Acropora aspera (C72),none,1247805,2645729
-E_aspera_PRJNA266455,SRR1654664,adult,Acropora aspera,temp,control,Acropora aspera (C72),none,4195585,11599658
-E_aspera_PRJNA266455,SRR1653611,adult,Acropora aspera,temp,heat,Acropora aspera (STE),none,3174715,27588956
-E_aspera_PRJNA266455,SRR1653608,adult,Acropora aspera,temp,heat,Acropora aspera (LTE),none,3330560,24416729
-H_matz_heatTolLat_PRJNA279192,SRR1929634,larval,Acropora millepora,temperature_resilience,none,DC3,larvae_not_treated,187361,644054
-H_matz_heatTolLat_PRJNA279192,SRR1929633,larval,Acropora millepora,temperature_resilience,none,DC2,larvae_not_treated,418834,1549043
-H_matz_heatTolLat_PRJNA279192,SRR1929631,larval,Acropora millepora,temperature_resilience,none,CD3,larvae_not_treated,329021,1221235
-H_matz_heatTolLat_PRJNA279192,SRR1929632,larval,Acropora millepora,temperature_resilience,none,DC1,larvae_not_treated,262087,933287
-H_matz_heatTolLat_PRJNA279192,SRR1929630,larval,Acropora millepora,temperature_resilience,none,CD2,larvae_not_treated,280063,944530
-H_matz_heatTolLat_PRJNA279192,SRR1929629,larval,Acropora millepora,temperature_resilience,none,CD1,larvae_not_treated,353998,1348253
-H_matz_heatTolLat_PRJNA279192,SRR1929628,larval,Acropora millepora,temperature_resilience,none,CB3,larvae_not_treated,299639,1092661
-H_matz_heatTolLat_PRJNA279192,SRR1929627,larval,Acropora millepora,temperature_resilience,none,CB2,larvae_not_treated,387466,1401108
-H_matz_heatTolLat_PRJNA279192,SRR1929626,larval,Acropora millepora,temperature_resilience,none,CB1,larvae_not_treated,357915,1380271
-H_matz_heatTolLat_PRJNA279192,SRR1929625,larval,Acropora millepora,temperature_resilience,none,CA3,larvae_not_treated,192345,587276
-H_matz_heatTolLat_PRJNA279192,SRR1929624,larval,Acropora millepora,temperature_resilience,none,CA2,larvae_not_treated,176318,524399
-H_matz_heatTolLat_PRJNA279192,SRR1929623,larval,Acropora millepora,temperature_resilience,none,CA1,larvae_not_treated,187750,599093
-H_matz_heatTolLat_PRJNA279192,SRR1929622,larval,Acropora millepora,temperature_resilience,none,BD3,larvae_not_treated,383384,1414183
-H_matz_heatTolLat_PRJNA279192,SRR1929621,larval,Acropora millepora,temperature_resilience,none,BD2,larvae_not_treated,375946,1389559
-H_matz_heatTolLat_PRJNA279192,SRR1929620,larval,Acropora millepora,temperature_resilience,none,BD1,larvae_not_treated,171120,640446
-H_matz_heatTolLat_PRJNA279192,SRR1929618,larval,Acropora millepora,temperature_resilience,none,BC2,larvae_not_treated,192932,709694
-H_matz_heatTolLat_PRJNA279192,SRR1929619,larval,Acropora millepora,temperature_resilience,none,BC3,larvae_not_treated,194497,631905
-H_matz_heatTolLat_PRJNA279192,SRR1929617,larval,Acropora millepora,temperature_resilience,none,BC1,larvae_not_treated,333647,1192463
-H_matz_heatTolLat_PRJNA279192,SRR1929616,larval,Acropora millepora,temperature_resilience,none,BA3,larvae_not_treated,315817,1066885
-H_matz_heatTolLat_PRJNA279192,SRR1929615,larval,Acropora millepora,temperature_resilience,none,BA2,larvae_not_treated,297879,1065084
-H_matz_heatTolLat_PRJNA279192,SRR1929614,larval,Acropora millepora,temperature_resilience,none,BA1,larvae_not_treated,288597,1022798
-H_matz_heatTolLat_PRJNA279192,SRR1929613,larval,Acropora millepora,temperature_resilience,none,AD3,larvae_not_treated,243934,932743
-H_matz_heatTolLat_PRJNA279192,SRR1929612,larval,Acropora millepora,temperature_resilience,none,AD2,larvae_not_treated,466732,1764752
-H_matz_heatTolLat_PRJNA279192,SRR1929611,larval,Acropora millepora,temperature_resilience,none,AD1,larvae_not_treated,343547,1200231
-H_matz_heatTolLat_PRJNA279192,SRR1929610,larval,Acropora millepora,temperature_resilience,none,AC3,larvae_not_treated,208832,629985
-H_matz_heatTolLat_PRJNA279192,SRR1929608,larval,Acropora millepora,temperature_resilience,none,AC1,larvae_not_treated,302750,950353
-H_matz_heatTolLat_PRJNA279192,SRR1929609,larval,Acropora millepora,temperature_resilience,none,AC2,larvae_not_treated,305904,1041713
-H_matz_heatTolLat_PRJNA279192,SRR1929607,larval,Acropora millepora,temperature_resilience,none,AB3,larvae_not_treated,283341,1008642
-H_matz_heatTolLat_PRJNA279192,SRR1929606,larval,Acropora millepora,temperature_resilience,none,AB2,larvae_not_treated,556832,2406637
-H_matz_heatTolLat_PRJNA279192,SRR1929605,larval,Acropora millepora,temperature_resilience,none,AB1,larvae_not_treated,617320,2438844
+E_aspera_PRJNA266455,SRR1653615,adult,Acropora aspera,temp,control,ambient 24 hrs,none,2097660,4446938
+E_aspera_PRJNA266455,SRR1654665,adult,Acropora aspera,temp,control,ambient 24 hrs,none,6787560,19865403
+E_aspera_PRJNA266455,SRR1653613,adult,Acropora aspera,temp,control,ambient 72 hrs,none,1247805,2645729
+E_aspera_PRJNA266455,SRR1654664,adult,Acropora aspera,temp,control,ambient 72 hrs,none,4195585,11599658
+E_aspera_PRJNA266455,SRR1653611,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 24 hrs,none,3174715,27588956
+E_aspera_PRJNA266455,SRR1653608,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 72 hrs,none,3330560,24416729
 H_matz_heatTolLat_PRJNA279192,SRR1929604,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,487614,2436256
 H_matz_heatTolLat_PRJNA279192,SRR1929603,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,501019,2994295
 H_matz_heatTolLat_PRJNA279192,SRR1929601,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,265368,1344078
@@ -110,14 +68,14 @@ W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236068,adult,Acropora digitifera,temp,
 W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236067,adult,Acropora digitifera,temp,heat,34C,none,10431818,20088208
 W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236069,adult,Acropora digitifera,temp,control,29C,none,11595867,22547214
 W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236070,adult,Acropora digitifera,temp,control,29C,none,8156240,16381803
-f1_parkinson_hotCold_PRJNA423227,SRR6396371,adult,Acropora cervicornis,temp,control,ambient_summer_Miami,none,4521894,42189417
-f1_parkinson_hotCold_PRJNA423227,SRR6396373,adult,Acropora cervicornis,temp,heat,hot_summer_Miami,none,4882630,38599594
-f1_parkinson_hotCold_PRJNA423227,SRR6396374,adult,Acropora cervicornis,temp,control,ambient_summer_LowerKeys,none,3021004,48948847
-f1_parkinson_hotCold_PRJNA423227,SRR6396376,adult,Acropora cervicornis,temp,heat,hot_summer_LowerKeys,none,3037725,37330899
-f1_parkinson_hotCold_PRJNA423227,SRR6396377,adult,Acropora cervicornis,temp,control,ambient_winter_Miami,none,5496904,39323153
-f1_parkinson_hotCold_PRJNA423227,SRR6396379,adult,Acropora cervicornis,temp,heat,hot_winter_Miami,none,5847834,38374168
-f1_parkinson_hotCold_PRJNA423227,SRR6396380,adult,Acropora cervicornis,temp,control,ambient_winter_LowerKeys,none,4934393,37935971
-f1_parkinson_hotCold_PRJNA423227,SRR6396382,adult,Acropora cervicornis,temp,heat,hot_winter_LowerKeys,none,5268665,37602471
+f1_parkinson_hotCold_PRJNA423227,SRR6396371,adult,Acropora cervicornis,temp,control,1hr_24-28c_summer_Miami,none,4521894,42189417
+f1_parkinson_hotCold_PRJNA423227,SRR6396373,adult,Acropora cervicornis,temp,heat,1hr_35C_summer_Miami,none,4882630,38599594
+f1_parkinson_hotCold_PRJNA423227,SRR6396374,adult,Acropora cervicornis,temp,control,1hr_24-28C_summer_LowerKeys,none,3021004,48948847
+f1_parkinson_hotCold_PRJNA423227,SRR6396376,adult,Acropora cervicornis,temp,heat,1hr_35C_summer_LowerKeys,none,3037725,37330899
+f1_parkinson_hotCold_PRJNA423227,SRR6396377,adult,Acropora cervicornis,temp,control,1hr_24-28C_winter_Miami,none,5496904,39323153
+f1_parkinson_hotCold_PRJNA423227,SRR6396379,adult,Acropora cervicornis,temp,heat,1hr_35C_winter_Miami,none,5847834,38374168
+f1_parkinson_hotCold_PRJNA423227,SRR6396380,adult,Acropora cervicornis,temp,control,1hr_24-28C_winter_LowerKeys,none,4934393,37935971
+f1_parkinson_hotCold_PRJNA423227,SRR6396382,adult,Acropora cervicornis,temp,heat,1hr_35C_winter_LowerKeys,none,5268665,37602471
 j1_BLEACH_EWW,s1_S39,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.1,none,444622,NA
 j1_BLEACH_EWW,s2_S40,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.2,none,387500,NA
 j1_BLEACH_EWW,s3_S41,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.3,none,371466,NA

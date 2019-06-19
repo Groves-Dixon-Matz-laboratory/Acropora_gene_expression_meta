@@ -351,13 +351,16 @@ sed -i.bak '/dedupEff/d' all_pipeline_counts.txt
 ### INITIALIZE COUNTS/CONTROL FOR COVARIATES/DESEQ ###
 ######################################################
 
-#make a directory for the particular subset of the dataset you're working with
+#make a directory for each of the particular subsets of the dataset you're working with
 
 #grab raw counts from corral
 cp /corral-repl/utexas/tagmap/dixon_backups/gene_expression_meta/dupRemoval/featureCounts/all_featureCounts_geneCounts_laneDupsRemd.tsv .
 
 
 #------- CHOOSE DESEQ COMMAND TO USE
+#FOR BLEACHED
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v bleached --t bleached --c control"
+
 #FOR COLD
 DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t cold --c control"
 #FOR HEAT WITHOUT BEWW
@@ -367,16 +370,16 @@ DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput
 #FOR pH
 DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t low_pH --c control --pt pH"
 #FOR SALINITY
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R deseqBaselineInput.Rdata treat low_salinity control"
+DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t low_salinity --c control"
 #FOR ALL STRESS
 DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v stress --t stressed --c control --runInd TRUE"
-#FOR SUBSET STRESSES
+#FOR SUBSET STRESSES (eg stress_noHeat_Coldata.csv)
 DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v stress --t stressed --c control"
 
 
 #-- CHOOSE OTHER INPUTS
 COUNTS=all_featureCounts_geneCounts_laneDupsRemd.tsv
-COLDATA=stress_noSalinity_Coldata.csv
+COLDATA=salinity_NOBEWW_Coldata.csv
 
 
 ## RUN INITIALIZATION, CONTROL FOR COVARIATES AND DESEQ IN SINGLE JOB 
@@ -384,6 +387,72 @@ echo "initialize_raw_featureCounts.TACC_V2.R --counts $COUNTS --coldat $COLDATA 
 control_for_covariates.R
 $DESEQCOMMAND" > runRscripts
 launcher_creator.py -n noSalt -j runRscripts -q normal -N 1 -w 1 -a $allo -t 06:00:00
+
+
+
+
+#organize the deseq results from each individual run into a single directory
+cp bleached/all_deseqResults.Rdata deseqResults/bleached_deseqResults.Rdata
+cp cold/all_deseqResults.Rdata deseqResults/cold_deseqResults.Rdata
+cp cold_nobeww/all_deseqResults.Rdata deseqResults/cold_NoBEWW_deseqResults.Rdata
+cp fullDataset/all_deseqResults.Rdata deseqResults/fullDataset_deseqResults.Rdata
+cp heat_nobeww/all_deseqResults.Rdata deseqResults/heatNoBEWW_deseqResults.Rdata
+cp heat/all_deseqResults.Rdata deseqResults/heat_deseqResults.Rdata
+cp immune/all_deseqResults.Rdata deseqResults/immune_deseqResults.Rdata
+cp ph/all_deseqResults.Rdata deseqResults/ph_deseqResults.Rdata
+cp salinity/all_deseqResults.Rdata deseqResults/salinity_deseqResults.Rdata
+cp salinity_nobeww/all_deseqResults.Rdata deseqResults/salinity_NoBEWW_deseqResults.Rdata 
+cp stress_noCold/all_deseqResults.Rdata deseqResults/stressNoCold_deseqResults.Rdata
+cp stress_noHeat/all_deseqResults.Rdata deseqResults/stressNoHeat_deseqResults.Rdata
+cp stress_noImmune/all_deseqResults.Rdata deseqResults/stressNoImmune_deseqResults.Rdata
+cp stress_nopH/all_deseqResults.Rdata deseqResults/stressNoPH_deseqResults.Rdata
+cp stress_noSalinity/all_deseqResults.Rdata deseqResults/stressNoSalinity_deseqResults.Rdata
+cp stress/all_deseqResults.Rdata deseqResults/stress_deseqResults.Rdata
+
+
+#organize the normalized counts
+cp bleached/wgcna_input.Rdata normCounts/bleached_vsd.Rdata 
+cp cold/project_controlled.Rdata normCounts/cold_project_controlled.Rdata 
+cp cold_nobeww/wgcna_input.Rdata normCounts/cold_NOBEWW_vsd.Rdata
+cp heat/project_controlled.Rdata normCounts/heat_project_controlled.Rdata 
+cp heat_nobeww/project_controlled.Rdata normCounts/heat_NOBEWW_project_controlled.Rdata 
+cp immune/project_controlled.Rdata normCounts/immune_project_controlled.Rdata
+cp ph/project_controlled.Rdata normCounts/ph_project_controlled.Rdata
+cp salinity/project_controlled.Rdata normCounts/salinity_project_controlled.Rdata
+cp salinity_nobeww/wgcna_input.Rdata normCounts/salinity_NOBEWW_vsd.Rdata
+
+cp fullDataset/count_controlled.Rdata largeIgnored/fullDataset_count_controlled.Rdata
+cp stress_noCold/project_controlled.Rdata largeIgnored/stressNoCold_project_controlled.Rdata
+cp stress_noHeat/project_controlled.Rdata largeIgnored/stressNoHeat_project_controlled.Rdata
+cp stress_noImmune/project_controlled.Rdata largeIgnored/stressNoImmune_project_controlled.Rdata
+cp stress_noSalinity/project_controlled.Rdata largeIgnored/stressNoSalinity_project_controlled.Rdata
+cp stress/project_controlled.Rdata largeIgnored/stress_project_controlled.Rdata
+
+
+
+
+
+#######################################
+########## STRESS PREDICTION ##########
+#######################################
+
+#example command:
+stress_prediction.R --i stress_project_controlled.Rdata --train stress_noBEWW_Coldata.csv --test bleached_Coldata.csv --o stress_noBEWW__bleached_predictions
+
+#set up pair table
+nano datasetPairs.txt
+heatColdata.csv	stress_noHeat_Coldata.csv
+coldColdata.csv	stress_noCold_Coldata.csv
+salinityColdata.csv	stress_noSalinity_Coldata.csv
+immuneColdata.csv	stress_noImmune_Coldata.csv
+phColdata.csv	stress_noph_Coldata.csv
+
+
+#build commands
+awk ' BEGIN {OFS=" "}{print "stress_prediction.R --i stress_project_controlled.Rdata --train", $1, "--test", $2, "--o", $1"__"$2"_predictions"}' datasetPairs.txt > runPredictions
+
+
+
 
 
 #######################################

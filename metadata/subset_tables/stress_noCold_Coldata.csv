@@ -19,12 +19,12 @@ B_whiteBand_PRJNA222758,SRR1015358,adult,Acropora cervicornis,immune,control,hea
 B_whiteBand_PRJNA222758,SRR1015325,adult,Acropora cervicornis,immune,control,healthy,none,4040692,14658595,control
 B_whiteBand_PRJNA222758,SRR1015331,adult,Acropora cervicornis,immune,challenge,white band,none,3720503,9959364,stressed
 B_whiteBand_PRJNA222758,SRR1015344,adult,Acropora cervicornis,immune,challenge,white band,none,812616,7753708,stressed
-E_aspera_PRJNA266455,SRR1653615,adult,Acropora aspera,temp,control,Acropora aspera (C24),none,2097660,4446938,control
-E_aspera_PRJNA266455,SRR1654665,adult,Acropora aspera,temp,control,Acropora aspera (C24),none,6787560,19865403,control
-E_aspera_PRJNA266455,SRR1653613,adult,Acropora aspera,temp,control,Acropora aspera (C72),none,1247805,2645729,control
-E_aspera_PRJNA266455,SRR1654664,adult,Acropora aspera,temp,control,Acropora aspera (C72),none,4195585,11599658,control
-E_aspera_PRJNA266455,SRR1653611,adult,Acropora aspera,temp,heat,Acropora aspera (STE),none,3174715,27588956,stressed
-E_aspera_PRJNA266455,SRR1653608,adult,Acropora aspera,temp,heat,Acropora aspera (LTE),none,3330560,24416729,stressed
+E_aspera_PRJNA266455,SRR1653615,adult,Acropora aspera,temp,control,ambient 24 hrs,none,2097660,4446938,control
+E_aspera_PRJNA266455,SRR1654665,adult,Acropora aspera,temp,control,ambient 24 hrs,none,6787560,19865403,control
+E_aspera_PRJNA266455,SRR1653613,adult,Acropora aspera,temp,control,ambient 72 hrs,none,1247805,2645729,control
+E_aspera_PRJNA266455,SRR1654664,adult,Acropora aspera,temp,control,ambient 72 hrs,none,4195585,11599658,control
+E_aspera_PRJNA266455,SRR1653611,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 24 hrs,none,3174715,27588956,stressed
+E_aspera_PRJNA266455,SRR1653608,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 72 hrs,none,3330560,24416729,stressed
 F_Uqueensland_ph_PRJNA269992,SRR1703716,adult,Acropora millepora,pH,control,preindusctrial,none,11624569,39559337,control
 F_Uqueensland_ph_PRJNA269992,SRR1703717,adult,Acropora millepora,pH,control,present day,none,9144131,33736675,control
 F_Uqueensland_ph_PRJNA269992,SRR1706955,adult,Acropora millepora,pH,low_pH,RCP4.5,none,15865254,61610173,stressed
@@ -298,10 +298,10 @@ d1_mohamed_microalga_PRJNA398338,SRR5934177,larval,Acropora digitifera,immune,ch
 d1_mohamed_microalga_PRJNA398338,SRR5934175,larval,Acropora digitifera,immune,challenge,Negative_control_04h_rep1,none,11025357,22430563,stressed
 d1_mohamed_microalga_PRJNA398338,SRR5934179,larval,Acropora digitifera,immune,control,Chromera_infected_04h_rep2,none,11014453,25721449,control
 d1_mohamed_microalga_PRJNA398338,SRR5934176,larval,Acropora digitifera,immune,challenge,Negative_control_04h_rep2,none,9803543,19542091,stressed
-f1_parkinson_hotCold_PRJNA423227,SRR6396373,adult,Acropora cervicornis,temp,heat,hot_summer_Miami,none,4882630,38599594,stressed
-f1_parkinson_hotCold_PRJNA423227,SRR6396376,adult,Acropora cervicornis,temp,heat,hot_summer_LowerKeys,none,3037725,37330899,stressed
-f1_parkinson_hotCold_PRJNA423227,SRR6396379,adult,Acropora cervicornis,temp,heat,hot_winter_Miami,none,5847834,38374168,stressed
-f1_parkinson_hotCold_PRJNA423227,SRR6396382,adult,Acropora cervicornis,temp,heat,hot_winter_LowerKeys,none,5268665,37602471,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396373,adult,Acropora cervicornis,temp,heat,1hr_35C_summer_Miami,none,4882630,38599594,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396376,adult,Acropora cervicornis,temp,heat,1hr_35C_summer_LowerKeys,none,3037725,37330899,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396379,adult,Acropora cervicornis,temp,heat,1hr_35C_winter_Miami,none,5847834,38374168,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396382,adult,Acropora cervicornis,temp,heat,1hr_35C_winter_LowerKeys,none,5268665,37602471,stressed
 j1_BLEACH_EWW,s1_S39,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.1,none,444622,NA,control
 j1_BLEACH_EWW,s2_S40,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.2,none,387500,NA,control
 j1_BLEACH_EWW,s3_S41,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.3,none,371466,NA,control
@@ -337,11 +337,6 @@ j1_BLEACH_EWW,s32_S70,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp2.2,none,500
 j1_BLEACH_EWW,s33_S71,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp2.3,none,409994,NA,stressed
 j1_BLEACH_EWW,s34_S72,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp2.1,none,425367,NA,stressed
 j1_BLEACH_EWW,s35_S73,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp2.2,none,351030,NA,stressed
-j1_BLEACH_EWW,s37_S74,adult,Acropora millepora,salinity,low_salinity,Ls.N2.T.tp2.1,none,408533,NA,stressed
-j1_BLEACH_EWW,s38_S75,adult,Acropora millepora,salinity,low_salinity,Ls.N2.T.tp2.2,none,409437,NA,stressed
-j1_BLEACH_EWW,s39_S76,adult,Acropora millepora,salinity,low_salinity,Ls.N2.T.tp2.3,none,194898,NA,stressed
-j1_BLEACH_EWW,s40_S77,adult,Acropora millepora,salinity,control,Ls.N2.C.tp2.1,none,436663,NA,control
-j1_BLEACH_EWW,s41_S78,adult,Acropora millepora,salinity,control,Ls.N2.C.tp2.2,none,467719,NA,control
 j1_BLEACH_EWW,s42_S79,adult,Acropora millepora,salinity,control,Ls.N2.C.tp2.3,none,394603,NA,control
 j1_BLEACH_EWW,s43_S80,adult,Acropora millepora,salinity,low_salinity,Ls.L1.T.tp2.1,none,429751,NA,stressed
 j1_BLEACH_EWW,s44_S81,adult,Acropora millepora,salinity,low_salinity,Ls.L1.T.tp2.2,none,242080,NA,stressed

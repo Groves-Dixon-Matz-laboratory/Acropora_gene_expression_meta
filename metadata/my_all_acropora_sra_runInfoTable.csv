@@ -35,8 +35,8 @@ E_aspera_PRJNA266455,SAMN03165193,SRR1653615,NA,Acropora aspera (C24),NA,Acropor
 E_aspera_PRJNA266455,SAMN03165193,SRR1654665,NA,Acropora aspera (C24),NA,Acropora aspera,ambient 24 hrs,adult
 E_aspera_PRJNA266455,SAMN03165194,SRR1653613,C72,Acropora aspera (C72),NA,Acropora aspera,ambient 72 hrs,adult
 E_aspera_PRJNA266455,SAMN03165194,SRR1654664,C72,Acropora aspera (C72),NA,Acropora aspera,ambient 72 hrs,adult
-E_aspera_PRJNA266455,SAMN03165196,SRR1653611,STE,Acropora aspera (STE),NA,Acropora aspera,short thermal stress,adult
-E_aspera_PRJNA266455,SAMN03165197,SRR1653608,LTE,Acropora aspera (LTE),NA,Acropora aspera,long thermal stress,adult
+E_aspera_PRJNA266455,SAMN03165196,SRR1653611,STE,Acropora aspera (STE),NA,Acropora aspera,6DegreeOverAmbient 24 hrs,adult
+E_aspera_PRJNA266455,SAMN03165197,SRR1653608,LTE,Acropora aspera (LTE),NA,Acropora aspera,6DegreeOverAmbient 72 hrs,adult
 E_aspera_PRJNA266455,SAMN03165198,SRR1653606,N,Acropora aspera (N),NA,Acropora aspera,amonia,adult
 F_Uqueensland_ph_PRJNA269992,SAMN03261518,SRR1703716,Am G1,Am G1,reef flat colony,Acropora millepora,preindusctrial,adult
 F_Uqueensland_ph_PRJNA269992,SAMN03261520,SRR1703717,Am B1,Am B1,reef flat colony,Acropora millepora,present day,adult
@@ -1029,18 +1029,18 @@ e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691926,SRR6064906,R_A1_345_S6,R_A1_345
 e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691927,SRR6064905,R_A1_345_S5,R_A1_345_S5,R_A1_345_S5,Acropora hyacinthus,NA,adult
 e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691924,SRR6064904,R_IS_290_S2,R_IS_290_S2,R_IS_290_S2,Acropora hyacinthus,NA,adult
 e1_bayPalumbi_adaptWarm_PRJNA411943,SAMN07691925,SRR6064903,R_IS_290_S1,R_IS_290_S1,R_IS_290_S1,Acropora hyacinthus,NA,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213383,SRR6396371,NA,GSM2895562,NA,Acropora cervicornis,ambient_summer_Miami,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213393,SRR6396373,NA,GSM2895564,NA,Acropora cervicornis,hot_summer_Miami,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213392,SRR6396374,NA,GSM2895565,NA,Acropora cervicornis,ambient_summer_LowerKeys,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213391,SRR6396375,NA,GSM2895566,NA,Acropora cervicornis,cold_summer_Miami,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213390,SRR6396376,NA,GSM2895567,NA,Acropora cervicornis,hot_summer_LowerKeys,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213389,SRR6396377,NA,GSM2895568,NA,Acropora cervicornis,ambient_winter_Miami,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213388,SRR6396378,NA,GSM2895569,NA,Acropora cervicornis,cold_winter_LowerKeys,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213387,SRR6396379,NA,GSM2895570,NA,Acropora cervicornis,hot_winter_Miami,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213386,SRR6396380,NA,GSM2895571,NA,Acropora cervicornis,ambient_winter_LowerKeys,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213385,SRR6396381,NA,GSM2895572,NA,Acropora cervicornis,cold_winter_Miami,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213384,SRR6396382,NA,GSM2895573,NA,Acropora cervicornis,hot_winter_LowerKeys,adult
-f1_parkinson_hotCold_PRJNA423227,SAMN08213394,SRR6396372,NA,GSM2895563,NA,Acropora cervicornis,cold_summer_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213383,SRR6396371,NA,GSM2895562,NA,Acropora cervicornis,1hr_24-28c_summer_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213393,SRR6396373,NA,GSM2895564,NA,Acropora cervicornis,1hr_35C_summer_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213392,SRR6396374,NA,GSM2895565,NA,Acropora cervicornis,1hr_24-28C_summer_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213391,SRR6396375,NA,GSM2895566,NA,Acropora cervicornis,1hr_10C_summer_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213390,SRR6396376,NA,GSM2895567,NA,Acropora cervicornis,1hr_35C_summer_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213389,SRR6396377,NA,GSM2895568,NA,Acropora cervicornis,1hr_24-28C_winter_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213388,SRR6396378,NA,GSM2895569,NA,Acropora cervicornis,1hr_10C_winter_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213387,SRR6396379,NA,GSM2895570,NA,Acropora cervicornis,1hr_35C_winter_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213386,SRR6396380,NA,GSM2895571,NA,Acropora cervicornis,1hr_24-28C_winter_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213385,SRR6396381,NA,GSM2895572,NA,Acropora cervicornis,1hr_10C_winter_Miami,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213384,SRR6396382,NA,GSM2895573,NA,Acropora cervicornis,1hr_35C_winter_LowerKeys,adult
+f1_parkinson_hotCold_PRJNA423227,SAMN08213394,SRR6396372,NA,GSM2895563,NA,Acropora cervicornis,1hr_10C_summer_LowerKeys,adult
 g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050255,DRR119956,NA,SAMD00050255,NA,Acropora tenuis,transcriptome of 10day Aposymbiotic Acropora_replicate1,recruit
 g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050256,DRR119957,NA,SAMD00050256,NA,Acropora tenuis,transcriptome of 10day Aposymbiotic Acropora_replicate2,recruit
 g1_unknown_earlySymbiosis_PRJDB4715,SAMD00050257,DRR119958,NA,SAMD00050257,NA,Acropora tenuis,transcriptome of 20day Aposymbiotic Acropora_replicate1,recruit

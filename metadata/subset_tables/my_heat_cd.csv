@@ -1,0 +1,284 @@
+my_title,Run,my_stage,Organism,projType,treat,treatDescription,temp,degOverAmb,hoursExposed,special,geneCounted,rawCounts
+E_aspera_PRJNA266455,SRR1653615,adult,Acropora aspera,temp,control,Acropora aspera (C24),not_sure,0,24,none,2097660,4446938
+E_aspera_PRJNA266455,SRR1654665,adult,Acropora aspera,temp,control,Acropora aspera (C24),not_sure,0,24,none,6787560,19865403
+E_aspera_PRJNA266455,SRR1653613,adult,Acropora aspera,temp,control,Acropora aspera (C72),not_sure,0,72,none,1247805,2645729
+E_aspera_PRJNA266455,SRR1654664,adult,Acropora aspera,temp,control,Acropora aspera (C72),not_sure,0,72,none,4195585,11599658
+E_aspera_PRJNA266455,SRR1653611,adult,Acropora aspera,temp,heat,Acropora aspera (STE),not_sure,6,24,none,3174715,27588956
+E_aspera_PRJNA266455,SRR1653608,adult,Acropora aspera,temp,heat,Acropora aspera (LTE),not_sure,6,72,none,3330560,24416729
+H_matz_heatTolLat_PRJNA279192,SRR1929604,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,487614,2436256
+H_matz_heatTolLat_PRJNA279192,SRR1929603,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,501019,2994295
+H_matz_heatTolLat_PRJNA279192,SRR1929601,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,265368,1344078
+H_matz_heatTolLat_PRJNA279192,SRR1929602,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,577989,3214906
+H_matz_heatTolLat_PRJNA279192,SRR1929600,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,279449,1291306
+H_matz_heatTolLat_PRJNA279192,SRR1929599,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,238609,1152664
+H_matz_heatTolLat_PRJNA279192,SRR1929598,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,702216,3986837
+H_matz_heatTolLat_PRJNA279192,SRR1929597,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,540032,3250603
+H_matz_heatTolLat_PRJNA279192,SRR1929596,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,442328,2345666
+H_matz_heatTolLat_PRJNA279192,SRR1929595,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,155113,709210
+H_matz_heatTolLat_PRJNA279192,SRR1929594,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,182147,846136
+H_matz_heatTolLat_PRJNA279192,SRR1929593,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,188147,1002815
+H_matz_heatTolLat_PRJNA279192,SRR1929592,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,498012,2629535
+H_matz_heatTolLat_PRJNA279192,SRR1929591,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,384677,1889177
+H_matz_heatTolLat_PRJNA279192,SRR1929590,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,365590,1943516
+H_matz_heatTolLat_PRJNA279192,SRR1929589,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,198728,769398
+H_matz_heatTolLat_PRJNA279192,SRR1929588,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,228299,1004381
+H_matz_heatTolLat_PRJNA279192,SRR1929587,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,221389,928225
+H_matz_heatTolLat_PRJNA279192,SRR1929586,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,305780,1322024
+H_matz_heatTolLat_PRJNA279192,SRR1929585,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,298910,1289228
+H_matz_heatTolLat_PRJNA279192,SRR1929584,adult,Acropora millepora,temp,heat,3 days at 31.5C,31.5,3.5,72,larvae_not_treated,530576,2563260
+H_matz_heatTolLat_PRJNA279192,SRR1929583,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,268440,1159557
+H_matz_heatTolLat_PRJNA279192,SRR1929582,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,398244,1864423
+H_matz_heatTolLat_PRJNA279192,SRR1929581,adult,Acropora millepora,temp,control,3 days at 28C,28,0,72,larvae_not_treated,415855,2038561
+L_Barshis_bleachResillience_PRJNA177515,SRR629090,adult,Acropora hyacinthus,temp,heat,01_h_HV,,,,none,763126,19577661
+L_Barshis_bleachResillience_PRJNA177515,SRR629091,adult,Acropora hyacinthus,temp,control,02_c_HV,,,,none,1637079,18872907
+L_Barshis_bleachResillience_PRJNA177515,SRR629092,adult,Acropora hyacinthus,temp,heat,02_h_HV,,,,none,1074790,9457678
+L_Barshis_bleachResillience_PRJNA177515,SRR629093,adult,Acropora hyacinthus,temp,control,03_c_HV,,,,none,734261,13328694
+L_Barshis_bleachResillience_PRJNA177515,SRR629094,adult,Acropora hyacinthus,temp,control,06_c_HV,,,,none,993593,9146242
+L_Barshis_bleachResillience_PRJNA177515,SRR629096,adult,Acropora hyacinthus,temp,control,09_c_HV,,,,none,1145901,10464369
+L_Barshis_bleachResillience_PRJNA177515,SRR629126,adult,Acropora hyacinthus,temp,heat,09_h_HV,,,,none,622661,26399718
+L_Barshis_bleachResillience_PRJNA177515,SRR629130,adult,Acropora hyacinthus,temp,heat,31_h_MV,,,,none,757801,13561442
+L_Barshis_bleachResillience_PRJNA177515,SRR629131,adult,Acropora hyacinthus,temp,control,40_c_MV,,,,none,1299265,9235183
+L_Barshis_bleachResillience_PRJNA177515,SRR629132,adult,Acropora hyacinthus,temp,heat,40_h_MV,,,,none,963561,10573276
+L_Barshis_bleachResillience_PRJNA177515,SRR629135,adult,Acropora hyacinthus,temp,control,45_c_MV,,,,none,299455,5551198
+L_Barshis_bleachResillience_PRJNA177515,SRR629150,adult,Acropora hyacinthus,temp,control,55_c_MV,,,,none,1539927,17722284
+L_Barshis_bleachResillience_PRJNA177515,SRR629151,adult,Acropora hyacinthus,temp,heat,55_h_MV,,,,none,858555,17905764
+L_Barshis_bleachResillience_PRJNA177515,SRR629155,adult,Acropora hyacinthus,temp,heat,65_h_MV,,,,none,904566,18368411
+L_Barshis_bleachResillience_PRJNA177515,SRR629089,adult,Acropora hyacinthus,temp,control,01_c_HV,,,,none,303262,18753443
+L_Barshis_bleachResillience_PRJNA177515,SRR629095,adult,Acropora hyacinthus,temp,heat,06_h_HV,,,,none,735115,8011684
+L_Barshis_bleachResillience_PRJNA177515,SRR629127,adult,Acropora hyacinthus,temp,control,75_c_HV,,,,none,579219,6256079
+L_Barshis_bleachResillience_PRJNA177515,SRR629128,adult,Acropora hyacinthus,temp,heat,75_h_HV,,,,none,218116,2440360
+L_Barshis_bleachResillience_PRJNA177515,SRR629129,adult,Acropora hyacinthus,temp,control,31_c_MV,,,,none,1973269,15613291
+L_Barshis_bleachResillience_PRJNA177515,SRR629133,adult,Acropora hyacinthus,temp,control,44_c_MV,,,,none,1189820,16743882
+L_Barshis_bleachResillience_PRJNA177515,SRR629134,adult,Acropora hyacinthus,temp,heat,44_h_MV,,,,none,922340,16198613
+L_Barshis_bleachResillience_PRJNA177515,SRR629136,adult,Acropora hyacinthus,temp,heat,45_h_MV,,,,none,107096,2083128
+L_Barshis_bleachResillience_PRJNA177515,SRR629152,adult,Acropora hyacinthus,temp,control,61_c_MV,,,,none,1125991,8838378
+L_Barshis_bleachResillience_PRJNA177515,SRR629153,adult,Acropora hyacinthus,temp,heat,61_h_MV,,,,none,2534487,15748515
+L_Barshis_bleachResillience_PRJNA177515,SRR629154,adult,Acropora hyacinthus,temp,control,65_c_MV,,,,none,1231305,9584976
+L_Barshis_bleachResillience_PRJNA177515,SRR629156,adult,Acropora hyacinthus,temp,control,68_c_MV,,,,none,126549,18566614
+L_Barshis_bleachResillience_PRJNA177515,SRR629157,adult,Acropora hyacinthus,temp,heat,68_h_MV,,,,none,903510,6584461
+L_Barshis_bleachResillience_PRJNA177515,SRR629158,adult,Acropora hyacinthus,temp,control,70_c_MV,,,,none,1006237,16299011
+L_Barshis_bleachResillience_PRJNA177515,SRR629159,adult,Acropora hyacinthus,temp,heat,70_h_MV,,,,none,536474,8193882
+L_Barshis_bleachResillience_PRJNA177515,SRR629160,adult,Acropora hyacinthus,temp,control,71_c_MV,,,,none,877861,19108917
+L_Barshis_bleachResillience_PRJNA177515,SRR629161,adult,Acropora hyacinthus,temp,heat,71_h_MV,,,,none,910248,18492498
+N_Hainan_U_heat_PRJNA308355,SRR3095777,adult,Acropora aculeus,temp,control,Aa_Control,,,,none,11041872,30435303
+N_Hainan_U_heat_PRJNA308355,SRR3095778,adult,Acropora aculeus,temp,control,Aa_Control,,,,none,11301549,29084044
+N_Hainan_U_heat_PRJNA308355,SRR3095779,adult,Acropora aculeus,temp,heat,Aa_Heat,,,,none,11508072,30648486
+N_Hainan_U_heat_PRJNA308355,SRR3095780,adult,Acropora aculeus,temp,heat,Aa_Heat,,,,none,10359256,30151918
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236068,adult,Acropora digitifera,temp,heat,34C,,,,none,13562607,26479506
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236067,adult,Acropora digitifera,temp,heat,34C,,,,none,10431818,20088208
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236069,adult,Acropora digitifera,temp,control,29C,,,,none,11595867,22547214
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236070,adult,Acropora digitifera,temp,control,29C,,,,none,8156240,16381803
+f1_parkinson_hotCold_PRJNA423227,SRR6396371,adult,Acropora cervicornis,temp,control,ambient_summer_Miami,,,,none,4521894,42189417
+f1_parkinson_hotCold_PRJNA423227,SRR6396373,adult,Acropora cervicornis,temp,heat,hot_summer_Miami,,,,none,4882630,38599594
+f1_parkinson_hotCold_PRJNA423227,SRR6396374,adult,Acropora cervicornis,temp,control,ambient_summer_LowerKeys,,,,none,3021004,48948847
+f1_parkinson_hotCold_PRJNA423227,SRR6396376,adult,Acropora cervicornis,temp,heat,hot_summer_LowerKeys,,,,none,3037725,37330899
+f1_parkinson_hotCold_PRJNA423227,SRR6396377,adult,Acropora cervicornis,temp,control,ambient_winter_Miami,,,,none,5496904,39323153
+f1_parkinson_hotCold_PRJNA423227,SRR6396379,adult,Acropora cervicornis,temp,heat,hot_winter_Miami,,,,none,5847834,38374168
+f1_parkinson_hotCold_PRJNA423227,SRR6396380,adult,Acropora cervicornis,temp,control,ambient_winter_LowerKeys,,,,none,4934393,37935971
+f1_parkinson_hotCold_PRJNA423227,SRR6396382,adult,Acropora cervicornis,temp,heat,hot_winter_LowerKeys,,,,none,5268665,37602471
+j1_BLEACH_EWW,s1_S39,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.1,,,,none,444622,NA
+j1_BLEACH_EWW,s2_S40,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.2,,,,none,387500,NA
+j1_BLEACH_EWW,s3_S41,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.3,,,,none,371466,NA
+j1_BLEACH_EWW,s4_S42,adult,Acropora millepora,temp,control,Ht1.N2.C.tp1.1,,,,none,423648,NA
+j1_BLEACH_EWW,s5_S43,adult,Acropora millepora,temp,control,Ht1.N2.C.tp1.2,,,,none,409282,NA
+j1_BLEACH_EWW,s6_S44,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.3,,,,none,373012,NA
+j1_BLEACH_EWW,s7_S45,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp1.1,,,,none,430402,NA
+j1_BLEACH_EWW,s8_S46,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp1.2,,,,none,396394,NA
+j1_BLEACH_EWW,s9_S47,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp1.3,,,,none,396720,NA
+j1_BLEACH_EWW,s10_S48,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp1.1,,,,none,372093,NA
+j1_BLEACH_EWW,s11_S49,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp1.2,,,,none,331714,NA
+j1_BLEACH_EWW,s12_S50,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp1.3,,,,none,314050,NA
+j1_BLEACH_EWW,s13_S51,adult,Acropora millepora,temp,control,Ht1.N1.C.tp1.1,,,,none,464883,NA
+j1_BLEACH_EWW,s14_S52,adult,Acropora millepora,temp,control,Ht1.N1.C.tp1.2,,,,none,418834,NA
+j1_BLEACH_EWW,s15_S53,adult,Acropora millepora,temp,control,Ht1.N1.C.tp1.3,,,,none,388318,NA
+j1_BLEACH_EWW,s16_S54,adult,Acropora millepora,temp,control,Ht1.N10.C.tp1.1,,,,none,521707,NA
+j1_BLEACH_EWW,s17_S55,adult,Acropora millepora,temp,control,Ht1.N10.C.tp1.2,,,,none,489364,NA
+j1_BLEACH_EWW,s18_S56,adult,Acropora millepora,temp,control,Ht1.N10.C.tp1.3,,,,none,466522,NA
+j1_BLEACH_EWW,s19_S57,adult,Acropora millepora,temp,heat,Ht1.N1.T.tp1.1,,,,none,367073,NA
+j1_BLEACH_EWW,s20_S58,adult,Acropora millepora,temp,heat,Ht1.N1.T.tp1.2,,,,none,317955,NA
+j1_BLEACH_EWW,s21_S59,adult,Acropora millepora,temp,heat,Ht1.N1.T.tp1.3,,,,none,350812,NA
+j1_BLEACH_EWW,s22_S60,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp1.1,,,,none,436073,NA
+j1_BLEACH_EWW,s23_S61,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp1.2,,,,none,475976,NA
+j1_BLEACH_EWW,s24_S62,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp1.3,,,,none,490887,NA
+j1_BLEACH_EWW,s25_S63,adult,Acropora millepora,temp,control,Ht1.L1.C.tp2.1,,,,none,475660,NA
+j1_BLEACH_EWW,s26_S64,adult,Acropora millepora,temp,control,Ht1.L1.C.tp2.2,,,,none,442377,NA
+j1_BLEACH_EWW,s27_S65,adult,Acropora millepora,temp,control,Ht1.L1.C.tp2.3,,,,none,405169,NA
+j1_BLEACH_EWW,s28_S66,adult,Acropora millepora,temp,control,Ht1.N2.C.tp2.1,,,,none,357301,NA
+j1_BLEACH_EWW,s29_S67,adult,Acropora millepora,temp,control,Ht1.N2.C.tp2.2,,,,none,399720,NA
+j1_BLEACH_EWW,s30_S68,adult,Acropora millepora,temp,control,Ht1.N2.C.tp2.3,,,,none,546835,NA
+j1_BLEACH_EWW,s31_S69,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp2.1,,,,none,425492,NA
+j1_BLEACH_EWW,s32_S70,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp2.2,,,,none,500479,NA
+j1_BLEACH_EWW,s33_S71,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp2.3,,,,none,409994,NA
+j1_BLEACH_EWW,s34_S72,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp2.1,,,,none,425367,NA
+j1_BLEACH_EWW,s35_S73,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp2.2,,,,none,351030,NA
+j1_BLEACH_EWW,s112_S147,adult,Acropora millepora,temp,heat,Ht2.N10.T.tp1.1,,,,none,333576,NA
+j1_BLEACH_EWW,s113_S148,adult,Acropora millepora,temp,heat,Ht2.N10.T.tp1.2,,,,none,350267,NA
+j1_BLEACH_EWW,s114_S149,adult,Acropora millepora,temp,heat,Ht2.N10.T.tp1.3,,,,none,280997,NA
+j1_BLEACH_EWW,s121_S156,adult,Acropora millepora,temp,heat,Ht2.L1.T.tp1.1,,,,none,417453,NA
+j1_BLEACH_EWW,s122_S157,adult,Acropora millepora,temp,heat,Ht2.L1.T.tp1.2,,,,none,595254,NA
+j1_BLEACH_EWW,s123_S158,adult,Acropora millepora,temp,heat,Ht2.L1.T.tp1.3,,,,none,675010,NA
+j1_BLEACH_EWW,s125_S159,adult,Acropora millepora,temp,heat,Ht2.N2.T.tp1.2,,,,none,326284,NA
+j1_BLEACH_EWW,s126_S160,adult,Acropora millepora,temp,heat,Ht2.N2.T.tp1.3,,,,none,343062,NA
+j1_BLEACH_EWW,s133_S167,adult,Acropora millepora,temp,heat,Ht2.N1.T.tp1.1,,,,none,284938,NA
+j1_BLEACH_EWW,s134_S168,adult,Acropora millepora,temp,heat,Ht2.N1.T.tp1.2,,,,none,262255,NA
+j1_BLEACH_EWW,s135_S169,adult,Acropora millepora,temp,heat,Ht2.N1.T.tp1.3,,,,none,273985,NA
+j1_BLEACH_EWW,s176_S208,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp2.2,,,,none,454464,NA
+j1_BLEACH_EWW,s177_S209,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp2.3,,,,none,344683,NA
+j1_BLEACH_EWW,s181_S210,adult,Acropora millepora,temp,control,Ht1.N1.C.tp2.1,,,,none,405127,NA
+j1_BLEACH_EWW,s182_S211,adult,Acropora millepora,temp,control,Ht1.N1.C.tp2.2,,,,none,444202,NA
+j1_BLEACH_EWW,s183_S212,adult,Acropora millepora,temp,control,Ht1.N1.C.tp2.3,,,,none,381703,NA
+j1_BLEACH_EWW,s190_S213,adult,Acropora millepora,temp,control,Ht1.N10.C.tp2.1,,,,none,408168,NA
+j1_BLEACH_EWW,s191_S214,adult,Acropora millepora,temp,control,Ht1.N10.C.tp2.2,,,,none,426308,NA
+j1_BLEACH_EWW,s192_S215,adult,Acropora millepora,temp,control,Ht1.N10.C.tp2.3,,,,none,294560,NA
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812166,adult,Acropora hyacinthus,temp,control,X12_86_300_c_5h,,,,none,2443150,12778011
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812167,adult,Acropora hyacinthus,temp,control,X2_6_300_c_5h,,,,none,2465168,15641172
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812168,adult,Acropora hyacinthus,temp,control,X26_27_300_c_5h,,,,none,2335988,15912475
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812169,adult,Acropora hyacinthus,temp,control,X30_87_300_c_5h,,,,none,2120712,11729564
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812170,adult,Acropora hyacinthus,temp,control,X34_83_300_c_5h,,,,none,2785202,16189295
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812171,adult,Acropora hyacinthus,temp,control,X36_85_300_c_5h,,,,none,2332504,13334847
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812172,adult,Acropora hyacinthus,temp,control,X56_75_300_c_5h,,,,none,3081462,16600423
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812173,adult,Acropora hyacinthus,temp,control,X58_4_300_c_5h,,,,none,2527473,14449010
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812174,adult,Acropora hyacinthus,temp,control,X60_7_300_c_5h,,,,none,2379692,14267316
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812175,adult,Acropora hyacinthus,temp,control,X62_88_300_c_5h,,,,none,1682645,12562144
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812176,adult,Acropora hyacinthus,temp,heat,X24_86_300_h_5h,,,,none,1742912,12370134
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812177,adult,Acropora hyacinthus,temp,heat,X14_6_300_h_5h,,,,none,1798453,14757896
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812178,adult,Acropora hyacinthus,temp,heat,X38_27_300_h_5h,,,,none,2413660,21495396
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812179,adult,Acropora hyacinthus,temp,heat,X42_87_300_h_5h,,,,none,1806112,11336544
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812180,adult,Acropora hyacinthus,temp,heat,X46_83_300_h_5h,,,,none,2146163,12638368
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812181,adult,Acropora hyacinthus,temp,heat,X48_85_300_h_5h,,,,none,1987130,11774547
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812182,adult,Acropora hyacinthus,temp,heat,X70_75_300_h_5h,,,,none,2674373,20136626
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812183,adult,Acropora hyacinthus,temp,heat,X72_4_300_h_5h,,,,none,1459188,16333244
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812184,adult,Acropora hyacinthus,temp,heat,X74_7_300_h_5h,,,,none,2054298,17522364
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812185,adult,Acropora hyacinthus,temp,heat,X76_88_300_h_5h,,,,none,1894217,13632540
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812186,adult,Acropora hyacinthus,temp,control,X27_102_400_c_5h,,,,none,2393925,13466085
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812187,adult,Acropora hyacinthus,temp,control,X3_70_400_c_5h,,,,none,3138521,16319629
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812188,adult,Acropora hyacinthus,temp,control,X31_28_400_c_5h,,,,none,2087342,11251455
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812189,adult,Acropora hyacinthus,temp,control,X33_11_400_c_5h,,,,none,2800407,15630171
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812190,adult,Acropora hyacinthus,temp,control,X49_89_400_c_5h,,,,none,3079755,14536378
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812191,adult,Acropora hyacinthus,temp,control,X5_65_400_c_5h,,,,none,2763017,13523938
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812192,adult,Acropora hyacinthus,temp,control,X51_68_400_c_5h,,,,none,3110371,16922482
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812193,adult,Acropora hyacinthus,temp,control,X53_64_400_c_5h,,,,none,2939873,14541609
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812194,adult,Acropora hyacinthus,temp,control,X7_40_400_c_5h,,,,none,2341131,13505758
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812195,adult,Acropora hyacinthus,temp,heat,X39_102_400_h_5h,,,,none,2201208,17035885
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812196,adult,Acropora hyacinthus,temp,heat,X15_70_400_h_5h,,,,none,2578756,17512537
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812197,adult,Acropora hyacinthus,temp,heat,X43_28_400_h_5h,,,,none,1924101,11899752
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812198,adult,Acropora hyacinthus,temp,heat,X45_11_400_h_5h,,,,none,2818569,15139306
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812199,adult,Acropora hyacinthus,temp,heat,X63_89_400_h_5h,,,,none,2911649,19930111
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812200,adult,Acropora hyacinthus,temp,heat,X17_65_400_h_5h,,,,none,2002301,14074215
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812201,adult,Acropora hyacinthus,temp,heat,X65_68_400_h_5h,,,,none,2039178,14297611
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812202,adult,Acropora hyacinthus,temp,heat,X67_64_400_h_5h,,,,none,2064107,12461975
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812203,adult,Acropora hyacinthus,temp,heat,X19_40_400_h_5h,,,,none,1430558,11893668
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812204,adult,Acropora hyacinthus,temp,control,X11_86_400_c_5h,,,,none,2493971,12879008
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812205,adult,Acropora hyacinthus,temp,control,X1_6_400_c_5h,,,,none,2465170,13088805
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812206,adult,Acropora hyacinthus,temp,control,X25_27_400_c_5h,,,,none,2193833,11496397
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812207,adult,Acropora hyacinthus,temp,control,X29_87_400_c_5h,,,,none,2375681,13357979
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812208,adult,Acropora hyacinthus,temp,control,X9_83_400_c_5h,,,,none,2714363,12451252
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812209,adult,Acropora hyacinthus,temp,control,X35_85_400_c_5h,,,,none,2311693,14055020
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812210,adult,Acropora hyacinthus,temp,control,X55_75_400_c_5h,,,,none,2964212,14855986
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812211,adult,Acropora hyacinthus,temp,control,X57_4_400_c_5h,,,,none,3304258,17749200
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812212,adult,Acropora hyacinthus,temp,control,X59_7_400_c_5h,,,,none,2797847,14490992
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812213,adult,Acropora hyacinthus,temp,control,X61_88_400_c_5h,,,,none,2907160,13777174
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812214,adult,Acropora hyacinthus,temp,heat,X23_86_400_h_5h,,,,none,1864977,13554492
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812215,adult,Acropora hyacinthus,temp,heat,X13_6_400_h_5h,,,,none,2083814,12916523
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812216,adult,Acropora hyacinthus,temp,heat,X37_27_400_h_5h,,,,none,1947689,16142154
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812217,adult,Acropora hyacinthus,temp,heat,X41_87_400_h_5h,,,,none,1869338,13252839
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812218,adult,Acropora hyacinthus,temp,heat,X21_83_400_h_5h,,,,none,2186042,14834341
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812219,adult,Acropora hyacinthus,temp,heat,X47_85_400_h_5h,,,,none,1849722,10429404
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812220,adult,Acropora hyacinthus,temp,heat,X69_75_400_h_5h,,,,none,2106832,12899429
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812221,adult,Acropora hyacinthus,temp,heat,X71_4_400_h_5h,,,,none,2108196,13929254
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812222,adult,Acropora hyacinthus,temp,heat,X73_7_400_h_5h,,,,none,2026660,14674810
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812223,adult,Acropora hyacinthus,temp,heat,X75_88_400_h_5h,,,,none,2642703,16124525
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812224,adult,Acropora hyacinthus,temp,control,X28_102_300_c_5h,,,,none,2432264,13713068
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812225,adult,Acropora hyacinthus,temp,control,X4_70_300_c_5h,,,,none,2228441,13395971
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812226,adult,Acropora hyacinthus,temp,control,X32_28_300_c_5h,,,,none,2340569,12902605
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812227,adult,Acropora hyacinthus,temp,control,X10_11_300_c_5h,,,,none,2122179,12966848
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812228,adult,Acropora hyacinthus,temp,control,X50_89_300_c_5h,,,,none,3354335,18384678
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812229,adult,Acropora hyacinthus,temp,control,X6_65_300_c_5h,,,,none,2252735,13287750
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812230,adult,Acropora hyacinthus,temp,control,X52_61_300_c_5h,,,,none,2834119,15489605
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812231,adult,Acropora hyacinthus,temp,control,X54_64_300_c_5h,,,,none,2181826,13707939
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812232,adult,Acropora hyacinthus,temp,control,X8_40_300_c_5h,,,,none,2571473,16969360
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812233,adult,Acropora hyacinthus,temp,heat,X40_102_300_h_5h,,,,none,2268455,15324647
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812234,adult,Acropora hyacinthus,temp,heat,X16_70_300_h_5h,,,,none,2018065,14238843
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812235,adult,Acropora hyacinthus,temp,heat,X44_28_300_h_5h,,,,none,2255278,13567174
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812236,adult,Acropora hyacinthus,temp,heat,X22_11_300_h_5h,,,,none,2128329,16444074
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812237,adult,Acropora hyacinthus,temp,heat,X64_89_300_h_5h,,,,none,2179224,16365761
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812238,adult,Acropora hyacinthus,temp,heat,X18_65_300_h_5h,,,,none,2307113,13478359
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812239,adult,Acropora hyacinthus,temp,heat,X66_61_300_h_5h,,,,none,2006420,14025814
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812240,adult,Acropora hyacinthus,temp,heat,X68_64_300_h_5h,,,,none,1785649,13265666
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812241,adult,Acropora hyacinthus,temp,heat,X20_40_300_h_5h,,,,none,1511106,12821776
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812242,adult,Acropora hyacinthus,temp,control,X140_86_300_c_20h,,,,none,2746461,16123368
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812243,adult,Acropora hyacinthus,temp,control,X130_6_300_c_20h,,,,none,1881208,11496678
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812244,adult,Acropora hyacinthus,temp,control,X78_27_300_c_20h,,,,none,2604186,12887323
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812245,adult,Acropora hyacinthus,temp,control,X82_87_300_c_20h,,,,none,3099306,15439274
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812246,adult,Acropora hyacinthus,temp,control,X86_83_300_c_20h,,,,none,2762450,13103995
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812247,adult,Acropora hyacinthus,temp,control,X88_85_300_c_20h,,,,none,2765471,15465141
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812248,adult,Acropora hyacinthus,temp,control,X108_75_300_c_20h,,,,none,1217877,10452228
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812249,adult,Acropora hyacinthus,temp,control,X110_4_300_c_20h,,,,none,2259942,11794924
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812250,adult,Acropora hyacinthus,temp,control,X112_7_300_c_20h,,,,none,2424075,14239849
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812251,adult,Acropora hyacinthus,temp,control,X114_88_300_c_20h,,,,none,1901613,17486858
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812252,adult,Acropora hyacinthus,temp,heat,X152_86_300_h_20h,,,,none,3264075,20286338
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812253,adult,Acropora hyacinthus,temp,heat,X142_6_300_h_20h,,,,none,2105226,11023468
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812254,adult,Acropora hyacinthus,temp,heat,X90_27_300_h_20h,,,,none,2602604,16286308
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812255,adult,Acropora hyacinthus,temp,heat,X94_87_300_h_20h,,,,none,2226541,12590060
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812256,adult,Acropora hyacinthus,temp,heat,X98_83_300_h_20h,,,,none,2216235,10797138
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812257,adult,Acropora hyacinthus,temp,heat,X100_85_300_h_20h,,,,none,2344802,12369993
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812258,adult,Acropora hyacinthus,temp,heat,X122_75_300_h_20h,,,,none,1987109,13605831
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812259,adult,Acropora hyacinthus,temp,heat,X124_4_300_h_20h,,,,none,1837939,12964724
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812260,adult,Acropora hyacinthus,temp,heat,X126_7_300_h_20h,,,,none,3196120,22095469
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812261,adult,Acropora hyacinthus,temp,heat,X128_88_300_h_20h,,,,none,1688375,14343877
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812262,adult,Acropora hyacinthus,temp,control,X79_102_400_c_20h,,,,none,3165830,16829487
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812263,adult,Acropora hyacinthus,temp,control,X131_70_400_c_20h,,,,none,2245031,11303325
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812264,adult,Acropora hyacinthus,temp,control,X83_28_400_c_20h,,,,none,2835363,15746314
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812265,adult,Acropora hyacinthus,temp,control,X85_11_400_c_20h,,,,none,2861381,16950351
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812266,adult,Acropora hyacinthus,temp,control,X101_89_400_c_20h,,,,none,2809460,14764950
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812267,adult,Acropora hyacinthus,temp,control,X133_65_400_c_20h,,,,none,1887735,10798191
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812268,adult,Acropora hyacinthus,temp,control,X103_68_400_c_20h,,,,none,3693800,20314962
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812269,adult,Acropora hyacinthus,temp,control,X105_64_400_c_20h,,,,none,2851818,14841100
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812270,adult,Acropora hyacinthus,temp,control,X135_40_400_c_20h,,,,none,2118791,15471461
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812271,adult,Acropora hyacinthus,temp,heat,X91_102_400_h_20h,,,,none,2488547,15679314
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812272,adult,Acropora hyacinthus,temp,heat,X143_70_400_h_20h,,,,none,2295079,11870402
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812273,adult,Acropora hyacinthus,temp,heat,X95_28_400_h_20h,,,,none,2324281,12773093
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812274,adult,Acropora hyacinthus,temp,heat,X97_11_400_h_20h,,,,none,2223288,11528773
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812275,adult,Acropora hyacinthus,temp,heat,X115_89_400_h_20h,,,,none,2943416,14967733
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812276,adult,Acropora hyacinthus,temp,heat,X145_65_400_h_20h,,,,none,2527910,17358612
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812277,adult,Acropora hyacinthus,temp,heat,X117_68_400_h_20h,,,,none,2677893,13295235
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812278,adult,Acropora hyacinthus,temp,heat,X119_64_400_h_20h,,,,none,2305092,12577578
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812279,adult,Acropora hyacinthus,temp,heat,X147_40_400_h_20h,,,,none,2701963,15437462
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812280,adult,Acropora hyacinthus,temp,control,X139_86_400_c_20h,,,,none,2555935,12438871
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812281,adult,Acropora hyacinthus,temp,control,X129_6_400_c_20h,,,,none,2196343,12553038
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812282,adult,Acropora hyacinthus,temp,control,X77_27_400_c_20h,,,,none,2492051,12898207
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812283,adult,Acropora hyacinthus,temp,control,X81_87_400_c_20h,,,,none,3061136,19350737
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812284,adult,Acropora hyacinthus,temp,control,X137_83_400_c_20h,,,,none,2226316,11299940
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812285,adult,Acropora hyacinthus,temp,control,X87_85_400_c_20h,,,,none,2650698,15469702
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812286,adult,Acropora hyacinthus,temp,control,X107_75_400_c_20h,,,,none,2633537,13559618
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812287,adult,Acropora hyacinthus,temp,control,X109_4_400_c_20h,,,,none,2332327,11188156
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812288,adult,Acropora hyacinthus,temp,control,X111_7_400_c_20h,,,,none,2024506,10846985
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812289,adult,Acropora hyacinthus,temp,control,X113_88_400_c_20h,,,,none,2294104,11279205
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812290,adult,Acropora hyacinthus,temp,heat,X151_86_400_h_20h,,,,none,735416,3301151
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812291,adult,Acropora hyacinthus,temp,heat,X141_6_400_h_20h,,,,none,2276744,12882348
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812292,adult,Acropora hyacinthus,temp,heat,X89_27_400_h_20h,,,,none,2568008,16705168
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812293,adult,Acropora hyacinthus,temp,heat,X93_87_400_h_20h,,,,none,2238332,12286132
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812294,adult,Acropora hyacinthus,temp,heat,X149_83_400_h_20h,,,,none,1779213,11405492
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812295,adult,Acropora hyacinthus,temp,heat,X99_85_400_h_20h,,,,none,1854085,10169343
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812296,adult,Acropora hyacinthus,temp,heat,X121_75_400_h_20h,,,,none,2598874,15059759
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812297,adult,Acropora hyacinthus,temp,heat,X123_4_400_h_20h,,,,none,2961936,16276746
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812298,adult,Acropora hyacinthus,temp,heat,X125_7_400_h_20h,,,,none,2277417,12705075
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812299,adult,Acropora hyacinthus,temp,heat,X127_88_400_h_20h,,,,none,2989617,16566768
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812300,adult,Acropora hyacinthus,temp,control,X80_102_300_c_20h,,,,none,1887900,13598774
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812301,adult,Acropora hyacinthus,temp,control,X132_70_300_c_20h,,,,none,2117078,11176275
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812302,adult,Acropora hyacinthus,temp,control,X84_28_300_c_20h,,,,none,2472825,13130481
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812303,adult,Acropora hyacinthus,temp,control,X138_11_300_c_20h,,,,none,1958582,11886237
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812304,adult,Acropora hyacinthus,temp,control,X102_89_300_c_20h,,,,none,2519125,14459379
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812305,adult,Acropora hyacinthus,temp,control,X134_65_300_c_20h,,,,none,2158328,13086161
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812306,adult,Acropora hyacinthus,temp,control,X104_61_300_c_20h,,,,none,1976851,12006720
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812307,adult,Acropora hyacinthus,temp,control,X106_64_300_c_20h,,,,none,2766770,15505953
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812308,adult,Acropora hyacinthus,temp,control,X136_40_300_c_20h,,,,none,2210811,11317404
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812309,adult,Acropora hyacinthus,temp,heat,X92_102_300_h_20h,,,,none,2829541,14333508
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812310,adult,Acropora hyacinthus,temp,heat,X144_70_300_h_20h,,,,none,2098922,11262780
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812311,adult,Acropora hyacinthus,temp,heat,X96_28_300_h_20h,,,,none,2784828,16110504
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812312,adult,Acropora hyacinthus,temp,heat,X150_11_300_h_20h,,,,none,1778661,15469094
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812313,adult,Acropora hyacinthus,temp,heat,X116_89_300_h_20h,,,,none,2434348,13966652
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812314,adult,Acropora hyacinthus,temp,heat,X146_65_300_h_20h,,,,none,1915542,11549312
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812315,adult,Acropora hyacinthus,temp,heat,X118_61_300_h_20h,,,,none,1702798,11034491
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812316,adult,Acropora hyacinthus,temp,heat,X120_64_300_h_20h,,,,none,2179072,12818694
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812317,adult,Acropora hyacinthus,temp,heat,X148_40_300_h_20h,,,,none,1910489,15251660

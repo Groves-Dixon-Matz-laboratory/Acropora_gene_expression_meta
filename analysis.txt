@@ -1,10 +1,23 @@
 #steps for analyses after data processing
 
+
+
 #metadata
-	wrangle_sample_data.R
+	metadata/wrangle_sample_data.R
 		organizes all the trait data for each sample into tables
 
 #pipeline counts
-	pipeline_read_counts_all.R
+	pipeline_counts/pipeline_read_counts_all.R
 		format and plot read counts for each sample from processing pipeline
 
+#full dataset PCA
+	figurePlotting/full_dataset_pca.R
+		plot the PCA for full dataset (figure 1)
+
+#plot stress response for all stressed samples
+	figurePlotting/plot_all_stress.R
+		(figure 2)
+		
+
+#plot stress minus plots
+	

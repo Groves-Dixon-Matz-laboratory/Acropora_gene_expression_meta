@@ -1,9 +1,43 @@
 #wrangle_sample_data_specifics.R
 #add more stats to some of the trait tables
+library(tidyverse)
+
+# make stratified random samples for full stress --------------------------
+#idea here is to build a training set and testing set for stress_prediction.R with
+#random but equal representation from each type of stress
+stress = read_csv('./metadata/subset_tables/stressColdata.csv')
+stress$proj_stress = paste(stress$my_title, stress$stress, sep='_')
 
 
+probDev = 0.6
+probVal = 0.4
+proj_stress = unique(stress$proj_stress)
+#assemble 
+sample.ind = lapply(proj_stress, function(x) sample(2,
+                                                  nrow(stress[stress$proj_stress==x,]),
+                                                  replace=T,
+                                                  prob = c(probDev, probVal)
+)
+) %>% 
+  unlist()
 
+trainSet = stress[sample.ind==1,]
+testSet = stress[sample.ind==2,]
+nrow(trainSet)/nrow(stress)
+nrow(testSet)/nrow(stress)
+table(trainSet$stress)
+table(testSet$stress)
+trainSet %>% 
+  group_by(proj_stress) %>% 
+  summarize(N=n())
+testSet %>% 
+  group_by(proj_stress) %>% 
+  summarize(N=n())
 
+trainSet %>% 
+  write_csv(path='./metadata/subset_tables/stratified_allStress_train.csv')
+testSet %>% 
+  write_csv(path='./metadata/subset_tables/stratified_allStress_test.csv')
 
 # make heat more specific -------------------------------------------------
 

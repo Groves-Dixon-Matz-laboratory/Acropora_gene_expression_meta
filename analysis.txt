@@ -4,7 +4,10 @@
 
 #metadata
 	metadata/wrangle_sample_data.R
-		organizes all the trait data for each sample into tables
+		organizes all the trait data for each sample into tables for running DESeq and stress prediction scripts
+		
+	metadata/wrangle_sample_data_specifics.R
+		adds additional data to some of the trait tables
 
 #pipeline counts
 	pipeline_counts/pipeline_read_counts_all.R

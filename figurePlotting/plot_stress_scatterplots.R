@@ -176,11 +176,11 @@ pcheat = plotStressPCA(df = vsheat[[1]], coldat = vsheat[[2]], intgroup = 'treat
 pcheatNob = plotStressPCA(df = vsheatNob[[1]], coldat = vsheatNob[[2]], intgroup = 'treat', ntop=NTOP, main = 'heat', xInvert=-1)
 pccold = plotStressPCA(df = vscold[[1]], coldat = vscold[[2]], intgroup = 'treat', ntop=NTOP, main = 'cold', xInvert=1)
 pccoldNob = plotStressPCA(df = vscoldNob[[1]], coldat = vscoldNob[[2]], intgroup = 'treat', ntop=NTOP, main = 'cold', xInvert=1, pcs=4)
-pcsalt = plotStressPCA(df = vssalt[[1]], coldat = vssalt[[2]], intgroup = 'treat', ntop=NTOP, main = 'hyposalinity')
+pcsalt = plotStressPCA(df = vssalt[[1]], coldat = vssalt[[2]], intgroup = 'treat', ntop=NTOP, main = 'hyposalinity', xInvert=-1)
 pcsaltNob = plotStressPCAwShape(df = vssaltNob[[1]], coldat = vssaltNob[[2]], intgroup = 'treat', ntop=NTOP, main = 'hyposalinity')
 pcbleach = plotStressPCA(df = vsbleach[[1]], coldat = vsbleach[[2]], intgroup = 'bleached', ntop=NTOP, main = 'bleached')
 pcimmune = plotStressPCA(df = vsimmune[[1]], coldat = vsimmune[[2]], intgroup = 'treat', ntop=NTOP, main = 'immune challenge', xInvert=-1)
-pcph = plotStressPCA(df = vsph[[1]], coldat = vsph[[2]], intgroup = 'treat', ntop=NTOP, main = 'pH')
+pcph = plotStressPCA(df = vsph[[1]], coldat = vsph[[2]], intgroup = 'treat', ntop=NTOP, main = 'pH', xInvert=-1)
 
 
 
@@ -193,8 +193,9 @@ mbleach = load_deseq('./deseqResults/stressNoBEWW_deseqResults.Rdata', 'stress_m
 mimmune= load_deseq('./deseqResults/stressNoImmune_deseqResults.Rdata', 'stress_minus_immune')
 mph = load_deseq('./deseqResults/stressNoPH_deseqResults.Rdata', 'stress_minus_ph')
 
-XLAB='\n'
-YLAB='\n'
+#examples without overlay, kept for reference
+XLAB=NULL
+YLAB=NULL
 hplt = do_scatter(heat, mheat, XLAB, YLAB, 'heat vs general') #all heat against all non-heat stress
 cplt = do_scatter(cold, mcold, XLAB, YLAB, 'cold vs general') #all cold against all non-cold stress
 splt = do_scatter(salinity, msalinity, XLAB, YLAB, 'salinity vs general') #all salinity against all non-salinity
@@ -206,7 +207,7 @@ spltNob = do_scatter(salinityNob, msalinity, XLAB, YLAB, 'salinity vs general') 
 bplt = do_scatter(bleach, mbleach, XLAB, YLAB, 'bleach vs general')          #BEWW samples against all non-BEWW stress
 
 
-#example of overlay plot
+#plot overlay plots
 hplt = do_scatter_overlay(heat, mheat, XLAB, YLAB, 'heat', coreGenes)
 cplt = do_scatter_overlay(cold, mcold, XLAB, YLAB, 'cold', coreGenes)
 splt = do_scatter_overlay(salinity, msalinity, XLAB, YLAB, 'salinity', coreGenes)
@@ -215,14 +216,33 @@ pplt = do_scatter_overlay(ph, mph, XLAB, YLAB, 'low pH', coreGenes)
 bplt = do_scatter_overlay(bleach, mbleach, XLAB, YLAB, 'bleach', coreGenes)
 
 
+# get stress prediction stats ---------------------------------------------
+pheat = load_pred_stats('./category_prediction/stress_noHeat_Coldata.csv__heatColdata.csv_predictions_predictionResults.Rdata')
+hbar = plot_pred_stats(pheat)
+pcold = load_pred_stats('./category_prediction/stress_noCold_Coldata.csv__coldColdata.csv_predictions_predictionResults.Rdata')
+cbar = plot_pred_stats(pheat)
+psalinity = load_pred_stats('./category_prediction/stress_noSalinity_Coldata.csv__salinityColdata.csv_predictions_predictionResults.Rdata')
+sbar = plot_pred_stats(psalinity)
+pimmune = load_pred_stats('./category_prediction/stratified_allStress_train.csv__stratified_allStress_test.csv_predictions_predictionResults.Rdata')
+ibar = plot_pred_stats(pimmune)
+pph = load_pred_stats('./category_prediction/stress_noph_Coldata.csv__phColdata.csv_predictions_predictionResults.Rdata')
+pbar = plot_pred_stats(pph)
+pbleach = load_pred_stats('./category_prediction/stress_')
+
+
 #plot main figure with chosen set
-plot_grid(pcheat, hplt,
-          pccold, cplt,
-          pcsalt, splt,
-          pcimmune, iplt,
-          pcph, pplt,
+plot_grid(pcheat, hplt, hbar,
+          pccold, cplt,cbar,
+          pcsalt, splt,sbar,
+          pcimmune, iplt,ibar,
+          pcph+theme(legend.position='bottom',
+                     legend.title=element_blank()) +
+            scale_color_discrete( labels = c("control", "stressed")), 
+          pplt+theme(legend.position='bottom'),
+          pbar+theme(legend.position='bottom'),
           nrow=5, 
-          rel_widths = c(1,0.75))
+          align = 'v', 
+          rel_heights=c(1,1,1,1,1.3))
 
 #plot supplemental
 plot_grid(pcbleach, bplt,

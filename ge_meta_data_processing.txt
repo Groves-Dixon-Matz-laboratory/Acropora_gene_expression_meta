@@ -439,13 +439,23 @@ cp stress/project_controlled.Rdata largeIgnored/stress_project_controlled.Rdata
 #example command:
 stress_prediction.R --i stress_project_controlled.Rdata --train stress_noBEWW_Coldata.csv --test bleached_Coldata.csv --o stress_noBEWW__bleached_predictions
 
-#set up pair table
+
+#SET UP PAIRS OF TRAINING AND TEST DATASETS
+#these are equivalent to the *Coldata.csv files used for the specific DESeq runs above
+#they are used to subset the normalized counts matrix made for all the stress experiments
+#note stratified_allStress_* files are generated with wrangle_sample_data_specifics.R
+
 nano datasetPairs.txt
-heatColdata.csv	stress_noHeat_Coldata.csv
-coldColdata.csv	stress_noCold_Coldata.csv
-salinityColdata.csv	stress_noSalinity_Coldata.csv
-immuneColdata.csv	stress_noImmune_Coldata.csv
-phColdata.csv	stress_noph_Coldata.csv
+stratified_allStress_train.csv	stratified_allStress_test.csv
+stress_noHeat_Coldata.csv	heatColdata.csv
+stress_noCold_Coldata.csv	coldColdata.csv
+stress_noSalinity_Coldata.csv	salinityColdata.csv
+stress_noImmune_Coldata.csv	immuneColdata.csv
+stress_noph_Coldata.csv	phColdata.csv
+stress_noBEWW_Coldata.csv	bleached_Coldata.csv
+
+nano datasetPairs2.txt
+
 
 
 #build commands

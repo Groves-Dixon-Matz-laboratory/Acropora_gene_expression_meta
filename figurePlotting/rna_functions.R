@@ -111,7 +111,6 @@ plotStressPCA <- function (df, coldat, intgroup = "condition", ntop = 25000, ret
                   intgroup.df, name = colnames(df))
   
   d$my_letter = coldat$my_letter
-  
   attr(d, "percentVar") <- percentVar[1:2]
   #Invert X if needed
   d[,paste('PC', pc1, sep = '')]=d[,paste('PC', pc1, sep = '')]*xInvert
@@ -123,10 +122,15 @@ plotStressPCA <- function (df, coldat, intgroup = "condition", ntop = 25000, ret
                 round(percentVar[pc1] * 100), "%")) + 
     ylab(paste0(paste0(paste0("PC", pc2), ": "), round(percentVar[pc2] * 100), "%")) + 
     coord_fixed()
-  g = g + labs(subtitle=main, color=legendTitle)
+  # g = g + labs(subtitle=main, color=legendTitle)
+  g = g + theme(legend.position='none',
+                axis.ticks.x=element_blank(),
+                axis.ticks.y=element_blank(),
+                axis.text.x=element_blank(),
+                axis.text.y=element_blank())
   
   #add labels
-  g=g+geom_text(aes(label=my_letter),hjust=1, vjust=0, show.legend = FALSE)
+  # g=g+geom_text(aes(label=my_letter),hjust=1, vjust=0, show.legend = FALSE)
   
   # g = g + theme_bw()
   print(g)
@@ -272,7 +276,7 @@ do_scatter= function(df1, df2, xlab, ylab, title){
 
 
 #Function to build scatterplots of log2 fold changes for 2 dataframes
-do_scatter_overlay= function(df1, df2, xlab, ylab, title, overlay, r2aCoords=c(2.5, -1), r2bCoords=c(2.5, 2.5)){
+do_scatter_overlay= function(df1, df2, xlab, ylab, title, overlay, r2aCoords=c(1.75, -2), r2bCoords=c(-1.75, 2)){
   mdat=df1 %>% 
     left_join(df2, by='gene')
   lm1=lm(mdat$log2FoldChange.x~mdat$log2FoldChange.y)
@@ -282,31 +286,98 @@ do_scatter_overlay= function(df1, df2, xlab, ylab, title, overlay, r2aCoords=c(2
   lm2=lm(sub$log2FoldChange.x~sub$log2FoldChange.y)
   r2b=round(summary(lm2)$r.squared, digits=2)
   r2aString = bquote(R^2*"="*.(r2a))
+  mdat$select = mdat$gene %in% overlay
   mdat %>% 
-    ggplot(aes(x=log2FoldChange.x, y=log2FoldChange.y)) +
+    mutate(select = if_else(gene %in% overlay,
+           'general stress',
+           'all genes')) %>% 
+    ggplot(aes(x=log2FoldChange.x, y=log2FoldChange.y, color=select)) +
     geom_point(alpha=0.5) +
-    geom_smooth(method='lm', color='black', lwd=0.5, se=F) +
+    geom_smooth(method='lm', lwd=0.5, se=F) +
     labs(x=xlab,
-         y=ylab,
-         subtitle=title
-         ) +
+         y=ylab) +
     lims(x=c(-3,3), y=c(-3,3)) +
-    geom_point(data=sub, aes(x=log2FoldChange.x, y=log2FoldChange.y), color='blue', alpha=0.1) +
-    geom_smooth(data=sub, aes(x=log2FoldChange.x, y=log2FoldChange.y), method='lm', color='blue', lwd=0.5, se=F) +
-    theme(plot.title = element_text(size=10, hjust=0),
-          plot.subtitle = element_text(color = "black", hjust=0, size=10)) +
+    scale_color_manual(values=c('black', 'blue')) +
+    # geom_point(data=sub, aes(x=log2FoldChange.x, y=log2FoldChange.y), color='blue', alpha=0.1) +
+    # geom_smooth(data=sub, aes(x=log2FoldChange.x, y=log2FoldChange.y), method='lm', color='blue', lwd=0.5, se=F) +
     annotate("text", x = r2aCoords[1], y = r2aCoords[2],
              label = paste('italic(R) ^ 2 ==', r2a), parse=TRUE, color='black') +
     annotate("text", x = r2bCoords[1], y = r2bCoords[2],
-             label = paste('italic(R) ^ 2 ==', r2b), parse=TRUE, color='blue')
-    
+             label = paste('italic(R) ^ 2 ==', r2b), parse=TRUE, color='blue') +
+    theme(legend.title=element_blank(),
+          legend.position='none')
+}
+
+
+#Function to convert a contingency table from confusion matrix into plotable accuracy percentages
+get_acc_pct = function(df, method){
+  cm=confusionMatrix(data=df$pred,
+                     reference=df$obs,
+                     positive='stressed')
+  tab=cm$table
+  pcts = tab %>% 
+    sweep(2,colSums(tab),`/`) %>% 
+    data.frame() %>% 
+    mutate(Agree=if_else(Prediction==Reference,
+                         'Agree',
+                         'Disagree'),
+           Method = method,
+           Reference = if_else(Reference=='stressed',
+                                'S',
+                                'C'))
+  return(pcts)
+}
+
+
+load_pred_stats = function(fileName){
+  load(fileName)
+  lpcts = get_acc_pct(lres, 'LR')
+  rfpcts = get_acc_pct(rfres, 'RF')
+  return(list(lpcts, rfpcts))
+}
+
+
+plot_pred_stats = function(datList){
+  dat = datList %>% 
+    purrr::reduce(rbind)
+  dat %>% 
+    group_by(Method, Agree) %>% 
+    summarize(pct = sum(Freq)/2) %>% 
+    ggplot(aes(x=Method, y=pct, fill=Agree)) +
+    geom_bar(stat='identity') +
+    labs(y='Freq') +
+    theme(legend.title=element_blank(),
+          axis.title.x=element_blank(), 
+          axis.title.y=element_blank(),
+          legend.position='none') +
+    scale_y_continuous(breaks=c(0,0.5, 1))
 }
 
 
 
-
-
-
+plot_2bar_pred_stats = function(datList){
+  lpcts=datList[[1]]
+  rfpcts=datList[[2]]
+  marginL = -0.1
+  lplt = lpcts %>% 
+    ggplot(aes(x=Reference, y=Freq, fill=Agree)) +
+    geom_bar(stat='identity') +
+    theme(legend.position='none',
+          plot.margin=margin(l=marginL,unit="cm")) +
+    labs(x='LR')
+  rfplt = rfpcts %>% 
+    ggplot(aes(x=Reference, y=Freq, fill=Agree)) +
+    geom_bar(stat='identity') +
+    theme(legend.title=element_blank(),
+          axis.line.y=element_blank(),
+          axis.title.y=element_blank(),
+          axis.text.y=element_blank(),
+          axis.ticks.y=element_blank(),
+          plot.margin=margin(l=marginL,unit="cm")) +
+    labs(x='RF')
+  predBp = plot_grid(lplt,rfplt, nrow=1, rel_widths=c(.75, 1))
+  return(predBp)
+}
 
 
 

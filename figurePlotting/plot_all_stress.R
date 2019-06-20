@@ -99,6 +99,35 @@ pdat = dpf %>%
   full_join(coldata, by = 'Run')
 
 
+# plot stress prediction results -------------------------------------------
+ll=load('./category_prediction/stratified_allStress_train.csv__stratified_allStress_test.csv_predictions_predictionResults.Rdata')
+library(caret)
+head(cdat)
+head(lres)
+head(rfres)
+
+lpcts = get_acc_pct(lres, 'logistic')
+rfpcts = get_acc_pct(rfres, 'RF')
+
+
+marginL = -0.1
+lplt = lpcts %>% 
+  ggplot(aes(x=Reference, y=Freq, fill=Agree)) +
+  geom_bar(stat='identity') +
+  theme(legend.position='none',
+        plot.margin=margin(l=marginL,unit="cm")) +
+  labs(x='Logistic reg.')
+rfplt = rfpcts %>% 
+  ggplot(aes(x=Reference, y=Freq, fill=Agree)) +
+  geom_bar(stat='identity') +
+  theme(legend.title=element_blank(),
+        axis.line.y=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        plot.margin=margin(l=marginL,unit="cm")) +
+  labs(x='Rand. forest')
+predBp = plot_grid(lplt,rfplt, nrow=1, rel_widths=c(.7, 1))
 
 # final replots -----------------------------------------------------------
 
@@ -143,7 +172,8 @@ pdCor = pdat %>%
 plot_grid(tbl, volc, treatPCA,  pdens, pdCor, ddens, nrow=3, rel_widths = c(1, 0.5), labels=LETTERS[1:6])
 plot_grid(volc, tbl,  pdens, treatPCA, ddens, pdCor, nrow=3, rel_widths = c(0.5, 1), labels=LETTERS[1:6])
 
-
+#new one with prediction barplot (don't like this as much)
+plot_grid(tbl, volc, treatPCA,  ddens, pdCor, predBp, nrow=3, rel_widths = c(1, 0.5), labels=LETTERS[1:6])
 
 
 # check dapc against stress intensity -------------------------------------

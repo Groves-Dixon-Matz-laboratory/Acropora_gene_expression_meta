@@ -11,8 +11,8 @@ source('figurePlotting/rna_functions.R')
 
 
 # upload the count controlled vst counts ----------------------------------
-
-input = 'largeIgnored/count_controlled.Rdata'
+# input = 'largeIgnored/fullDataset_vsd.Rdata' #for reference
+input = 'largeIgnored/fullDataset_count_controlled.Rdata'
 ll=load(input)
 ll
 rld.df = t(datExpr)
@@ -47,8 +47,21 @@ head(coldata)
 
 # build PCA ---------------------------------------------------------------
 
-fraction = 1/10
+fraction = 1/2
 NTOP = round(fraction * nrow(rld.df), digits=0)
+
+
+####### uncomment IF YOU WANT TO SEE CORRELATION WITH READ COUNTS
+# pca.proj = plotProjectPCA(df = rld.df, coldat = coldata, intgroup = 'forLegend', ntop=NTOP, main = "Project", SIZE=1, returnData = T)
+# lmdat = pca.proj %>% 
+#   mutate(Run = rownames(pca.proj)) %>% 
+#   left_join(coldata, by = 'Run')
+# lmdat %>% 
+#   ggplot(aes(x=log(rawCounts, 10), y=PC1)) +
+#   geom_point()
+# lm1=lm(log(lmdat$rawCounts, 10)~lmdat$PC1)
+# summary(lm1)
+##########################################
 
 #get the project pca and legend separately
 pca.proj = plotProjectPCA(df = rld.df, coldat = coldata, intgroup = 'forLegend', ntop=NTOP, main = "Project", SIZE=1, returnData = F) 
@@ -56,8 +69,8 @@ legend <- cowplot::get_legend(pca.proj + theme(legend.text=element_text(size=5))
 pca.proj.noleg = pca.proj + theme(legend.position='none')
 
 #get the stage pca and density
-pca.stage = plotStressPCA(df = rld.df, coldat = coldata, intgroup = 'my_stage', ntop=NTOP, main = "Developmental stage", SIZE=2, returnData = F)
-stage.df = plotStressPCA(df = rld.df, coldat = coldata, intgroup = 'my_stage', ntop=NTOP, main = "Developmental stage", SIZE=2, returnData = T)
+pca.stage = plotStressPCA(df = rld.df, coldat = coldata, intgroup = 'my_stage', ntop=NTOP, main = "Developmental stage", SIZE=1, returnData = F, xInvert=-1)
+stage.df = plotStressPCA(df = rld.df, coldat = coldata, intgroup = 'my_stage', ntop=NTOP, main = "Developmental stage", SIZE=1, returnData = T, xInvert=-1)
 
 g <- ggplot_build(pca.stage)
 colors = g$data[[1]] %>% 
@@ -74,7 +87,7 @@ stageDens = stage.df %>%
   ggplot(aes(x=PC1, fill=my_stage)) +
   geom_density(alpha=0.8) +
   labs(fill=NULL, subtitle='\n', title='\n') + 
-  scale_fill_manual(values=colors)
+  scale_fill_manual(values=colors) 
 
 
 legend <- cowplot::get_legend(pca.proj + theme(legend.text=element_text(size=9)))

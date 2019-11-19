@@ -25,9 +25,10 @@ traits = runs %>%
 nrow(traits)
 nrow(runs)
 
+
 #make equivalent dataframe
 bdat = data.frame(
-  'my_title' = rep('j1_BLEACH_EWW', nrow(traits)),
+  'my_title' = rep('j1_thisStudy_PRJNA559404', nrow(traits)),
   'BioSample' = traits$sampleID,
   'Run' = traits$run,
   'Library_Name' = traits$treatment,
@@ -47,6 +48,8 @@ dat = dat0 %>%
 nrow(bdat)
 nrow(dat0)
 nrow(dat)
+
+
 
 # SET UP LIST OF DATAFRAMES TO ADD PROJECT-SPECIFIC INFO ------------------
 
@@ -151,10 +154,10 @@ selectProject = 'F_Uqueensland_ph_PRJNA269992'
 pdat = datList[[selectProject]]
 data.frame(pdat)
 mod = pdat %>% 
-  mutate(projType = 'pH',
+  mutate(projType = 'pH+heat',
          treatDescription = my_treatment,
          treat = if_else(grepl('RCP', treatDescription),
-                         'low_pH',
+                         'multiple',
                          'control' ),
          special = 'none'
   ) %>% 
@@ -360,7 +363,7 @@ mod = pdat %>%
          treat = timeOfDay,
          special = 'none'
   ) %>% 
-  select(-location, -timeOfDay, -moon) %>% 
+  dplyr::select(-location, -timeOfDay, -moon) %>% 
   data.frame()
 mod
 assembleList[[selectProject]] = mod
@@ -577,7 +580,7 @@ mod
 assembleList[[selectProject]] = mod
 
 # b1_Aguilar_hypoosmotic stress_PRJNA380267 --------------------------------
-selectProject = 'b1_Aguilar_hypoosmotic stress_PRJNA380267'
+selectProject = 'b1_Aguilar_hypoosmotic_stress_PRJNA380267'
 ttable = read_tsv('./project_specific_tables/b1_treat_table.tsv')
 pdat = datList[[selectProject]] %>% 
   left_join(ttable, by = 'BioSample')
@@ -616,7 +619,7 @@ selectProject = 'd1_mohamed_microalga_PRJNA398338'
 pdat = datList[[selectProject]]
 data.frame(pdat)
 mod = pdat %>% 
-  mutate(projType = 'immune',
+  mutate(projType = 'maybe_immune',
          treatDescription = my_treatment,
          treat = if_else(grepl('Chromera_infected', my_treatment),
                          'control',
@@ -732,9 +735,9 @@ mod
 assembleList[[selectProject]] = mod
 
 
-# j1_BLEACH_EWW -----------------------------------------------------------
+# j1_thisStudy_PRJNA559404 -----------------------------------------------------------
 
-selectProject = 'j1_BLEACH_EWW'
+selectProject = 'j1_thisStudy_PRJNA559404'
 pdat = datList[[selectProject]]
 data.frame(pdat)
 mod = pdat %>% 
@@ -768,6 +771,73 @@ mod = pdat %>%
   data.frame()
 assembleList[[selectProject]] = mod
 dim(mod)
+
+#---OUTPUT SPECIAL TABLE FOR SRA UPLOAD
+sra0 = pdat %>% 
+  filter(!Run %in% c('s37_S74', 's38_S75', 's39_S76', 's40_S77', 's41_S78'))
+head(sra0)
+exp = sub('_C', '', sub('_T', '', sra0$Library_Name))
+breed = sapply(sra0$isolate, function(x) strsplit(x, '.', fixed=TRUE)[[1]][2])
+treat = sapply(sra0$sample_name, function(x) strsplit(x, '.', fixed=TRUE)[[1]][3])
+rep = sapply(sra0$isolate, function(x) strsplit(x, '.', fixed=TRUE)[[1]][5])
+treatRep = paste(treat, rep, sep='')
+iso = paste(paste(exp, breed, sep='_'), treatRep, sep='_')
+
+
+#make unique iso by replacing sample name periods with underscores
+iso = sub('.', '_', sra0$BioSample, fixed=TRUE)
+iso = sub('.', '_', iso, fixed=TRUE)
+iso = sub('.', '_', iso, fixed=TRUE)
+iso = sub('.', '_', iso, fixed=TRUE)
+
+sra = data.frame(sample_name = sra0$Sample_Name,
+                 sample_title = sra0$Run,
+                 organism=sra0$Organism,
+                 isolate = iso,
+                 breed = breed,
+                 isolation_source = if_else(breed=='L1',
+                                            'Little Pioneer Bay near Orpheus Island Research Station',
+                                            'North East Orpheus near Orpheus Island Research Station'),
+                 collection_date = '11/25/18',
+                 geo_loc_name = 'Australia',
+                 tissue='nubbin',
+                 age='adult', stringsAsFactors=FALSE)
+
+#build description strings
+experiment = paste('experiment', exp, sep='=')
+geno = paste('colony', breed, sep='=')
+replicate = paste('replicate', sapply(sra$sample_name, function(x) strsplit(x, '.', fixed=TRUE)[[1]][5]), sep='=')
+t = if_else(treat=='C',
+                'control',
+                'treated')
+treatment= paste('treatment', t, sep='=')
+timepoint = sub('tp', 'timepoint=', sapply(sra$sample_name, function(x) strsplit(x, '.', fixed=TRUE)[[1]][4]))
+
+strdf = data.frame(experiment,
+                   geno,
+                   treatment,
+                   replicate,
+                   timepoint,
+                   stringsAsFactors=FALSE)
+
+#concatenate them
+d = strdf %>% 
+  unite('d', colnames(strdf), sep=';') %>% 
+  pull(d)
+
+#write out
+sra$description = d
+sra$method = paste('Method=Tagseq', d, sep=';')
+sra$fileName = paste(sra$sample_title, 'fastq.gz', sep='.')
+head(sra)
+sra %>% 
+  write_csv('project_specific_tables/sraUploadData.csv')
+
+#This table has the information to paste into the SRA upload tables for both bioSamples and Runs
+#Project was uploaded with a unique bioSample for each Run
+#File upload was lane-concateanted fastq files for each sample
+
+
 
 # k1_Palumbi_lab_heat_resilience_PRJNA274410 ------------------------------
 
@@ -831,7 +901,7 @@ sum(table(rdat$Run)==1)==nrow(rdat) #NOTE IF THIS ISN'T TRUE, A PROJECT PROBABLY
 
 
 # COMBINE WITH READ COUNT DATA --------------------------------------------
-cdat = read_tsv('/Users/grovesdixon/lab_files/projects/gene_expression_meta/pipeline_stats/new_final_counts/all_pipeline_counts.txt', col_names=c('Run', 'value', 'stat'))
+cdat = read_tsv('../pipeline_counts/all_pipeline_counts.txt', col_names=c('Run', 'value', 'stat'))
 cdat$statRun = paste(cdat$stat, cdat$Run,sep='_')
 dim(cdat)
 cdat = cdat[!duplicated(cdat$statRun),]
@@ -841,30 +911,141 @@ cdat = cdat %>%
   select(-statRun) %>% 
   spread(stat, value)
 
-frdat = rdat %>% 
+frdat0 = rdat %>% 
   left_join(cdat, by = 'Run')
 
-nrow(frdat)
+nrow(frdat0)
 nrow(rdat)
 
-# WRITE OUT FULL TABLE ----------------------------------------------------
 
+
+# COMBINE WITH BLEACHING DATA ---------------------------------------------
+
+#upload bleaching info (this table was built by hand by looking at the publications)
+#note that right now it includes only the general bleached or not bleached
+#note that bleached call is assigned to controls and stressed corals so they can be isolated easily by experiment
+blchDat = read_csv('./detailed_tables/bleaching_info.csv') %>% 
+  select(Run, bleachGeneral)
+nrow(blchDat)
+unique(blchDat$bleachGeneral)
+
+#recode messy calls into yes, no and NA
+NAcalls = c('not stated')
+notCalls = c('none', 'not yet')
+bleachedCalls = c('mild', 'yes')
+blchDat = blchDat %>% 
+  mutate(bleached = ifelse(bleachGeneral %in% NAcalls,
+                           NA,
+                           'notAssigned'),
+         bleached = if_else(bleachGeneral %in% notCalls,
+                            'no',
+                            bleached),
+         bleached = if_else(bleachGeneral %in% bleachedCalls,
+                            'yes',
+                            bleached)) %>% 
+  select(Run,bleached)
+blchDat
+unique(blchDat$bleached)
+
+
+#add stress column
+stressTypes = c('pH', 'temp', 'immune', 'salinity', 'multiple')
+
+frdat = frdat0 %>% 
+  left_join(blchDat,
+            by='Run') %>% 
+  mutate(stress = if_else(projType %in% stressTypes,
+                         'unassigned',
+                         'not_a_stress_experiment'),
+         stress = if_else(projType %in% stressTypes & treat=='control',
+                          'control',
+                          stress),
+         stress = if_else(projType %in% stressTypes & treat!='control',
+                          'stressed',
+                          stress))
+unique(frdat$stress)
+dim(frdat0)
+dim(frdat)
+
+
+
+
+
+# WRITE OUT FULL TABLE ----------------------------------------------------
+source('../figurePlotting/rna_functions.R')
 frdat %>% 
+  add_single_or_pe() %>% 
   write_csv(path='./ALL_Coldata.csv')
 
 
-# ORGANIZE ADULT STRESS SET -----------------------------------------------
+frdat %>% 
+  add_single_or_pe() %>% 
+  pull(LibraryLayout) %>% 
+  table()
 
-stressTypes = c('pH', 'temp', 'immune', 'salinity', 'multiple')
+# WRITE OUT FORMATTED TABLE FOR PUBLICATION -------------------------------
+
+#gather bioProjects
+titleSplits = sapply(frdat$my_title, function(x) strsplit(x, '_'))
+bpList = list()
+for (ts in titleSplits){
+  bp=ts[[length(ts)]][1]
+  bpList = append(bpList, bp)
+}
+bps=unlist(bpList)
+
+
+
+#get reference IDs
+refs = read_csv('detailed_tables/BioProject_Publication_Table.csv')
+
+format = frdat %>% 
+  mutate(BioProject=bps) %>% 
+  left_join(refs, by = 'BioProject') %>% 
+  rename(Developmental_stage=my_stage,
+         Reference_year = year,
+         Reference_DOI = DOI,
+         Project_type = projType,
+         Treatment = treat,
+         Treat_description = treatDescription,
+         Raw_counts = rawCounts,
+         Gene_counted = geneCounted)
+
+#write out
+format[,c('Run',
+          'BioProject',
+          'Reference',
+          'Reference_year',
+          'Reference_DOI',
+          'Organism',
+          'Developmental_stage',
+          'Project_type',
+          'Treatment',
+          'Treat_description',
+          'Raw_counts',
+          'Gene_counted')] %>% 
+  write_csv('detailed_tables/my_sample_trait_table.csv')
+
+#save
+
+
+
+# ORGANIZE STRESS SET -----------------------------------------------
+
+stressTypes = c('pH', 'temp', 'immune', 'salinity', 'multiple', 'pH+heat')
 stress = frdat %>% 
   filter(projType %in% stressTypes,
          !is.na(treat)) %>% 
   mutate(stress = if_else(treat=='control',
                          'control',
                          'stressed'))
-
 #check counts
 table(stress$my_title)
+
+#look at bleaching calls
+stress %>% 
+  group_by(my_title, bleached) %>% 
+  summarize(N=n()) 
 
 countTable = stress %>% 
   group_by(treat) %>% 
@@ -872,81 +1053,151 @@ countTable = stress %>%
             `N Samples`=n()) 
 countTable
 
+
 stress %>% 
-  write_csv(path='./subset_tables/stressColdata.csv')
+  write_csv(path='./subset_tables/allStress_Coldata.csv')
 
 
-# ORGANIZE TEMP SET -------------------------------------------------------
 
-#subset
-stressTypes = c('temp', 'multiple')
-temp = frdat %>% 
-  filter(projType %in% stressTypes)
+# UPLOAD THE 'CORRELATED STRESS PROJECTS' ---------------------------------
+#note these projects are identified with the script plot_individual_projects.R
+#to run that script, you'll need to have run DESeq on all stress projects in the INITIALIZE COUNTS/CONTROL FOR COVARIATES/DESEQ section in walkthrough
+ll=load('corStressProjs.Rdata')
+ll
+corStressProjs
+lowStressProjs
 
-#check counts
-table(temp$my_title)
-table(temp$treat)
 
-#write out
-temp %>% 
-  write_csv(path='./subset_tables/tempColdata.csv')
+#check new sample total table
+stress %>% 
+  filter(my_title %in% corStressProjs) %>% 
+  group_by(treat) %>% 
+  summarize(`N Projects`=length(unique(my_title)),
+            `N Samples`=n()) 
 
+#write out general stress for correlated projects
+corAllStress = stress %>% 
+  filter(my_title %in% corStressProjs)
+
+corAllStress %>% 
+  write_csv(path='./correlated_stress_project_tables/allStress_Coldata.csv')
 
 
 # heat --------------------------------------------------------------------
 
-#want to add additional data columns to heat:
-#temp = the temperature in deg C
-#degOverAmb = degrees above ambient in C
-#hoursExposed = duration of exposure in hours
-#so break back down into subdfs first
+#temp calls because come share controls
+#make heat group as temps minus any cold treated dudes
+#also remove BEWW samples that are not 'Ht1' or 'Ht2' in destriptionn
+#also grab the three-way 'Tw' controls to go with Ht2 from this study
+
+#set up the samples from j1 to remove:
+j1keepers = frdat %>% 
+  filter(my_title=='j1_thisStudy_PRJNA559404',
+         grepl('Ht', treatDescription) | grepl('Tw', treatDescription),
+         !grepl('HtC.', treatDescription)) %>% 
+  pull(Run)
+j1Remove = frdat %>% 
+  filter(my_title=='j1_thisStudy_PRJNA559404',
+         !Run %in% j1keepers) %>% 
+  pull(Run)
+  
+  
+  
+#isolate heat set
 heat = frdat %>% 
-  filter(projType %in% c('temp'),
-         !(my_title=='j1_BLEACH_EWW' & !grepl('Ht', treatDescription)),
-         !(my_title=='j1_BLEACH_EWW' & grepl('HtC.', treatDescription)),
-         treat !='cold')
+  mutate(projType = if_else(my_title=='j1_thisStudy_PRJNA559404' & grepl('^Tw', treatDescription),
+                            'temp',
+                            projType)) %>% 
+  filter(projType %in% c('temp', 'pH+heat'),
+         treat !='cold',
+         !(my_title =='j1_thisStudy_PRJNA559404' & Run %in% j1Remove))
 table(heat$my_title)
 unique(heat$treat)
 
+
+
+#standard table
 heat %>% 
-  write_csv(path='./subset_tables/heatColdata.csv')
+  write_csv(path='./subset_tables/heat_Coldata.csv')
 
 
 #output the stress_noHeat set
-snoHeat=stress %>% 
+stress %>% 
   filter(!Run %in% heat$Run,
          !projType=='multiple') %>% 
-  write_csv('./subset_tables/stress_noHeat_Coldata.csv')
-
-#NOTE, THERE IS AN ADDITIONAL heat_coldata.csv file called my_heat_cd.csv that has manual edits for comparison with the stress DAPC
+  write_csv('./subset_tables/stressNOHEAT_Coldata.csv')
 
 
-#ALSO OUTPUT A HEAT SET WITH NO SAMPLES FROM BLEACH EVERY WHICH WAY
+
+#output version without bleaching samples
 #This is to double-check that correlations between cold and salinity are not driven just by that
+#note bleaching has to have been explicitly mentioned, otherwise no bleaching is assumed
 heat %>% 
-  filter(my_title != 'j1_BLEACH_EWW') %>% 
-  write_csv(path='./subset_tables/heat_NOBEWW_Coldata.csv')
+  filter(bleached == 'no' | is.na(bleached)) %>% 
+  write_csv(path='./subset_tables/heatNOBLEACH_Coldata.csv')
 
+
+
+# heat for correlated projects only ---------------------------------------
+
+
+#write out for correlated projects only
+corHeat = heat %>% 
+  filter(my_title %in% corStressProjs) 
+corHeat %>% 
+  write_csv(path='./correlated_stress_project_tables/heat_Coldata.csv')
+
+#write out the stress no heat set
+corStresNoHeat = stress %>% 
+  filter(my_title %in% corStressProjs,
+         !Run %in% heat$Run,
+         !projType=='multiple')
+corStresNoHeat %>% 
+  write_csv('./correlated_stress_project_tables/stressNOHEAT_Coldata.csv')
+
+
+
+#and for correlated projects only without bleaching
+corHeatNoBleach = heat %>% 
+  filter(my_title %in% corStressProjs,
+         bleached == 'no' | is.na(bleached))
+corHeatNoBleach %>% 
+  write_csv(path='./correlated_stress_project_tables/heatNOBLEACH_Coldata.csv')
 
 
 # ORAGNIZE BLEACHED -------------------------------------------------------
 
 bleached = frdat %>% 
-  filter(my_title=='j1_BLEACH_EWW') %>% 
+  filter(!is.na(bleached) & bleached=='yes') %>% 
   mutate(bleached = if_else(treat=='control',
                             'control',
                             'bleached'))
-
-
+unique(bleached$bleached)
 bleached %>% 
   write_csv(path='./subset_tables/bleached_Coldata.csv')
 
 
 #make a stress no-bleached set
+blchRuns = bleached %>% 
+  pull(Run)
 stress %>% 
-  filter(my_title!='j1_BLEACH_EWW') %>% 
-  write_csv('./subset_tables/stress_noBEWW_Coldata.csv')
-  
+  filter(!Run %in% blchRuns) %>% 
+  write_csv('./subset_tables/stressNOBLEACH_Coldata.csv')
+
+
+# organize bleached for correlated ----------------------------------------
+#This turns out to be exactly the same, but outputting for clarity
+
+bleached %>% 
+  filter(my_title %in% corStressProjs) %>% 
+  write_csv(path='./correlated_stress_project_tables/bleached_Coldata.csv')
+
+
+#make a stress no-bleached set
+stress %>% 
+  filter(my_title %in% corStressProjs,
+         !Run %in% blchRuns) %>% 
+  write_csv('./correlated_stress_project_tables/stressNOBLEACH_Coldata.csv')
 
 
 # ORGANIZE pH SET ---------------------------------------------------------
@@ -964,13 +1215,29 @@ ph %>%
 
 #write out
 ph %>% 
-  write_csv(path='./subset_tables/phColdata.csv')
+  write_csv(path='./subset_tables/ph_Coldata.csv')
 
 
-#output the stress_noHeat set
+#output the stress no pH set
 stress %>% 
   filter(!Run %in% ph$Run) %>% 
-  write_csv('./subset_tables/stress_noph_Coldata.csv')
+  write_csv('./subset_tables/stressNOPH_Coldata.csv')
+
+
+# ORGANIZE pH FOR CORRELATED PROJECTS -------------------------------------
+
+#write out
+ph %>% 
+  filter(my_title %in% corStressProjs) %>% 
+  write_csv(path='./correlated_stress_project_tables/ph_Coldata.csv')
+
+
+#output the stress no pH set
+stress %>% 
+  filter(!Run %in% ph$Run,
+         my_title %in% corStressProjs) %>% 
+  write_csv('./correlated_stress_project_tables/stressNOPH_Coldata.csv')
+
 
 
 # ORGANIZE DISEASE SET --------------------------------------------------------
@@ -988,14 +1255,29 @@ immune %>%
 
 #write out
 immune %>% 
-  write_csv(path='./subset_tables/immuneColdata.csv')
+  write_csv(path='./subset_tables/immune_Coldata.csv')
+
+
+#output the stress no immune
+stress %>% 
+  filter(!Run %in% immune$Run) %>% 
+  write_csv('./subset_tables/stressNOIMMUNE_Coldata.csv')
+
+
+
+# ORGANIZE DISEASE FOR CORRELATED PROJECTS --------------------------------
+
+#write out
+immune %>% 
+  filter(my_title %in% corStressProjs) %>% 
+  write_csv(path='./correlated_stress_project_tables/immune_Coldata.csv')
 
 
 #output the stress_noHeat set
 stress %>% 
-  filter(!Run %in% immune$Run) %>% 
-  write_csv('./subset_tables/stress_noImmune_Coldata.csv')
-
+  filter(!Run %in% immune$Run,
+         my_title %in% corStressProjs) %>% 
+  write_csv('./correlated_stress_project_tables/stressNOIMMUNE_Coldata.csv')
 
 
 
@@ -1004,7 +1286,6 @@ stress %>%
 #subset
 stressTypes = c('salinity')
 salt = frdat %>% 
-  filter(my_stage == 'adult') %>% 
   filter(projType %in% stressTypes)
 
 #check counts
@@ -1012,22 +1293,44 @@ table(salt$my_title)
 
 #write out
 salt %>% 
-  write_csv(path='./subset_tables/salinityColdata.csv')
+  write_csv(path='./subset_tables/salinity_Coldata.csv')
 
 
 #write out a no BEWW version
 salt %>% 
-  filter(my_title != 'j1_BLEACH_EWW') %>% 
-  write_csv(path='./subset_tables/salinity_NOBEWW_Coldata.csv')
+  filter(!Run %in% blchRuns) %>% 
+  write_csv(path='./subset_tables/salinityNOBLEACH_Coldata.csv')
   
+
+#output the stress no Salinity set
+stress %>% 
+  filter(!Run %in% salt$Run,
+         !projType == 'multiple') %>% 
+  write_csv('./subset_tables/stressNOSALINITY_Coldata.csv')
+
+
+
+# ORGANIZE SALINITY FOR CORRELATED PROJECTS -------------------------------
+
+#write out
+salt %>% 
+  filter(my_title %in% corStressProjs) %>% 
+  write_csv(path='./correlated_stress_project_tables/salinity_Coldata.csv')
+
+
+#write out a no bleaching version
+salt %>% 
+  filter(!Run %in% blchRuns,
+         my_title %in% corStressProjs) %>% 
+  write_csv(path='./correlated_stress_project_tables/salinityNOBLEACH_Coldata.csv')
+
 
 #output the stress_noSalinity set
 stress %>% 
   filter(!Run %in% salt$Run,
-         !projType == 'multiple') %>% 
-  write_csv('./subset_tables/stress_noSalinity_Coldata.csv')
-
-
+         !projType == 'multiple',
+         my_title %in% corStressProjs) %>% 
+  write_csv('./correlated_stress_project_tables/stressNOSALINITY_Coldata.csv')
 
 
 
@@ -1044,7 +1347,7 @@ projWithCold = frdat %>%
 cold = frdat %>% 
   filter(my_title %in% projWithCold,
          treat %in% c('cold', 'control'),
-         !(my_title=='j1_BLEACH_EWW' & !grepl('Ch.', treatDescription)))
+         !(my_title=='j1_thisStudy_PRJNA559404' & !grepl('Ch.', treatDescription)))
 
 
 
@@ -1055,20 +1358,41 @@ cold %>%
 
 #write out
 cold %>% 
-  write_csv(path='./subset_tables/coldColdata.csv')
+  write_csv(path='./subset_tables/cold_Coldata.csv')
 
-#make a no BEWW version
+#make a no bleaching version
 cold %>% 
-  filter(my_title != 'j1_BLEACH_EWW') %>% 
-  write_csv(path='./subset_tables/cold_NOBEWW_Coldata.csv')
+  filter(!Run %in% blchRuns) %>% 
+  write_csv(path='./subset_tables/coldNOBLEACH_Coldata.csv')
+
+
+#output the stress no Cold set
+stress %>% 
+  filter(!Run %in% cold$Run,
+         !projType == 'multiple') %>% 
+  write_csv('./subset_tables/stressNOCOLD_Coldata.csv')
+
+
+
+# ORGANIZE COLD FOR CORRELATED ONLY ---------------------------------------
+
+#write out
+cold %>% 
+  filter(my_title %in% corStressProjs) %>% 
+  write_csv(path='./correlated_stress_project_tables/cold_Coldata.csv')
+
+#no need to make a no BEWW version because only other one is not among correlated projects
 
 
 #output the stress_noCold set
 stress %>% 
   filter(!Run %in% cold$Run,
-         !projType == 'multiple') %>% 
-  write_csv('./subset_tables/stress_noCold_Coldata.csv')
+         !projType == 'multiple',
+         my_title %in% corStressProjs) %>% 
+  write_csv('./correlated_stress_project_tables/stressNOCOLD_Coldata.csv')
+
 
 
 #set back to default working dir
 setwd('../')
+

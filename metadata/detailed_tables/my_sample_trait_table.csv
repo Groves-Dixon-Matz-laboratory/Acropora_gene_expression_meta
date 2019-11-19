@@ -1,0 +1,1151 @@
+Run,BioProject,Reference,Reference_year,Reference_DOI,Organism,Developmental_stage,Project_type,Treatment,Treat_description,Raw_counts,Gene_counted
+SRR401853,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,control,Control 1,28328761,7343169
+SRR401854,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,control,Control 2,28571952,7917594
+SRR401855,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,control,Control 3,27641029,8522023
+SRR401856,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,low_pH,750 ppm 1,28807288,7677487
+SRR401857,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,low_pH,750 ppm 2,27735360,8442056
+SRR401858,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,low_pH,750 ppm 3,28899079,8132771
+SRR401859,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,low_pH,1000 ppm 1,29115000,7379928
+SRR401860,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,low_pH,1000 ppm 2,28412758,8273464
+SRR401861,PRJNA149513,(Moya et al. 2012),2012,https://doi.org/10.1111/j.1365-294X.2012.05554.x,Acropora millepora,recruit,pH,low_pH,1000 ppm 3,30042580,8129844
+SRR1015321,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,control,healthy,7602534,2216393
+SRR1015323,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,control,healthy,7599200,2535791
+SRR1015327,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,control,healthy,15276530,4605456
+SRR1015340,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,challenge,white band,5090010,1520976
+SRR1015349,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,challenge,white band,3928621,1522218
+SRR1015354,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,challenge,white band,6563066,2111081
+SRR1015298,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,control,healthy,4919853,1885740
+SRR1015358,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,control,healthy,15412184,4264418
+SRR1015325,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,control,healthy,14658595,4040692
+SRR1015331,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,challenge,white band,9959364,3720503
+SRR1015344,PRJNA222758,(Libro et al. 2013),2013,https://doi.org/10.1371/journal.pone.0081821,Acropora cervicornis,adult,immune,challenge,white band,7753708,812616
+SRR1206126,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,HVP_to_HVP,HVP_to_HVP,6512894,1240968
+SRR1206127,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,HVP_to_HVP,HVP_to_HVP,14091616,2384724
+SRR1206128,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,HVP_to_HVP,HVP_to_HVP,7811133,1575103
+SRR1206129,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,HVP_to_MVP,HVP_to_MVP,8001581,1112883
+SRR1206130,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,HVP_to_MVP,HVP_to_MVP,7770760,1514972
+SRR1206131,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,HVP_to_MVP,HVP_to_MVP,7743729,1549001
+SRR1206132,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,MVP_to_HVP,MVP_to_HVP,15061018,2498499
+SRR1206133,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,MVP_to_HVP,MVP_to_HVP,7050864,1387999
+SRR1206134,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,MVP_to_HVP,MVP_to_HVP,8888596,1676935
+SRR1206135,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,MVP_to_MVP,MVP_to_MVP,8484325,1579921
+SRR1206136,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,MVP_to_MVP,MVP_to_MVP,5305968,1124821
+SRR1206137,PRJNA242821,(Palumbi et al. 2014),2014,https://doi.org/10.1126/science.1251336,Acropora hyacinthus complex sp. E JTL-2012,adult,temperature_resilience,MVP_to_MVP,MVP_to_MVP,20435133,3037249
+SRR1653615,PRJNA266455,(Rosic et al. 2014),2014,https://doi.org/10.1186/1471-2164-15-1052,Acropora aspera,adult,temp,control,ambient 24 hrs,4446938,2097660
+SRR1654665,PRJNA266455,(Rosic et al. 2014),2014,https://doi.org/10.1186/1471-2164-15-1052,Acropora aspera,adult,temp,control,ambient 24 hrs,19865403,6787560
+SRR1653613,PRJNA266455,(Rosic et al. 2014),2014,https://doi.org/10.1186/1471-2164-15-1052,Acropora aspera,adult,temp,control,ambient 72 hrs,2645729,1247805
+SRR1654664,PRJNA266455,(Rosic et al. 2014),2014,https://doi.org/10.1186/1471-2164-15-1052,Acropora aspera,adult,temp,control,ambient 72 hrs,11599658,4195585
+SRR1653611,PRJNA266455,(Rosic et al. 2014),2014,https://doi.org/10.1186/1471-2164-15-1052,Acropora aspera,adult,temp,heat,6DegreeOverAmbient 24 hrs,27588956,3174715
+SRR1653608,PRJNA266455,(Rosic et al. 2014),2014,https://doi.org/10.1186/1471-2164-15-1052,Acropora aspera,adult,temp,heat,6DegreeOverAmbient 72 hrs,24416729,3330560
+SRR1703716,PRJNA269992,"(Kaniewska, Chan, et al. 2015)",2015,https://doi.org/10.1371/journal.pone.0139223,Acropora millepora,adult,pH,control,preindusctrial,39559337,11624569
+SRR1703717,PRJNA269992,"(Kaniewska, Chan, et al. 2015)",2015,https://doi.org/10.1371/journal.pone.0139223,Acropora millepora,adult,pH,control,present day,33736675,9144131
+SRR1706955,PRJNA269992,"(Kaniewska, Chan, et al. 2015)",2015,https://doi.org/10.1371/journal.pone.0139223,Acropora millepora,adult,pH,low_pH,RCP4.5,61610173,15865254
+SRR1703718,PRJNA269992,"(Kaniewska, Chan, et al. 2015)",2015,https://doi.org/10.1371/journal.pone.0139223,Acropora millepora,adult,pH,low_pH,RCP8.5,34500222,10192384
+SRR1843797,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,gamete,light,not_done_yet,Gamete,13749804,6904209
+SRR1842722,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,NewMoon12pm,29550734,10402128
+SRR1842771,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,NewMoon6pm,27369348,10441655
+SRR1842773,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,NewMoon12am,28559116,10817918
+SRR1842776,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,FullMoon12pm,27134624,9257548
+SRR1842777,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,FullMoon6pm,25268154,9756561
+SRR1842828,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,FullMoon12am,23570631,9140975
+SRR1853176,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0615PM_Ambient_16/11/2011,16170210,7921247
+SRR1853185,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0615PM_Dark_16/11/2011,15958231,9290821
+SRR1853188,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0615PM_Light_16/11/2011,16556895,9321993
+SRR1853192,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0730PM_Ambient_16/11/2011,16721174,9570065
+SRR1853195,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0730PM_Dark_16/11/2011,17701071,10264038
+SRR1853198,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0730PM_Light_16/11/2011,17848327,10441428
+SRR1853201,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0900PM_Ambient_16/11/2011,16978345,9872649
+SRR1853204,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,1030PM_Ambient_16/11/2011,17386867,9907187
+SRR1853208,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,1000PM_Dark_16/11/2011,17967712,10181276
+SRR1853209,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,1000PM_Light_16/11/2011,17178450,9687246
+SRR1853210,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,1000PM_Ambient_16/11/2011,16019652,8506030
+SRR1853211,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,1220AM_Ambient_17/11/2011,14598256,8492020
+SRR1853246,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0900PM_Light_16/11/2011,13854134,6954512
+SRR1853247,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0900PM_Ambient_10/11/2011,16204811,8662898
+SRR1853248,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,1200AM_Ambient_14/11/2011,16226384,9433306
+SRR1853249,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0730PM_Light_15/11/2011,15513104,8609047
+SRR1853250,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0730PM_Ambient_15/11/2011,16491943,9110111
+SRR1853251,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0600PM_Ambient_15/11/2011,14254737,8349158
+SRR1853252,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0600PM_Light_15/11/2011,16303243,9281920
+SRR1853253,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0900PM_Ambient_12/11/2011,14122402,7356542
+SRR1853254,PRJNA276913,"(Kaniewska, Alon, et al. 2015)",2015,https://dx.doi.org/10.7554%2FeLife.09991,Acropora millepora,adult,light,not_done_yet,0900PM_Light_12/11/2011,13434342,7682903
+SRR1929634,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,DC3,644054,187361
+SRR1929633,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,DC2,1549043,418834
+SRR1929631,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CD3,1221235,329021
+SRR1929632,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,DC1,933287,262087
+SRR1929630,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CD2,944530,280063
+SRR1929629,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CD1,1348253,353998
+SRR1929628,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CB3,1092661,299639
+SRR1929627,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CB2,1401108,387466
+SRR1929626,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CB1,1380271,357915
+SRR1929625,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CA3,587276,192345
+SRR1929624,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CA2,524399,176318
+SRR1929623,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,CA1,599093,187750
+SRR1929622,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BD3,1414183,383384
+SRR1929621,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BD2,1389559,375946
+SRR1929620,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BD1,640446,171120
+SRR1929618,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BC2,709694,192932
+SRR1929619,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BC3,631905,194497
+SRR1929617,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BC1,1192463,333647
+SRR1929616,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BA3,1066885,315817
+SRR1929615,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BA2,1065084,297879
+SRR1929614,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,BA1,1022798,288597
+SRR1929613,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AD3,932743,243934
+SRR1929612,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AD2,1764752,466732
+SRR1929611,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AD1,1200231,343547
+SRR1929610,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AC3,629985,208832
+SRR1929608,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AC1,950353,302750
+SRR1929609,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AC2,1041713,305904
+SRR1929607,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AB3,1008642,283341
+SRR1929606,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AB2,2406637,556832
+SRR1929605,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,larval,temperature_resilience,none,AB1,2438844,617320
+SRR1929604,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,2436256,487614
+SRR1929603,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,2994295,501019
+SRR1929601,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,1344078,265368
+SRR1929602,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,3214906,577989
+SRR1929600,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,1291306,279449
+SRR1929599,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,1152664,238609
+SRR1929598,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,3986837,702216
+SRR1929597,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,3250603,540032
+SRR1929596,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,2345666,442328
+SRR1929595,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,709210,155113
+SRR1929594,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,846136,182147
+SRR1929593,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,1002815,188147
+SRR1929592,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,2629535,498012
+SRR1929591,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,1889177,384677
+SRR1929590,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,1943516,365590
+SRR1929589,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,769398,198728
+SRR1929588,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,1004381,228299
+SRR1929587,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,928225,221389
+SRR1929586,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,1322024,305780
+SRR1929585,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,1289228,298910
+SRR1929584,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,heat,3 days at 31.5C,2563260,530576
+SRR1929583,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,1159557,268440
+SRR1929582,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,1864423,398244
+SRR1929581,PRJNA279192,(Dixon et al. 2015),2015,https://doi.org/10.1126/science.1261224,Acropora millepora,adult,temp,control,3 days at 28C,2038561,415855
+SRR2086162,PRJNA288809,(Bertucci et al. 2015),2015,https://doi.org/10.1111/mec.13328,Acropora millepora,adult,circadian,night,night3,74282623,13593158
+SRR2086161,PRJNA288809,(Bertucci et al. 2015),2015,https://doi.org/10.1111/mec.13328,Acropora millepora,adult,circadian,night,night2,78237032,15816248
+SRR2086160,PRJNA288809,(Bertucci et al. 2015),2015,https://doi.org/10.1111/mec.13328,Acropora millepora,adult,circadian,night,night1,75958303,13374279
+SRR2086159,PRJNA288809,(Bertucci et al. 2015),2015,https://doi.org/10.1111/mec.13328,Acropora millepora,adult,circadian,day,day3,66891825,12485484
+SRR2086158,PRJNA288809,(Bertucci et al. 2015),2015,https://doi.org/10.1111/mec.13328,Acropora millepora,adult,circadian,day,day2,62346667,14563887
+SRR2086157,PRJNA288809,(Bertucci et al. 2015),2015,https://doi.org/10.1111/mec.13328,Acropora millepora,adult,circadian,day,day1,64182676,15400883
+SRR835875,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,control,control,1750378,851377
+SRR835876,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,control,control,2028175,967889
+SRR835877,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,control,control,1612566,591027
+SRR835878,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,control,control,2864198,964566
+SRR835879,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,control,control,1853459,781107
+SRR835880,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,control,control,2651674,1096324
+SRR835881,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,control,control,1256340,501387
+SRR835882,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,control,control,4636729,1571160
+SRR835883,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,bacterial mimic,727926,162728
+SRR835884,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,bacterial mimic,3782808,804190
+SRR835885,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,bacterial mimic,1176317,299434
+SRR835886,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,bacterial mimic,5175461,1180369
+SRR835887,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,bacterial mimic,678659,227002
+SRR835888,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,bacterial mimic,4363556,1367301
+SRR835891,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,viral mimic,4244992,1695255
+SRR835889,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,bacterial mimic,3203927,1210909
+SRR835890,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,bacterial mimic,4277782,1748851
+SRR835892,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,viral mimic,1100700,493118
+SRR835893,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,viral mimic,5318211,1989490
+SRR835895,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,viral mimic,2700305,1110812
+SRR835896,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,viral mimic,1580216,685033
+SRR835894,PRJNA200542,(Weiss et al. 2013),2013,https://doi.org/10.1186/1471-2164-14-400,Acropora millepora,adult,immune,challenge,viral mimic,4051739,1660610
+SRR2912594,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,g1r1,980,368
+SRR2912603,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,R1g1,469149,124058
+SRR2912607,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,R2r1,565187,162149
+SRR2912606,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,R2g1,605259,170055
+SRR2912605,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,R2d1,521997,134455
+SRR2912604,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,R1r1,372951,100743
+SRR2912601,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,M2r1,609135,170826
+SRR2912600,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,g2r1,680006,199006
+SRR2912599,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,M2g1,304686,91364
+SRR2912598,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,g2g1,817256,228097
+SRR2912597,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,M2d1,528451,148338
+SRR2912596,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,g2d1,582016,173911
+SRR2912595,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,M1r1,453974,130245
+SRR2912593,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,M1g1,594818,175085
+SRR2912592,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,g1g1,588019,154621
+SRR2912591,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,M1d1,587123,165033
+SRR2912590,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,g1d1,481860,142198
+SRR2912602,PRJNA292574,(Strader et al. 2016),2016,https://doi.org/10.1111/mec.13488,Acropora millepora,larval,light,not done yet,R1d1,313262,86306
+SRR629090,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,01_h_HV,19577661,763126
+SRR629091,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,02_c_HV,18872907,1637079
+SRR629092,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,02_h_HV,9457678,1074790
+SRR629093,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,03_c_HV,13328694,734261
+SRR629094,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,06_c_HV,9146242,993593
+SRR629096,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,09_c_HV,10464369,1145901
+SRR629126,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,09_h_HV,26399718,622661
+SRR629130,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,31_h_MV,13561442,757801
+SRR629131,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,40_c_MV,9235183,1299265
+SRR629132,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,40_h_MV,10573276,963561
+SRR629135,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,45_c_MV,5551198,299455
+SRR629150,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,55_c_MV,17722284,1539927
+SRR629151,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,55_h_MV,17905764,858555
+SRR629155,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,65_h_MV,18368411,904566
+SRR629089,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,01_c_HV,18753443,303262
+SRR629095,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,06_h_HV,8011684,735115
+SRR629127,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,75_c_HV,6256079,579219
+SRR629128,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,75_h_HV,2440360,218116
+SRR629129,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,31_c_MV,15613291,1973269
+SRR629133,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,44_c_MV,16743882,1189820
+SRR629134,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,44_h_MV,16198613,922340
+SRR629136,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,45_h_MV,2083128,107096
+SRR629152,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,61_c_MV,8838378,1125991
+SRR629153,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,61_h_MV,15748515,2534487
+SRR629154,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,65_c_MV,9584976,1231305
+SRR629156,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,68_c_MV,18566614,126549
+SRR629157,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,68_h_MV,6584461,903510
+SRR629158,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,70_c_MV,16299011,1006237
+SRR629159,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,70_h_MV,8193882,536474
+SRR629160,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,control,71_c_MV,19108917,877861
+SRR629161,PRJNA177515,(Barshis et al. 2013),2013,https://doi.org/10.1073/pnas.1210224110,Acropora hyacinthus,adult,temp,heat,71_h_MV,18492498,910248
+SRR1566164,PRJNA260269,(Moya et al. 2015),2015,https://doi.org/10.1111/mec.13021,Acropora millepora,recruit,pH,control,380 ppm CO2,12269208,5249447
+SRR1566165,PRJNA260269,(Moya et al. 2015),2015,https://doi.org/10.1111/mec.13021,Acropora millepora,recruit,pH,control,380 ppm CO2,12534784,5595785
+SRR1566166,PRJNA260269,(Moya et al. 2015),2015,https://doi.org/10.1111/mec.13021,Acropora millepora,recruit,pH,control,380 ppm CO2,12898069,5537109
+SRR1566168,PRJNA260269,(Moya et al. 2015),2015,https://doi.org/10.1111/mec.13021,Acropora millepora,recruit,pH,low_pH,750 ppm CO2,12631481,5628308
+SRR1566167,PRJNA260269,(Moya et al. 2015),2015,https://doi.org/10.1111/mec.13021,Acropora millepora,recruit,pH,low_pH,750 ppm CO2,12501088,5431536
+SRR1566169,PRJNA260269,(Moya et al. 2015),2015,https://doi.org/10.1111/mec.13021,Acropora millepora,recruit,pH,low_pH,750 ppm CO2,12467897,4817192
+SRR3095777,PRJNA308355,(Zhou et al. 2017),2017,https://doi.org/10.1016/j.fsi.2017.06.027,Acropora aculeus,adult,temp,control,Aa_Control,30435303,11041872
+SRR3095778,PRJNA308355,(Zhou et al. 2017),2017,https://doi.org/10.1016/j.fsi.2017.06.027,Acropora aculeus,adult,temp,control,Aa_Control,29084044,11301549
+SRR3095779,PRJNA308355,(Zhou et al. 2017),2017,https://doi.org/10.1016/j.fsi.2017.06.027,Acropora aculeus,adult,temp,heat,Aa_Heat,30648486,11508072
+SRR3095780,PRJNA308355,(Zhou et al. 2017),2017,https://doi.org/10.1016/j.fsi.2017.06.027,Acropora aculeus,adult,temp,heat,Aa_Heat,30151918,10359256
+SRR3106399,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,infected,infected_48h_rep3,24533716,12439792
+SRR3106398,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,infected,infected_48h_rep2,20055461,9624529
+SRR3106397,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,infected,infected_48h_rep1,18805803,8063173
+SRR3106396,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,control,control_48h_rep3,24849108,13153286
+SRR3106395,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,control,control_48h_rep2,15729866,7726564
+SRR3106394,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,control,control_48h_rep1,21477166,11024258
+SRR3106393,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,infected,infected_12h_rep3,23520684,11690716
+SRR3106392,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,infected,infected_12h_rep2,22705829,13279881
+SRR3106391,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,control,control_12h_rep3,25197830,12980877
+SRR3106390,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,control,control_12h_rep2,24035359,13411384
+SRR3106389,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,infected,infected_4h_rep3,20333953,10839707
+SRR3106388,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,infected,infected_4h_rep2,22040532,12830094
+SRR3106387,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,infected,infected_4h_rep1,26154672,14050670
+SRR3106386,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,control,control_4h_rep3,20912751,10446839
+SRR3106385,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,control,control_4h_rep2,19542091,9803535
+SRR3106384,PRJNA309168,(Mohamed et al. 2016),2016,https://doi.org/10.1111/mec.13659,Acropora digitifera,larval,zoox,control,control_4h_rep1,22430563,11025349
+SRR3169421,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_FM,5957248,568629
+SRR3169422,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_3Q,7695125,1076200
+SRR3169423,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_NM,6374620,855048
+SRR3169425,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_FM,13378891,1552968
+SRR3169426,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_3Q,11417796,1266294
+SRR3169518,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_NM,9614658,1222895
+SRR3169527,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_1Q,8050468,1049829
+SRR3169529,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_3Q,4827662,578988
+SRR3169530,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_NM,8373673,1014176
+SRR3169531,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_FM,7972791,953895
+SRR3169532,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_3Q,8300636,918525
+SRR3169533,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_NM,7551107,935971
+SRR3169534,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_1Q,7708320,1111496
+SRR3169535,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_FM,7805419,828532
+SRR3169536,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_3Q,5247080,111278
+SRR3169537,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_NM,8893168,998181
+SRR3169538,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,field_day_FM,5443026,683818
+SRR3169539,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_3Q,6395105,611870
+SRR3169540,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_NM,5858257,746132
+SRR3169541,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_1Q,4886830,655998
+SRR3169528,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,field_night_FM,11530812,1357364
+SRR3182557,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_3Q,9125561,674937
+SRR3182684,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_NM,9995101,1111198
+SRR3182685,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_FM,1232300,236348
+SRR3182686,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_3Q,10457274,902920
+SRR3182775,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_1Q,15985544,1246952
+SRR3182776,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_FM,8287929,358072
+SRR3182777,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_3Q,33920441,236797
+SRR3182778,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_NM,9737226,602881
+SRR3182779,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_1Q,5345938,695404
+SRR3182780,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_FM,6206720,358450
+SRR3182781,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_3Q,7255412,488086
+SRR3182784,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_NM,11211400,626760
+SRR3182785,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_1Q,11461998,756298
+SRR3182786,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_FM,4030938,171484
+SRR3182787,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_3Q,10121565,1017060
+SRR3182788,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_NM,13592383,1434085
+SRR3182790,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_FM,5309832,484259
+SRR3182791,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_3Q,14688850,1356365
+SRR3182793,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_1Q,13125154,1102087
+SRR3182792,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_NM,9822337,1050818
+SRR3182794,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_FM,9708428,599416
+SRR3182410,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,night,tank_night_NM,8248214,697879
+SRR3182448,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_1Q,6135657,842156
+SRR3182789,PRJNA293100,(Oldach and Vize 2018),2018,https://doi.org/10.1016/j.margen.2017.12.007,Acropora gemmifera,adult,circadian.moon,day,tank_day_1Q,3363995,699835
+SRR3316340,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Full_Moon_22:15,21260799,11287329
+SRR3316339,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Full_Moon_11:45,20232871,10395737
+SRR3316338,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,gamete,moon.spawn,not done yet,Bundles,15930577,10792163
+SRR3316337,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Post_Spawning,22435750,11989983
+SRR3316336,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Spawning,20842714,10473276
+SRR3316334,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Super_Moon_11:45,17944465,9051636
+SRR3316333,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Setting,19381094,9415556
+SRR3316332,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Pre_Spawning,17124578,8459442
+SRR3316343,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,New_Moon_21:00,19598949,9854776
+SRR3316342,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,New_Moon_11:45,19948352,10188007
+SRR3316341,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Full_Moon_00:15,19745912,10525492
+SRR3316335,PRJNA316795,(Rosenberg et al. 2017),2017,https://doi.org/10.1111/mec.14062,Acropora digitifera,adult,moon.spawn,not done yet,Super_Moon_21:15,19746230,9628812
+DRR024466,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,adult,development,adult,Adult 1,2179043,969208
+DRR024468,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,adult,development,adult,Adult 3,2243159,936066
+DRR024467,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,adult,development,adult,Adult 2,2382031,1041536
+DRR024469,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,blastular,Blastula 1,4317125,2590733
+DRR024471,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,blastular,Blastula 3,5981879,3460314
+DRR024470,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,blastular,Blastula 2,4448367,2575535
+DRR024472,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,gastrula,Gastrula 1,2578794,974784
+DRR024473,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,gastrula,Gastrula 2,1966700,777523
+DRR024474,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,gastrula,Gastrula 3,2850019,1271105
+DRR024475,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,larval,development,planula,Planula 1,2486014,1518873
+DRR024476,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,larval,development,planula,Planula 2,4492585,2578664
+DRR024477,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,larval,development,planula,Planula 3,3716303,2342635
+DRR024479,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,sphere,Sphere 2,2316467,1045877
+DRR024480,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,sphere,Sphere 3,2099214,1033780
+DRR024478,PRJDB3244,(Reyes-Bermudez et al. 2016),2016,https://doi.org/10.1093/gbe/evw042,Acropora digitifera,embryo,development,sphere,Sphere 1,1898377,906637
+SRR3622488,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC221,247228,64836
+SRR3622490,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC261,385341,104724
+SRR3622491,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD91,522502,20120
+SRR3622493,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD92,530609,115557
+SRR3622496,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD93,1347483,17782
+SRR3622499,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO221,262250,75681
+SRR3622503,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO222,262612,75440
+SRR3622506,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO223,367955,104131
+SRR3622509,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO262,510419,121623
+SRR3622512,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC262,699399,171086
+SRR3622513,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO263,473595,117430
+SRR3622516,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO273,770792,162282
+SRR3622519,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO301,820147,187856
+SRR3622522,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO302,719120,141283
+SRR3622526,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO303,228095,68641
+SRR3622529,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO41,506120,133668
+SRR3622532,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO42,301869,70500
+SRR3622536,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO43,657922,163669
+SRR3622539,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO52,600871,152668
+SRR3622542,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO53,212925,51326
+SRR3622546,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO71,448075,117121
+SRR3622545,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC272,390063,99740
+SRR3622549,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO72,610706,132461
+SRR3622553,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO73,230686,64937
+SRR3622555,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO91,168383,16029
+SRR3622559,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AO93,442299,10964
+SRR3622578,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC273,768531,175927
+SRR3622588,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC221,344541,94691
+SRR3622592,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC222,417044,103845
+SRR3622595,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC223,478894,124901
+SRR3622598,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC261,782597,172692
+SRR3622603,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC262,804944,185478
+SRR3622606,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC263,876498,185461
+SRR3622609,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC271,535132,141042
+SRR3622612,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC301,807518,192081
+SRR3622613,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC272,473868,126257
+SRR3622616,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC273,514598,142857
+SRR3622619,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC301,1075468,212596
+SRR3622622,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC302,623262,144698
+SRR3622626,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC303,1231831,248724
+SRR3622629,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC41,832307,192887
+SRR3622632,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC42,1027344,243523
+SRR3622636,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC43,491336,131647
+SRR3622639,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC51,913039,200165
+SRR3622642,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC52,750856,173850
+SRR3622645,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC302,504899,119022
+SRR3622646,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC53,808700,175361
+SRR3622649,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC71,422842,105545
+SRR3622652,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC72,1387808,277557
+SRR3622655,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC73,1209847,265687
+SRR3622659,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC91,870980,197678
+SRR3622662,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC92,467984,124767
+SRR3622666,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,NC93,740275,177626
+SRR3622669,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND261,528676,131129
+SRR3622672,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND262,1002646,14726
+SRR3622676,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND271,731778,117384
+SRR3622678,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC303,469706,118796
+SRR3622680,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND273,427968,113371
+SRR3622682,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND301,662554,155703
+SRR3622685,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND302,728902,175857
+SRR3622688,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND303,773298,197236
+SRR3622692,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND41,848619,189340
+SRR3622695,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND42,250611,9688
+SRR3622698,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND51,232926,30625
+SRR3622702,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND52,430878,111138
+SRR3622705,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND53,521044,119026
+SRR3622708,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND71,423884,110936
+SRR3622711,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC222,516953,139113
+SRR3622712,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC41,673403,163270
+SRR3622713,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND73,841540,180752
+SRR3622717,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND91,619668,124369
+SRR3622719,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,ND93,280972,18071
+SRR3622722,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO221,596453,156230
+SRR3622726,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO222,352126,97056
+SRR3622729,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO261,1224531,279996
+SRR3622732,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO262,559289,153182
+SRR3622736,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO263,164109,47918
+SRR3622739,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO271,586347,134090
+SRR3622742,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO273,1474061,327875
+SRR3622745,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC42,1161396,251440
+SRR3622746,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO301,1015003,240890
+SRR3622749,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO302,531856,122834
+SRR3622752,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO303,530226,132383
+SRR3622755,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO41,745414,176108
+SRR3622771,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO42,1383393,270095
+SRR3622774,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO43,490844,124704
+SRR3622777,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO52,1226868,266078
+SRR3622781,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO53,1105572,199145
+SRR3622784,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO71,1241282,257265
+SRR3622787,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO72,1037666,18051
+SRR3622790,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC51,765319,180035
+SRR3622791,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO73,509692,142939
+SRR3622794,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO91,633740,146089
+SRR3622797,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO92,1157137,232215
+SRR3622800,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,NO93,223300,24203
+SRR3622841,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC53,1060783,232810
+SRR3622851,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC71,1130828,249168
+SRR3622854,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC72,1517731,324244
+SRR3622857,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC73,358719,94016
+SRR3622861,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC91,252943,67483
+SRR3622864,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC92,706008,10436
+SRR3622867,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC93,1184492,15405
+SRR3622870,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,control,AC223,528157,141394
+SRR3622872,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD221,480387,110100
+SRR3622874,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD222,435951,98225
+SRR3622877,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD223,381213,95717
+SRR3622880,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD261,579946,143625
+SRR3622884,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD262,460544,67399
+SRR3622887,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD271,672800,141460
+SRR3622890,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD301,130956,36477
+SRR3622894,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD302,496714,115913
+SRR3622897,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD303,369494,84860
+SRR3622900,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD51,487393,124136
+SRR3622904,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD71,194294,55227
+SRR3622907,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD72,328784,77919
+SRR3622910,PRJNA319662,(Wright et al. 2017),2017,https://doi.org/10.1038/s41598-017-02685-1,Acropora millepora,adult,immune,challenge,AD73,702180,15104
+DRR055155,PRJDB4579,(Yasuoka et al. 2016),2016,https://doi.org/10.1016/j.cub.2016.08.011,Acropora digitifera,embryo,development,not done yet,Adi_bra morphants,38622180,25613406
+DRR055156,PRJDB4579,(Yasuoka et al. 2016),2016,https://doi.org/10.1016/j.cub.2016.08.011,Acropora digitifera,embryo,development,not done yet,uninjected controls of control morphants,34443522,23033107
+DRR055157,PRJDB4579,(Yasuoka et al. 2016),2016,https://doi.org/10.1016/j.cub.2016.08.011,Acropora digitifera,embryo,development,not done yet,control morphants,38073709,25317742
+DRR055154,PRJDB4579,(Yasuoka et al. 2016),2016,https://doi.org/10.1016/j.cub.2016.08.011,Acropora digitifera,embryo,development,not done yet,uninjected controls of Adi_bra morphants,44862257,29287346
+SRR4029951,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,13126076,3193951
+SRR4029952,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,9338409,2497635
+SRR4029953,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,9732684,2677898
+SRR4029954,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,10225778,2667616
+SRR4029955,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,14181496,3795971
+SRR4029956,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,5296466,1565544
+SRR4029957,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,10694966,3025907
+SRR4029958,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,11558640,3101012
+SRR4029959,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,10456264,2927251
+SRR4029960,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,9749920,2313716
+SRR4029961,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,8268562,1734919
+SRR4029962,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,9184161,2618088
+SRR4029963,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,8330820,2563711
+SRR4029964,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,12852344,3458395
+SRR4029965,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,11223453,2908339
+SRR4029966,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,10091992,3128807
+SRR4029967,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,11800172,2728644
+SRR4029968,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,11696646,2839098
+SRR4029969,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,11133750,3005046
+SRR4029970,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,9690375,2722302
+SRR4029971,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,12910014,3163299
+SRR4029972,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,11659544,2733350
+SRR4029973,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,11509070,2900465
+SRR4029974,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,7483857,1797861
+SRR4029976,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,13861221,3718729
+SRR4029977,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,10973268,2871994
+SRR4029978,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,15745292,3473139
+SRR4029979,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,10992469,2181397
+SRR4029980,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,9871028,2298510
+SRR4029981,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,11430244,3027607
+SRR4029982,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,9554245,2625319
+SRR4029983,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,9819601,2279321
+SRR4029984,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,9522495,2349510
+SRR4029985,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,13341121,3149310
+SRR4029986,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,10425654,2312272
+SRR4029987,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,10300750,2813132
+SRR4029988,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,10219207,2726638
+SRR4029989,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,11028183,2584004
+SRR4029990,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,11822979,2563716
+SRR4029991,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,11653533,2755795
+SRR4029992,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,9384698,2513062
+SRR4029993,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,9251507,2230732
+SRR4029994,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,9577656,2512563
+SRR4029995,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,9631784,2336942
+SRR4029996,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,9006152,2711733
+SRR4029997,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH88,8963392,1668960
+SRR4029998,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,8918793,2278096
+SRR4029999,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,9206749,2336669
+SRR4030000,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,13188821,3331017
+SRR4030001,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH06,11158934,3216200
+SRR4029975,PRJNA338455,(Ruiz-Jones and Palumbi 2017),2017,https://doi.org/10.1126/sciadv.1601298,Acropora hyacinthus,adult,natural_variation,none,AH75,14855831,3304025
+SRR5190737,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_9,6853451,999849
+SRR5190738,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_8,9139400,1138985
+SRR5190739,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_7,4444051,745546
+SRR5190740,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_6,4280645,642576
+SRR5190741,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_5,7351955,843274
+SRR5190742,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_4,4635358,671610
+SRR5190743,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_3,4608835,705908
+SRR5190744,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_2,4264547,643837
+SRR5190745,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_1,4558623,670634
+SRR5190746,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_15,5251870,739224
+SRR5190747,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_14,5197700,808073
+SRR5190748,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_13,4823582,751419
+SRR5190749,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_12,3071076,496907
+SRR5190750,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_11,3930604,610214
+SRR5190751,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Upa-Upasina_control_10,10502877,1457037
+SRR5190752,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_9,3384028,524996
+SRR5190753,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_8,3620171,523640
+SRR5190754,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_7,3129897,473177
+SRR5190755,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_6,6936311,999917
+SRR5190756,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_5,3374188,539352
+SRR5190757,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_4,4559258,696963
+SRR5190758,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_3,4048456,612220
+SRR5190759,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_2,3407707,552450
+SRR5190760,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_1,5681274,802706
+SRR5190761,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_15,8289665,1311768
+SRR5190762,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_14,6221652,923551
+SRR5190763,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_13,6513859,858973
+SRR5190764,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_12,4810125,739391
+SRR5190765,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_11,4854789,814584
+SRR5190766,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Upa-Upasina_seep_10,2505197,417882
+SRR5190767,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_9,4883136,744970
+SRR5190768,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_8,9788227,1160225
+SRR5190769,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_7,6482897,905459
+SRR5190770,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_6,2795982,488845
+SRR5190771,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_5,6074545,952275
+SRR5190772,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_4,3701039,618109
+SRR5190773,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_3,6117290,756632
+SRR5190774,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_2,4020177,648903
+SRR5190775,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_1,5967706,956466
+SRR5190776,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_15,3607973,631655
+SRR5190777,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_14,3432198,555412
+SRR5190778,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_13,4253612,612426
+SRR5190779,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_12,4446912,691167
+SRR5190780,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_11,4590760,713829
+SRR5190781,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,control,Dobu_control_10,5690904,828750
+SRR5190782,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_9,6771094,965331
+SRR5190783,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_8,4625941,634644
+SRR5190784,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_7,3861974,643923
+SRR5190785,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_6,4587096,641766
+SRR5190786,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_5,5736572,792789
+SRR5190788,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_3,2937352,528593
+SRR5190787,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_4,10534000,1110930
+SRR5190789,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_2,7001299,913267
+SRR5190790,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_15,4297677,650920
+SRR5190791,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_14,16375413,1642294
+SRR5190792,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_13,5753057,706928
+SRR5190793,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_12,5082160,668413
+SRR5190794,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_11,5761671,753965
+SRR5190795,PRJNA362652,(Kenkel et al. 2018),2018,https://doi.org/10.1111/gcb.13833,Acropora millepora,adult,pH_resilience,low_pH,Dobu_seep_10,3423192,596876
+SRR5236068,PRJNA298496,(Gajigan and Conaco 2017),2017,https://doi.org/10.1111/mec.14130,Acropora digitifera,adult,temp,heat,34C,26479506,13562607
+SRR5236067,PRJNA298496,(Gajigan and Conaco 2017),2017,https://doi.org/10.1111/mec.14130,Acropora digitifera,adult,temp,heat,34C,20088208,10431818
+SRR5236069,PRJNA298496,(Gajigan and Conaco 2017),2017,https://doi.org/10.1111/mec.14130,Acropora digitifera,adult,temp,control,29C,22547214,11595867
+SRR5236070,PRJNA298496,(Gajigan and Conaco 2017),2017,https://doi.org/10.1111/mec.14130,Acropora digitifera,adult,temp,control,29C,16381803,8156240
+SRR5343281,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,739452,208375
+SRR5343282,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1841672,451385
+SRR5343283,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1122164,312769
+SRR5343284,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1171529,301051
+SRR5343285,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1655369,418009
+SRR5343286,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1764004,442728
+SRR5343287,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1025456,285819
+SRR5343288,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1789238,430940
+SRR5343289,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,2411320,522010
+SRR5343290,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1051661,310000
+SRR5343291,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1069457,310220
+SRR5343292,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1106564,309508
+SRR5343293,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1009022,284166
+SRR5343294,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1413859,367124
+SRR5343295,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,870438,255909
+SRR5343296,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1186770,308959
+SRR5343297,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1777158,474390
+SRR5343298,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1228672,339230
+SRR5343299,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1964514,457226
+SRR5343300,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,2169571,486175
+SRR5343301,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1952420,476536
+SRR5343302,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,740739,227283
+SRR5343303,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,869851,254462
+SRR5343304,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1192910,337400
+SRR5343305,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1273054,326707
+SRR5343306,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1792833,460788
+SRR5343307,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1232502,310908
+SRR5343308,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1751024,408272
+SRR5343309,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1510865,380883
+SRR5343310,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,2168985,529152
+SRR5343311,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1519987,373838
+SRR5343312,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,2044683,483252
+SRR5343313,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1898815,464989
+SRR5343314,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1564350,402845
+SRR5343315,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1739493,444666
+SRR5343316,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1197922,337903
+SRR5343317,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,816690,254605
+SRR5343318,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1376076,357065
+SRR5343319,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1431285,380085
+SRR5343320,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1049465,266085
+SRR5343321,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1897267,433597
+SRR5343322,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1881977,448879
+SRR5343323,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,2035347,476455
+SRR5343324,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,2377987,553265
+SRR5343325,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,2235940,567274
+SRR5343326,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1508290,399605
+SRR5343327,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1290232,341452
+SRR5343328,PRJNA379147,(Strader et al. 2018),2018,https://doi.org/10.1186/s12864-017-4392-0,Acropora millepora,larval,development,not done yet,not done yet,1576362,404868
+SRR5362791,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,17824541,3538878
+SRR5362792,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,6384592,1548322
+SRR5362793,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,4716685,1210156
+SRR5362794,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,9091056,1826126
+SRR5362795,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,9137416,1888253
+SRR5362796,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,13468746,2616450
+SRR5362797,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,6751980,1705870
+SRR5362798,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,14268951,2902886
+SRR5362799,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,8916341,2160378
+SRR5362806,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,10113996,1970239
+SRR5362807,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,10941137,2279882
+SRR5362808,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,16203249,2860637
+SRR5362809,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,9318178,2516825
+SRR5362810,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,18319851,3894635
+SRR5362811,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,12219255,2763199
+SRR5362812,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,7463256,2014752
+SRR5362813,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,7187296,1843786
+SRR5362814,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,11679537,2679055
+SRR5362816,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,7466350,1646776
+SRR5362817,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,11658266,2629566
+SRR5362818,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,6731516,1835119
+SRR5362819,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,9959916,2430184
+SRR5362820,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,4346500,1022840
+SRR5362821,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,8606947,2313188
+SRR5362822,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,12591686,2690693
+SRR5362823,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,5815393,1622655
+SRR5362824,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,14514699,3218505
+SRR5362828,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,24892294,4364291
+SRR5362803,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,4903565,1380282
+SRR5362815,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,6495372,1503137
+SRR5362800,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,13403567,2729500
+SRR5362801,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,25313317,5049166
+SRR5362802,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,12664626,2832299
+SRR5362804,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,23036531,4687030
+SRR5362805,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,10101215,2361677
+SRR5362825,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,12633919,2678761
+SRR5362826,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,9325041,2166077
+SRR5362827,PRJNA379450,(Rose et al. 2018),2018,https://doi.org/10.1111/evo.13385,Acropora hyacinthus,adult,cryptic_species,not done yet,not done yet,8280359,2083396
+DRR054772,PRJDB4562,(Takahashi-Kariyazono et al. 2016),2016,https://doi.org/10.1093/gbe/evw265,Acropora digitifera,adult,species,digitifera_adult,digitifera_adult,47029678,13208160
+DRR054773,PRJDB4562,(Takahashi-Kariyazono et al. 2016),2016,https://doi.org/10.1093/gbe/evw265,Acropora digitifera,larval,species,digitifera_larval,digitifera_larval,40082324,20632999
+DRR054775,PRJDB4562,(Takahashi-Kariyazono et al. 2016),2016,https://doi.org/10.1093/gbe/evw265,Acropora tenuis,larval,species,tenuis_larval,tenuis_larval,42009480,22952700
+DRR054774,PRJDB4562,(Takahashi-Kariyazono et al. 2016),2016,https://doi.org/10.1093/gbe/evw265,Acropora tenuis,adult,species,tenuis_adult,tenuis_adult,44410835,10523849
+SRR5367050,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,12367906,3428017
+SRR5367051,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11904632,3220485
+SRR5367052,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11782573,2944220
+SRR5367053,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,12241461,2747729
+SRR5367054,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,12254767,3113326
+SRR5367055,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,12270456,3344248
+SRR5367056,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11789649,2697306
+SRR5367057,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11722947,2667734
+SRR5367058,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,12493366,2941151
+SRR5367059,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11970508,3347060
+SRR5367060,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11658887,3300158
+SRR5367061,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,12388176,3153778
+SRR5367062,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,10926596,3119116
+SRR5367063,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11857241,3225780
+SRR5367064,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,12406185,3424049
+SRR5367065,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11666138,3194018
+SRR5367066,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,12338622,3249147
+SRR5367067,PRJNA380146,(Yuan et al. 2018),2018,https://doi.org/10.1038/s41598-018-21267-3,Acropora gemmifera,recruit,species,tenuis_recruit,tenuis_recruit,11860063,3110341
+SRR5374529,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,1h_25psu_22gen_Amill,10420113,4210263
+SRR5374530,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,1h_25psu_23gen_Amill,11835085,4956832
+SRR5374531,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,1h_25psu_26gen_Amill,10980232,4656468
+SRR5374532,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,1h_25psu_33gen_Amill,13312548,5215106
+SRR5374533,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,1h_25psu_34gen_Amill,7826298,2984155
+SRR5374534,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,1h_35psu_22gen_Amill,10383429,3710197
+SRR5374535,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,1h_35psu_23gen_Amill,7350003,2756994
+SRR5374536,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,1h_35psu_26gen_Amill,9458133,3992944
+SRR5374537,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,1h_35psu_33gen_Amill,13424934,5372543
+SRR5374538,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,1h_35psu_34gen_Amill,10508521,4017824
+SRR5374539,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,24h_25psu_23gen_Amill,10098221,4255959
+SRR5374540,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,24h_25psu_33gen_Amill,8128730,3565116
+SRR5374541,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,24h_25psu_34gen_Amill,8560092,3544059
+SRR5374542,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,24h_35psu_22gen_Amill,7186447,2705268
+SRR5374543,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,24h_35psu_23gen_Amill,11844216,4326756
+SRR5374544,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,24h_35psu_26gen_Amill,12096922,4833216
+SRR5374545,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,24h_35psu_33gen_Amill,7876713,3078958
+SRR5374546,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,24h_35psu_34gen_Amill,10079608,3345183
+SRR5374547,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,24h_35psu_180_Amill,7701033,5250586
+SRR5374548,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,24h_35psu_181_Amill,6229651,4096554
+SRR5374549,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,24h_35psu_186_Amill,9900736,6590390
+SRR5374550,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,24h_35psu_187_Amill,11079939,6633471
+SRR5374551,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,24h_35psu_192_Amill,9812732,6214445
+SRR5374552,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,24h_35psu_193_Amill,7962223,5203283
+SRR5374553,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,24h_28psu_196_Amill,10763465,7187520
+SRR5374554,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,24h_28psu_197_Amill,7960382,5418761
+SRR5374555,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,24h_28psu_202_Amill,9528406,6377037
+SRR5374556,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,24h_28psu_203_Amill,8245512,5335965
+SRR5374557,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,24h_28psu_208_Amill,6042591,3979566
+SRR5374558,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,24h_28psu_209_Amill,8262098,5502319
+SRR5374559,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,48h_35psu_214_Amill,8436866,5754353
+SRR5374560,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,48h_35psu_215_Amill,6609828,4334612
+SRR5374561,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,48h_35psu_220_Amill,6660444,4361289
+SRR5374562,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,48h_35psu_222_Amill,9944146,6514310
+SRR5374563,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,control,48h_35psu_226_Amill,9476438,6317126
+SRR5374564,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,48h_28psu_222_Amill,9441121,6384649
+SRR5374565,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,48h_28psu_233_Amill,8312066,5593887
+SRR5374566,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,48h_28psu_238_Amill,4851716,3291204
+SRR5374567,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,48h_28psu_239_Amill,7758165,5094969
+SRR5374568,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,48h_28psu_244_Amill,5584392,3748315
+SRR5374569,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,recruit,salinity,low_salinity,48h_28psu_245_Amill,4361404,2891098
+SRR5378429,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,1h_25psu_22gen_Amill rep 2,10958039,4310432
+SRR5378430,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,1h_35psu_22gen_Amill rep 2,12449487,4637841
+SRR5378431,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,low_salinity,24h_25psu_23gen_Amill rep 2,13721967,5923573
+SRR5378432,PRJNA380267,(Aguilar et al. 2017),2017,https://doi.org/10.1186/s12864-017-3959-0,Acropora millepora,adult,salinity,control,24h_35psu_22gen_Amill rep 2,12378721,4495009
+SRR5569448,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,33904223,11971510
+SRR5569447,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,18296211,6400240
+SRR5569449,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,46947071,17636938
+SRR5569450,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,39783541,12658779
+SRR5569445,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,31955534,10406768
+SRR5569446,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,36510881,10958619
+SRR5569444,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,36235395,12301627
+SRR5569442,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,39316516,16037157
+SRR5569441,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,30845136,11273854
+SRR5569440,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,26693556,11835942
+SRR5569439,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,17555522,7146991
+SRR5569438,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,29384994,11808898
+SRR5569437,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,28369784,10962356
+SRR5569435,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,33621442,10421657
+SRR5569436,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,33830986,13624546
+SRR5569443,PRJNA386795,none,none,none,Acropora palmata,adult,disease_tolerance,not done yet,emailed John Wares,31266606,11626431
+SRR5934181,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,challenge,Negative_control_12h_rep2,24035359,13411382
+SRR5934178,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_04h_rep1,26204349,10782426
+SRR5934180,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_04h_rep3,31698401,14039158
+SRR5934182,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,challenge,Negative_control_12h_rep3,25197830,12980884
+SRR5934184,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_12h_rep2,26639362,13546263
+SRR5934183,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_12h_rep1,25557352,11828495
+SRR5934185,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_12h_rep3,23800967,10773223
+SRR5934186,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,challenge,Negative_control_48h_rep1,21477166,11024267
+SRR5934187,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,challenge,Negative_control_48h_rep2,15729866,7726561
+SRR5934188,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,challenge,Negative_control_48h_rep3,24849108,13153295
+SRR5934189,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_48h_rep1,26530067,11505889
+SRR5934190,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_48h_rep2,24465990,9081937
+SRR5934191,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_48h_rep3,27855959,9908104
+SRR5934177,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,challenge,Negative_control_04h_rep3,20912751,10446844
+SRR5934175,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,challenge,Negative_control_04h_rep1,22430563,11025357
+SRR5934179,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,control,Chromera_infected_04h_rep2,25721449,11014453
+SRR5934176,PRJNA398338,(Mohamed et al. 2018),2018,https://doi.org/10.1038/s41396-017-0005-9,Acropora digitifera,larval,maybe_immune,challenge,Negative_control_04h_rep2,19542091,9803543
+SRR6064932,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,17744251,4031301
+SRR6064931,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,16696438,4051531
+SRR6064930,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,21422102,4398883
+SRR6064929,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,14619983,3708531
+SRR6064928,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,17494313,4196718
+SRR6064927,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,22895702,5001007
+SRR6064926,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,18789893,4412461
+SRR6064925,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,18562899,183915
+SRR6064924,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,18199923,4282485
+SRR6064923,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,13289940,3463319
+SRR6064922,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,19248949,4740429
+SRR6064921,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,19429512,4863652
+SRR6064920,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,17928116,4563759
+SRR6064919,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,19346657,4502621
+SRR6064918,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,15389413,4121361
+SRR6064917,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,12793085,3598315
+SRR6064916,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,16294492,4084462
+SRR6064915,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,15820717,3567444
+SRR6064914,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,17112779,3797434
+SRR6064913,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,20097460,543045
+SRR6064912,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,14638285,3720333
+SRR6064911,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,20471246,4486968
+SRR6064910,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,19717550,3063687
+SRR6064909,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,18093725,757080
+SRR6064908,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,18708113,2876501
+SRR6064907,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,16371712,2420873
+SRR6064906,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,17682164,3364663
+SRR6064905,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,16531935,3416178
+SRR6064904,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,13194927,3510011
+SRR6064903,PRJNA411943,(Bay et al. 2017),2017,https://doi.org/10.1126/sciadv.1701413,Acropora hyacinthus,adult,genotyping,not done yet,NA,22647558,5056115
+SRR6396371,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,control,1hr_24-28c_summer_Miami,42189417,4521894
+SRR6396373,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,heat,1hr_35C_summer_Miami,38599594,4882630
+SRR6396374,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,control,1hr_24-28C_summer_LowerKeys,48948847,3021004
+SRR6396375,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,cold,1hr_10C_summer_Miami,37174155,3596311
+SRR6396376,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,heat,1hr_35C_summer_LowerKeys,37330899,3037725
+SRR6396377,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,control,1hr_24-28C_winter_Miami,39323153,5496904
+SRR6396378,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,cold,1hr_10C_winter_LowerKeys,40518257,4764083
+SRR6396379,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,heat,1hr_35C_winter_Miami,38374168,5847834
+SRR6396380,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,control,1hr_24-28C_winter_LowerKeys,37935971,4934393
+SRR6396381,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,cold,1hr_10C_winter_Miami,35487235,4834146
+SRR6396382,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,heat,1hr_35C_winter_LowerKeys,37602471,5268665
+SRR6396372,PRJNA423227,(Parkinson et al. 2018),2018,https://doi.org/10.1111/mec.14517,Acropora cervicornis,adult,temp,cold,1hr_10C_summer_LowerKeys,35994276,6294930
+DRR119956,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,control,transcriptome of 10day Aposymbiotic Acropora_replicate1,34156878,17058922
+DRR119957,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,control,transcriptome of 10day Aposymbiotic Acropora_replicate2,36291353,19647699
+DRR119958,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,control,transcriptome of 20day Aposymbiotic Acropora_replicate1,36190136,18750577
+DRR119959,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,control,transcriptome of 20day Aposymbiotic Acropora_replicate2,36022487,18724230
+DRR119960,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,cladeC,transcriptome of 10day clade C symbiotic Acropora_replicate1,34113379,18814702
+DRR119961,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,cladeC,transcriptome of 10day clade C symbiotic Acropora_replicate2,36393784,20090700
+DRR119962,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,cladeC,transcriptome of 20day clade C symbioticc Acropora_replicate1,37728435,19704431
+DRR119963,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,cladeC,transcriptome of 20day clade C symbiotic Acropora_replicate2,38417192,20493051
+DRR119964,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,cladeD,transcriptome of 10day clade D symbiotic Acropora_replicate1,35808273,17667318
+DRR119965,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,cladeD,transcriptome of 10day clade D symbiotic Acropora_replicate2,35177042,17455765
+DRR119966,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,cladeD,transcriptome of 20day clade D symbiotic Acropora_replicate1,36004384,14444119
+DRR119967,PRJDB4715,none,none,none,Acropora tenuis,recruit,zoox_or_immune,cladeD,transcriptome of 20day clade D symbiotic Acropora_replicate2,32023583,13818966
+SRR7347363,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_15,12201479,907519
+SRR7347362,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_15,9869884,632550
+SRR7347361,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_11,7811973,662122
+SRR7347360,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_11,6905683,705299
+SRR7347359,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_10,11940992,1011623
+SRR7347358,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_10,18522832,1322233
+SRR7347357,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_9,10527849,857036
+SRR7347356,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_9,14864255,1434904
+SRR7347354,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_8,10265267,754527
+SRR7347353,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_31,4296071,401845
+SRR7347352,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_31,683204,102962
+SRR7347351,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_32,16655939,1124377
+SRR7347350,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_32,13794739,942777
+SRR7347349,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_33,6008916,568176
+SRR7347348,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_33,7371806,605286
+SRR7347347,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_35,9827325,796424
+SRR7347346,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_35,9469921,543897
+SRR7347345,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_37,11559959,934454
+SRR7347344,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_37,13799865,987921
+SRR7347343,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_7,7447515,593654
+SRR7347342,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_7,7585510,666756
+SRR7347341,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_3,9239430,773473
+SRR7347340,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_3,11132408,983762
+SRR7347355,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_8,14687170,773036
+SRR7347339,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_2,7284863,608158
+SRR7347338,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_2,4976724,500503
+SRR7347337,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_5,16268605,1032563
+SRR7347336,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_5,5825071,607299
+SRR7347335,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_4,7384597,677737
+SRR7347334,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_4,581092,102775
+SRR7347333,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_39,609512,98861
+SRR7347332,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_39,10460021,843884
+SRR7347331,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_24,14045473,1115364
+SRR7347330,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_24,8874055,812072
+SRR7347329,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_17,14416925,1219477
+SRR7347328,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,veryGood,PI_17,13822732,712472
+SRR7347327,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_26,4011488,382654
+SRR7347326,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_26,6186825,530348
+SRR7347325,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_25,15018897,1029329
+SRR7347324,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_25,14998573,1206752
+SRR7347323,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_29,10310240,662474
+SRR7347322,PRJNA476311,(Rocker et al. 2019),2019,https://doi.org/10.1016/j.jembe.2018.11.004,Acropora tenuis,adult,transplant_or_temp,moderate,GB_29,9294799,639419
+DRR108013,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,37795865,11200327
+DRR108014,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,54762587,18861415
+DRR108015,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,26880550,8025892
+DRR108016,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,27666679,9235671
+DRR108017,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,23670807,6408975
+DRR108018,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,31313767,10444585
+DRR108019,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,20503551,5854472
+DRR108020,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,26669153,7704431
+DRR108021,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,24230542,6568754
+DRR108022,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,29369911,9896020
+DRR108023,PRJDB6468,(Takahashi-Kariyazono et al. 2018),2018,https://doi.org/10.1093/gbe/evy122,Acropora digitifera,adult,fluorescence,not done yet,not done yet,28554947,9551111
+s1_S39,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.L1.C.tp1.1,1958197,444622
+s2_S40,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.L1.C.tp1.2,1593332,387500
+s3_S41,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.L1.C.tp1.3,1597239,371466
+s4_S42,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N2.C.tp1.1,1722630,423648
+s5_S43,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N2.C.tp1.2,1741424,409282
+s6_S44,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N2.C.tp1.3,1871035,373012
+s7_S45,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.L1.T.tp1.1,2036217,430402
+s8_S46,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.L1.T.tp1.2,1995718,396394
+s9_S47,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.L1.T.tp1.3,1984813,396720
+s10_S48,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N2.T.tp1.1,1614285,372093
+s11_S49,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N2.T.tp1.2,1565480,331714
+s12_S50,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N2.T.tp1.3,1626594,314050
+s13_S51,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N1.C.tp1.1,2055933,464883
+s14_S52,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N1.C.tp1.2,1811572,418834
+s15_S53,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N1.C.tp1.3,1829454,388318
+s16_S54,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N10.C.tp1.1,2160274,521707
+s17_S55,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N10.C.tp1.2,2060292,489364
+s18_S56,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N10.C.tp1.3,1975303,466522
+s19_S57,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N1.T.tp1.1,1846821,367073
+s20_S58,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N1.T.tp1.2,1968296,317955
+s21_S59,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N1.T.tp1.3,1834892,350812
+s22_S60,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N10.T.tp1.1,2017665,436073
+s23_S61,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N10.T.tp1.2,1974437,475976
+s24_S62,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N10.T.tp1.3,2302343,490887
+s25_S63,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.L1.C.tp2.1,2194923,475660
+s26_S64,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.L1.C.tp2.2,1759327,442377
+s27_S65,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.L1.C.tp2.3,1780183,405169
+s28_S66,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N2.C.tp2.1,2041330,357301
+s29_S67,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N2.C.tp2.2,2093130,399720
+s30_S68,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N2.C.tp2.3,2477138,546835
+s31_S69,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.L1.T.tp2.1,2139418,425492
+s32_S70,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.L1.T.tp2.2,2431128,500479
+s33_S71,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.L1.T.tp2.3,1435315,409994
+s34_S72,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N2.T.tp2.1,1519196,425367
+s35_S73,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N2.T.tp2.2,1315989,351030
+s42_S79,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N2.C.tp2.3,1483523,394603
+s43_S80,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.L1.T.tp2.1,1501388,429751
+s44_S81,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.L1.T.tp2.2,1070334,242080
+s45_S82,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.L1.T.tp2.3,1467744,360246
+s46_S83,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.L1.C.tp2.1,2237676,525094
+s47_S84,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.L1.C.tp2.2,2101138,435909
+s48_S85,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.L1.C.tp2.3,1736242,394880
+s49_S86,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N1.T.tp2.1,1762063,475277
+s50_S87,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N1.T.tp2.2,1745297,484705
+s51_S88,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N1.T.tp2.3,1651105,455886
+s52_S89,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N10.T.tp2.1,1739839,475158
+s53_S90,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N10.T.tp2.2,2016336,542146
+s54_S91,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N10.T.tp2.3,1688136,475798
+s55_S92,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N1.C.tp2.1,1996012,475769
+s56_S93,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N1.C.tp2.2,1990056,437803
+s57_S94,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N1.C.tp2.3,1839557,467059
+s58_S95,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N10.C.tp2.1,1424241,383736
+s59_S96,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N10.C.tp2.2,1531732,392975
+s60_S97,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N10.C.tp2.3,1520521,358803
+s61_S98,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N1.T.tp1.1,1707740,436401
+s62_S99,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N1.T.tp1.2,1945977,464132
+s63_S100,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N1.T.tp1.3,1916296,407440
+s64_S101,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N2.T.tp1.1,1974918,415986
+s65_S102,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N2.T.tp1.2,1833637,443161
+s66_S103,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.L1.T.tp1.1,1407466,379759
+s67_S104,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.L1.T.tp1.2,1642402,409555
+s68_S105,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N1.C.tp1.1,1785757,434068
+s69_S106,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N1.C.tp1.2,1814211,441140
+s70_S107,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.L1.C.tp1.1,1958756,451402
+s71_S108,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.L1.C.tp1.2,2367021,557953
+s72_S109,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.L1.C.tp1.3,1912157,424138
+s73_S110,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.L1.T.tp1.3,1842239,449270
+s74_S111,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N1.C.tp1.3,1595308,392315
+s75_S112,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N2.T.tp1.3,1712434,367928
+s76_S113,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N2.C.tp1.1,2019040,411289
+s77_S114,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N2.C.tp1.2,1947679,367061
+s78_S115,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N2.C.tp1.3,1797401,380011
+s79_S116,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N10.T.tp1.1,1898597,433672
+s80_S117,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N10.T.tp1.2,1904693,427468
+s81_S118,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,cold,Ch.N10.T.tp1.3,1714392,418624
+s82_S119,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N10.C.tp1.1,1726058,484468
+s83_S120,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N10.C.tp1.2,1655538,419769
+s84_S121,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ch.N10.C.tp1.3,1813624,411445
+s85_S122,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N2.T.tp1.1,2078244,380133
+s86_S123,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N2.T.tp1.2,1722319,331225
+s87_S124,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N2.T.tp1.3,1751880,337445
+s88_S125,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N10.T.tp1.1,1882911,370175
+s89_S126,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N10.T.tp1.2,1835480,385597
+s90_S127,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N10.T.tp1.3,1718149,379788
+s91_S128,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N2.C.tp1.1,1570305,385708
+s92_S129,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N2.C.tp1.2,1684534,383501
+s93_S130,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N2.C.tp1.3,1951277,405204
+s94_S131,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N1.C.tp1.1,1704214,333235
+s95_S132,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N1.C.tp1.2,1675927,366090
+s96_S133,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N1.C.tp1.3,1938342,459568
+s97_S134,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N1.T.tp1.1,1943512,386658
+s98_S135,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N1.T.tp1.2,1278332,310865
+s99_S136,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.N1.T.tp1.3,1307530,314060
+s100_S137,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N10.C.tp1.1,1256021,367485
+s101_S138,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N10.C.tp1.2,1682870,437624
+s102_S139,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.N10.C.tp1.3,2030614,509766
+s104_S140,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.L1.T.tp1.2,1618932,333327
+s105_S141,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,low_salinity,Ls.L1.T.tp1.3,1632229,346921
+s106_S142,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.L1.C.tp1.1,2608133,557874
+s107_S143,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.L1.C.tp1.2,1518838,363891
+s108_S144,PRJNA559404,NA,NA,NA,Acropora millepora,adult,salinity,control,Ls.L1.C.tp1.3,1505392,369959
+s110_S145,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N10.C.tp1.2,1308852,343584
+s111_S146,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N10.C.tp1.3,1394730,337470
+s112_S147,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.N10.T.tp1.1,1483434,333576
+s113_S148,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.N10.T.tp1.2,1488100,350267
+s114_S149,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.N10.T.tp1.3,1393061,280997
+s115_S150,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.N10.T.tp1.1,1584864,348565
+s116_S151,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.N10.T.tp1.2,1761860,404737
+s117_S152,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.N10.T.tp1.3,1763236,418126
+s118_S153,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N10.T.tp1.1,1583206,327387
+s119_S154,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N10.T.tp1.2,1754158,355243
+s120_S155,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N10.T.tp1.3,1682731,330219
+s121_S156,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.L1.T.tp1.1,1786906,417453
+s122_S157,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.L1.T.tp1.2,3047294,595254
+s123_S158,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.L1.T.tp1.3,3020379,675010
+s125_S159,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.N2.T.tp1.2,1218904,326284
+s126_S160,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.N2.T.tp1.3,1383837,343062
+s127_S161,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.L1.C.tp1.1,1341863,346915
+s128_S162,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.L1.C.tp1.2,1482670,378710
+s129_S163,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.L1.C.tp1.3,1419878,374720
+s130_S164,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N2.C.tp1.1,1679538,408564
+s131_S165,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N2.C.tp1.2,1380702,378220
+s132_S166,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N2.C.tp1.3,1490641,404898
+s133_S167,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.N1.T.tp1.1,1253200,284938
+s134_S168,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.N1.T.tp1.2,1147966,262255
+s135_S169,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht2.N1.T.tp1.3,1179931,273985
+s136_S170,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.L1.T.tp1.1,1277301,222850
+s137_S171,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.L1.T.tp1.2,1432802,359957
+s138_S172,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.L1.T.tp1.3,1572482,404347
+s139_S173,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N1.C.tp1.1,1669139,369095
+s140_S174,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N1.C.tp1.2,1491696,327892
+s141_S175,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N1.C.tp1.3,1428365,392322
+s142_S176,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N2.T.tp1.1,1565779,419652
+s143_S177,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N2.T.tp1.2,1666772,467884
+s144_S178,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N2.T.tp1.3,1738886,438305
+s145_S179,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N1.T.tp1.1,2007401,486078
+s146_S180,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N1.T.tp1.2,1852586,433022
+s147_S181,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N1.T.tp1.3,1845215,483489
+s148_S182,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.L1.T.tp1.1,1698817,464093
+s149_S183,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.L1.T.tp1.2,1169629,337487
+s150_S184,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.L1.T.tp1.3,1403782,317348
+s151_S185,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N1.T.tp2.1,1385674,351286
+s152_S186,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N1.T.tp2.2,1909921,472127
+s153_S187,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N1.T.tp2.3,1899605,509146
+s154_S188,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.L1.C.tp2.1,1995404,482518
+s155_S189,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.L1.C.tp2.2,1696665,444094
+s156_S190,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.L1.C.tp2.3,1875259,502816
+s157_S191,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N2.T.tp2.1,1365108,365508
+s158_S192,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N2.T.tp2.2,1191606,312519
+s159_S193,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.N2.T.tp2.3,1329549,368131
+s160_S194,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N2.C.tp2.1,2368154,514566
+s161_S195,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N2.C.tp2.2,1904157,451292
+s162_S196,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N2.C.tp2.3,1808128,417701
+s163_S197,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N1.C.tp2.1,1999283,463548
+s164_S198,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N1.C.tp2.2,1623823,395311
+s165_S199,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,control,Tw.N1.C.tp2.3,1764076,455846
+s166_S200,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.L1.T.tp2.1,1747627,448952
+s167_S201,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.L1.T.tp2.2,1677014,440459
+s168_S202,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,cold_then_heat,CtH.L1.T.tp2.3,1910052,403162
+s169_S203,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.N2.T.tp1.1,2135972,453960
+s170_S204,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.N2.T.tp1.2,2012780,442077
+s171_S205,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.N2.T.tp1.3,2521670,563635
+s172_S206,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.N1.T.tp1.1,1803808,398131
+s173_S207,PRJNA559404,NA,NA,NA,Acropora millepora,adult,multiple,heat_then_cold,HtC.N1.T.tp1.2,1478201,363707
+s176_S208,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N10.T.tp2.2,1743188,454464
+s177_S209,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,heat,Ht1.N10.T.tp2.3,1420446,344683
+s181_S210,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N1.C.tp2.1,1894762,405127
+s182_S211,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N1.C.tp2.2,1875454,444202
+s183_S212,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N1.C.tp2.3,1692380,381703
+s190_S213,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N10.C.tp2.1,1621789,408168
+s191_S214,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N10.C.tp2.2,1905981,426308
+s192_S215,PRJNA559404,NA,NA,NA,Acropora millepora,adult,temp,control,Ht1.N10.C.tp2.3,1555424,294560
+SRR1812166,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X12_86_300_c_5h,12778011,2443150
+SRR1812167,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X2_6_300_c_5h,15641172,2465168
+SRR1812168,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X26_27_300_c_5h,15912475,2335988
+SRR1812169,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X30_87_300_c_5h,11729564,2120712
+SRR1812170,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X34_83_300_c_5h,16189295,2785202
+SRR1812171,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X36_85_300_c_5h,13334847,2332504
+SRR1812172,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X56_75_300_c_5h,16600423,3081462
+SRR1812173,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X58_4_300_c_5h,14449010,2527473
+SRR1812174,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X60_7_300_c_5h,14267316,2379692
+SRR1812175,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X62_88_300_c_5h,12562144,1682645
+SRR1812176,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X24_86_300_h_5h,12370134,1742912
+SRR1812177,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X14_6_300_h_5h,14757896,1798453
+SRR1812178,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X38_27_300_h_5h,21495396,2413660
+SRR1812179,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X42_87_300_h_5h,11336544,1806112
+SRR1812180,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X46_83_300_h_5h,12638368,2146163
+SRR1812181,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X48_85_300_h_5h,11774547,1987130
+SRR1812182,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X70_75_300_h_5h,20136626,2674373
+SRR1812183,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X72_4_300_h_5h,16333244,1459188
+SRR1812184,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X74_7_300_h_5h,17522364,2054298
+SRR1812185,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X76_88_300_h_5h,13632540,1894217
+SRR1812186,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X27_102_400_c_5h,13466085,2393925
+SRR1812187,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X3_70_400_c_5h,16319629,3138521
+SRR1812188,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X31_28_400_c_5h,11251455,2087342
+SRR1812189,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X33_11_400_c_5h,15630171,2800407
+SRR1812190,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X49_89_400_c_5h,14536378,3079755
+SRR1812191,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X5_65_400_c_5h,13523938,2763017
+SRR1812192,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X51_68_400_c_5h,16922482,3110371
+SRR1812193,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X53_64_400_c_5h,14541609,2939873
+SRR1812194,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X7_40_400_c_5h,13505758,2341131
+SRR1812195,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X39_102_400_h_5h,17035885,2201208
+SRR1812196,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X15_70_400_h_5h,17512537,2578756
+SRR1812197,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X43_28_400_h_5h,11899752,1924101
+SRR1812198,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X45_11_400_h_5h,15139306,2818569
+SRR1812199,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X63_89_400_h_5h,19930111,2911649
+SRR1812200,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X17_65_400_h_5h,14074215,2002301
+SRR1812201,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X65_68_400_h_5h,14297611,2039178
+SRR1812202,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X67_64_400_h_5h,12461975,2064107
+SRR1812203,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X19_40_400_h_5h,11893668,1430558
+SRR1812204,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X11_86_400_c_5h,12879008,2493971
+SRR1812205,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X1_6_400_c_5h,13088805,2465170
+SRR1812206,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X25_27_400_c_5h,11496397,2193833
+SRR1812207,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X29_87_400_c_5h,13357979,2375681
+SRR1812208,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X9_83_400_c_5h,12451252,2714363
+SRR1812209,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X35_85_400_c_5h,14055020,2311693
+SRR1812210,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X55_75_400_c_5h,14855986,2964212
+SRR1812211,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X57_4_400_c_5h,17749200,3304258
+SRR1812212,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X59_7_400_c_5h,14490992,2797847
+SRR1812213,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X61_88_400_c_5h,13777174,2907160
+SRR1812214,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X23_86_400_h_5h,13554492,1864977
+SRR1812215,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X13_6_400_h_5h,12916523,2083814
+SRR1812216,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X37_27_400_h_5h,16142154,1947689
+SRR1812217,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X41_87_400_h_5h,13252839,1869338
+SRR1812218,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X21_83_400_h_5h,14834341,2186042
+SRR1812219,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X47_85_400_h_5h,10429404,1849722
+SRR1812220,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X69_75_400_h_5h,12899429,2106832
+SRR1812221,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X71_4_400_h_5h,13929254,2108196
+SRR1812222,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X73_7_400_h_5h,14674810,2026660
+SRR1812223,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X75_88_400_h_5h,16124525,2642703
+SRR1812224,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X28_102_300_c_5h,13713068,2432264
+SRR1812225,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X4_70_300_c_5h,13395971,2228441
+SRR1812226,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X32_28_300_c_5h,12902605,2340569
+SRR1812227,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X10_11_300_c_5h,12966848,2122179
+SRR1812228,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X50_89_300_c_5h,18384678,3354335
+SRR1812229,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X6_65_300_c_5h,13287750,2252735
+SRR1812230,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X52_61_300_c_5h,15489605,2834119
+SRR1812231,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X54_64_300_c_5h,13707939,2181826
+SRR1812232,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X8_40_300_c_5h,16969360,2571473
+SRR1812233,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X40_102_300_h_5h,15324647,2268455
+SRR1812234,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X16_70_300_h_5h,14238843,2018065
+SRR1812235,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X44_28_300_h_5h,13567174,2255278
+SRR1812236,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X22_11_300_h_5h,16444074,2128329
+SRR1812237,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X64_89_300_h_5h,16365761,2179224
+SRR1812238,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X18_65_300_h_5h,13478359,2307113
+SRR1812239,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X66_61_300_h_5h,14025814,2006420
+SRR1812240,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X68_64_300_h_5h,13265666,1785649
+SRR1812241,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X20_40_300_h_5h,12821776,1511106
+SRR1812242,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X140_86_300_c_20h,16123368,2746461
+SRR1812243,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X130_6_300_c_20h,11496678,1881208
+SRR1812244,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X78_27_300_c_20h,12887323,2604186
+SRR1812245,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X82_87_300_c_20h,15439274,3099306
+SRR1812246,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X86_83_300_c_20h,13103995,2762450
+SRR1812247,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X88_85_300_c_20h,15465141,2765471
+SRR1812248,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X108_75_300_c_20h,10452228,1217877
+SRR1812249,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X110_4_300_c_20h,11794924,2259942
+SRR1812250,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X112_7_300_c_20h,14239849,2424075
+SRR1812251,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X114_88_300_c_20h,17486858,1901613
+SRR1812252,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X152_86_300_h_20h,20286338,3264075
+SRR1812253,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X142_6_300_h_20h,11023468,2105226
+SRR1812254,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X90_27_300_h_20h,16286308,2602604
+SRR1812255,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X94_87_300_h_20h,12590060,2226541
+SRR1812256,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X98_83_300_h_20h,10797138,2216235
+SRR1812257,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X100_85_300_h_20h,12369993,2344802
+SRR1812258,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X122_75_300_h_20h,13605831,1987109
+SRR1812259,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X124_4_300_h_20h,12964724,1837939
+SRR1812260,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X126_7_300_h_20h,22095469,3196120
+SRR1812261,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X128_88_300_h_20h,14343877,1688375
+SRR1812262,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X79_102_400_c_20h,16829487,3165830
+SRR1812263,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X131_70_400_c_20h,11303325,2245031
+SRR1812264,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X83_28_400_c_20h,15746314,2835363
+SRR1812265,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X85_11_400_c_20h,16950351,2861381
+SRR1812266,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X101_89_400_c_20h,14764950,2809460
+SRR1812267,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X133_65_400_c_20h,10798191,1887735
+SRR1812268,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X103_68_400_c_20h,20314962,3693800
+SRR1812269,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X105_64_400_c_20h,14841100,2851818
+SRR1812270,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X135_40_400_c_20h,15471461,2118791
+SRR1812271,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X91_102_400_h_20h,15679314,2488547
+SRR1812272,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X143_70_400_h_20h,11870402,2295079
+SRR1812273,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X95_28_400_h_20h,12773093,2324281
+SRR1812274,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X97_11_400_h_20h,11528773,2223288
+SRR1812275,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X115_89_400_h_20h,14967733,2943416
+SRR1812276,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X145_65_400_h_20h,17358612,2527910
+SRR1812277,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X117_68_400_h_20h,13295235,2677893
+SRR1812278,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X119_64_400_h_20h,12577578,2305092
+SRR1812279,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X147_40_400_h_20h,15437462,2701963
+SRR1812280,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X139_86_400_c_20h,12438871,2555935
+SRR1812281,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X129_6_400_c_20h,12553038,2196343
+SRR1812282,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X77_27_400_c_20h,12898207,2492051
+SRR1812283,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X81_87_400_c_20h,19350737,3061136
+SRR1812284,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X137_83_400_c_20h,11299940,2226316
+SRR1812285,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X87_85_400_c_20h,15469702,2650698
+SRR1812286,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X107_75_400_c_20h,13559618,2633537
+SRR1812287,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X109_4_400_c_20h,11188156,2332327
+SRR1812288,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X111_7_400_c_20h,10846985,2024506
+SRR1812289,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X113_88_400_c_20h,11279205,2294104
+SRR1812290,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X151_86_400_h_20h,3301151,735416
+SRR1812291,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X141_6_400_h_20h,12882348,2276744
+SRR1812292,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X89_27_400_h_20h,16705168,2568008
+SRR1812293,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X93_87_400_h_20h,12286132,2238332
+SRR1812294,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X149_83_400_h_20h,11405492,1779213
+SRR1812295,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X99_85_400_h_20h,10169343,1854085
+SRR1812296,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X121_75_400_h_20h,15059759,2598874
+SRR1812297,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X123_4_400_h_20h,16276746,2961936
+SRR1812298,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X125_7_400_h_20h,12705075,2277417
+SRR1812299,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X127_88_400_h_20h,16566768,2989617
+SRR1812300,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X80_102_300_c_20h,13598774,1887900
+SRR1812301,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X132_70_300_c_20h,11176275,2117078
+SRR1812302,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X84_28_300_c_20h,13130481,2472825
+SRR1812303,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X138_11_300_c_20h,11886237,1958582
+SRR1812304,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X102_89_300_c_20h,14459379,2519125
+SRR1812305,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X134_65_300_c_20h,13086161,2158328
+SRR1812306,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X104_61_300_c_20h,12006720,1976851
+SRR1812307,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X106_64_300_c_20h,15505953,2766770
+SRR1812308,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,control,X136_40_300_c_20h,11317404,2210811
+SRR1812309,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X92_102_300_h_20h,14333508,2829541
+SRR1812310,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X144_70_300_h_20h,11262780,2098922
+SRR1812311,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X96_28_300_h_20h,16110504,2784828
+SRR1812312,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X150_11_300_h_20h,15469094,1778661
+SRR1812313,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X116_89_300_h_20h,13966652,2434348
+SRR1812314,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X146_65_300_h_20h,11549312,1915542
+SRR1812315,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X118_61_300_h_20h,11034491,1702798
+SRR1812316,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X120_64_300_h_20h,12818694,2179072
+SRR1812317,PRJNA274410,(Seneca and Palumbi 2015),2015,https://doi.org/10.1111/mec.13125,Acropora hyacinthus,adult,temp,heat,X148_40_300_h_20h,15251660,1910489

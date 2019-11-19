@@ -1,0 +1,33 @@
+my_title	Bioproject	ref	treat	treat2	author
+A_moya_acid_PRJNA149513	PRJNA149513	(Moya et al. 2012)	 pH	 pH	Moya2012
+B_whiteBand_PRJNA222758	PRJNA222758	(Libro et al. 2013)	 immune	 immune	Libro2013
+b1_Aguilar_hypoosmotic_stress_PRJNA380267	PRJNA380267	(Aguilar et al. 2017)	 hyposalinity	 hyposalinity	Aguilar2017
+bewwCold	PRJNA559404	 (this study)	cold	bleached	thisStudyCold
+bewwHeat	PRJNA559404	 (this study)	heat	bleached	thisStudyHeat
+bewwHyposalinity	PRJNA559404	 (this study)	 hyposalinity	bleached	thisStudyHypsalinity
+bewwMulti	PRJNA559404	 (this study)	multiple	bleached	thisStudyMulti
+d1_mohamed_microalga_PRJNA398338	PRJNA398338	(Mohamed et al. 2018)	 immune	 immune	Mohamed2018
+E_aspera_PRJNA266455	PRJNA266455	(Rosic et al. 2014)	 heat	 heat	Rosic2014
+F_Uqueensland_ph_PRJNA269992	PRJNA269992	(Kaniewska et al. 2015)	 pH + heat	bleached	Kaniewska2015
+f1_parkinson_hotCold_PRJNA423227	PRJNA423227	(Parkinson et al. 2018)	 heat	 heat	Parkinson2018
+H_matz_heatTolLat_PRJNA279192	PRJNA279192	(Dixon et al. 2015)	 heat	 heat	Dixon2015
+J_weiss_immune_PRJNA200542	PRJNA200542	(Weiss et al. 2013)	 immune	 immune	Weiss2013
+j1_thisStudy_PRJNA559404	PRJNA559404	 (this study)	multiple	bleached	thisStudyAll
+k1_Palumbi_lab_heat_resilience_PRJNA274410	PRJNA274410	(Seneca and Palumbi 2015)	 heat	bleached	Seneca2015
+L_Barshis_bleachResillience_PRJNA177515	PRJNA177515	(Barshis et al. 2013)	 heat	bleached	Barshis2013
+M_moya_juvenilePh_PRJNA260269	PRJNA260269	(Moya et al. 2015)	 pH	 pH	Moya2014
+N_Hainan_U_heat_PRJNA308355	PRJNA308355	(Zhou et al. 2017)	 heat	 heat	Zhou2017
+S_rachel_immune_PRJNA319662	PRJNA319662	(Wright et al. 2017)	 immune	 immune	Wright2017
+W_gajigan_thermalMicroRNA_PRJNA298496	PRJNA298496	(Gajigan and Cecilia 2017)	 heat	 heat	Gajigan2017
+adultVlarva	multiple	All adult vs larval	All adult vs larval	All adult vs larval	adultVlarva
+heat	multiple	All heat	All heat	All heat	heat
+immune	multiple	All immune	All immune	All immune	immune
+ph	multiple	All pH	All pH	All pH	ph
+salinity	multiple	All hyposalinity	All hyposalinity	All hyposalinity	salinity
+stress	multiple	All stress	All stress	All stress	stress
+stress_noBEWW	multiple	All stress not this study	All stress not this study	All stress not this study	stress_noBEWW
+stress_noCold	multiple	All stress no cold	All stress no cold	All stress no cold	stress_noCold
+stress_noHeat	multiple	All stress no heat	All stress no heat	All stress no heat	stress_noHeat
+stress_noImmune	multiple	All stress no immune	All stress no immune	All stress no immune	stress_noImmune
+stress_noph	multiple	All stress no pH	All stress no pH	All stress no pH	stress_noph
+stress_noSalinity	multiple	All stress no hyposalinity	All stress no hyposalinity	All stress no hyposalinity	stress_noSalinity

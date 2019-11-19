@@ -1,0 +1,260 @@
+my_title,Run,my_stage,Organism,projType,treat,treatDescription,special,geneCounted,rawCounts,bleached,stress
+A_moya_acid_PRJNA149513,SRR401853,recruit,Acropora millepora,pH,control,Control 1,none,7343169,28328761,no,control
+A_moya_acid_PRJNA149513,SRR401854,recruit,Acropora millepora,pH,control,Control 2,none,7917594,28571952,no,control
+A_moya_acid_PRJNA149513,SRR401855,recruit,Acropora millepora,pH,control,Control 3,none,8522023,27641029,no,control
+A_moya_acid_PRJNA149513,SRR401856,recruit,Acropora millepora,pH,low_pH,750 ppm 1,none,7677487,28807288,no,stressed
+A_moya_acid_PRJNA149513,SRR401857,recruit,Acropora millepora,pH,low_pH,750 ppm 2,none,8442056,27735360,no,stressed
+A_moya_acid_PRJNA149513,SRR401858,recruit,Acropora millepora,pH,low_pH,750 ppm 3,none,8132771,28899079,no,stressed
+A_moya_acid_PRJNA149513,SRR401859,recruit,Acropora millepora,pH,low_pH,1000 ppm 1,none,7379928,29115000,no,stressed
+A_moya_acid_PRJNA149513,SRR401860,recruit,Acropora millepora,pH,low_pH,1000 ppm 2,none,8273464,28412758,no,stressed
+A_moya_acid_PRJNA149513,SRR401861,recruit,Acropora millepora,pH,low_pH,1000 ppm 3,none,8129844,30042580,no,stressed
+B_whiteBand_PRJNA222758,SRR1015321,adult,Acropora cervicornis,immune,control,healthy,none,2216393,7602534,no,control
+B_whiteBand_PRJNA222758,SRR1015323,adult,Acropora cervicornis,immune,control,healthy,none,2535791,7599200,no,control
+B_whiteBand_PRJNA222758,SRR1015327,adult,Acropora cervicornis,immune,control,healthy,none,4605456,15276530,no,control
+B_whiteBand_PRJNA222758,SRR1015340,adult,Acropora cervicornis,immune,challenge,white band,none,1520976,5090010,no,stressed
+B_whiteBand_PRJNA222758,SRR1015349,adult,Acropora cervicornis,immune,challenge,white band,none,1522218,3928621,no,stressed
+B_whiteBand_PRJNA222758,SRR1015354,adult,Acropora cervicornis,immune,challenge,white band,none,2111081,6563066,no,stressed
+B_whiteBand_PRJNA222758,SRR1015298,adult,Acropora cervicornis,immune,control,healthy,none,1885740,4919853,no,control
+B_whiteBand_PRJNA222758,SRR1015358,adult,Acropora cervicornis,immune,control,healthy,none,4264418,15412184,no,control
+B_whiteBand_PRJNA222758,SRR1015325,adult,Acropora cervicornis,immune,control,healthy,none,4040692,14658595,no,control
+B_whiteBand_PRJNA222758,SRR1015331,adult,Acropora cervicornis,immune,challenge,white band,none,3720503,9959364,no,stressed
+B_whiteBand_PRJNA222758,SRR1015344,adult,Acropora cervicornis,immune,challenge,white band,none,812616,7753708,no,stressed
+E_aspera_PRJNA266455,SRR1653615,adult,Acropora aspera,temp,control,ambient 24 hrs,none,2097660,4446938,no,control
+E_aspera_PRJNA266455,SRR1654665,adult,Acropora aspera,temp,control,ambient 24 hrs,none,6787560,19865403,no,control
+E_aspera_PRJNA266455,SRR1653613,adult,Acropora aspera,temp,control,ambient 72 hrs,none,1247805,2645729,no,control
+E_aspera_PRJNA266455,SRR1654664,adult,Acropora aspera,temp,control,ambient 72 hrs,none,4195585,11599658,no,control
+E_aspera_PRJNA266455,SRR1653611,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 24 hrs,none,3174715,27588956,no,stressed
+E_aspera_PRJNA266455,SRR1653608,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 72 hrs,none,3330560,24416729,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929604,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,487614,2436256,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929603,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,501019,2994295,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929601,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,265368,1344078,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929602,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,577989,3214906,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929600,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,279449,1291306,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929599,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,238609,1152664,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929598,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,702216,3986837,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929597,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,540032,3250603,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929596,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,442328,2345666,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929595,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,155113,709210,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929594,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,182147,846136,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929593,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,188147,1002815,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929592,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,498012,2629535,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929591,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,384677,1889177,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929590,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,365590,1943516,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929589,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,198728,769398,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929588,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,228299,1004381,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929587,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,221389,928225,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929586,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,305780,1322024,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929585,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,298910,1289228,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929584,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,530576,2563260,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929583,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,268440,1159557,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929582,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,398244,1864423,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929581,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,415855,2038561,no,control
+J_weiss_immune_PRJNA200542,SRR835875,adult,Acropora millepora,immune,control,control,none,851377,1750378,no,control
+J_weiss_immune_PRJNA200542,SRR835876,adult,Acropora millepora,immune,control,control,none,967889,2028175,no,control
+J_weiss_immune_PRJNA200542,SRR835877,adult,Acropora millepora,immune,control,control,none,591027,1612566,no,control
+J_weiss_immune_PRJNA200542,SRR835878,adult,Acropora millepora,immune,control,control,none,964566,2864198,no,control
+J_weiss_immune_PRJNA200542,SRR835879,adult,Acropora millepora,immune,control,control,none,781107,1853459,no,control
+J_weiss_immune_PRJNA200542,SRR835880,adult,Acropora millepora,immune,control,control,none,1096324,2651674,no,control
+J_weiss_immune_PRJNA200542,SRR835881,adult,Acropora millepora,immune,control,control,none,501387,1256340,no,control
+J_weiss_immune_PRJNA200542,SRR835882,adult,Acropora millepora,immune,control,control,none,1571160,4636729,no,control
+J_weiss_immune_PRJNA200542,SRR835883,adult,Acropora millepora,immune,challenge,bacterial mimic,none,162728,727926,no,stressed
+J_weiss_immune_PRJNA200542,SRR835884,adult,Acropora millepora,immune,challenge,bacterial mimic,none,804190,3782808,no,stressed
+J_weiss_immune_PRJNA200542,SRR835885,adult,Acropora millepora,immune,challenge,bacterial mimic,none,299434,1176317,no,stressed
+J_weiss_immune_PRJNA200542,SRR835886,adult,Acropora millepora,immune,challenge,bacterial mimic,none,1180369,5175461,no,stressed
+J_weiss_immune_PRJNA200542,SRR835887,adult,Acropora millepora,immune,challenge,bacterial mimic,none,227002,678659,no,stressed
+J_weiss_immune_PRJNA200542,SRR835888,adult,Acropora millepora,immune,challenge,bacterial mimic,none,1367301,4363556,no,stressed
+J_weiss_immune_PRJNA200542,SRR835891,adult,Acropora millepora,immune,challenge,viral mimic,none,1695255,4244992,no,stressed
+J_weiss_immune_PRJNA200542,SRR835889,adult,Acropora millepora,immune,challenge,bacterial mimic,none,1210909,3203927,no,stressed
+J_weiss_immune_PRJNA200542,SRR835890,adult,Acropora millepora,immune,challenge,bacterial mimic,none,1748851,4277782,no,stressed
+J_weiss_immune_PRJNA200542,SRR835892,adult,Acropora millepora,immune,challenge,viral mimic,none,493118,1100700,no,stressed
+J_weiss_immune_PRJNA200542,SRR835893,adult,Acropora millepora,immune,challenge,viral mimic,none,1989490,5318211,no,stressed
+J_weiss_immune_PRJNA200542,SRR835895,adult,Acropora millepora,immune,challenge,viral mimic,none,1110812,2700305,no,stressed
+J_weiss_immune_PRJNA200542,SRR835896,adult,Acropora millepora,immune,challenge,viral mimic,none,685033,1580216,no,stressed
+J_weiss_immune_PRJNA200542,SRR835894,adult,Acropora millepora,immune,challenge,viral mimic,none,1660610,4051739,no,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566164,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5249447,12269208,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566165,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5595785,12534784,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566166,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5537109,12898069,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566168,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,5628308,12631481,no,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566167,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,5431536,12501088,no,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566169,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,4817192,12467897,no,stressed
+N_Hainan_U_heat_PRJNA308355,SRR3095777,adult,Acropora aculeus,temp,control,Aa_Control,none,11041872,30435303,NA,control
+N_Hainan_U_heat_PRJNA308355,SRR3095778,adult,Acropora aculeus,temp,control,Aa_Control,none,11301549,29084044,NA,control
+N_Hainan_U_heat_PRJNA308355,SRR3095779,adult,Acropora aculeus,temp,heat,Aa_Heat,none,11508072,30648486,NA,stressed
+N_Hainan_U_heat_PRJNA308355,SRR3095780,adult,Acropora aculeus,temp,heat,Aa_Heat,none,10359256,30151918,NA,stressed
+S_rachel_immune_PRJNA319662,SRR3622488,adult,Acropora millepora,immune,control,AC221,laneDups removed with sum_lane_dups.R,64836,247228,no,control
+S_rachel_immune_PRJNA319662,SRR3622490,adult,Acropora millepora,immune,control,AC261,laneDups removed with sum_lane_dups.R,104724,385341,no,control
+S_rachel_immune_PRJNA319662,SRR3622491,adult,Acropora millepora,immune,challenge,AD91,laneDups removed with sum_lane_dups.R,20120,522502,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622493,adult,Acropora millepora,immune,challenge,AD92,laneDups removed with sum_lane_dups.R,115557,530609,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622496,adult,Acropora millepora,immune,challenge,AD93,laneDups removed with sum_lane_dups.R,17782,1347483,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622499,adult,Acropora millepora,immune,challenge,AO221,laneDups removed with sum_lane_dups.R,75681,262250,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622503,adult,Acropora millepora,immune,challenge,AO222,laneDups removed with sum_lane_dups.R,75440,262612,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622506,adult,Acropora millepora,immune,challenge,AO223,laneDups removed with sum_lane_dups.R,104131,367955,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622509,adult,Acropora millepora,immune,challenge,AO262,laneDups removed with sum_lane_dups.R,121623,510419,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622512,adult,Acropora millepora,immune,control,AC262,laneDups removed with sum_lane_dups.R,171086,699399,no,control
+S_rachel_immune_PRJNA319662,SRR3622513,adult,Acropora millepora,immune,challenge,AO263,laneDups removed with sum_lane_dups.R,117430,473595,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622516,adult,Acropora millepora,immune,challenge,AO273,laneDups removed with sum_lane_dups.R,162282,770792,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622519,adult,Acropora millepora,immune,challenge,AO301,laneDups removed with sum_lane_dups.R,187856,820147,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622522,adult,Acropora millepora,immune,challenge,AO302,laneDups removed with sum_lane_dups.R,141283,719120,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622526,adult,Acropora millepora,immune,challenge,AO303,laneDups removed with sum_lane_dups.R,68641,228095,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622529,adult,Acropora millepora,immune,challenge,AO41,laneDups removed with sum_lane_dups.R,133668,506120,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622532,adult,Acropora millepora,immune,challenge,AO42,laneDups removed with sum_lane_dups.R,70500,301869,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622536,adult,Acropora millepora,immune,challenge,AO43,laneDups removed with sum_lane_dups.R,163669,657922,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622539,adult,Acropora millepora,immune,challenge,AO52,laneDups removed with sum_lane_dups.R,152668,600871,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622542,adult,Acropora millepora,immune,challenge,AO53,laneDups removed with sum_lane_dups.R,51326,212925,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622546,adult,Acropora millepora,immune,challenge,AO71,laneDups removed with sum_lane_dups.R,117121,448075,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622545,adult,Acropora millepora,immune,control,AC272,laneDups removed with sum_lane_dups.R,99740,390063,no,control
+S_rachel_immune_PRJNA319662,SRR3622549,adult,Acropora millepora,immune,challenge,AO72,laneDups removed with sum_lane_dups.R,132461,610706,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622553,adult,Acropora millepora,immune,challenge,AO73,laneDups removed with sum_lane_dups.R,64937,230686,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622555,adult,Acropora millepora,immune,challenge,AO91,laneDups removed with sum_lane_dups.R,16029,168383,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622559,adult,Acropora millepora,immune,challenge,AO93,laneDups removed with sum_lane_dups.R,10964,442299,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622578,adult,Acropora millepora,immune,control,AC273,laneDups removed with sum_lane_dups.R,175927,768531,no,control
+S_rachel_immune_PRJNA319662,SRR3622588,adult,Acropora millepora,immune,control,NC221,laneDups removed with sum_lane_dups.R,94691,344541,no,control
+S_rachel_immune_PRJNA319662,SRR3622592,adult,Acropora millepora,immune,control,NC222,laneDups removed with sum_lane_dups.R,103845,417044,no,control
+S_rachel_immune_PRJNA319662,SRR3622595,adult,Acropora millepora,immune,control,NC223,laneDups removed with sum_lane_dups.R,124901,478894,no,control
+S_rachel_immune_PRJNA319662,SRR3622598,adult,Acropora millepora,immune,control,NC261,laneDups removed with sum_lane_dups.R,172692,782597,no,control
+S_rachel_immune_PRJNA319662,SRR3622603,adult,Acropora millepora,immune,control,NC262,laneDups removed with sum_lane_dups.R,185478,804944,no,control
+S_rachel_immune_PRJNA319662,SRR3622606,adult,Acropora millepora,immune,control,NC263,laneDups removed with sum_lane_dups.R,185461,876498,no,control
+S_rachel_immune_PRJNA319662,SRR3622609,adult,Acropora millepora,immune,control,NC271,laneDups removed with sum_lane_dups.R,141042,535132,no,control
+S_rachel_immune_PRJNA319662,SRR3622612,adult,Acropora millepora,immune,control,AC301,laneDups removed with sum_lane_dups.R,192081,807518,no,control
+S_rachel_immune_PRJNA319662,SRR3622613,adult,Acropora millepora,immune,control,NC272,laneDups removed with sum_lane_dups.R,126257,473868,no,control
+S_rachel_immune_PRJNA319662,SRR3622616,adult,Acropora millepora,immune,control,NC273,laneDups removed with sum_lane_dups.R,142857,514598,no,control
+S_rachel_immune_PRJNA319662,SRR3622619,adult,Acropora millepora,immune,control,NC301,laneDups removed with sum_lane_dups.R,212596,1075468,no,control
+S_rachel_immune_PRJNA319662,SRR3622622,adult,Acropora millepora,immune,control,NC302,laneDups removed with sum_lane_dups.R,144698,623262,no,control
+S_rachel_immune_PRJNA319662,SRR3622626,adult,Acropora millepora,immune,control,NC303,laneDups removed with sum_lane_dups.R,248724,1231831,no,control
+S_rachel_immune_PRJNA319662,SRR3622629,adult,Acropora millepora,immune,control,NC41,laneDups removed with sum_lane_dups.R,192887,832307,no,control
+S_rachel_immune_PRJNA319662,SRR3622632,adult,Acropora millepora,immune,control,NC42,laneDups removed with sum_lane_dups.R,243523,1027344,no,control
+S_rachel_immune_PRJNA319662,SRR3622636,adult,Acropora millepora,immune,control,NC43,laneDups removed with sum_lane_dups.R,131647,491336,no,control
+S_rachel_immune_PRJNA319662,SRR3622639,adult,Acropora millepora,immune,control,NC51,laneDups removed with sum_lane_dups.R,200165,913039,no,control
+S_rachel_immune_PRJNA319662,SRR3622642,adult,Acropora millepora,immune,control,NC52,laneDups removed with sum_lane_dups.R,173850,750856,no,control
+S_rachel_immune_PRJNA319662,SRR3622645,adult,Acropora millepora,immune,control,AC302,laneDups removed with sum_lane_dups.R,119022,504899,no,control
+S_rachel_immune_PRJNA319662,SRR3622646,adult,Acropora millepora,immune,control,NC53,laneDups removed with sum_lane_dups.R,175361,808700,no,control
+S_rachel_immune_PRJNA319662,SRR3622649,adult,Acropora millepora,immune,control,NC71,laneDups removed with sum_lane_dups.R,105545,422842,no,control
+S_rachel_immune_PRJNA319662,SRR3622652,adult,Acropora millepora,immune,control,NC72,laneDups removed with sum_lane_dups.R,277557,1387808,no,control
+S_rachel_immune_PRJNA319662,SRR3622655,adult,Acropora millepora,immune,control,NC73,laneDups removed with sum_lane_dups.R,265687,1209847,no,control
+S_rachel_immune_PRJNA319662,SRR3622659,adult,Acropora millepora,immune,control,NC91,laneDups removed with sum_lane_dups.R,197678,870980,no,control
+S_rachel_immune_PRJNA319662,SRR3622662,adult,Acropora millepora,immune,control,NC92,laneDups removed with sum_lane_dups.R,124767,467984,no,control
+S_rachel_immune_PRJNA319662,SRR3622666,adult,Acropora millepora,immune,control,NC93,laneDups removed with sum_lane_dups.R,177626,740275,no,control
+S_rachel_immune_PRJNA319662,SRR3622669,adult,Acropora millepora,immune,challenge,ND261,laneDups removed with sum_lane_dups.R,131129,528676,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622672,adult,Acropora millepora,immune,challenge,ND262,laneDups removed with sum_lane_dups.R,14726,1002646,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622676,adult,Acropora millepora,immune,challenge,ND271,laneDups removed with sum_lane_dups.R,117384,731778,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622678,adult,Acropora millepora,immune,control,AC303,laneDups removed with sum_lane_dups.R,118796,469706,no,control
+S_rachel_immune_PRJNA319662,SRR3622680,adult,Acropora millepora,immune,challenge,ND273,laneDups removed with sum_lane_dups.R,113371,427968,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622682,adult,Acropora millepora,immune,challenge,ND301,laneDups removed with sum_lane_dups.R,155703,662554,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622685,adult,Acropora millepora,immune,challenge,ND302,laneDups removed with sum_lane_dups.R,175857,728902,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622688,adult,Acropora millepora,immune,challenge,ND303,laneDups removed with sum_lane_dups.R,197236,773298,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622692,adult,Acropora millepora,immune,challenge,ND41,laneDups removed with sum_lane_dups.R,189340,848619,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622695,adult,Acropora millepora,immune,challenge,ND42,laneDups removed with sum_lane_dups.R,9688,250611,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622698,adult,Acropora millepora,immune,challenge,ND51,laneDups removed with sum_lane_dups.R,30625,232926,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622702,adult,Acropora millepora,immune,challenge,ND52,laneDups removed with sum_lane_dups.R,111138,430878,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622705,adult,Acropora millepora,immune,challenge,ND53,laneDups removed with sum_lane_dups.R,119026,521044,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622708,adult,Acropora millepora,immune,challenge,ND71,laneDups removed with sum_lane_dups.R,110936,423884,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622711,adult,Acropora millepora,immune,control,AC222,laneDups removed with sum_lane_dups.R,139113,516953,no,control
+S_rachel_immune_PRJNA319662,SRR3622712,adult,Acropora millepora,immune,control,AC41,laneDups removed with sum_lane_dups.R,163270,673403,no,control
+S_rachel_immune_PRJNA319662,SRR3622713,adult,Acropora millepora,immune,challenge,ND73,laneDups removed with sum_lane_dups.R,180752,841540,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622717,adult,Acropora millepora,immune,challenge,ND91,laneDups removed with sum_lane_dups.R,124369,619668,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622719,adult,Acropora millepora,immune,challenge,ND93,laneDups removed with sum_lane_dups.R,18071,280972,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622722,adult,Acropora millepora,immune,challenge,NO221,laneDups removed with sum_lane_dups.R,156230,596453,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622726,adult,Acropora millepora,immune,challenge,NO222,laneDups removed with sum_lane_dups.R,97056,352126,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622729,adult,Acropora millepora,immune,challenge,NO261,laneDups removed with sum_lane_dups.R,279996,1224531,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622732,adult,Acropora millepora,immune,challenge,NO262,laneDups removed with sum_lane_dups.R,153182,559289,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622736,adult,Acropora millepora,immune,challenge,NO263,laneDups removed with sum_lane_dups.R,47918,164109,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622739,adult,Acropora millepora,immune,challenge,NO271,laneDups removed with sum_lane_dups.R,134090,586347,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622742,adult,Acropora millepora,immune,challenge,NO273,laneDups removed with sum_lane_dups.R,327875,1474061,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622745,adult,Acropora millepora,immune,control,AC42,laneDups removed with sum_lane_dups.R,251440,1161396,no,control
+S_rachel_immune_PRJNA319662,SRR3622746,adult,Acropora millepora,immune,challenge,NO301,laneDups removed with sum_lane_dups.R,240890,1015003,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622749,adult,Acropora millepora,immune,challenge,NO302,laneDups removed with sum_lane_dups.R,122834,531856,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622752,adult,Acropora millepora,immune,challenge,NO303,laneDups removed with sum_lane_dups.R,132383,530226,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622755,adult,Acropora millepora,immune,challenge,NO41,laneDups removed with sum_lane_dups.R,176108,745414,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622771,adult,Acropora millepora,immune,challenge,NO42,laneDups removed with sum_lane_dups.R,270095,1383393,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622774,adult,Acropora millepora,immune,challenge,NO43,laneDups removed with sum_lane_dups.R,124704,490844,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622777,adult,Acropora millepora,immune,challenge,NO52,laneDups removed with sum_lane_dups.R,266078,1226868,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622781,adult,Acropora millepora,immune,challenge,NO53,laneDups removed with sum_lane_dups.R,199145,1105572,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622784,adult,Acropora millepora,immune,challenge,NO71,laneDups removed with sum_lane_dups.R,257265,1241282,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622787,adult,Acropora millepora,immune,challenge,NO72,laneDups removed with sum_lane_dups.R,18051,1037666,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622790,adult,Acropora millepora,immune,control,AC51,laneDups removed with sum_lane_dups.R,180035,765319,no,control
+S_rachel_immune_PRJNA319662,SRR3622791,adult,Acropora millepora,immune,challenge,NO73,laneDups removed with sum_lane_dups.R,142939,509692,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622794,adult,Acropora millepora,immune,challenge,NO91,laneDups removed with sum_lane_dups.R,146089,633740,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622797,adult,Acropora millepora,immune,challenge,NO92,laneDups removed with sum_lane_dups.R,232215,1157137,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622800,adult,Acropora millepora,immune,challenge,NO93,laneDups removed with sum_lane_dups.R,24203,223300,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622841,adult,Acropora millepora,immune,control,AC53,laneDups removed with sum_lane_dups.R,232810,1060783,no,control
+S_rachel_immune_PRJNA319662,SRR3622851,adult,Acropora millepora,immune,control,AC71,laneDups removed with sum_lane_dups.R,249168,1130828,no,control
+S_rachel_immune_PRJNA319662,SRR3622854,adult,Acropora millepora,immune,control,AC72,laneDups removed with sum_lane_dups.R,324244,1517731,no,control
+S_rachel_immune_PRJNA319662,SRR3622857,adult,Acropora millepora,immune,control,AC73,laneDups removed with sum_lane_dups.R,94016,358719,no,control
+S_rachel_immune_PRJNA319662,SRR3622861,adult,Acropora millepora,immune,control,AC91,laneDups removed with sum_lane_dups.R,67483,252943,no,control
+S_rachel_immune_PRJNA319662,SRR3622864,adult,Acropora millepora,immune,control,AC92,laneDups removed with sum_lane_dups.R,10436,706008,no,control
+S_rachel_immune_PRJNA319662,SRR3622867,adult,Acropora millepora,immune,control,AC93,laneDups removed with sum_lane_dups.R,15405,1184492,no,control
+S_rachel_immune_PRJNA319662,SRR3622870,adult,Acropora millepora,immune,control,AC223,laneDups removed with sum_lane_dups.R,141394,528157,no,control
+S_rachel_immune_PRJNA319662,SRR3622872,adult,Acropora millepora,immune,challenge,AD221,laneDups removed with sum_lane_dups.R,110100,480387,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622874,adult,Acropora millepora,immune,challenge,AD222,laneDups removed with sum_lane_dups.R,98225,435951,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622877,adult,Acropora millepora,immune,challenge,AD223,laneDups removed with sum_lane_dups.R,95717,381213,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622880,adult,Acropora millepora,immune,challenge,AD261,laneDups removed with sum_lane_dups.R,143625,579946,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622884,adult,Acropora millepora,immune,challenge,AD262,laneDups removed with sum_lane_dups.R,67399,460544,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622887,adult,Acropora millepora,immune,challenge,AD271,laneDups removed with sum_lane_dups.R,141460,672800,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622890,adult,Acropora millepora,immune,challenge,AD301,laneDups removed with sum_lane_dups.R,36477,130956,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622894,adult,Acropora millepora,immune,challenge,AD302,laneDups removed with sum_lane_dups.R,115913,496714,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622897,adult,Acropora millepora,immune,challenge,AD303,laneDups removed with sum_lane_dups.R,84860,369494,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622900,adult,Acropora millepora,immune,challenge,AD51,laneDups removed with sum_lane_dups.R,124136,487393,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622904,adult,Acropora millepora,immune,challenge,AD71,laneDups removed with sum_lane_dups.R,55227,194294,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622907,adult,Acropora millepora,immune,challenge,AD72,laneDups removed with sum_lane_dups.R,77919,328784,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622910,adult,Acropora millepora,immune,challenge,AD73,laneDups removed with sum_lane_dups.R,15104,702180,no,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236068,adult,Acropora digitifera,temp,heat,34C,none,13562607,26479506,NA,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236067,adult,Acropora digitifera,temp,heat,34C,none,10431818,20088208,NA,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236069,adult,Acropora digitifera,temp,control,29C,none,11595867,22547214,NA,control
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236070,adult,Acropora digitifera,temp,control,29C,none,8156240,16381803,NA,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374529,adult,Acropora millepora,salinity,low_salinity,1h_25psu_22gen_Amill,none,4210263,10420113,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374530,adult,Acropora millepora,salinity,low_salinity,1h_25psu_23gen_Amill,none,4956832,11835085,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374531,adult,Acropora millepora,salinity,low_salinity,1h_25psu_26gen_Amill,none,4656468,10980232,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374532,adult,Acropora millepora,salinity,low_salinity,1h_25psu_33gen_Amill,none,5215106,13312548,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374533,adult,Acropora millepora,salinity,low_salinity,1h_25psu_34gen_Amill,none,2984155,7826298,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374534,adult,Acropora millepora,salinity,control,1h_35psu_22gen_Amill,none,3710197,10383429,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374535,adult,Acropora millepora,salinity,control,1h_35psu_23gen_Amill,none,2756994,7350003,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374536,adult,Acropora millepora,salinity,control,1h_35psu_26gen_Amill,none,3992944,9458133,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374537,adult,Acropora millepora,salinity,control,1h_35psu_33gen_Amill,none,5372543,13424934,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374538,adult,Acropora millepora,salinity,control,1h_35psu_34gen_Amill,none,4017824,10508521,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374539,adult,Acropora millepora,salinity,low_salinity,24h_25psu_23gen_Amill,none,4255959,10098221,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374540,adult,Acropora millepora,salinity,low_salinity,24h_25psu_33gen_Amill,none,3565116,8128730,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374541,adult,Acropora millepora,salinity,low_salinity,24h_25psu_34gen_Amill,none,3544059,8560092,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374542,adult,Acropora millepora,salinity,control,24h_35psu_22gen_Amill,none,2705268,7186447,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374543,adult,Acropora millepora,salinity,control,24h_35psu_23gen_Amill,none,4326756,11844216,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374544,adult,Acropora millepora,salinity,control,24h_35psu_26gen_Amill,none,4833216,12096922,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374545,adult,Acropora millepora,salinity,control,24h_35psu_33gen_Amill,none,3078958,7876713,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374546,adult,Acropora millepora,salinity,control,24h_35psu_34gen_Amill,none,3345183,10079608,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374547,recruit,Acropora millepora,salinity,control,24h_35psu_180_Amill,none,5250586,7701033,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374548,recruit,Acropora millepora,salinity,control,24h_35psu_181_Amill,none,4096554,6229651,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374549,recruit,Acropora millepora,salinity,control,24h_35psu_186_Amill,none,6590390,9900736,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374550,recruit,Acropora millepora,salinity,control,24h_35psu_187_Amill,none,6633471,11079939,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374551,recruit,Acropora millepora,salinity,control,24h_35psu_192_Amill,none,6214445,9812732,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374552,recruit,Acropora millepora,salinity,control,24h_35psu_193_Amill,none,5203283,7962223,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374553,recruit,Acropora millepora,salinity,low_salinity,24h_28psu_196_Amill,none,7187520,10763465,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374554,recruit,Acropora millepora,salinity,low_salinity,24h_28psu_197_Amill,none,5418761,7960382,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374555,recruit,Acropora millepora,salinity,low_salinity,24h_28psu_202_Amill,none,6377037,9528406,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374556,recruit,Acropora millepora,salinity,low_salinity,24h_28psu_203_Amill,none,5335965,8245512,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374557,recruit,Acropora millepora,salinity,low_salinity,24h_28psu_208_Amill,none,3979566,6042591,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374558,recruit,Acropora millepora,salinity,low_salinity,24h_28psu_209_Amill,none,5502319,8262098,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374559,recruit,Acropora millepora,salinity,control,48h_35psu_214_Amill,none,5754353,8436866,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374560,recruit,Acropora millepora,salinity,control,48h_35psu_215_Amill,none,4334612,6609828,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374561,recruit,Acropora millepora,salinity,control,48h_35psu_220_Amill,none,4361289,6660444,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374562,recruit,Acropora millepora,salinity,control,48h_35psu_222_Amill,none,6514310,9944146,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374563,recruit,Acropora millepora,salinity,control,48h_35psu_226_Amill,none,6317126,9476438,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374564,recruit,Acropora millepora,salinity,low_salinity,48h_28psu_222_Amill,none,6384649,9441121,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374565,recruit,Acropora millepora,salinity,low_salinity,48h_28psu_233_Amill,none,5593887,8312066,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374566,recruit,Acropora millepora,salinity,low_salinity,48h_28psu_238_Amill,none,3291204,4851716,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374567,recruit,Acropora millepora,salinity,low_salinity,48h_28psu_239_Amill,none,5094969,7758165,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374568,recruit,Acropora millepora,salinity,low_salinity,48h_28psu_244_Amill,none,3748315,5584392,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5374569,recruit,Acropora millepora,salinity,low_salinity,48h_28psu_245_Amill,none,2891098,4361404,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5378429,adult,Acropora millepora,salinity,low_salinity,1h_25psu_22gen_Amill rep 2,none,4310432,10958039,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5378430,adult,Acropora millepora,salinity,control,1h_35psu_22gen_Amill rep 2,none,4637841,12449487,no,control
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5378431,adult,Acropora millepora,salinity,low_salinity,24h_25psu_23gen_Amill rep 2,none,5923573,13721967,no,stressed
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SRR5378432,adult,Acropora millepora,salinity,control,24h_35psu_22gen_Amill rep 2,none,4495009,12378721,no,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396371,adult,Acropora cervicornis,temp,control,1hr_24-28c_summer_Miami,none,4521894,42189417,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396373,adult,Acropora cervicornis,temp,heat,1hr_35C_summer_Miami,none,4882630,38599594,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396374,adult,Acropora cervicornis,temp,control,1hr_24-28C_summer_LowerKeys,none,3021004,48948847,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396375,adult,Acropora cervicornis,temp,cold,1hr_10C_summer_Miami,none,3596311,37174155,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396376,adult,Acropora cervicornis,temp,heat,1hr_35C_summer_LowerKeys,none,3037725,37330899,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396377,adult,Acropora cervicornis,temp,control,1hr_24-28C_winter_Miami,none,5496904,39323153,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396378,adult,Acropora cervicornis,temp,cold,1hr_10C_winter_LowerKeys,none,4764083,40518257,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396379,adult,Acropora cervicornis,temp,heat,1hr_35C_winter_Miami,none,5847834,38374168,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396380,adult,Acropora cervicornis,temp,control,1hr_24-28C_winter_LowerKeys,none,4934393,37935971,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396381,adult,Acropora cervicornis,temp,cold,1hr_10C_winter_Miami,none,4834146,35487235,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396382,adult,Acropora cervicornis,temp,heat,1hr_35C_winter_LowerKeys,none,5268665,37602471,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396372,adult,Acropora cervicornis,temp,cold,1hr_10C_summer_LowerKeys,none,6294930,35994276,NA,stressed

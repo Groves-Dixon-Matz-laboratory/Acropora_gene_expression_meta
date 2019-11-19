@@ -1,0 +1,16 @@
+my_title,Run,my_stage,Organism,projType,treat,treatDescription,special,geneCounted,rawCounts,bleached,stress
+A_moya_acid_PRJNA149513,SRR401853,recruit,Acropora millepora,pH,control,Control 1,none,7343169,28328761,no,control
+A_moya_acid_PRJNA149513,SRR401854,recruit,Acropora millepora,pH,control,Control 2,none,7917594,28571952,no,control
+A_moya_acid_PRJNA149513,SRR401855,recruit,Acropora millepora,pH,control,Control 3,none,8522023,27641029,no,control
+A_moya_acid_PRJNA149513,SRR401856,recruit,Acropora millepora,pH,low_pH,750 ppm 1,none,7677487,28807288,no,stressed
+A_moya_acid_PRJNA149513,SRR401857,recruit,Acropora millepora,pH,low_pH,750 ppm 2,none,8442056,27735360,no,stressed
+A_moya_acid_PRJNA149513,SRR401858,recruit,Acropora millepora,pH,low_pH,750 ppm 3,none,8132771,28899079,no,stressed
+A_moya_acid_PRJNA149513,SRR401859,recruit,Acropora millepora,pH,low_pH,1000 ppm 1,none,7379928,29115000,no,stressed
+A_moya_acid_PRJNA149513,SRR401860,recruit,Acropora millepora,pH,low_pH,1000 ppm 2,none,8273464,28412758,no,stressed
+A_moya_acid_PRJNA149513,SRR401861,recruit,Acropora millepora,pH,low_pH,1000 ppm 3,none,8129844,30042580,no,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566164,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5249447,12269208,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566165,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5595785,12534784,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566166,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5537109,12898069,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566168,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,5628308,12631481,no,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566167,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,5431536,12501088,no,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566169,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,4817192,12467897,no,stressed

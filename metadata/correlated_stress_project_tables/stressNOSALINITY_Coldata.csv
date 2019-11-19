@@ -1,0 +1,405 @@
+my_title,Run,my_stage,Organism,projType,treat,treatDescription,special,geneCounted,rawCounts,bleached,stress
+B_whiteBand_PRJNA222758,SRR1015321,adult,Acropora cervicornis,immune,control,healthy,none,2216393,7602534,no,control
+B_whiteBand_PRJNA222758,SRR1015323,adult,Acropora cervicornis,immune,control,healthy,none,2535791,7599200,no,control
+B_whiteBand_PRJNA222758,SRR1015327,adult,Acropora cervicornis,immune,control,healthy,none,4605456,15276530,no,control
+B_whiteBand_PRJNA222758,SRR1015340,adult,Acropora cervicornis,immune,challenge,white band,none,1520976,5090010,no,stressed
+B_whiteBand_PRJNA222758,SRR1015349,adult,Acropora cervicornis,immune,challenge,white band,none,1522218,3928621,no,stressed
+B_whiteBand_PRJNA222758,SRR1015354,adult,Acropora cervicornis,immune,challenge,white band,none,2111081,6563066,no,stressed
+B_whiteBand_PRJNA222758,SRR1015298,adult,Acropora cervicornis,immune,control,healthy,none,1885740,4919853,no,control
+B_whiteBand_PRJNA222758,SRR1015358,adult,Acropora cervicornis,immune,control,healthy,none,4264418,15412184,no,control
+B_whiteBand_PRJNA222758,SRR1015325,adult,Acropora cervicornis,immune,control,healthy,none,4040692,14658595,no,control
+B_whiteBand_PRJNA222758,SRR1015331,adult,Acropora cervicornis,immune,challenge,white band,none,3720503,9959364,no,stressed
+B_whiteBand_PRJNA222758,SRR1015344,adult,Acropora cervicornis,immune,challenge,white band,none,812616,7753708,no,stressed
+E_aspera_PRJNA266455,SRR1653615,adult,Acropora aspera,temp,control,ambient 24 hrs,none,2097660,4446938,no,control
+E_aspera_PRJNA266455,SRR1654665,adult,Acropora aspera,temp,control,ambient 24 hrs,none,6787560,19865403,no,control
+E_aspera_PRJNA266455,SRR1653613,adult,Acropora aspera,temp,control,ambient 72 hrs,none,1247805,2645729,no,control
+E_aspera_PRJNA266455,SRR1654664,adult,Acropora aspera,temp,control,ambient 72 hrs,none,4195585,11599658,no,control
+E_aspera_PRJNA266455,SRR1653611,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 24 hrs,none,3174715,27588956,no,stressed
+E_aspera_PRJNA266455,SRR1653608,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 72 hrs,none,3330560,24416729,no,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629090,adult,Acropora hyacinthus,temp,heat,01_h_HV,none,763126,19577661,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629091,adult,Acropora hyacinthus,temp,control,02_c_HV,none,1637079,18872907,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629092,adult,Acropora hyacinthus,temp,heat,02_h_HV,none,1074790,9457678,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629093,adult,Acropora hyacinthus,temp,control,03_c_HV,none,734261,13328694,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629094,adult,Acropora hyacinthus,temp,control,06_c_HV,none,993593,9146242,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629096,adult,Acropora hyacinthus,temp,control,09_c_HV,none,1145901,10464369,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629126,adult,Acropora hyacinthus,temp,heat,09_h_HV,none,622661,26399718,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629130,adult,Acropora hyacinthus,temp,heat,31_h_MV,none,757801,13561442,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629131,adult,Acropora hyacinthus,temp,control,40_c_MV,none,1299265,9235183,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629132,adult,Acropora hyacinthus,temp,heat,40_h_MV,none,963561,10573276,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629135,adult,Acropora hyacinthus,temp,control,45_c_MV,none,299455,5551198,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629150,adult,Acropora hyacinthus,temp,control,55_c_MV,none,1539927,17722284,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629151,adult,Acropora hyacinthus,temp,heat,55_h_MV,none,858555,17905764,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629155,adult,Acropora hyacinthus,temp,heat,65_h_MV,none,904566,18368411,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629089,adult,Acropora hyacinthus,temp,control,01_c_HV,none,303262,18753443,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629095,adult,Acropora hyacinthus,temp,heat,06_h_HV,none,735115,8011684,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629127,adult,Acropora hyacinthus,temp,control,75_c_HV,none,579219,6256079,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629128,adult,Acropora hyacinthus,temp,heat,75_h_HV,none,218116,2440360,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629129,adult,Acropora hyacinthus,temp,control,31_c_MV,none,1973269,15613291,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629133,adult,Acropora hyacinthus,temp,control,44_c_MV,none,1189820,16743882,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629134,adult,Acropora hyacinthus,temp,heat,44_h_MV,none,922340,16198613,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629136,adult,Acropora hyacinthus,temp,heat,45_h_MV,none,107096,2083128,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629152,adult,Acropora hyacinthus,temp,control,61_c_MV,none,1125991,8838378,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629153,adult,Acropora hyacinthus,temp,heat,61_h_MV,none,2534487,15748515,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629154,adult,Acropora hyacinthus,temp,control,65_c_MV,none,1231305,9584976,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629156,adult,Acropora hyacinthus,temp,control,68_c_MV,none,126549,18566614,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629157,adult,Acropora hyacinthus,temp,heat,68_h_MV,none,903510,6584461,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629158,adult,Acropora hyacinthus,temp,control,70_c_MV,none,1006237,16299011,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629159,adult,Acropora hyacinthus,temp,heat,70_h_MV,none,536474,8193882,yes,stressed
+L_Barshis_bleachResillience_PRJNA177515,SRR629160,adult,Acropora hyacinthus,temp,control,71_c_MV,none,877861,19108917,yes,control
+L_Barshis_bleachResillience_PRJNA177515,SRR629161,adult,Acropora hyacinthus,temp,heat,71_h_MV,none,910248,18492498,yes,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566164,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5249447,12269208,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566165,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5595785,12534784,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566166,recruit,Acropora millepora,pH,control,380 ppm CO2,none,5537109,12898069,no,control
+M_moya_juvenilePh_PRJNA260269,SRR1566168,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,5628308,12631481,no,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566167,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,5431536,12501088,no,stressed
+M_moya_juvenilePh_PRJNA260269,SRR1566169,recruit,Acropora millepora,pH,low_pH,750 ppm CO2,none,4817192,12467897,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622488,adult,Acropora millepora,immune,control,AC221,laneDups removed with sum_lane_dups.R,64836,247228,no,control
+S_rachel_immune_PRJNA319662,SRR3622490,adult,Acropora millepora,immune,control,AC261,laneDups removed with sum_lane_dups.R,104724,385341,no,control
+S_rachel_immune_PRJNA319662,SRR3622491,adult,Acropora millepora,immune,challenge,AD91,laneDups removed with sum_lane_dups.R,20120,522502,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622493,adult,Acropora millepora,immune,challenge,AD92,laneDups removed with sum_lane_dups.R,115557,530609,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622496,adult,Acropora millepora,immune,challenge,AD93,laneDups removed with sum_lane_dups.R,17782,1347483,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622499,adult,Acropora millepora,immune,challenge,AO221,laneDups removed with sum_lane_dups.R,75681,262250,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622503,adult,Acropora millepora,immune,challenge,AO222,laneDups removed with sum_lane_dups.R,75440,262612,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622506,adult,Acropora millepora,immune,challenge,AO223,laneDups removed with sum_lane_dups.R,104131,367955,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622509,adult,Acropora millepora,immune,challenge,AO262,laneDups removed with sum_lane_dups.R,121623,510419,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622512,adult,Acropora millepora,immune,control,AC262,laneDups removed with sum_lane_dups.R,171086,699399,no,control
+S_rachel_immune_PRJNA319662,SRR3622513,adult,Acropora millepora,immune,challenge,AO263,laneDups removed with sum_lane_dups.R,117430,473595,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622516,adult,Acropora millepora,immune,challenge,AO273,laneDups removed with sum_lane_dups.R,162282,770792,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622519,adult,Acropora millepora,immune,challenge,AO301,laneDups removed with sum_lane_dups.R,187856,820147,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622522,adult,Acropora millepora,immune,challenge,AO302,laneDups removed with sum_lane_dups.R,141283,719120,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622526,adult,Acropora millepora,immune,challenge,AO303,laneDups removed with sum_lane_dups.R,68641,228095,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622529,adult,Acropora millepora,immune,challenge,AO41,laneDups removed with sum_lane_dups.R,133668,506120,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622532,adult,Acropora millepora,immune,challenge,AO42,laneDups removed with sum_lane_dups.R,70500,301869,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622536,adult,Acropora millepora,immune,challenge,AO43,laneDups removed with sum_lane_dups.R,163669,657922,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622539,adult,Acropora millepora,immune,challenge,AO52,laneDups removed with sum_lane_dups.R,152668,600871,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622542,adult,Acropora millepora,immune,challenge,AO53,laneDups removed with sum_lane_dups.R,51326,212925,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622546,adult,Acropora millepora,immune,challenge,AO71,laneDups removed with sum_lane_dups.R,117121,448075,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622545,adult,Acropora millepora,immune,control,AC272,laneDups removed with sum_lane_dups.R,99740,390063,no,control
+S_rachel_immune_PRJNA319662,SRR3622549,adult,Acropora millepora,immune,challenge,AO72,laneDups removed with sum_lane_dups.R,132461,610706,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622553,adult,Acropora millepora,immune,challenge,AO73,laneDups removed with sum_lane_dups.R,64937,230686,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622555,adult,Acropora millepora,immune,challenge,AO91,laneDups removed with sum_lane_dups.R,16029,168383,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622559,adult,Acropora millepora,immune,challenge,AO93,laneDups removed with sum_lane_dups.R,10964,442299,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622578,adult,Acropora millepora,immune,control,AC273,laneDups removed with sum_lane_dups.R,175927,768531,no,control
+S_rachel_immune_PRJNA319662,SRR3622588,adult,Acropora millepora,immune,control,NC221,laneDups removed with sum_lane_dups.R,94691,344541,no,control
+S_rachel_immune_PRJNA319662,SRR3622592,adult,Acropora millepora,immune,control,NC222,laneDups removed with sum_lane_dups.R,103845,417044,no,control
+S_rachel_immune_PRJNA319662,SRR3622595,adult,Acropora millepora,immune,control,NC223,laneDups removed with sum_lane_dups.R,124901,478894,no,control
+S_rachel_immune_PRJNA319662,SRR3622598,adult,Acropora millepora,immune,control,NC261,laneDups removed with sum_lane_dups.R,172692,782597,no,control
+S_rachel_immune_PRJNA319662,SRR3622603,adult,Acropora millepora,immune,control,NC262,laneDups removed with sum_lane_dups.R,185478,804944,no,control
+S_rachel_immune_PRJNA319662,SRR3622606,adult,Acropora millepora,immune,control,NC263,laneDups removed with sum_lane_dups.R,185461,876498,no,control
+S_rachel_immune_PRJNA319662,SRR3622609,adult,Acropora millepora,immune,control,NC271,laneDups removed with sum_lane_dups.R,141042,535132,no,control
+S_rachel_immune_PRJNA319662,SRR3622612,adult,Acropora millepora,immune,control,AC301,laneDups removed with sum_lane_dups.R,192081,807518,no,control
+S_rachel_immune_PRJNA319662,SRR3622613,adult,Acropora millepora,immune,control,NC272,laneDups removed with sum_lane_dups.R,126257,473868,no,control
+S_rachel_immune_PRJNA319662,SRR3622616,adult,Acropora millepora,immune,control,NC273,laneDups removed with sum_lane_dups.R,142857,514598,no,control
+S_rachel_immune_PRJNA319662,SRR3622619,adult,Acropora millepora,immune,control,NC301,laneDups removed with sum_lane_dups.R,212596,1075468,no,control
+S_rachel_immune_PRJNA319662,SRR3622622,adult,Acropora millepora,immune,control,NC302,laneDups removed with sum_lane_dups.R,144698,623262,no,control
+S_rachel_immune_PRJNA319662,SRR3622626,adult,Acropora millepora,immune,control,NC303,laneDups removed with sum_lane_dups.R,248724,1231831,no,control
+S_rachel_immune_PRJNA319662,SRR3622629,adult,Acropora millepora,immune,control,NC41,laneDups removed with sum_lane_dups.R,192887,832307,no,control
+S_rachel_immune_PRJNA319662,SRR3622632,adult,Acropora millepora,immune,control,NC42,laneDups removed with sum_lane_dups.R,243523,1027344,no,control
+S_rachel_immune_PRJNA319662,SRR3622636,adult,Acropora millepora,immune,control,NC43,laneDups removed with sum_lane_dups.R,131647,491336,no,control
+S_rachel_immune_PRJNA319662,SRR3622639,adult,Acropora millepora,immune,control,NC51,laneDups removed with sum_lane_dups.R,200165,913039,no,control
+S_rachel_immune_PRJNA319662,SRR3622642,adult,Acropora millepora,immune,control,NC52,laneDups removed with sum_lane_dups.R,173850,750856,no,control
+S_rachel_immune_PRJNA319662,SRR3622645,adult,Acropora millepora,immune,control,AC302,laneDups removed with sum_lane_dups.R,119022,504899,no,control
+S_rachel_immune_PRJNA319662,SRR3622646,adult,Acropora millepora,immune,control,NC53,laneDups removed with sum_lane_dups.R,175361,808700,no,control
+S_rachel_immune_PRJNA319662,SRR3622649,adult,Acropora millepora,immune,control,NC71,laneDups removed with sum_lane_dups.R,105545,422842,no,control
+S_rachel_immune_PRJNA319662,SRR3622652,adult,Acropora millepora,immune,control,NC72,laneDups removed with sum_lane_dups.R,277557,1387808,no,control
+S_rachel_immune_PRJNA319662,SRR3622655,adult,Acropora millepora,immune,control,NC73,laneDups removed with sum_lane_dups.R,265687,1209847,no,control
+S_rachel_immune_PRJNA319662,SRR3622659,adult,Acropora millepora,immune,control,NC91,laneDups removed with sum_lane_dups.R,197678,870980,no,control
+S_rachel_immune_PRJNA319662,SRR3622662,adult,Acropora millepora,immune,control,NC92,laneDups removed with sum_lane_dups.R,124767,467984,no,control
+S_rachel_immune_PRJNA319662,SRR3622666,adult,Acropora millepora,immune,control,NC93,laneDups removed with sum_lane_dups.R,177626,740275,no,control
+S_rachel_immune_PRJNA319662,SRR3622669,adult,Acropora millepora,immune,challenge,ND261,laneDups removed with sum_lane_dups.R,131129,528676,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622672,adult,Acropora millepora,immune,challenge,ND262,laneDups removed with sum_lane_dups.R,14726,1002646,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622676,adult,Acropora millepora,immune,challenge,ND271,laneDups removed with sum_lane_dups.R,117384,731778,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622678,adult,Acropora millepora,immune,control,AC303,laneDups removed with sum_lane_dups.R,118796,469706,no,control
+S_rachel_immune_PRJNA319662,SRR3622680,adult,Acropora millepora,immune,challenge,ND273,laneDups removed with sum_lane_dups.R,113371,427968,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622682,adult,Acropora millepora,immune,challenge,ND301,laneDups removed with sum_lane_dups.R,155703,662554,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622685,adult,Acropora millepora,immune,challenge,ND302,laneDups removed with sum_lane_dups.R,175857,728902,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622688,adult,Acropora millepora,immune,challenge,ND303,laneDups removed with sum_lane_dups.R,197236,773298,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622692,adult,Acropora millepora,immune,challenge,ND41,laneDups removed with sum_lane_dups.R,189340,848619,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622695,adult,Acropora millepora,immune,challenge,ND42,laneDups removed with sum_lane_dups.R,9688,250611,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622698,adult,Acropora millepora,immune,challenge,ND51,laneDups removed with sum_lane_dups.R,30625,232926,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622702,adult,Acropora millepora,immune,challenge,ND52,laneDups removed with sum_lane_dups.R,111138,430878,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622705,adult,Acropora millepora,immune,challenge,ND53,laneDups removed with sum_lane_dups.R,119026,521044,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622708,adult,Acropora millepora,immune,challenge,ND71,laneDups removed with sum_lane_dups.R,110936,423884,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622711,adult,Acropora millepora,immune,control,AC222,laneDups removed with sum_lane_dups.R,139113,516953,no,control
+S_rachel_immune_PRJNA319662,SRR3622712,adult,Acropora millepora,immune,control,AC41,laneDups removed with sum_lane_dups.R,163270,673403,no,control
+S_rachel_immune_PRJNA319662,SRR3622713,adult,Acropora millepora,immune,challenge,ND73,laneDups removed with sum_lane_dups.R,180752,841540,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622717,adult,Acropora millepora,immune,challenge,ND91,laneDups removed with sum_lane_dups.R,124369,619668,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622719,adult,Acropora millepora,immune,challenge,ND93,laneDups removed with sum_lane_dups.R,18071,280972,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622722,adult,Acropora millepora,immune,challenge,NO221,laneDups removed with sum_lane_dups.R,156230,596453,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622726,adult,Acropora millepora,immune,challenge,NO222,laneDups removed with sum_lane_dups.R,97056,352126,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622729,adult,Acropora millepora,immune,challenge,NO261,laneDups removed with sum_lane_dups.R,279996,1224531,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622732,adult,Acropora millepora,immune,challenge,NO262,laneDups removed with sum_lane_dups.R,153182,559289,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622736,adult,Acropora millepora,immune,challenge,NO263,laneDups removed with sum_lane_dups.R,47918,164109,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622739,adult,Acropora millepora,immune,challenge,NO271,laneDups removed with sum_lane_dups.R,134090,586347,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622742,adult,Acropora millepora,immune,challenge,NO273,laneDups removed with sum_lane_dups.R,327875,1474061,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622745,adult,Acropora millepora,immune,control,AC42,laneDups removed with sum_lane_dups.R,251440,1161396,no,control
+S_rachel_immune_PRJNA319662,SRR3622746,adult,Acropora millepora,immune,challenge,NO301,laneDups removed with sum_lane_dups.R,240890,1015003,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622749,adult,Acropora millepora,immune,challenge,NO302,laneDups removed with sum_lane_dups.R,122834,531856,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622752,adult,Acropora millepora,immune,challenge,NO303,laneDups removed with sum_lane_dups.R,132383,530226,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622755,adult,Acropora millepora,immune,challenge,NO41,laneDups removed with sum_lane_dups.R,176108,745414,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622771,adult,Acropora millepora,immune,challenge,NO42,laneDups removed with sum_lane_dups.R,270095,1383393,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622774,adult,Acropora millepora,immune,challenge,NO43,laneDups removed with sum_lane_dups.R,124704,490844,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622777,adult,Acropora millepora,immune,challenge,NO52,laneDups removed with sum_lane_dups.R,266078,1226868,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622781,adult,Acropora millepora,immune,challenge,NO53,laneDups removed with sum_lane_dups.R,199145,1105572,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622784,adult,Acropora millepora,immune,challenge,NO71,laneDups removed with sum_lane_dups.R,257265,1241282,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622787,adult,Acropora millepora,immune,challenge,NO72,laneDups removed with sum_lane_dups.R,18051,1037666,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622790,adult,Acropora millepora,immune,control,AC51,laneDups removed with sum_lane_dups.R,180035,765319,no,control
+S_rachel_immune_PRJNA319662,SRR3622791,adult,Acropora millepora,immune,challenge,NO73,laneDups removed with sum_lane_dups.R,142939,509692,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622794,adult,Acropora millepora,immune,challenge,NO91,laneDups removed with sum_lane_dups.R,146089,633740,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622797,adult,Acropora millepora,immune,challenge,NO92,laneDups removed with sum_lane_dups.R,232215,1157137,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622800,adult,Acropora millepora,immune,challenge,NO93,laneDups removed with sum_lane_dups.R,24203,223300,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622841,adult,Acropora millepora,immune,control,AC53,laneDups removed with sum_lane_dups.R,232810,1060783,no,control
+S_rachel_immune_PRJNA319662,SRR3622851,adult,Acropora millepora,immune,control,AC71,laneDups removed with sum_lane_dups.R,249168,1130828,no,control
+S_rachel_immune_PRJNA319662,SRR3622854,adult,Acropora millepora,immune,control,AC72,laneDups removed with sum_lane_dups.R,324244,1517731,no,control
+S_rachel_immune_PRJNA319662,SRR3622857,adult,Acropora millepora,immune,control,AC73,laneDups removed with sum_lane_dups.R,94016,358719,no,control
+S_rachel_immune_PRJNA319662,SRR3622861,adult,Acropora millepora,immune,control,AC91,laneDups removed with sum_lane_dups.R,67483,252943,no,control
+S_rachel_immune_PRJNA319662,SRR3622864,adult,Acropora millepora,immune,control,AC92,laneDups removed with sum_lane_dups.R,10436,706008,no,control
+S_rachel_immune_PRJNA319662,SRR3622867,adult,Acropora millepora,immune,control,AC93,laneDups removed with sum_lane_dups.R,15405,1184492,no,control
+S_rachel_immune_PRJNA319662,SRR3622870,adult,Acropora millepora,immune,control,AC223,laneDups removed with sum_lane_dups.R,141394,528157,no,control
+S_rachel_immune_PRJNA319662,SRR3622872,adult,Acropora millepora,immune,challenge,AD221,laneDups removed with sum_lane_dups.R,110100,480387,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622874,adult,Acropora millepora,immune,challenge,AD222,laneDups removed with sum_lane_dups.R,98225,435951,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622877,adult,Acropora millepora,immune,challenge,AD223,laneDups removed with sum_lane_dups.R,95717,381213,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622880,adult,Acropora millepora,immune,challenge,AD261,laneDups removed with sum_lane_dups.R,143625,579946,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622884,adult,Acropora millepora,immune,challenge,AD262,laneDups removed with sum_lane_dups.R,67399,460544,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622887,adult,Acropora millepora,immune,challenge,AD271,laneDups removed with sum_lane_dups.R,141460,672800,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622890,adult,Acropora millepora,immune,challenge,AD301,laneDups removed with sum_lane_dups.R,36477,130956,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622894,adult,Acropora millepora,immune,challenge,AD302,laneDups removed with sum_lane_dups.R,115913,496714,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622897,adult,Acropora millepora,immune,challenge,AD303,laneDups removed with sum_lane_dups.R,84860,369494,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622900,adult,Acropora millepora,immune,challenge,AD51,laneDups removed with sum_lane_dups.R,124136,487393,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622904,adult,Acropora millepora,immune,challenge,AD71,laneDups removed with sum_lane_dups.R,55227,194294,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622907,adult,Acropora millepora,immune,challenge,AD72,laneDups removed with sum_lane_dups.R,77919,328784,no,stressed
+S_rachel_immune_PRJNA319662,SRR3622910,adult,Acropora millepora,immune,challenge,AD73,laneDups removed with sum_lane_dups.R,15104,702180,no,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236068,adult,Acropora digitifera,temp,heat,34C,none,13562607,26479506,NA,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236067,adult,Acropora digitifera,temp,heat,34C,none,10431818,20088208,NA,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236069,adult,Acropora digitifera,temp,control,29C,none,11595867,22547214,NA,control
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236070,adult,Acropora digitifera,temp,control,29C,none,8156240,16381803,NA,control
+j1_thisStudy_PRJNA559404,s1_S39,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.1,none,444622,1958197,yes,control
+j1_thisStudy_PRJNA559404,s2_S40,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.2,none,387500,1593332,yes,control
+j1_thisStudy_PRJNA559404,s3_S41,adult,Acropora millepora,temp,control,Ht1.L1.C.tp1.3,none,371466,1597239,yes,control
+j1_thisStudy_PRJNA559404,s4_S42,adult,Acropora millepora,temp,control,Ht1.N2.C.tp1.1,none,423648,1722630,yes,control
+j1_thisStudy_PRJNA559404,s5_S43,adult,Acropora millepora,temp,control,Ht1.N2.C.tp1.2,none,409282,1741424,yes,control
+j1_thisStudy_PRJNA559404,s6_S44,adult,Acropora millepora,temp,control,Ht1.N2.C.tp1.3,none,373012,1871035,yes,control
+j1_thisStudy_PRJNA559404,s7_S45,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp1.1,none,430402,2036217,yes,stressed
+j1_thisStudy_PRJNA559404,s8_S46,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp1.2,none,396394,1995718,yes,stressed
+j1_thisStudy_PRJNA559404,s9_S47,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp1.3,none,396720,1984813,yes,stressed
+j1_thisStudy_PRJNA559404,s10_S48,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp1.1,none,372093,1614285,yes,stressed
+j1_thisStudy_PRJNA559404,s11_S49,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp1.2,none,331714,1565480,yes,stressed
+j1_thisStudy_PRJNA559404,s12_S50,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp1.3,none,314050,1626594,yes,stressed
+j1_thisStudy_PRJNA559404,s13_S51,adult,Acropora millepora,temp,control,Ht1.N1.C.tp1.1,none,464883,2055933,yes,control
+j1_thisStudy_PRJNA559404,s14_S52,adult,Acropora millepora,temp,control,Ht1.N1.C.tp1.2,none,418834,1811572,yes,control
+j1_thisStudy_PRJNA559404,s15_S53,adult,Acropora millepora,temp,control,Ht1.N1.C.tp1.3,none,388318,1829454,yes,control
+j1_thisStudy_PRJNA559404,s16_S54,adult,Acropora millepora,temp,control,Ht1.N10.C.tp1.1,none,521707,2160274,yes,control
+j1_thisStudy_PRJNA559404,s17_S55,adult,Acropora millepora,temp,control,Ht1.N10.C.tp1.2,none,489364,2060292,yes,control
+j1_thisStudy_PRJNA559404,s18_S56,adult,Acropora millepora,temp,control,Ht1.N10.C.tp1.3,none,466522,1975303,yes,control
+j1_thisStudy_PRJNA559404,s19_S57,adult,Acropora millepora,temp,heat,Ht1.N1.T.tp1.1,none,367073,1846821,yes,stressed
+j1_thisStudy_PRJNA559404,s20_S58,adult,Acropora millepora,temp,heat,Ht1.N1.T.tp1.2,none,317955,1968296,yes,stressed
+j1_thisStudy_PRJNA559404,s21_S59,adult,Acropora millepora,temp,heat,Ht1.N1.T.tp1.3,none,350812,1834892,yes,stressed
+j1_thisStudy_PRJNA559404,s22_S60,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp1.1,none,436073,2017665,yes,stressed
+j1_thisStudy_PRJNA559404,s23_S61,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp1.2,none,475976,1974437,yes,stressed
+j1_thisStudy_PRJNA559404,s24_S62,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp1.3,none,490887,2302343,yes,stressed
+j1_thisStudy_PRJNA559404,s25_S63,adult,Acropora millepora,temp,control,Ht1.L1.C.tp2.1,none,475660,2194923,yes,control
+j1_thisStudy_PRJNA559404,s26_S64,adult,Acropora millepora,temp,control,Ht1.L1.C.tp2.2,none,442377,1759327,yes,control
+j1_thisStudy_PRJNA559404,s27_S65,adult,Acropora millepora,temp,control,Ht1.L1.C.tp2.3,none,405169,1780183,yes,control
+j1_thisStudy_PRJNA559404,s28_S66,adult,Acropora millepora,temp,control,Ht1.N2.C.tp2.1,none,357301,2041330,yes,control
+j1_thisStudy_PRJNA559404,s29_S67,adult,Acropora millepora,temp,control,Ht1.N2.C.tp2.2,none,399720,2093130,yes,control
+j1_thisStudy_PRJNA559404,s30_S68,adult,Acropora millepora,temp,control,Ht1.N2.C.tp2.3,none,546835,2477138,yes,control
+j1_thisStudy_PRJNA559404,s31_S69,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp2.1,none,425492,2139418,yes,stressed
+j1_thisStudy_PRJNA559404,s32_S70,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp2.2,none,500479,2431128,yes,stressed
+j1_thisStudy_PRJNA559404,s33_S71,adult,Acropora millepora,temp,heat,Ht1.L1.T.tp2.3,none,409994,1435315,yes,stressed
+j1_thisStudy_PRJNA559404,s34_S72,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp2.1,none,425367,1519196,yes,stressed
+j1_thisStudy_PRJNA559404,s35_S73,adult,Acropora millepora,temp,heat,Ht1.N2.T.tp2.2,none,351030,1315989,yes,stressed
+j1_thisStudy_PRJNA559404,s61_S98,adult,Acropora millepora,temp,cold,Ch.N1.T.tp1.1,none,436401,1707740,yes,stressed
+j1_thisStudy_PRJNA559404,s62_S99,adult,Acropora millepora,temp,cold,Ch.N1.T.tp1.2,none,464132,1945977,yes,stressed
+j1_thisStudy_PRJNA559404,s63_S100,adult,Acropora millepora,temp,cold,Ch.N1.T.tp1.3,none,407440,1916296,yes,stressed
+j1_thisStudy_PRJNA559404,s64_S101,adult,Acropora millepora,temp,cold,Ch.N2.T.tp1.1,none,415986,1974918,yes,stressed
+j1_thisStudy_PRJNA559404,s65_S102,adult,Acropora millepora,temp,cold,Ch.N2.T.tp1.2,none,443161,1833637,yes,stressed
+j1_thisStudy_PRJNA559404,s66_S103,adult,Acropora millepora,temp,cold,Ch.L1.T.tp1.1,none,379759,1407466,yes,stressed
+j1_thisStudy_PRJNA559404,s67_S104,adult,Acropora millepora,temp,cold,Ch.L1.T.tp1.2,none,409555,1642402,yes,stressed
+j1_thisStudy_PRJNA559404,s68_S105,adult,Acropora millepora,temp,control,Ch.N1.C.tp1.1,none,434068,1785757,yes,control
+j1_thisStudy_PRJNA559404,s69_S106,adult,Acropora millepora,temp,control,Ch.N1.C.tp1.2,none,441140,1814211,yes,control
+j1_thisStudy_PRJNA559404,s70_S107,adult,Acropora millepora,temp,control,Ch.L1.C.tp1.1,none,451402,1958756,yes,control
+j1_thisStudy_PRJNA559404,s71_S108,adult,Acropora millepora,temp,control,Ch.L1.C.tp1.2,none,557953,2367021,yes,control
+j1_thisStudy_PRJNA559404,s72_S109,adult,Acropora millepora,temp,control,Ch.L1.C.tp1.3,none,424138,1912157,yes,control
+j1_thisStudy_PRJNA559404,s73_S110,adult,Acropora millepora,temp,cold,Ch.L1.T.tp1.3,none,449270,1842239,yes,stressed
+j1_thisStudy_PRJNA559404,s74_S111,adult,Acropora millepora,temp,control,Ch.N1.C.tp1.3,none,392315,1595308,yes,control
+j1_thisStudy_PRJNA559404,s75_S112,adult,Acropora millepora,temp,cold,Ch.N2.T.tp1.3,none,367928,1712434,yes,stressed
+j1_thisStudy_PRJNA559404,s76_S113,adult,Acropora millepora,temp,control,Ch.N2.C.tp1.1,none,411289,2019040,yes,control
+j1_thisStudy_PRJNA559404,s77_S114,adult,Acropora millepora,temp,control,Ch.N2.C.tp1.2,none,367061,1947679,yes,control
+j1_thisStudy_PRJNA559404,s78_S115,adult,Acropora millepora,temp,control,Ch.N2.C.tp1.3,none,380011,1797401,yes,control
+j1_thisStudy_PRJNA559404,s79_S116,adult,Acropora millepora,temp,cold,Ch.N10.T.tp1.1,none,433672,1898597,yes,stressed
+j1_thisStudy_PRJNA559404,s80_S117,adult,Acropora millepora,temp,cold,Ch.N10.T.tp1.2,none,427468,1904693,yes,stressed
+j1_thisStudy_PRJNA559404,s81_S118,adult,Acropora millepora,temp,cold,Ch.N10.T.tp1.3,none,418624,1714392,yes,stressed
+j1_thisStudy_PRJNA559404,s82_S119,adult,Acropora millepora,temp,control,Ch.N10.C.tp1.1,none,484468,1726058,yes,control
+j1_thisStudy_PRJNA559404,s83_S120,adult,Acropora millepora,temp,control,Ch.N10.C.tp1.2,none,419769,1655538,yes,control
+j1_thisStudy_PRJNA559404,s84_S121,adult,Acropora millepora,temp,control,Ch.N10.C.tp1.3,none,411445,1813624,yes,control
+j1_thisStudy_PRJNA559404,s112_S147,adult,Acropora millepora,temp,heat,Ht2.N10.T.tp1.1,none,333576,1483434,yes,stressed
+j1_thisStudy_PRJNA559404,s113_S148,adult,Acropora millepora,temp,heat,Ht2.N10.T.tp1.2,none,350267,1488100,yes,stressed
+j1_thisStudy_PRJNA559404,s114_S149,adult,Acropora millepora,temp,heat,Ht2.N10.T.tp1.3,none,280997,1393061,yes,stressed
+j1_thisStudy_PRJNA559404,s121_S156,adult,Acropora millepora,temp,heat,Ht2.L1.T.tp1.1,none,417453,1786906,yes,stressed
+j1_thisStudy_PRJNA559404,s122_S157,adult,Acropora millepora,temp,heat,Ht2.L1.T.tp1.2,none,595254,3047294,yes,stressed
+j1_thisStudy_PRJNA559404,s123_S158,adult,Acropora millepora,temp,heat,Ht2.L1.T.tp1.3,none,675010,3020379,yes,stressed
+j1_thisStudy_PRJNA559404,s125_S159,adult,Acropora millepora,temp,heat,Ht2.N2.T.tp1.2,none,326284,1218904,yes,stressed
+j1_thisStudy_PRJNA559404,s126_S160,adult,Acropora millepora,temp,heat,Ht2.N2.T.tp1.3,none,343062,1383837,yes,stressed
+j1_thisStudy_PRJNA559404,s133_S167,adult,Acropora millepora,temp,heat,Ht2.N1.T.tp1.1,none,284938,1253200,yes,stressed
+j1_thisStudy_PRJNA559404,s134_S168,adult,Acropora millepora,temp,heat,Ht2.N1.T.tp1.2,none,262255,1147966,yes,stressed
+j1_thisStudy_PRJNA559404,s135_S169,adult,Acropora millepora,temp,heat,Ht2.N1.T.tp1.3,none,273985,1179931,yes,stressed
+j1_thisStudy_PRJNA559404,s176_S208,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp2.2,none,454464,1743188,yes,stressed
+j1_thisStudy_PRJNA559404,s177_S209,adult,Acropora millepora,temp,heat,Ht1.N10.T.tp2.3,none,344683,1420446,yes,stressed
+j1_thisStudy_PRJNA559404,s181_S210,adult,Acropora millepora,temp,control,Ht1.N1.C.tp2.1,none,405127,1894762,yes,control
+j1_thisStudy_PRJNA559404,s182_S211,adult,Acropora millepora,temp,control,Ht1.N1.C.tp2.2,none,444202,1875454,yes,control
+j1_thisStudy_PRJNA559404,s183_S212,adult,Acropora millepora,temp,control,Ht1.N1.C.tp2.3,none,381703,1692380,yes,control
+j1_thisStudy_PRJNA559404,s190_S213,adult,Acropora millepora,temp,control,Ht1.N10.C.tp2.1,none,408168,1621789,yes,control
+j1_thisStudy_PRJNA559404,s191_S214,adult,Acropora millepora,temp,control,Ht1.N10.C.tp2.2,none,426308,1905981,yes,control
+j1_thisStudy_PRJNA559404,s192_S215,adult,Acropora millepora,temp,control,Ht1.N10.C.tp2.3,none,294560,1555424,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812166,adult,Acropora hyacinthus,temp,control,X12_86_300_c_5h,none,2443150,12778011,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812167,adult,Acropora hyacinthus,temp,control,X2_6_300_c_5h,none,2465168,15641172,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812168,adult,Acropora hyacinthus,temp,control,X26_27_300_c_5h,none,2335988,15912475,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812169,adult,Acropora hyacinthus,temp,control,X30_87_300_c_5h,none,2120712,11729564,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812170,adult,Acropora hyacinthus,temp,control,X34_83_300_c_5h,none,2785202,16189295,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812171,adult,Acropora hyacinthus,temp,control,X36_85_300_c_5h,none,2332504,13334847,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812172,adult,Acropora hyacinthus,temp,control,X56_75_300_c_5h,none,3081462,16600423,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812173,adult,Acropora hyacinthus,temp,control,X58_4_300_c_5h,none,2527473,14449010,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812174,adult,Acropora hyacinthus,temp,control,X60_7_300_c_5h,none,2379692,14267316,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812175,adult,Acropora hyacinthus,temp,control,X62_88_300_c_5h,none,1682645,12562144,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812176,adult,Acropora hyacinthus,temp,heat,X24_86_300_h_5h,none,1742912,12370134,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812177,adult,Acropora hyacinthus,temp,heat,X14_6_300_h_5h,none,1798453,14757896,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812178,adult,Acropora hyacinthus,temp,heat,X38_27_300_h_5h,none,2413660,21495396,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812179,adult,Acropora hyacinthus,temp,heat,X42_87_300_h_5h,none,1806112,11336544,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812180,adult,Acropora hyacinthus,temp,heat,X46_83_300_h_5h,none,2146163,12638368,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812181,adult,Acropora hyacinthus,temp,heat,X48_85_300_h_5h,none,1987130,11774547,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812182,adult,Acropora hyacinthus,temp,heat,X70_75_300_h_5h,none,2674373,20136626,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812183,adult,Acropora hyacinthus,temp,heat,X72_4_300_h_5h,none,1459188,16333244,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812184,adult,Acropora hyacinthus,temp,heat,X74_7_300_h_5h,none,2054298,17522364,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812185,adult,Acropora hyacinthus,temp,heat,X76_88_300_h_5h,none,1894217,13632540,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812186,adult,Acropora hyacinthus,temp,control,X27_102_400_c_5h,none,2393925,13466085,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812187,adult,Acropora hyacinthus,temp,control,X3_70_400_c_5h,none,3138521,16319629,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812188,adult,Acropora hyacinthus,temp,control,X31_28_400_c_5h,none,2087342,11251455,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812189,adult,Acropora hyacinthus,temp,control,X33_11_400_c_5h,none,2800407,15630171,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812190,adult,Acropora hyacinthus,temp,control,X49_89_400_c_5h,none,3079755,14536378,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812191,adult,Acropora hyacinthus,temp,control,X5_65_400_c_5h,none,2763017,13523938,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812192,adult,Acropora hyacinthus,temp,control,X51_68_400_c_5h,none,3110371,16922482,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812193,adult,Acropora hyacinthus,temp,control,X53_64_400_c_5h,none,2939873,14541609,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812194,adult,Acropora hyacinthus,temp,control,X7_40_400_c_5h,none,2341131,13505758,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812195,adult,Acropora hyacinthus,temp,heat,X39_102_400_h_5h,none,2201208,17035885,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812196,adult,Acropora hyacinthus,temp,heat,X15_70_400_h_5h,none,2578756,17512537,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812197,adult,Acropora hyacinthus,temp,heat,X43_28_400_h_5h,none,1924101,11899752,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812198,adult,Acropora hyacinthus,temp,heat,X45_11_400_h_5h,none,2818569,15139306,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812199,adult,Acropora hyacinthus,temp,heat,X63_89_400_h_5h,none,2911649,19930111,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812200,adult,Acropora hyacinthus,temp,heat,X17_65_400_h_5h,none,2002301,14074215,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812201,adult,Acropora hyacinthus,temp,heat,X65_68_400_h_5h,none,2039178,14297611,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812202,adult,Acropora hyacinthus,temp,heat,X67_64_400_h_5h,none,2064107,12461975,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812203,adult,Acropora hyacinthus,temp,heat,X19_40_400_h_5h,none,1430558,11893668,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812204,adult,Acropora hyacinthus,temp,control,X11_86_400_c_5h,none,2493971,12879008,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812205,adult,Acropora hyacinthus,temp,control,X1_6_400_c_5h,none,2465170,13088805,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812206,adult,Acropora hyacinthus,temp,control,X25_27_400_c_5h,none,2193833,11496397,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812207,adult,Acropora hyacinthus,temp,control,X29_87_400_c_5h,none,2375681,13357979,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812208,adult,Acropora hyacinthus,temp,control,X9_83_400_c_5h,none,2714363,12451252,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812209,adult,Acropora hyacinthus,temp,control,X35_85_400_c_5h,none,2311693,14055020,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812210,adult,Acropora hyacinthus,temp,control,X55_75_400_c_5h,none,2964212,14855986,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812211,adult,Acropora hyacinthus,temp,control,X57_4_400_c_5h,none,3304258,17749200,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812212,adult,Acropora hyacinthus,temp,control,X59_7_400_c_5h,none,2797847,14490992,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812213,adult,Acropora hyacinthus,temp,control,X61_88_400_c_5h,none,2907160,13777174,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812214,adult,Acropora hyacinthus,temp,heat,X23_86_400_h_5h,none,1864977,13554492,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812215,adult,Acropora hyacinthus,temp,heat,X13_6_400_h_5h,none,2083814,12916523,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812216,adult,Acropora hyacinthus,temp,heat,X37_27_400_h_5h,none,1947689,16142154,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812217,adult,Acropora hyacinthus,temp,heat,X41_87_400_h_5h,none,1869338,13252839,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812218,adult,Acropora hyacinthus,temp,heat,X21_83_400_h_5h,none,2186042,14834341,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812219,adult,Acropora hyacinthus,temp,heat,X47_85_400_h_5h,none,1849722,10429404,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812220,adult,Acropora hyacinthus,temp,heat,X69_75_400_h_5h,none,2106832,12899429,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812221,adult,Acropora hyacinthus,temp,heat,X71_4_400_h_5h,none,2108196,13929254,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812222,adult,Acropora hyacinthus,temp,heat,X73_7_400_h_5h,none,2026660,14674810,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812223,adult,Acropora hyacinthus,temp,heat,X75_88_400_h_5h,none,2642703,16124525,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812224,adult,Acropora hyacinthus,temp,control,X28_102_300_c_5h,none,2432264,13713068,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812225,adult,Acropora hyacinthus,temp,control,X4_70_300_c_5h,none,2228441,13395971,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812226,adult,Acropora hyacinthus,temp,control,X32_28_300_c_5h,none,2340569,12902605,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812227,adult,Acropora hyacinthus,temp,control,X10_11_300_c_5h,none,2122179,12966848,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812228,adult,Acropora hyacinthus,temp,control,X50_89_300_c_5h,none,3354335,18384678,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812229,adult,Acropora hyacinthus,temp,control,X6_65_300_c_5h,none,2252735,13287750,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812230,adult,Acropora hyacinthus,temp,control,X52_61_300_c_5h,none,2834119,15489605,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812231,adult,Acropora hyacinthus,temp,control,X54_64_300_c_5h,none,2181826,13707939,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812232,adult,Acropora hyacinthus,temp,control,X8_40_300_c_5h,none,2571473,16969360,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812233,adult,Acropora hyacinthus,temp,heat,X40_102_300_h_5h,none,2268455,15324647,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812234,adult,Acropora hyacinthus,temp,heat,X16_70_300_h_5h,none,2018065,14238843,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812235,adult,Acropora hyacinthus,temp,heat,X44_28_300_h_5h,none,2255278,13567174,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812236,adult,Acropora hyacinthus,temp,heat,X22_11_300_h_5h,none,2128329,16444074,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812237,adult,Acropora hyacinthus,temp,heat,X64_89_300_h_5h,none,2179224,16365761,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812238,adult,Acropora hyacinthus,temp,heat,X18_65_300_h_5h,none,2307113,13478359,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812239,adult,Acropora hyacinthus,temp,heat,X66_61_300_h_5h,none,2006420,14025814,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812240,adult,Acropora hyacinthus,temp,heat,X68_64_300_h_5h,none,1785649,13265666,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812241,adult,Acropora hyacinthus,temp,heat,X20_40_300_h_5h,none,1511106,12821776,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812242,adult,Acropora hyacinthus,temp,control,X140_86_300_c_20h,none,2746461,16123368,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812243,adult,Acropora hyacinthus,temp,control,X130_6_300_c_20h,none,1881208,11496678,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812244,adult,Acropora hyacinthus,temp,control,X78_27_300_c_20h,none,2604186,12887323,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812245,adult,Acropora hyacinthus,temp,control,X82_87_300_c_20h,none,3099306,15439274,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812246,adult,Acropora hyacinthus,temp,control,X86_83_300_c_20h,none,2762450,13103995,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812247,adult,Acropora hyacinthus,temp,control,X88_85_300_c_20h,none,2765471,15465141,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812248,adult,Acropora hyacinthus,temp,control,X108_75_300_c_20h,none,1217877,10452228,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812249,adult,Acropora hyacinthus,temp,control,X110_4_300_c_20h,none,2259942,11794924,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812250,adult,Acropora hyacinthus,temp,control,X112_7_300_c_20h,none,2424075,14239849,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812251,adult,Acropora hyacinthus,temp,control,X114_88_300_c_20h,none,1901613,17486858,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812252,adult,Acropora hyacinthus,temp,heat,X152_86_300_h_20h,none,3264075,20286338,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812253,adult,Acropora hyacinthus,temp,heat,X142_6_300_h_20h,none,2105226,11023468,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812254,adult,Acropora hyacinthus,temp,heat,X90_27_300_h_20h,none,2602604,16286308,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812255,adult,Acropora hyacinthus,temp,heat,X94_87_300_h_20h,none,2226541,12590060,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812256,adult,Acropora hyacinthus,temp,heat,X98_83_300_h_20h,none,2216235,10797138,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812257,adult,Acropora hyacinthus,temp,heat,X100_85_300_h_20h,none,2344802,12369993,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812258,adult,Acropora hyacinthus,temp,heat,X122_75_300_h_20h,none,1987109,13605831,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812259,adult,Acropora hyacinthus,temp,heat,X124_4_300_h_20h,none,1837939,12964724,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812260,adult,Acropora hyacinthus,temp,heat,X126_7_300_h_20h,none,3196120,22095469,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812261,adult,Acropora hyacinthus,temp,heat,X128_88_300_h_20h,none,1688375,14343877,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812262,adult,Acropora hyacinthus,temp,control,X79_102_400_c_20h,none,3165830,16829487,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812263,adult,Acropora hyacinthus,temp,control,X131_70_400_c_20h,none,2245031,11303325,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812264,adult,Acropora hyacinthus,temp,control,X83_28_400_c_20h,none,2835363,15746314,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812265,adult,Acropora hyacinthus,temp,control,X85_11_400_c_20h,none,2861381,16950351,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812266,adult,Acropora hyacinthus,temp,control,X101_89_400_c_20h,none,2809460,14764950,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812267,adult,Acropora hyacinthus,temp,control,X133_65_400_c_20h,none,1887735,10798191,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812268,adult,Acropora hyacinthus,temp,control,X103_68_400_c_20h,none,3693800,20314962,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812269,adult,Acropora hyacinthus,temp,control,X105_64_400_c_20h,none,2851818,14841100,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812270,adult,Acropora hyacinthus,temp,control,X135_40_400_c_20h,none,2118791,15471461,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812271,adult,Acropora hyacinthus,temp,heat,X91_102_400_h_20h,none,2488547,15679314,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812272,adult,Acropora hyacinthus,temp,heat,X143_70_400_h_20h,none,2295079,11870402,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812273,adult,Acropora hyacinthus,temp,heat,X95_28_400_h_20h,none,2324281,12773093,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812274,adult,Acropora hyacinthus,temp,heat,X97_11_400_h_20h,none,2223288,11528773,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812275,adult,Acropora hyacinthus,temp,heat,X115_89_400_h_20h,none,2943416,14967733,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812276,adult,Acropora hyacinthus,temp,heat,X145_65_400_h_20h,none,2527910,17358612,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812277,adult,Acropora hyacinthus,temp,heat,X117_68_400_h_20h,none,2677893,13295235,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812278,adult,Acropora hyacinthus,temp,heat,X119_64_400_h_20h,none,2305092,12577578,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812279,adult,Acropora hyacinthus,temp,heat,X147_40_400_h_20h,none,2701963,15437462,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812280,adult,Acropora hyacinthus,temp,control,X139_86_400_c_20h,none,2555935,12438871,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812281,adult,Acropora hyacinthus,temp,control,X129_6_400_c_20h,none,2196343,12553038,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812282,adult,Acropora hyacinthus,temp,control,X77_27_400_c_20h,none,2492051,12898207,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812283,adult,Acropora hyacinthus,temp,control,X81_87_400_c_20h,none,3061136,19350737,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812284,adult,Acropora hyacinthus,temp,control,X137_83_400_c_20h,none,2226316,11299940,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812285,adult,Acropora hyacinthus,temp,control,X87_85_400_c_20h,none,2650698,15469702,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812286,adult,Acropora hyacinthus,temp,control,X107_75_400_c_20h,none,2633537,13559618,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812287,adult,Acropora hyacinthus,temp,control,X109_4_400_c_20h,none,2332327,11188156,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812288,adult,Acropora hyacinthus,temp,control,X111_7_400_c_20h,none,2024506,10846985,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812289,adult,Acropora hyacinthus,temp,control,X113_88_400_c_20h,none,2294104,11279205,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812290,adult,Acropora hyacinthus,temp,heat,X151_86_400_h_20h,none,735416,3301151,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812291,adult,Acropora hyacinthus,temp,heat,X141_6_400_h_20h,none,2276744,12882348,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812292,adult,Acropora hyacinthus,temp,heat,X89_27_400_h_20h,none,2568008,16705168,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812293,adult,Acropora hyacinthus,temp,heat,X93_87_400_h_20h,none,2238332,12286132,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812294,adult,Acropora hyacinthus,temp,heat,X149_83_400_h_20h,none,1779213,11405492,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812295,adult,Acropora hyacinthus,temp,heat,X99_85_400_h_20h,none,1854085,10169343,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812296,adult,Acropora hyacinthus,temp,heat,X121_75_400_h_20h,none,2598874,15059759,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812297,adult,Acropora hyacinthus,temp,heat,X123_4_400_h_20h,none,2961936,16276746,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812298,adult,Acropora hyacinthus,temp,heat,X125_7_400_h_20h,none,2277417,12705075,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812299,adult,Acropora hyacinthus,temp,heat,X127_88_400_h_20h,none,2989617,16566768,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812300,adult,Acropora hyacinthus,temp,control,X80_102_300_c_20h,none,1887900,13598774,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812301,adult,Acropora hyacinthus,temp,control,X132_70_300_c_20h,none,2117078,11176275,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812302,adult,Acropora hyacinthus,temp,control,X84_28_300_c_20h,none,2472825,13130481,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812303,adult,Acropora hyacinthus,temp,control,X138_11_300_c_20h,none,1958582,11886237,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812304,adult,Acropora hyacinthus,temp,control,X102_89_300_c_20h,none,2519125,14459379,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812305,adult,Acropora hyacinthus,temp,control,X134_65_300_c_20h,none,2158328,13086161,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812306,adult,Acropora hyacinthus,temp,control,X104_61_300_c_20h,none,1976851,12006720,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812307,adult,Acropora hyacinthus,temp,control,X106_64_300_c_20h,none,2766770,15505953,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812308,adult,Acropora hyacinthus,temp,control,X136_40_300_c_20h,none,2210811,11317404,yes,control
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812309,adult,Acropora hyacinthus,temp,heat,X92_102_300_h_20h,none,2829541,14333508,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812310,adult,Acropora hyacinthus,temp,heat,X144_70_300_h_20h,none,2098922,11262780,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812311,adult,Acropora hyacinthus,temp,heat,X96_28_300_h_20h,none,2784828,16110504,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812312,adult,Acropora hyacinthus,temp,heat,X150_11_300_h_20h,none,1778661,15469094,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812313,adult,Acropora hyacinthus,temp,heat,X116_89_300_h_20h,none,2434348,13966652,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812314,adult,Acropora hyacinthus,temp,heat,X146_65_300_h_20h,none,1915542,11549312,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812315,adult,Acropora hyacinthus,temp,heat,X118_61_300_h_20h,none,1702798,11034491,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812316,adult,Acropora hyacinthus,temp,heat,X120_64_300_h_20h,none,2179072,12818694,yes,stressed
+k1_Palumbi_lab_heat_resilience_PRJNA274410,SRR1812317,adult,Acropora hyacinthus,temp,heat,X148_40_300_h_20h,none,1910489,15251660,yes,stressed

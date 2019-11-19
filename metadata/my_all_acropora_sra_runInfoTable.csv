@@ -38,10 +38,10 @@ E_aspera_PRJNA266455,SAMN03165194,SRR1654664,C72,Acropora aspera (C72),NA,Acropo
 E_aspera_PRJNA266455,SAMN03165196,SRR1653611,STE,Acropora aspera (STE),NA,Acropora aspera,6DegreeOverAmbient 24 hrs,adult
 E_aspera_PRJNA266455,SAMN03165197,SRR1653608,LTE,Acropora aspera (LTE),NA,Acropora aspera,6DegreeOverAmbient 72 hrs,adult
 E_aspera_PRJNA266455,SAMN03165198,SRR1653606,N,Acropora aspera (N),NA,Acropora aspera,amonia,adult
-F_Uqueensland_ph_PRJNA269992,SAMN03261518,SRR1703716,Am G1,Am G1,reef flat colony,Acropora millepora,preindusctrial,adult
-F_Uqueensland_ph_PRJNA269992,SAMN03261520,SRR1703717,Am B1,Am B1,reef flat colony,Acropora millepora,present day,adult
-F_Uqueensland_ph_PRJNA269992,SAMN03261521,SRR1706955,Am Y1,Am Y1,reef flat colony,Acropora millepora,RCP4.5,adult
-F_Uqueensland_ph_PRJNA269992,SAMN03261522,SRR1703718,Am R1,Am R1,reef flat colony,Acropora millepora,RCP8.5,adult
+F_Uqueensland_ph_PRJNA269992,SAMN03261518,SRR1703716,Am G1,Am G1,reef flat colony,Acropora millepora,preindusctrial_23C_325pCO2,adult
+F_Uqueensland_ph_PRJNA269992,SAMN03261520,SRR1703717,Am B1,Am B1,reef flat colony,Acropora millepora,present day_24C_403pCO2,adult
+F_Uqueensland_ph_PRJNA269992,SAMN03261521,SRR1706955,Am Y1,Am Y1,reef flat colony,Acropora millepora,RCP4.5_26C_627pCO2,adult
+F_Uqueensland_ph_PRJNA269992,SAMN03261522,SRR1703718,Am R1,Am R1,reef flat colony,Acropora millepora,RCP8.5_28C_997pCO2,adult
 G_barilanU_moonlight_PRJNA276913,SAMN03382359,SRR1843797,Gamete,AcroporaGamete,NA,Acropora millepora,NA,gamete
 G_barilanU_moonlight_PRJNA276913,SAMN05597952,SRR1842722,NewMoon12pm,AcroporaNewMoon12pm,NA,Acropora millepora,NA,adult
 G_barilanU_moonlight_PRJNA276913,SAMN05597953,SRR1842771,NewMoon6pm,AcroporaNewMoon6pm,NA,Acropora millepora,NA,adult
@@ -921,51 +921,51 @@ a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628690,SRR5367064,NA,GSM2546293,NA,Ac
 a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628680,SRR5367065,NA,GSM2546294,NA,Acropora gemmifera,NA,recruit
 a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628679,SRR5367066,NA,GSM2546295,NA,Acropora gemmifera,NA,recruit
 a1_Yaun_CO2_earlyDevelop_PRJNA380146,SAMN06628675,SRR5367067,NA,GSM2546296,NA,Acropora gemmifera,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639186,SRR5374529,NA,GSM2545832,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639185,SRR5374530,NA,GSM2545833,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639184,SRR5374531,NA,GSM2545834,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639183,SRR5374532,NA,GSM2545835,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639204,SRR5374533,NA,GSM2545836,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639171,SRR5374534,NA,GSM2545837,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639170,SRR5374535,NA,GSM2545838,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639179,SRR5374536,NA,GSM2545839,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639181,SRR5374537,NA,GSM2545840,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639169,SRR5374538,NA,GSM2545841,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639172,SRR5374539,NA,GSM2545842,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639173,SRR5374540,NA,GSM2545843,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639180,SRR5374541,NA,GSM2545844,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639182,SRR5374542,NA,GSM2545845,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639205,SRR5374543,NA,GSM2545846,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639206,SRR5374544,NA,GSM2545847,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639207,SRR5374545,NA,GSM2545848,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639209,SRR5374546,NA,GSM2545849,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639208,SRR5374547,NA,GSM2545850,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639210,SRR5374548,NA,GSM2545851,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639212,SRR5374549,NA,GSM2545852,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639211,SRR5374550,NA,GSM2545853,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639214,SRR5374551,NA,GSM2545854,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639213,SRR5374552,NA,GSM2545855,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639215,SRR5374553,NA,GSM2545856,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639216,SRR5374554,NA,GSM2545857,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639217,SRR5374555,NA,GSM2545858,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639218,SRR5374556,NA,GSM2545859,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639219,SRR5374557,NA,GSM2545860,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639220,SRR5374558,NA,GSM2545861,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639222,SRR5374559,NA,GSM2545862,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639221,SRR5374560,NA,GSM2545863,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639223,SRR5374561,NA,GSM2545864,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639174,SRR5374562,NA,GSM2545865,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639175,SRR5374563,NA,GSM2545866,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639177,SRR5374564,NA,GSM2545867,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639176,SRR5374565,NA,GSM2545868,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639178,SRR5374566,NA,GSM2545869,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639224,SRR5374567,NA,GSM2545870,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639225,SRR5374568,NA,GSM2545871,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06639226,SRR5374569,NA,GSM2545872,NA,Acropora millepora,NA,recruit
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06644702,SRR5378429,NA,GSM2550476,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06644701,SRR5378430,NA,GSM2550477,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06644700,SRR5378431,NA,GSM2550478,NA,Acropora millepora,NA,adult
-b1_Aguilar_hypoosmotic stress_PRJNA380267,SAMN06644699,SRR5378432,NA,GSM2550479,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639186,SRR5374529,NA,GSM2545832,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639185,SRR5374530,NA,GSM2545833,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639184,SRR5374531,NA,GSM2545834,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639183,SRR5374532,NA,GSM2545835,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639204,SRR5374533,NA,GSM2545836,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639171,SRR5374534,NA,GSM2545837,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639170,SRR5374535,NA,GSM2545838,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639179,SRR5374536,NA,GSM2545839,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639181,SRR5374537,NA,GSM2545840,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639169,SRR5374538,NA,GSM2545841,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639172,SRR5374539,NA,GSM2545842,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639173,SRR5374540,NA,GSM2545843,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639180,SRR5374541,NA,GSM2545844,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639182,SRR5374542,NA,GSM2545845,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639205,SRR5374543,NA,GSM2545846,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639206,SRR5374544,NA,GSM2545847,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639207,SRR5374545,NA,GSM2545848,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639209,SRR5374546,NA,GSM2545849,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639208,SRR5374547,NA,GSM2545850,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639210,SRR5374548,NA,GSM2545851,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639212,SRR5374549,NA,GSM2545852,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639211,SRR5374550,NA,GSM2545853,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639214,SRR5374551,NA,GSM2545854,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639213,SRR5374552,NA,GSM2545855,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639215,SRR5374553,NA,GSM2545856,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639216,SRR5374554,NA,GSM2545857,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639217,SRR5374555,NA,GSM2545858,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639218,SRR5374556,NA,GSM2545859,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639219,SRR5374557,NA,GSM2545860,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639220,SRR5374558,NA,GSM2545861,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639222,SRR5374559,NA,GSM2545862,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639221,SRR5374560,NA,GSM2545863,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639223,SRR5374561,NA,GSM2545864,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639174,SRR5374562,NA,GSM2545865,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639175,SRR5374563,NA,GSM2545866,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639177,SRR5374564,NA,GSM2545867,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639176,SRR5374565,NA,GSM2545868,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639178,SRR5374566,NA,GSM2545869,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639224,SRR5374567,NA,GSM2545870,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639225,SRR5374568,NA,GSM2545871,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06639226,SRR5374569,NA,GSM2545872,NA,Acropora millepora,NA,recruit
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06644702,SRR5378429,NA,GSM2550476,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06644701,SRR5378430,NA,GSM2550477,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06644700,SRR5378431,NA,GSM2550478,NA,Acropora millepora,NA,adult
+b1_Aguilar_hypoosmotic_stress_PRJNA380267,SAMN06644699,SRR5378432,NA,GSM2550479,NA,Acropora millepora,NA,adult
 c1_uga_diseaseTolerance_PRJNA386795,SAMN07129229,SRR5569448,ApalVI_33B,ApalVI_33B,ApalVI_33B,Acropora palmata,NA,adult
 c1_uga_diseaseTolerance_PRJNA386795,SAMN07129237,SRR5569447,ApalVI_4A,ApalVI_4A,ApalVI_4A,Acropora palmata,NA,adult
 c1_uga_diseaseTolerance_PRJNA386795,SAMN07129238,SRR5569449,ApalVI_3middle,ApalVI_3middle,ApalVI_3mid,Acropora palmata,NA,adult

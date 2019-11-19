@@ -1,0 +1,47 @@
+my_title,Run,my_stage,Organism,projType,treat,treatDescription,special,geneCounted,rawCounts,bleached,stress
+E_aspera_PRJNA266455,SRR1653615,adult,Acropora aspera,temp,control,ambient 24 hrs,none,2097660,4446938,no,control
+E_aspera_PRJNA266455,SRR1654665,adult,Acropora aspera,temp,control,ambient 24 hrs,none,6787560,19865403,no,control
+E_aspera_PRJNA266455,SRR1653613,adult,Acropora aspera,temp,control,ambient 72 hrs,none,1247805,2645729,no,control
+E_aspera_PRJNA266455,SRR1654664,adult,Acropora aspera,temp,control,ambient 72 hrs,none,4195585,11599658,no,control
+E_aspera_PRJNA266455,SRR1653611,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 24 hrs,none,3174715,27588956,no,stressed
+E_aspera_PRJNA266455,SRR1653608,adult,Acropora aspera,temp,heat,6DegreeOverAmbient 72 hrs,none,3330560,24416729,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929604,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,487614,2436256,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929603,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,501019,2994295,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929601,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,265368,1344078,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929602,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,577989,3214906,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929600,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,279449,1291306,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929599,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,238609,1152664,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929598,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,702216,3986837,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929597,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,540032,3250603,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929596,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,442328,2345666,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929595,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,155113,709210,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929594,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,182147,846136,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929593,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,188147,1002815,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929592,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,498012,2629535,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929591,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,384677,1889177,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929590,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,365590,1943516,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929589,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,198728,769398,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929588,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,228299,1004381,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929587,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,221389,928225,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929586,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,305780,1322024,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929585,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,298910,1289228,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929584,adult,Acropora millepora,temp,heat,3 days at 31.5C,larvae_not_treated,530576,2563260,no,stressed
+H_matz_heatTolLat_PRJNA279192,SRR1929583,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,268440,1159557,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929582,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,398244,1864423,no,control
+H_matz_heatTolLat_PRJNA279192,SRR1929581,adult,Acropora millepora,temp,control,3 days at 28C,larvae_not_treated,415855,2038561,no,control
+N_Hainan_U_heat_PRJNA308355,SRR3095777,adult,Acropora aculeus,temp,control,Aa_Control,none,11041872,30435303,NA,control
+N_Hainan_U_heat_PRJNA308355,SRR3095778,adult,Acropora aculeus,temp,control,Aa_Control,none,11301549,29084044,NA,control
+N_Hainan_U_heat_PRJNA308355,SRR3095779,adult,Acropora aculeus,temp,heat,Aa_Heat,none,11508072,30648486,NA,stressed
+N_Hainan_U_heat_PRJNA308355,SRR3095780,adult,Acropora aculeus,temp,heat,Aa_Heat,none,10359256,30151918,NA,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236068,adult,Acropora digitifera,temp,heat,34C,none,13562607,26479506,NA,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236067,adult,Acropora digitifera,temp,heat,34C,none,10431818,20088208,NA,stressed
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236069,adult,Acropora digitifera,temp,control,29C,none,11595867,22547214,NA,control
+W_gajigan_thermalMicroRNA_PRJNA298496,SRR5236070,adult,Acropora digitifera,temp,control,29C,none,8156240,16381803,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396371,adult,Acropora cervicornis,temp,control,1hr_24-28c_summer_Miami,none,4521894,42189417,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396373,adult,Acropora cervicornis,temp,heat,1hr_35C_summer_Miami,none,4882630,38599594,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396374,adult,Acropora cervicornis,temp,control,1hr_24-28C_summer_LowerKeys,none,3021004,48948847,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396376,adult,Acropora cervicornis,temp,heat,1hr_35C_summer_LowerKeys,none,3037725,37330899,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396377,adult,Acropora cervicornis,temp,control,1hr_24-28C_winter_Miami,none,5496904,39323153,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396379,adult,Acropora cervicornis,temp,heat,1hr_35C_winter_Miami,none,5847834,38374168,NA,stressed
+f1_parkinson_hotCold_PRJNA423227,SRR6396380,adult,Acropora cervicornis,temp,control,1hr_24-28C_winter_LowerKeys,none,4934393,37935971,NA,control
+f1_parkinson_hotCold_PRJNA423227,SRR6396382,adult,Acropora cervicornis,temp,heat,1hr_35C_winter_LowerKeys,none,5268665,37602471,NA,stressed

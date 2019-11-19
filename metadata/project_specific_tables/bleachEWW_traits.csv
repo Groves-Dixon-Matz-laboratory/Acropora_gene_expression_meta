@@ -4,7 +4,7 @@ num,experiment,treat,geno,rep,timepoint,exp
 3,heat1,C,L1,3,1,Ht1
 4,heat1,C,N2,1,1,Ht1
 5,heat1,C,N2,2,1,Ht1
-6,heat1,C,L1,3,1,Ht1
+6,heat1,C,N2,3,1,Ht1
 7,heat1,T,L1,1,1,Ht1
 8,heat1,T,L1,2,1,Ht1
 9,heat1,T,L1,3,1,Ht1

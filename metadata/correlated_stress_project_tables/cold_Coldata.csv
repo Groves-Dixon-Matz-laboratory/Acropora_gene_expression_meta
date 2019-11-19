@@ -1,0 +1,25 @@
+my_title,Run,my_stage,Organism,projType,treat,treatDescription,special,geneCounted,rawCounts,bleached,stress
+j1_thisStudy_PRJNA559404,s61_S98,adult,Acropora millepora,temp,cold,Ch.N1.T.tp1.1,none,436401,1707740,yes,stressed
+j1_thisStudy_PRJNA559404,s62_S99,adult,Acropora millepora,temp,cold,Ch.N1.T.tp1.2,none,464132,1945977,yes,stressed
+j1_thisStudy_PRJNA559404,s63_S100,adult,Acropora millepora,temp,cold,Ch.N1.T.tp1.3,none,407440,1916296,yes,stressed
+j1_thisStudy_PRJNA559404,s64_S101,adult,Acropora millepora,temp,cold,Ch.N2.T.tp1.1,none,415986,1974918,yes,stressed
+j1_thisStudy_PRJNA559404,s65_S102,adult,Acropora millepora,temp,cold,Ch.N2.T.tp1.2,none,443161,1833637,yes,stressed
+j1_thisStudy_PRJNA559404,s66_S103,adult,Acropora millepora,temp,cold,Ch.L1.T.tp1.1,none,379759,1407466,yes,stressed
+j1_thisStudy_PRJNA559404,s67_S104,adult,Acropora millepora,temp,cold,Ch.L1.T.tp1.2,none,409555,1642402,yes,stressed
+j1_thisStudy_PRJNA559404,s68_S105,adult,Acropora millepora,temp,control,Ch.N1.C.tp1.1,none,434068,1785757,yes,control
+j1_thisStudy_PRJNA559404,s69_S106,adult,Acropora millepora,temp,control,Ch.N1.C.tp1.2,none,441140,1814211,yes,control
+j1_thisStudy_PRJNA559404,s70_S107,adult,Acropora millepora,temp,control,Ch.L1.C.tp1.1,none,451402,1958756,yes,control
+j1_thisStudy_PRJNA559404,s71_S108,adult,Acropora millepora,temp,control,Ch.L1.C.tp1.2,none,557953,2367021,yes,control
+j1_thisStudy_PRJNA559404,s72_S109,adult,Acropora millepora,temp,control,Ch.L1.C.tp1.3,none,424138,1912157,yes,control
+j1_thisStudy_PRJNA559404,s73_S110,adult,Acropora millepora,temp,cold,Ch.L1.T.tp1.3,none,449270,1842239,yes,stressed
+j1_thisStudy_PRJNA559404,s74_S111,adult,Acropora millepora,temp,control,Ch.N1.C.tp1.3,none,392315,1595308,yes,control
+j1_thisStudy_PRJNA559404,s75_S112,adult,Acropora millepora,temp,cold,Ch.N2.T.tp1.3,none,367928,1712434,yes,stressed
+j1_thisStudy_PRJNA559404,s76_S113,adult,Acropora millepora,temp,control,Ch.N2.C.tp1.1,none,411289,2019040,yes,control
+j1_thisStudy_PRJNA559404,s77_S114,adult,Acropora millepora,temp,control,Ch.N2.C.tp1.2,none,367061,1947679,yes,control
+j1_thisStudy_PRJNA559404,s78_S115,adult,Acropora millepora,temp,control,Ch.N2.C.tp1.3,none,380011,1797401,yes,control
+j1_thisStudy_PRJNA559404,s79_S116,adult,Acropora millepora,temp,cold,Ch.N10.T.tp1.1,none,433672,1898597,yes,stressed
+j1_thisStudy_PRJNA559404,s80_S117,adult,Acropora millepora,temp,cold,Ch.N10.T.tp1.2,none,427468,1904693,yes,stressed
+j1_thisStudy_PRJNA559404,s81_S118,adult,Acropora millepora,temp,cold,Ch.N10.T.tp1.3,none,418624,1714392,yes,stressed
+j1_thisStudy_PRJNA559404,s82_S119,adult,Acropora millepora,temp,control,Ch.N10.C.tp1.1,none,484468,1726058,yes,control
+j1_thisStudy_PRJNA559404,s83_S120,adult,Acropora millepora,temp,control,Ch.N10.C.tp1.2,none,419769,1655538,yes,control
+j1_thisStudy_PRJNA559404,s84_S121,adult,Acropora millepora,temp,control,Ch.N10.C.tp1.3,none,411445,1813624,yes,control

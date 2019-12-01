@@ -1,0 +1,1 @@
+wgcna2_get_soft_threshold.R --input project_controlled_varCut0.75_expCut0.75.Rdata --networkType signed

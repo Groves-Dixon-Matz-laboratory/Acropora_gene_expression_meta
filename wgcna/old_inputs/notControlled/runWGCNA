@@ -1,0 +1,1 @@
+ ~/bin/wgcna3b_step-wise_network_construction.R  --softPower 15 --minSize 20 --mergeCutoff 0 --input wgcna_input_varCut0.75_expCut0.75.Rdata --nCores 24 --networkType signed

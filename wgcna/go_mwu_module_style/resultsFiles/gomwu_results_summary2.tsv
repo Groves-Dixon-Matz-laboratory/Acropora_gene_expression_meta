@@ -1,0 +1,10 @@
+goDivision	input	nSig
+CC	MMred_goInput.csv	92
+CC	MMwhite_goInput.csv	79
+CC	MMgreen4_goInput.csv	74
+MF	MMred_goInput.csv	103
+MF	MMwhite_goInput.csv	79
+MF	MMgreen4_goInput.csv	46
+BP	MMred_goInput.csv	276
+BP	MMwhite_goInput.csv	189
+BP	MMgreen4_goInput.csv	101

@@ -4,19 +4,54 @@
 #################################
 ########## AQUIRE DATA ##########
 #################################
-#searched Acropora on SRA
-#run info table saved as:
-all_acropora_sra_runInfoTable.txt
-
-#my working spreadsheet saved as:
-my_all_acropora_sra_runInfoTable.xlsx
-
-#running through each project one by one (tried all at once and things got confusing)
-
-#download reads by following instructions in SRA_downloading.txt
+#originally searched Acropora on SRA
+#Rawish table from SRA saved as metadata/all_acropora_sra_runInfoTable.csv
+#Using the table from wrangle_sample_data.R: ALL_Coldata.csv
 
 
-#note different methods for Solid data are given below
+#separate out the single and paired end reads
+mkdir single
+mkdir paired
+grep SINGLE ALL_Coldata.csv | cut -d "," -f 2 > single/runList.txt
+grep PAIRED ALL_Coldata.csv | cut -d "," -f 2 > paired/runList.txt
+
+#for each of these, download and dump the reads using SRA toolkit
+
+#download
+>download
+SLEEP=0
+while read srr
+do SLEEP=$(($SLEEP + 2))
+echo "sleep $SLEEP && $PREFETCH $srr --max-size 200G" >> download
+done <runList.txt
+
+
+while read srr
+do SLEEP=$(($SLEEP + 2))
+echo "$PREFETCH $srr --max-size 200G" >> download
+done <runList.txt
+
+
+
+#dump
+>dump
+while read srr
+do echo "fastq-dump --split-files ${PREFETCH_PATH}/sra/${srr}.sra">>dump
+done < runList.txt
+
+
+#in case some drop, here's how to finish
+cp dump finishDump
+for file in *_1.fastq
+do SRR=${file/_1.fastq/}.sra
+sed -i "/${SRR}/d" finishDump
+done
+
+
+
+#note the reads from this study are submitted to SRA under PRJNA559404 but are not available yet
+#for now copy them from here: /corral-repl/utexas/tagmap/dixon_backups/bleach_every_which_way/catted_fastqs
+cp /corral-repl/utexas/tagmap/dixon_backups/bleach_every_which_way/catted_fastqs/*.gz .
 
 
 ####################################################
@@ -25,10 +60,17 @@ my_all_acropora_sra_runInfoTable.xlsx
 #These fastq files has some weird reads as downloaded from NCBI
 #These steps clean them up so that they will map with bowtie
 #Expected to be run in Idev session
+#note all these runs start with 'SRR12061' and are single end
 
+#make directory to do fixing in
+mkdir fix_Cpalumbi
+mv SRR12061*.fastq fix_Cpalumbi
+cd fix_Cpalumbi
+ls *.fastq | wc -l
+	#12
 
 #first remove non-printable ASCII characters from the files
-for file in *.fastq
+for file in SRR12061*.fastq
 do echo "tr -cd '\11\12\15\40-\176' < $file > ${file/.fastq/}_clean.fastq &"
 done
 
@@ -42,8 +84,13 @@ done
 #move repaired files to new dir and rename them to basic .fastq files again to continue pipeline
 
 
+###################################################
+############# MERGIN LANE DUPLICATES  #############
+###################################################
+
+
 #######################################
-###### PREPARE READS FOR MAPPING ######
+############## RUN FASTQ ##############
 #######################################
 
 #SET UP DIRECTORY WITH SUBSETS FOR QUICK TESTS
@@ -68,7 +115,9 @@ launcher_creator.py -n runFQC -j runFQC -q normal -N 1 -w 48 -a $allo -e $email 
 sbatch runFQC.slurm
 
 
-#------ RUN A TRIMMING TEST ------#
+######################################
+############## TRIMMING ##############
+######################################
 
 #FOR PAIRED END READS
 
@@ -84,11 +133,11 @@ do echo "cutadapt \
 -o ${file/_2.fastq/}_1.trim \
 -p ${file/_2.fastq/}_2.trim \
 ${file/_2.fastq/}_1.fastq \
-$file > ${file}_trimlog.txt" >> trimpe
+$file > ${file/_2.fastq/}_trimlog.txt" >> trimpe
 done
 
 
-launcher_creator.py -n trim_robustAnts -j trimpe -a $allo -e $email -q normal -t 12:00:00 -N 1 -w 8
+launcher_creator.py -n trimpe -j trimpe -a $allo -e $email -q normal -t 8:00:00 -N 4 -w 48
 sbatch trimpe.slurm
 
 
@@ -105,10 +154,10 @@ do echo "cutadapt \
 --minimum-length 20 \
 -q 20 \
 -o ${file/_1.fastq/}_1.trim \
-$file > ${file}_trimlog.txt" >> trimse
+$file > ${file/_1.fastq}_trimlog.txt" >> trimse
 done
 
-launcher_creator.py -n trimC -j trimse -q normal -N 1 -w 12 -a $allo -e $email -t 08:00:00
+launcher_creator.py -n trimse -j trimse -q normal -N 4 -w 48 -a $allo -e $email -t 04:00:00
 
 
 #REPEAT THE FASTQC
@@ -127,42 +176,116 @@ done
 #################################
 ############ MAPPING ############
 #################################
+#Here I've noticed threading bowtie by around 4 - 8 works well so we'll go in middle with -p 6
+
 
 #---- FOR PAIRED END READS ----#
 
 module load bowtie
-export REFERENCE_GENOME="/work/02260/grovesd/stampede2/Amil_Zach_Fullers_v2.00/Amil.v2.00.chrs"
+export REFERENCE_GENOME=/work/02260/grovesd/stampede2/Amil_Zach_Fullers_v2.00_symCD_genome_cat/amil_symCD_genomes.fasta
+export REFERENCE_GENOME="/work/02260/grovesd/stampede2/Amil_Zach_Fullers_v2.00_symABCDtrans_catted/amil_symABCDtras_catted.fasta"
+export REFERENCE_GENOME="/work/02260/grovesd/stampede2/AmilSymCD_transcriptomes_seqs/Amil_SymCDtran.fasta"
 
 
-
-#make a file with names
+#make a file with names of the paired-end .trim files
 ls *_1.trim | awk '{split($0, a, "_");print a[1]}'> paired_runIDs.txt
 
 >mappe
 while read runID
 do echo "\
-bowtie2 -x $REFERENCE_GENOME -1 ${runID}_1.trim -2 ${runID}_2.trim --local -p 24 -S ${runID}.sam" >> mappe
+bowtie2 -x $REFERENCE_GENOME -1 ${runID}_1.trim -2 ${runID}_2.trim --local -p 8 -S ${runID}.sam" >> mappe
 done < paired_runIDs.txt
 
-launcher_creator.py -n map_k1 -j mappe -q normal -N 11 -w 4 -a $allo -t 24:00:00
-
+launcher_creator.py -n mappe -j mappe -q normal -N 15 -w 6 -a $allo -t 20:00:00
+#with -p 6 for bowtie, wayness of 6 seems good (36 total out of 48, leaving some extra memory), assuming 12 pairs of .trim files to map, 2 nodes lets them all map at once
+#This sometimes finishes as fast as a couple hours, but can take much longer for large .trim files, could be fancy to set the amount of time requested based on the read counts
 
 
 #---- FOR SINGLE END READS ----#
 
-#make a file with names
-ls *.trim| awk '{split($0, a, "_");print a[1]}'> single_runIDs.txt
-
 #build mapping commands
 module load bowtie
 >mapse
-while read runID
+for file in *_1.trim
 do echo "\
-bowtie2 -x $REFERENCE_GENOME -U ${runID}_1.trim --local -p 8 -S ${runID}.sam">> mapse
-done < single_runIDs.txt
+bowtie2 -x $REFERENCE_GENOME -U ${file} --local -p 8 -S ${file/_1.trim/}.sam">> mapse
+done
 
 #note wayness more than 6 is no good for this
-launcher_creator.py -n mapC -j mapse -q normal -N 4 -w 3 -a $allo -e $email -t 10:00:00
+launcher_creator.py -n mapse -j mapse -q normal -N 3 -w 4 -a $allo -e $email -t 8:00:00
+#with -p 6 for bowtie, wayness of 6 seems good (36 total out of 48, leaving some extra memory), assuming 12 single-end .trim files to map, 2 nodes lets them all map at once. 
+#Again this will probably be faster than 14 hours, but you want to be sure not to get slurmped. Single-end map faster than paired-end
+
+
+
+###########################################
+########### GET ZOOX PROPORTIONS ##########
+###########################################
+
+#I've ended up with several ways of doing this.
+#I've kept them all here just in case, but suggest doing the one under 'PARALLEL AWK WAY' below
+
+#get them Misha's way
+myZooxType.pl *.sam minq=40 > zooxType_PL.tsv
+
+#with my awk script
+zooxType.awk > zooxType_AWK.tsv
+
+
+#get them the BASH way
+MINQ=40
+Astring=symA
+Bstring=symbB
+Cstring=SymbC
+Dstring=SymbD
+
+echo -e "File\tTotal\tnonSymb\tcladeA\tcladeB\tcladeC\tcladeD" > zooxType_BASH.tsv
+
+for file in *.sam
+do echo "${file}..."
+samtools view -F 256 -q $MINQ $file | cut -f 3 > ${file}_scaffs
+aCount=0
+bCount=0
+cCount=`grep $Cstring ${file}_scaffs | wc -l`
+dCount=`grep $Dstring ${file}_scaffs | wc -l`
+nonZooxCount=`grep -v $Cstring ${file}_scaffs | grep -v $Dstring | wc -l`
+totalCount=`samtools view -F 256 -q $MINQ $file | wc -l`
+echo -e "${file}\t${totalCount}\t${nonZooxCount}\t${aCount}\t${bCount}\t${cCount}\t${dCount}" >> zooxType_BASH.tsv
+done
+
+
+#### PARALLEL AWK WAY FOR TRANSCRIPTOMES
+MINQ=40
+>countSymb
+for file in *.sam
+do echo "samtools view -F 256 -q $MINQ $file | singleFileZooxType_symABCD.awk > ${file/.sam/}_symbCounts.tsv" >>countSymb
+done
+
+
+echo -e "sample\tall\tnonSym\tcladeA\tcladeB\tcladeC\tcladeD" > allSymbTranCounts.tsv
+for file in *_symbCounts.tsv
+do awk -v FILE=${file/_symbCounts.tsv/} '{print FILE"\t"$0}' $file >> allSymbTranCounts.tsv
+done
+
+
+
+#### PARALLEL AWK WAY FOR GENOMES
+#note double-checked this against BASH method
+#check for SymbC and SymbD in sam file
+
+#run awk script for each sam file
+MINQ=40
+>countSymb
+for file in *.sam
+do echo "samtools view -F 256 -q $MINQ $file | singleFileZooxType_matchSymbCD.awk > ${file/.sam/}_symbCounts.tsv" >>countSymb
+done
+
+#assemble results
+echo -e "sample\tall\tnonSym\tcladeA\tcladeB\tcladeC\tcladeD" > allSymbGenomeCounts.tsv
+for file in *_symbCounts.tsv
+do awk -v FILE=${file/_symbCounts.tsv/} '{print FILE"\t"$0}' $file >> allSymbGenomeCounts.tsv
+done
+
 
 
 
@@ -170,32 +293,30 @@ launcher_creator.py -n mapC -j mapse -q normal -N 4 -w 3 -a $allo -e $email -t 1
 ##### PREPARE ALIGNMENTS FOR COUNTING #####
 ###########################################
 
-#SORT, REMOVE DUPLICATES, THEN CONVERT BACK TO SAM FOR COUNTING
-
-
-#NOTE!!! LOOK INTO USING 'samtools fixmate' here
+#SORT BY COORDIANTE, REMOVE DUPLICATES, THEN CONVERT BACK TO SAM FOR COUNTING
+#These are fast, but removing duplicates takes a lot of memory
 
 module load samtools
 >removeDups
 for file in *.sam
 do runID=${file/.sam/}
- echo "samtools view -bS $file |\
- samtools sort -O bam -o ${runID}_sorted.bam - &&\
+ echo "samtools sort -O bam -o ${runID}_sorted.bam $file &&\
  java -Xms4g -jar /work/02260/grovesd/lonestar/picard/picard-tools-1.119/MarkDuplicates.jar\
  INPUT=${runID}_sorted.bam\
  OUTPUT=${runID}_dupsRemoved.bam\
  METRICS_FILE=${runID}_dupMetrics.txt\
- REMOVE_DUPLICATES=true &&\
- samtools sort -n -O bam -o ${runID}_dupsRemoved_NameSorted.bam  ${runID}_dupsRemoved.bam" >> removeDups
+ REMOVE_DUPLICATES=true" >> removeDups
  done
  
-launcher_creator.py -n removeDups -j removeDups -t 6:00:00 -q normal -a $allo -e $email -N 4 -w 3
-
+launcher_creator.py -n removeDups -j removeDups -t 20:00:00 -q normal -a $allo -e $email -N 30 -w 2
+##run only two per node, assuming 12 sam files, using six nodes allows for all to run simultaneously, expect run to last ~2-4 hours
 
 
 ######################################
 ############# GET COUNTS #############
 ######################################
+
+#!!! NOTE, TO SEE CODE FOR DEALING WITH READS MAPPED TO AMIL-SYMBCD-TRANSCRIPTOMES, SEE APPENDIX BELOW !!!#
 
 #Choose the GFF
 
@@ -246,9 +367,7 @@ wc -l *.fastq |\
 wc -l *.trim |\
  awk '{split($2, a, ".trim")
  print a[1]"\t"$1/4"\ttrimmedCounts"}' |\
- grep -v total > trimmed_read_counts.tsv &
-
-
+ grep -v total > trimmed_read_counts.tsv 
 
 
 #get alignment counts before removal
@@ -350,127 +469,158 @@ sed -i.bak '/dedupEff/d' all_pipeline_counts.txt
 ######################################################
 ### INITIALIZE COUNTS/CONTROL FOR COVARIATES/DESEQ ###
 ######################################################
+#note the old way I did this is still included below
 
-#make a directory for each of the particular subsets of the dataset you're working with
+#SETUP
+#move all the *Coldata.csv files output from wrangle_sample_data.R to TACC
 
 #grab raw counts from corral
 cp /corral-repl/utexas/tagmap/dixon_backups/gene_expression_meta/dupRemoval/featureCounts/all_featureCounts_geneCounts_laneDupsRemd.tsv .
 
 
-#------- CHOOSE DESEQ COMMAND TO USE
-#FOR BLEACHED
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v bleached --t bleached --c control"
-
-#FOR COLD
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t cold --c control"
-#FOR HEAT WITHOUT BEWW
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t heat --c control --pt temp"
-#FOR IMMUNE
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t challenge --c control --pt immune"
-#FOR pH
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t low_pH --c control --pt pH"
-#FOR SALINITY
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v treat --t low_salinity --c control"
-#FOR ALL STRESS
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v stress --t stressed --c control --runInd TRUE"
-#FOR SUBSET STRESSES (eg stress_noHeat_Coldata.csv)
-DESEQCOMMAND="Rscript ~/bin/geMetaScripts/deseq_general.R --i deseqBaselineInput.Rdata --v stress --t stressed --c control"
+#check the coldata files:
+ll *.csv | wc -l
+ll *.csv | awk '{split($9, a, "_"); print a[1]}' | sort | uniq 
+ll *.csv | awk '{split($9, a, "_"); print a[1]}' | sort | uniq | wc -l
 
 
-#-- CHOOSE OTHER INPUTS
-COUNTS=all_featureCounts_geneCounts_laneDupsRemd.tsv
-COLDATA=salinity_NOBEWW_Coldata.csv
+#BUILD COMMANDS
+
+#basic command looks like this:
+#FOR BLEACHED:
+initialize_raw_featureCounts.TACC_V2.R --counts $COUNTS --coldat BEWW_Coldata.csv --treeCut 5000 --mnCountCut 3 --callOutliers FALSE --o bleached &&\
+ control_for_covariates.R --i bleached_wgcna_input.Rdata --o bleached &&\
+ deseq_general.R --i bleached_deseqBaselineInput.Rdata --v bleached --t bleached --c control --o bleached
 
 
-## RUN INITIALIZATION, CONTROL FOR COVARIATES AND DESEQ IN SINGLE JOB 
-echo "initialize_raw_featureCounts.TACC_V2.R --counts $COUNTS --coldat $COLDATA --treeCut 5000 --mnCountCut 3 --callOutliers FALSE
-control_for_covariates.R
-$DESEQCOMMAND" > runRscripts
-launcher_creator.py -n noSalt -j runRscripts -q normal -N 1 -w 1 -a $allo -t 06:00:00
+#build commands like this from each coldata file
+
+ll *.csv | awk 'BEGIN {OFS=""};{split($9, a, "_"); print "\
+initialize_raw_featureCounts.TACC_V2.R --counts all_featureCounts_geneCounts_laneDupsRemd.tsv --coldat ", $9, " --treeCut 5000 --mnCountCut 3 --callOutliers FALSE --o ", a[1], " &&\
+ control_for_covariates.R --i ", a[1], "_wgcna_input.Rdata --o ", a[1], " &&\
+ deseq_general.R --i ", a[1], "_deseqBaselineInput.Rdata --v stress --t stressed --c control --o ", a[1]}' > runDeseq
+
+
+module load Rstats
+launcher_creator.py -n runDeseq -j runDeseq -q normal -N 1 -w 5 -a $allo -e $email -t 04:00:00
 
 
 
-
-#organize the deseq results from each individual run into a single directory
-cp bleached/all_deseqResults.Rdata deseqResults/bleached_deseqResults.Rdata
-cp cold/all_deseqResults.Rdata deseqResults/cold_deseqResults.Rdata
-cp cold_nobeww/all_deseqResults.Rdata deseqResults/cold_NoBEWW_deseqResults.Rdata
-cp fullDataset/all_deseqResults.Rdata deseqResults/fullDataset_deseqResults.Rdata
-cp heat_nobeww/all_deseqResults.Rdata deseqResults/heatNoBEWW_deseqResults.Rdata
-cp heat/all_deseqResults.Rdata deseqResults/heat_deseqResults.Rdata
-cp immune/all_deseqResults.Rdata deseqResults/immune_deseqResults.Rdata
-cp ph/all_deseqResults.Rdata deseqResults/ph_deseqResults.Rdata
-cp salinity/all_deseqResults.Rdata deseqResults/salinity_deseqResults.Rdata
-cp salinity_nobeww/all_deseqResults.Rdata deseqResults/salinity_NoBEWW_deseqResults.Rdata 
-cp stress_noCold/all_deseqResults.Rdata deseqResults/stressNoCold_deseqResults.Rdata
-cp stress_noHeat/all_deseqResults.Rdata deseqResults/stressNoHeat_deseqResults.Rdata
-cp stress_noImmune/all_deseqResults.Rdata deseqResults/stressNoImmune_deseqResults.Rdata
-cp stress_nopH/all_deseqResults.Rdata deseqResults/stressNoPH_deseqResults.Rdata
-cp stress_noSalinity/all_deseqResults.Rdata deseqResults/stressNoSalinity_deseqResults.Rdata
-cp stress/all_deseqResults.Rdata deseqResults/stress_deseqResults.Rdata
-
-
-#organize the normalized counts
-cp bleached/wgcna_input.Rdata normCounts/bleached_vsd.Rdata 
-cp cold/project_controlled.Rdata normCounts/cold_project_controlled.Rdata 
-cp cold_nobeww/wgcna_input.Rdata normCounts/cold_NOBEWW_vsd.Rdata
-cp heat/project_controlled.Rdata normCounts/heat_project_controlled.Rdata 
-cp heat_nobeww/project_controlled.Rdata normCounts/heat_NOBEWW_project_controlled.Rdata 
-cp immune/project_controlled.Rdata normCounts/immune_project_controlled.Rdata
-cp ph/project_controlled.Rdata normCounts/ph_project_controlled.Rdata
-cp salinity/project_controlled.Rdata normCounts/salinity_project_controlled.Rdata
-cp salinity_nobeww/wgcna_input.Rdata normCounts/salinity_NOBEWW_vsd.Rdata
-
-cp fullDataset/count_controlled.Rdata largeIgnored/fullDataset_count_controlled.Rdata
-cp stress_noCold/project_controlled.Rdata largeIgnored/stressNoCold_project_controlled.Rdata
-cp stress_noHeat/project_controlled.Rdata largeIgnored/stressNoHeat_project_controlled.Rdata
-cp stress_noImmune/project_controlled.Rdata largeIgnored/stressNoImmune_project_controlled.Rdata
-cp stress_noSalinity/project_controlled.Rdata largeIgnored/stressNoSalinity_project_controlled.Rdata
-cp stress/project_controlled.Rdata largeIgnored/stress_project_controlled.Rdata
-
-
-
+#then run for individual projects for the all stress one
+mkdir runIndividual
+cd runIndidvidual
+echo "deseq_general.R --i allStress_deseqBaselineInput.Rdata --v stress --t stressed --c control --o allStress --runInd TRUE" > runInd
 
 
 #######################################
 ########## STRESS PREDICTION ##########
 #######################################
+#Run this is four batches:
+	#1. BEWW spread by stress type, heat, cold, salinity, immune and pH using all other stress data as training set
+	#2. BEWW spread by stress type, heat, cold, salinity, immune and pH each as training and testing set with each other
+	#3. BEWW as its own, heatNoBEWW, coldNoBEWW, salinityNoBEWW, immune and ph each against all other stress
+	#4. same as above each as training and test set
 
-#example command:
-stress_prediction.R --i stress_project_controlled.Rdata --train stress_noBEWW_Coldata.csv --test bleached_Coldata.csv --o stress_noBEWW__bleached_predictions
+#First run on the stratified random sample for the full stess dataset. These were generated with wrangle_sample_data_specifics.R
+stress_prediction.R --i stress_project_controlled.Rdata --train stratified_allStress_train.csv --test stratified_allStress_test.csv --o stratified_allStress_train.csv__stratified_allStress_test.csv
 
 
-#SET UP PAIRS OF TRAINING AND TEST DATASETS
+#Then run a new version with A-type stress and B-type stress included
+stress_prediction.R --i stress_project_controlled.Rdata --train stratified_allStress_train.csv --test stratified_allStress_test.csv --o stratified_allStress_train.csv__stratified_allStress_test.csv
+
+
+
+
+#SET UP PAIRS OF TRAINING AND TEST DATASETS FOR THE STRESS MINUS PAIRS
 #these are equivalent to the *Coldata.csv files used for the specific DESeq runs above
 #they are used to subset the normalized counts matrix made for all the stress experiments
-#note stratified_allStress_* files are generated with wrangle_sample_data_specifics.R
 
-nano datasetPairs.txt
-stratified_allStress_train.csv	stratified_allStress_test.csv
-stress_noHeat_Coldata.csv	heatColdata.csv
-stress_noCold_Coldata.csv	coldColdata.csv
-stress_noSalinity_Coldata.csv	salinityColdata.csv
-stress_noImmune_Coldata.csv	immuneColdata.csv
-stress_noph_Coldata.csv	phColdata.csv
-stress_noBEWW_Coldata.csv	bleached_Coldata.csv
 
-nano datasetPairs2.txt
+nano mainPairs.txt
+stressNOHEAT_Coldata.csv	heat_Coldata.csv
+heat_Coldata.csv	stressNOHEAT_Coldata.csv
+stressNOCOLD_Coldata.csv	cold_Coldata.csv
+cold_Coldata.csv	stressNOCOLD_Coldata.csv
+stressNOSALINITY_Coldata.csv	salinity_Coldata.csv
+salinity_Coldata.csv	stressNOSALINITY_Coldata.csv
+stressNOIMMUNE_Coldata.csv	immune_Coldata.csv
+immune_Coldata.csv	stressNOIMMUNE_Coldata.csv
+stressNOPH_Coldata.csv	ph_Coldata.csv
+ph_Coldata.csv	stressNOPH_Coldata.csv
 
 
 
 #build commands
-awk ' BEGIN {OFS=" "}{print "stress_prediction.R --i stress_project_controlled.Rdata --train", $1, "--test", $2, "--o", $1"__"$2"_predictions"}' datasetPairs.txt > runPredictions
+mkdir mainPairs
+awk ' BEGIN {OFS=""}{print "stress_prediction.R --i allStress_project_controlled.Rdata --train ", $1, " --test ", $2, " --o ", " mainPairs/",$1"__"$2"_predictions"}' mainPairs.txt > predMainPairs
 
 
+#SET UP PAIRS OF TRAINING AND TEST DATASETS FOR THE STRESS MINUS PAIRS FOR THE BLEACHING SEPARATE GROUPS 
+#(only need these for bleach, heat and salinity)
+nano datasetPairsBleachSep.txt
+stressNOBLEACH_Coldata.csv	bleached_Coldata.csv
+bleached_Coldata.csv	stressNOBLEACH_Coldata.csv
+stressNOHEAT_Coldata.csv	heatNOBLEACH_Coldata.csv
+heatNOBLEACH_Coldata.csv	stressNOHEAT_Coldata.csv
+stressNOSALINITY_Coldata.csv	salinityNOBLEACH_Coldata.csv
+salinityNOBLEACH_Coldata.csv	stressNOSALINITY_Coldata.csv
+
+
+#build commands
+mkdir mainBleachSeperate
+awk ' BEGIN {OFS=""}{print "stress_prediction.R --i allStress_project_controlled.Rdata --train ", $1, " --test ", $2, " --o ", " mainBleachSeperate/",$1"__"$2"_predictions"}' datasetPairsBleachSep.txt > predMainBleachSeperate
+
+
+#SET UP PAIRS OF SPECIFIC STRESSES
+
+nano specificStresses1.txt
+heat_Coldata.csv
+cold_Coldata.csv
+salinity_Coldata.csv
+immune_Coldata.csv
+ph_Coldata.csv
+
+pairup_list.py specificStresses1.txt permute > stressPairs1.tsv
+
+#build commands
+mkdir specResults
+awk ' BEGIN {OFS=""}{print "stress_prediction.R --i allStress_project_controlled.Rdata --train ", $1, " --test ", $2, " --o ", "specResults/",$1"__"$2"_predictions"}' stressPairs1.tsv > specPredictions
+
+
+
+#SET UP PAIRS OF SPECIFIC STRESSES NOBEWW
+nano specificStressesBleachSep.txt
+bleached_Coldata.csv
+heatNOBLEACH_Coldata.csv
+immune_Coldata.csv
+ph_Coldata.csv
+salinityNOBLEACH_Coldata.csv
+
+pairup_list.py specificStressesBleachSep.txt permute > stressPairsBleachSep.tsv
+
+mkdir specBleachSep
+awk ' BEGIN {OFS=""}{print "stress_prediction.R --i allStress_project_controlled.Rdata --train ", $1, " --test ", $2, " --o ", "specBleachSep/",$1"__"$2"_predictions"}' stressPairsBleachSep.tsv > specPredBleachSep
+
+
+
+cat predMainPairs predMainBleachSeperate specPredictions specPredBleachSep > allPreds
 
 
 
 #######################################
 ################ WGCNA ################
 #######################################
+
+
+#Run this indev
+
+#subset the variance stabilized counts for proportions of variance and expression value
+#eg put -v 0.8 to get 80% of data with highest variances
+subset_vsd_for_variance.R --v .75 --e 0.75 --i project_controlled.Rdata
+
+
 #select the input
-WGCNA_INPUT="count_controlled.Rdata"
-WGCNA_INPUT="project_controlled.Rdata"
+WGCNA_INPUT="project_controlled_varCut0.8_expCut0.8.Rdata"
 
 #get soft threshold
 echo "wgcna2_get_soft_threshold.R --input $WGCNA_INPUT --networkType signed" > getSoft
@@ -479,7 +629,7 @@ echo "wgcna2_get_soft_threshold.R --input $WGCNA_INPUT --networkType signed" > g
 #run
 echo "$runMyR ~/bin/wgcna3b_step-wise_network_construction.R \
  --softPower 12\
- --minSize 20\
+ --minSize 30\
  --mergeCutoff 0\
  --input $WGCNA_INPUT\
  --nCores 24\
@@ -487,3 +637,303 @@ echo "$runMyR ~/bin/wgcna3b_step-wise_network_construction.R \
  
 
 #optionally re-run with merging
+
+
+########################################
+##### YEAST MAPPING AND ANNOTATION #####
+########################################
+
+#!! NOTE ENDED UP JUST USING THEIR WEBSITE !!
+#left this just for reference
+
+#here we get CDS sequences, annotate them with egg-mapper, then get read counts by modifying the transcriptome-based RNAseq pipeline here: https://github.com/z0on/tag-based_RNAseq/blob/master/tagSeq_processing_README.txt
+
+#AQUIRE Lachancea kluyveri SEQUENCES:
+
+#assembled a CDS file for Lachancea kluyveri from here: http://gryc.inra.fr/
+#went to individual download section for Lachancea kluyveri here: http://gryc.inra.fr/index.php?page=download
+#downloaded the CDS from each chromosome (SAKL0 A-H) and concatentated them into Lachancea_kluyveri_cds.fasta
+
+
+
+#ANNOTATE THEM WITH GO AND KOG
+#cloned eggnog-mapper to work
+#following documentation here: https://github.com/eggnogdb/eggnog-mapper/wiki/eggNOG-mapper-v1
+
+#DOWNLOAD AND DECOMPRESS DATABASE 
+/work/02260/grovesd/lonestar/eggnog-mapper/download_eggnog_data.py --data_dir /scratch/02260/grovesd/eggnog_db
+
+
+#HAD TO DOWNLOAD SOME MORE MANUALLY
+wget http://eggnogdb.embl.de/download/emapperdb-4.5.1/OG_fasta.tar.gz
+
+#If you want the euk database
+wget -r http://eggnogdb.embl.de/download/eggnog_4.1/hmmdb_levels/euk_500/
+
+
+#RUN ANNOTATIONS USING DIAMOND
+split_fasta.py -i Lachancea_kluyveri_cds.fasta -n 300
+
+
+NCPU=36
+EGG_DB_DIR=$SCRATCH/eggnog_db
+OUTDIR=./seed_orthologs
+mkdir $OUTDIR
+
+>runSeeds
+for f in Lachancea_kluyveri_cds_split*.fasta; do
+echo "python $WORK/eggnog-mapper/emapper.py --data_dir $EGG_DB_DIR --output_dir $OUTDIR --translate -m diamond --no_annot --no_file_comments --cpu $NCPU -i $f -o $f" >>runSeeds
+done
+
+#pick nodes equal to the number of chunks and to run each chunk with a full node and 32 cpus
+launcher_creator.py -n runSeeds -j runSeeds -q normal -N 8 -w 4 -a $allo -e $email -t 12:00:00
+
+
+
+#concatenate all the seed orthologs
+cd $OUTDIR
+cat *.fasta.emapper.seed_orthologs > allSeedsForAnnotaitons
+
+
+#annotate them (this can be run in paralelle also?)
+$WORK/eggnog-mapper/emapper.py --annotate_hits_table allSeedsForAnnotaitons --data_dir $EGG_DB_DIR --no_file_comments -o Lachancea_kluyveri_cds.emapper.diamond.annotations --cpu 36
+
+
+#EXTRACT GO AND KOG
+
+
+MY_ANNOTATIONS=Lachancea_kluyveri_cds.emapper.diamond.annotations.emapper.annotations
+
+
+# GO:
+awk -F "\t" 'BEGIN {OFS="\t" }{print $1,$7 }' $MY_ANNOTATIONS | grep GO | perl -pe 's/,/;/g' >${MY_ANNOTATIONS}_gene2go.tsv
+# gene names:
+awk -F "\t" 'BEGIN {OFS="\t" }{print $1,$22 }' ${MY_ANNOTATIONS} | grep -Ev "\tNA" >${MY_ANNOTATIONS}_gene2geneName.tsv
+
+#  KOG classes (single-letter):
+awk -F "\t" 'BEGIN {OFS="\t" }{print $1,$21 }' ${MY_ANNOTATIONS} > ${MY_ANNOTATIONS}_gene2kogClass1.tsv
+# converting single-letter KOG classes to text understood by KOGMWU package (must have KOG_classes.txt file in the same dir):
+awk 'BEGIN {FS=OFS="\t"} NR==FNR {a[$1] = $2;next} {print $1,a[$2]}' kog_classes.txt ${MY_ANNOTATIONS}_gene2kogClass1.tsv | awk '$2!=""' | grep -v "Function Unknown" > ${MY_ANNOTATIONS}_gene2kogClass.tsv
+
+
+#TRIM AS ABOVE, BUT MAP SLIGHTLY DIFFERENTLY TO USE OLD TRANSCRIPTOME-BASED GENE COUNTING:
+
+REFERENCE_CDS=$WORK/Lachancea_kluyveri_CDS/Lachancea_kluyveri_cds.fasta
+
+>maps
+for file in *.trim
+do
+echo "bowtie2 --local -x $REFERENCE_CDS -U $file -S ${file/.trim/}.sam --no-hd --no-sq --no-unal -k 5 -p 10" >>maps
+done
+
+
+#GET GENE COUNTS
+
+#build dummy seq_to_gene.tab file
+grep ">" $REFERENCE_CDS | sed 's/>//' | awk '{print $1"\t"$1}' > Lachancea_kluyveri_cds_seq2gene.tab
+
+
+#get counts with Misha's perl script
+
+samcount_launch_bt2.pl '\.sam' Lachancea_kluyveri_cds_seq2gene.tab > sc
+
+# assembling all counts into a single table:
+expression_compiler.pl *.sam.counts > yeast_cds_counts.tsv
+
+#clean the junk off
+sed -i 's/_1.sam.counts//g' yeast_cds_counts.tsv
+
+
+
+########################################
+##### REPEAT EGG MAPPER FOR A.MILL #####
+########################################
+
+#!! NOTE ENDED UP JUST USING THEIR WEBSITE !!
+#left this just for reference
+
+#concerned about disagreement between kogs and gos
+#rerunning annotation pipeline as for yeast above from
+#extracted protein sequences for A.mill.v2 reference
+
+#setup
+cd reAnnotateAmil
+cp /work/02260/grovesd/lonestar/Amil_Zach_Fullers_v2.00/Amil.all.maker.proteins.fasta .
+
+
+#RUN ANNOTATIONS USING DIAMOND
+split_fasta.py -i Amil.all.maker.proteins.fasta -n 300
+
+
+#------- RUN DIAMOND WAY -------#
+
+#Set up variables for running
+NCPU=12
+EGG_DB_DIR=$SCRATCH/eggnog_db
+DIAMOND_OUTDIR=./seed_orthologs_diamond
+mkdir $DIAMOND_OUTDIR
+
+
+#build commands to run diamond mode
+>runDiamonSeeds
+for f in Amilallmakerproteins_split*.fasta; do
+echo "python $WORK/eggnog-mapper/emapper.py --data_dir $EGG_DB_DIR --output_dir $DIAMOND_OUTDIR -m diamond --no_annot --no_file_comments --cpu $NCPU -i $f -o $f" >>runDiamonSeeds
+done
+
+#pick nodes equal to the number of chunks and to run each chunk with a full node and 12 cpus
+launcher_creator.py -n runDiamonSeeds -j runDiamonSeeds -q normal -N 5 -w 3 -a $allo -e $email -t 2:00:00
+
+#concatenate all the seed orthologs
+cd $DIAMOND_OUTDIR
+cat *.fasta.emapper.seed_orthologs > allSeedsForAnnotaitons
+
+#annotate them (this can be run in paralelle also?)
+$WORK/eggnog-mapper/emapper.py --annotate_hits_table allSeedsForAnnotaitons --data_dir $EGG_DB_DIR --no_file_comments -o Amil.all.maker.proteins.diamond --cpu 36
+
+
+
+#------- RUN HMMR WAY -------#
+
+NCPU=40
+EGG_DB_DIR=$SCRATCH/eggnog_db
+HMM_DATABASE=/scratch/02260/grovesd/eggnog_db/hmmrDb/
+HMM_OUTDIR=./seed_orthologs_hmm
+mkdir $HMM_OUTDIR
+
+#build commands to run HMMR mode
+>runHmmrSeeds
+for f in Amilallmakerproteins_split*.fasta; do
+echo "python $WORK/eggnog-mapper/emapper.py --database euk --data_dir $HMM_DATABASE --output_dir $HMM_OUTDIR -m hmmer --no_annot --no_file_comments --cpu $NCPU -i $f -o $f" >>runHmmrSeeds
+done
+
+#pick nodes equal to the number of chunks and to run each chunk with a full node and 12 cpus
+launcher_creator.py -n runHmmrSeeds -j runHmmrSeeds -q normal -N 5 -w 3 -a $allo -e $email -t 8:00:00
+
+
+
+#concatenate all the seed orthologs
+cd $HMM_OUTDIR
+cat *.fasta.emapper.seed_orthologs > allSeedsForAnnotaitons
+
+
+#annotate them (this can be run in paralelle also?)
+$WORK/eggnog-mapper/emapper.py --annotate_hits_table allSeedsForAnnotaitons --data_dir $EGG_DB_DIR --no_file_comments -o Amil.all.maker.proteins.hmmr --cpu 36
+
+
+#EXTRACT GO AND KOG
+
+#NOTE!! ALL THESE HAVE THE -RA AT THE END, I DOUBLE-CHECKED AND THESE ARE EQUIVALENT TO THE GENE IDS, SO SIMPLY REMOVING THE -RA IS FINE TO GET TO GENE_IDS:
+
+
+
+MY_ANNOTATIONS=Amil.all.maker.proteins.emapper.diamond.annotations.emapper.annotations
+
+
+# GO:
+awk -F "\t" 'BEGIN {OFS="\t" }{print $1,$7 }' $MY_ANNOTATIONS | grep GO | perl -pe 's/,/;/g' >${MY_ANNOTATIONS}_gene2go.tsv
+# gene names:
+awk -F "\t" 'BEGIN {OFS="\t" }{print $1,$22 }' ${MY_ANNOTATIONS} | grep -Ev "\tNA" >${MY_ANNOTATIONS}_gene2geneName.tsv
+
+#  KOG classes (single-letter):
+awk -F "\t" 'BEGIN {OFS="\t" }{print $1,$21 }' ${MY_ANNOTATIONS} > ${MY_ANNOTATIONS}_gene2kogClass1.tsv
+# converting single-letter KOG classes to text understood by KOGMWU package (must have KOG_classes.txt file in the same dir):
+awk 'BEGIN {FS=OFS="\t"} NR==FNR {a[$1] = $2;next} {print $1,a[$2]}' kog_classes.txt ${MY_ANNOTATIONS}_gene2kogClass1.tsv | awk '$2!=""' | grep -v "Function Unknown" > ${MY_ANNOTATIONS}_gene2kogClass.tsv
+
+
+
+#NOTE ALL THESE HAVE THE -RA AT THE END, I DOUBLE-CHECKED AND THESE ARE EQUIVALENT TO THE GENE IDS, SO SIMPLY REMOVING THE -RA IS FINE TO GET TO GENE_IDS:
+
+
+
+##################################
+#EGG MAPPER CITATION INFORMATION:#
+##################################
+		CITATION:
+		If you use this software, please cite:
+
+		[1] Fast genome-wide functional annotation through orthology assignment by
+			  eggNOG-mapper. Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho,
+			  Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork.
+			  Mol Biol Evol (2017). doi: https://doi.org/10.1093/molbev/msx148
+
+		[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+			  orthology resource based on 5090 organisms and 2502 viruses. Jaime
+			  Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+			  Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+			  Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+			  Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+			  https://doi.org/10.1093/nar/gky1085 
+		[3] Accelerated Profile HMM Searches. PLoS Comput. Biol. 7:e1002195. Eddy SR.
+			   2011.
+
+
+		(e.g. Functional annotation was performed using emapper-1.0.3-40-g41a8498 [1]
+		 based on eggNOG orthology data [2]. Sequence searches were performed
+		 using [3].)
+
+
+
+################################### APPENDIX FOR SYMBIONT GENE EXPRESSION ###################################
+#this contains instructions for dealing with reads mapped to a concatenation of the Amil genome with symbiont C and D transcriptomes from Barshis
+
+#------------ GET ZOOX PROPORTIONS ------------#
+MINQ=40
+>countSymb
+for file in *_dupsRemoved.bam
+do samtools view -F 256 -q $MINQ $file | singleFileZooxType_symCDtranscriptomes.awk > ${file/_dupsRemoved.bam/}_symbCounts.tsv" >>countSymb
+done
+
+#assemble the results
+echo -e "file\tall\tnonSym\tcladeC\tcladeD" > all_zoox_type_counts.tsv
+for file in *_symbCounts.tsv
+do counts=$(cat $file)
+echo -e "${file}\t${counts}" >> all_zoox_type_counts.tsv
+done
+
+#save all_zoox_type_counts.tsv in Acropora_gene_expression_meta/results_tables/
+
+
+
+#------------ SPLIT UP FILES BY ZOOX TYPE ------------#
+
+#FIRST GET BED FILES FOR THE TWO TRANSCRIPTOMES
+bed_from_fasta.py -fa Amil_SymCDtran.fasta > Amil_SymCDtran.bed
+grep "^c_sym_" Amil_SymCDtran.bed > symC.bed
+grep "^d_sym_" Amil_SymCDtran.bed > symD.bed
+
+#THEN SPLIT OUT THE SYMBIONT READS
+>splitOutSymbs
+for file in *_dupsRemoved.bam
+do echo "\
+samtools view -L symC.bed -o ${file/_dupsRemoved.bam/}_symC.bam $file
+samtools view -L symD.bed -o ${file/_dupsRemoved.bam/}_symD.bam $file" >>splitOutSymbs
+done
+
+
+mkdir cladeC
+mv *_symC.bam cladeC
+mkdir cladeD
+mv *_symD.bam cladeD
+
+
+#------------ GET THE COUNTS ------------#
+
+#RUN BEDTOOLS FOR EACH CLADE
+cd cladeC
+echo "bedtools multicov -bams *_symC.bam -bed symC.bed > symC_counts.tsv0" > getCounts
+
+cd cladeD
+echo "bedtools multicov -bams *_symD.bam -bed symD.bed > symD_counts.tsv0" > getCounts
+
+#ASSEMBLE RESULTS
+
+#for clade C
+samples=$(ls *_symC.bam | sed 's/_symC.bam//' | tr "\n" "\t")
+echo -e "gene\tstart\tend\t${samples}" | sed "s/\t*$//g" > header.txt
+cat header.txt symC_counts.tsv0 > symC_counts.tsv
+
+
+#for clade D
+samples=$(ls *_symD.bam | sed 's/_symD.bam//' | tr "\n" "\t")
+echo -e "gene\tstart\tend\t${samples}" | sed "s/\t*$//g" > header.txt
+cat header.txt symD_counts.tsv0 > symD_counts.tsv

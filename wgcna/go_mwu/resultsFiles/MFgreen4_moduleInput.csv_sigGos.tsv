@@ -1,0 +1,7 @@
+delta.rank	pval	level	nseqs	term	name	p.adj
+0	1.59500420472744e-4	2	170	GO:0003723	RNA binding	0.0147139137886106
+0	1.57535860769955e-6	2	41	GO:0003735	structural constituent of ribosome	5.81307326241134e-4
+0	5.45544968521779e-5	2	65	GO:0008168;GO:0016741	transferase activity, transferring one-carbon groups	0.00671020311281788
+0	7.15935210172366e-4	2	43	GO:0016810	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	0.0528360185107206
+0	2.18883085109802e-5	2	97	GO:0140097	catalytic activity, acting on DNA	0.00403839292027585
+0	0.00115305183588081	2	126	GO:0140098	catalytic activity, acting on RNA	0.0709126879066698

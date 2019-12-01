@@ -108,6 +108,13 @@ for (fileName in sourceFiles){
   plotList[[fileName]]=plt
 }
 
+#run salinity
+source('')
+plotList['salinity']=
+
 #build them
 quartz()
 plotList
+
+
+

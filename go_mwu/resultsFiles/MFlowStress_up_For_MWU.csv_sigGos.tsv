@@ -1,0 +1,8 @@
+delta.rank	pval	level	nseqs	term	name	p.adj
+306	8.56333738203961e-5	3	130	GO:0022804	active transmembrane transporter activity	0.0408471193123289
+777	2.25503945117349e-4	3	17	GO:0008513;GO:0015199;GO:0015651;GO:0015226	amino-acid betaine transmembrane transporter activity	0.0537826909104877
+613	3.99918519825734e-4	3	25	GO:0072349	modified amino acid transmembrane transporter activity	0.0635870446522917
+287	6.53336861697329e-4	2	108	GO:0140097	catalytic activity, acting on DNA	0.0779104207574065
+574	0.00104448175155256	2	24	GO:0003887	DNA-directed DNA polymerase activity	0.084967597951752
+513	0.00106877481700317	4	30	GO:1901618	organic hydroxy compound transmembrane transporter activity	0.084967597951752
+302	0.00143656675359572	4	83	GO:0015291	secondary active transmembrane transporter activity	0.0978917630664512

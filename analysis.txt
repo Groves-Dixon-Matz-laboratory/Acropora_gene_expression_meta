@@ -5,9 +5,6 @@
 #metadata
 	metadata/wrangle_sample_data.R
 		organizes all the trait data for each sample into tables for running DESeq and stress prediction scripts
-		
-	metadata/wrangle_sample_data_specifics.R
-		adds additional data to some of the trait tables
 
 #pipeline counts
 	pipeline_counts/pipeline_read_counts_all.R
@@ -17,10 +14,51 @@
 	figurePlotting/full_dataset_pca.R
 		plot the PCA for full dataset (figure 1)
 
+#look at symbiont count ratios
+	figurePlotting/symbiont_count_analysis.R
+		compares symbiont ratios and has some symbiont amount stuff based on fold coverages
+
+#examine individual stresses
+	category_prediction/stress_prediction_wA_and_B.R
+		This runs partially on TACC then on PC. Creates data for Figure 3 confusion matrix panel
+	figurePlotting/plot_individual_projects
+		examine the DESeq results at the Bioproject level.
+		Identify studies that do and do not show correlated stress response
+		save pdfs of the heatmaps for plotting
+		(figure 3 heatmap)
+		
+	metadata/wrangle_sample_data_specifics.R
+		adds additional data to some of the trait tables. Assess why some studies correlate and others don't
+
 #plot stress response for all stressed samples
 	figurePlotting/plot_all_stress.R
-		(figure 2)
-		
+		(figure 2 table,pca,dapc,classification)
 
-#plot stress minus plots
+
+#plot go correlations
+	figurePlotting/create_custom_go_groups.R
+	figurePlotting/plot_go_correlations.R
+		(figure 4)
+
+
+
+#plot correlations between stress responses
+	figurePlotting/plot_stress_scatterplots.R
+		uses datasets uploaded by:
+			load_stress_for_scatterplots.R
+			load_corrStress_for_scatterplots.R
+
+#run GO MWU
+	go_mwu/GO_MWU.R
+	
+#run KOG
+	kog_mwu/kog_MWU.R
+
+#run WGCNA correlations
+	wgcna/wgcna4_module-correlations.R
+	wgcna/go_mwu/GO_MWU_wgcna.R
+	
+
+#organize contextual_annotation_table
+	figurePlotting/organize_contextual_annotations.R
 	

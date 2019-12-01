@@ -1,0 +1,13 @@
+goDivision	input	nSig
+CC	red_moduleInput.csv	2
+CC	white_moduleInput.csv	17
+CC	green4_moduleInput.csv	17
+CC	orange_moduleInput.csv	29
+MF	red_moduleInput.csv	14
+MF	white_moduleInput.csv	11
+MF	green4_moduleInput.csv	6
+MF	orange_moduleInput.csv	1
+BP	red_moduleInput.csv	133
+BP	white_moduleInput.csv	137
+BP	green4_moduleInput.csv	39
+BP	orange_moduleInput.csv	61

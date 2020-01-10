@@ -294,6 +294,16 @@ done
 ###########################################
 
 #SORT BY COORDIANTE, REMOVE DUPLICATES, THEN CONVERT BACK TO SAM FOR COUNTING
+
+###!!! NOTE! THE CONCENSUS ON REMOVING PCR DUPLICATES SEEMS TO BE IT DOES MORE HARM THAN GOOD:
+#(https://dnatech.genomecenter.ucdavis.edu/faqs/should-i-remove-pcr-duplicates-from-my-rna-seq-data/)
+#https://www.biostars.org/p/55648/   and these excellent papers
+#Parekh et al 2016:  The impact of amplification on differential expression analyses by RNA-seq.  and
+#Fu et al. 2018:  Elimination of PCR duplicates in RNA-seq and small RNA-seq using unique molecular identifiers.
+# THE STEPS HERE ARE LEFT FOR REFERENCE, BUT IT IS RECOMMENDED NOT TO DO THIS
+# INSTEAD, JUST SORT THEM AND GO STRAIGHT TO FEATURECOUNTS
+
+
 #These are fast, but removing duplicates takes a lot of memory
 
 module load samtools
@@ -336,7 +346,7 @@ merge_feature_counts.R
 
 
 #fix names eg:
-sed -i.bak 's/_dupsRemoved_NameSorted.bam//g' all_featureCounts_geneCounts.tsv
+sed -i.bak 's/_sorted.bam//g' all_featureCounts_geneCounts.tsv
 
 
 #IF ANY SRA PROJECTS INCLUDED LANE DUPLICATES, DEAL WITH THEM NOW
@@ -897,13 +907,14 @@ done
 #------------ SPLIT UP FILES BY ZOOX TYPE ------------#
 
 #FIRST GET BED FILES FOR THE TWO TRANSCRIPTOMES
-bed_from_fasta.py -fa Amil_SymCDtran.fasta > Amil_SymCDtran.bed
+REFERENCE=/work/02260/grovesd/stampede2/AmilSymCD_transcriptomes_seqs/Amil_SymCDtran.fasta
+bed_from_fasta.py -fa $REFERENCE > Amil_SymCDtran.bed
 grep "^c_sym_" Amil_SymCDtran.bed > symC.bed
 grep "^d_sym_" Amil_SymCDtran.bed > symD.bed
 
 #THEN SPLIT OUT THE SYMBIONT READS
 >splitOutSymbs
-for file in *_dupsRemoved.bam
+for file in *_sorted.bam
 do echo "\
 samtools view -L symC.bed -o ${file/_dupsRemoved.bam/}_symC.bam $file
 samtools view -L symD.bed -o ${file/_dupsRemoved.bam/}_symD.bam $file" >>splitOutSymbs
@@ -928,12 +939,12 @@ echo "bedtools multicov -bams *_symD.bam -bed symD.bed > symD_counts.tsv0" > get
 #ASSEMBLE RESULTS
 
 #for clade C
-samples=$(ls *_symC.bam | sed 's/_symC.bam//' | tr "\n" "\t")
+samples=$(ls *_symC.bam | sed 's/_sorted.bam_symC.bam//' | tr "\n" "\t")
 echo -e "gene\tstart\tend\t${samples}" | sed "s/\t*$//g" > header.txt
 cat header.txt symC_counts.tsv0 > symC_counts.tsv
 
 
 #for clade D
-samples=$(ls *_symD.bam | sed 's/_symD.bam//' | tr "\n" "\t")
+samples=$(ls *_symD.bam | sed 's/_sorted.bam_symD.bam//' | tr "\n" "\t")
 echo -e "gene\tstart\tend\t${samples}" | sed "s/\t*$//g" > header.txt
 cat header.txt symD_counts.tsv0 > symD_counts.tsv

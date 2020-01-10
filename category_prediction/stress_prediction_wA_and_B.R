@@ -1,26 +1,30 @@
+#stress_prediction_wA_and_B.R
 
-
-
+rm(list=ls())
 library(tidyverse)
 library(caret)
 library(glmnet)
 library(randomForest)
 
 
-input = 'stress_project_controlled.Rdata'
-trainingFile = 'stratified_allStress_train.csv'
-testFile = 'stratified_allStress_test.csv'
+# SETUP AND RUN RANDOM FOREST ---------------------------------------------
+
+
+
+input = 'largeIgnored/stress_project_controlled.Rdata'
+trainingFile = 'metadata/subset_tables/stratified_allStress_train.csv'
+testFile = 'metadata/subset_tables/stratified_allStress_test.csv'
 outcomeVar = 'stress'
 posOutcome = 'stressed'
 negOutcome = 'control'
-outputPrefix = 'stratified_allStress_train.csv__stratified_allStress_test__WITH_A_AND_B.csv'
+outputPrefix = 'category_prediction/stress_prediction_wAandB/stratified_allStress_train.csv__stratified_allStress_test__WITH_A_AND_B.csv'
 
 
 
 # LOAD DATA ---------------------------------------------------------------
 
 #load stress categories
-ll=load('corStressProjs.Rdata')
+ll=load('metadata/corStressProjs.Rdata')
 ll
 
 
@@ -72,7 +76,7 @@ print(sum(trainSamples %in% rownames(datTraits))==length(trainSamples))
 print('All test samples in data?')
 print(sum(testSamples %in% rownames(datTraits))==length(testSamples))
 print('Number of overlapping samples between traingin and test set:')
-print(sum(testSamples %in% trainSamples))
+print(sum(testSamples %in% trainSamples)) #should be zero
 
 
 #assign training data and outcome variables
@@ -107,9 +111,7 @@ rf <- randomForest(x = trainDat,
                    mtry=1000)
 
 print(rf)
-pdf(paste(outputPrefix, 'randomForestPlot_wAandB.pdf'))
 plot(rf)
-dev.off()
 
 #LOOK AT VARIABLE IMPORTANCE
 varImpPlot(rf,
@@ -149,7 +151,7 @@ print(confusionMatrix(data=rfres$pred,
 
 
 #save the results
-save(var.imp, rfres, file=paste(outputPrefix, 'predictionResults_wA_and_B.Rdata', sep='_'))
+save(var.imp, rfres, file='category_prediction/stress_prediction_wAandB/stratified_allStress_train.csv__stratified_allStress_test__WITH_A_AND_B.csv_predictionResults_wA_and_B.Rdata')
 
 #send the resulting object to PC for further plotting
 
@@ -182,6 +184,9 @@ library(RColorBrewer)
 labs = c('control', 'stress\ncluster A', 'stress\ncluster B')
 COLOR = colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100) # display.brewer.all()
 
+#PLOT CONFUSION MATRIX AS HEATMAP
+#note this is replotted in plot_individual_projects.R with
+#more formatting along with other planels for figure 3
 pheatmap(propCm,
          labels_row = labs,
          labels_col=labs,
@@ -190,7 +195,6 @@ pheatmap(propCm,
          display_numbers = propCm2,
          fontsize_number = 15,
          color=COLOR)
-
 
 
 

@@ -21,7 +21,7 @@
 #examine individual stresses
 	category_prediction/stress_prediction_wA_and_B.R
 		This runs partially on TACC then on PC. Creates data for Figure 3 confusion matrix panel
-	figurePlotting/plot_individual_projects
+	figurePlotting/plot_individual_projects.R
 		examine the DESeq results at the Bioproject level.
 		Identify studies that do and do not show correlated stress response
 		save pdfs of the heatmaps for plotting
@@ -34,11 +34,20 @@
 	figurePlotting/plot_all_stress.R
 		(figure 2 table,pca,dapc,classification)
 
+#run GO MWU
+	go_mwu/GO_MWU.R
+	
+#run KOG
+	kog_mwu/kog_MWU.R
+
 
 #plot go correlations
 	figurePlotting/create_custom_go_groups.R
 	figurePlotting/plot_go_correlations.R
 		(figure 4)
+
+#plot kog correlations
+	also in kog_mwu/kog_MWU.R
 
 
 
@@ -48,11 +57,6 @@
 			load_stress_for_scatterplots.R
 			load_corrStress_for_scatterplots.R
 
-#run GO MWU
-	go_mwu/GO_MWU.R
-	
-#run KOG
-	kog_mwu/kog_MWU.R
 
 #run WGCNA correlations
 	wgcna/wgcna4_module-correlations.R

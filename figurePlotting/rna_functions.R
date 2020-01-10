@@ -1,6 +1,7 @@
 library(gtools)
 library(tidyverse)
 library(cowplot)
+theme_set(theme_cowplot())
 
 
 #plot a scatterplot
@@ -843,3 +844,36 @@ add_custom_go_overlay_bioproject = function(original, sub, more.sub, text.size=5
              size=text.size)
 }
 
+
+
+#same as r2 version but for pearson correlation 
+plot_scatter_pearsonCor_annotated = function(dat, xcol, ycol, xlab, ylab, ALPHA=0.1){
+  dat=data.frame(dat)
+  bad = c(NA, NaN, Inf, -Inf)
+  x=dat[,xcol]
+  y=dat[,ycol]
+  rem = (x %in% bad) | (y %in% bad)
+  totBad = sum(rem)
+  if (totBad>0){
+    print(paste('removing', totBad, 'rows with NA/NaN/Inf'))
+  }
+  dat=dat[!rem,]
+  lm1=lm(dat[,ycol]~dat[,xcol])
+  r2 = round(summary(lm1)$r.squared, digits=2)
+  pearsonCor=cor(x=dat[,xcol],
+                 y=dat[,ycol])
+  r=round(pearsonCor, digits=2)
+  print(summary(lm1))
+  plt = dat %>% 
+    ggplot(aes_string(x=xcol, y=ycol)) +
+    geom_point(alpha = ALPHA) +
+    labs(x=xlab,
+         y=ylab)
+  pbuild = ggplot_build(plt)
+  yrange = pbuild$layout$panel_params[[1]]$y.range
+  xrange = pbuild$layout$panel_params[[1]]$x.range
+  plt +
+    annotate("text", x = xrange[1], y = yrange[2],
+             label = paste('italic(r) ==', r), parse=TRUE, color='black',
+             hjust=0)
+}

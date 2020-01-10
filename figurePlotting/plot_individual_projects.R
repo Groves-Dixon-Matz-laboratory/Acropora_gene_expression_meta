@@ -173,22 +173,22 @@ min(weak)
 #make annotaiton labels for heatmap (this didn't look as good but kept here just in case)
 anots = data.frame(row.names=colnames(c),
                    cluster = if_else(colnames(c) %in% corStressProjs | grepl('^beww', colnames(c)),
-                                   'cluster A',
-                                   'cluster B'))
+                                   'type A',
+                                   'type B'))
 anots
 cols=gg_color_hue(3)
 controlColor = cols[1]
 clusterAcol = COLOR[70]
 clusterBcol = COLOR[30]
-my_colour = list(cluster = c(`cluster A`=clusterAcol, `cluster B`=clusterBcol))
+my_colour = list(cluster = c(`type A`=clusterAcol, `type B`=clusterBcol))
 
 
 #format annotations for cluster and bleaching
 blch = colnames(c) %in% bleachedProjs
 blch[blch==TRUE]<-'True'
 blch[blch==FALSE]<-'False'
-clusterA = rownames(anots)[anots$cluster=='cluster A']
-clusterB = rownames(anots)[anots$cluster=='cluster B']
+clusterA = rownames(anots)[anots$cluster=='type A']
+clusterB = rownames(anots)[anots$cluster=='type B']
 bleachAnnot = data.frame(bleached = blch,
                          row.names=colnames(c),
                          stringsAsFactors=FALSE)
@@ -197,7 +197,7 @@ bleachAnnot$bleached[bleachAnnot$bleached=='True']<-'yes'
 bleachAnnot$bleached[bleachAnnot$bleached=='False']<-'no'
 bleachAnnot$cluster<-NULL
 my_colour = list(bleached = c(yes='white', no='coral3', mild = 'coral'),
-                 cluster = c(`cluster A`=clusterAcol, `cluster B`=clusterBcol))
+                 cluster = c(`type A`=clusterAcol, `type B`=clusterBcol))
 
 #check
 bleachAnnot %>% 

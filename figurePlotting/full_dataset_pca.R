@@ -47,7 +47,7 @@ head(coldata)
 
 # build PCA ---------------------------------------------------------------
 
-fraction = 1/2
+fraction = 1/10
 NTOP = round(fraction * nrow(rld.df), digits=0)
 
 
@@ -87,8 +87,16 @@ stageDens = stage.df %>%
   ggplot(aes(x=PC1, fill=my_stage)) +
   geom_density(alpha=0.8) +
   labs(fill=NULL, subtitle='\n', title='\n') + 
-  scale_fill_manual(values=colors) 
+  scale_fill_manual(values=colors) +
+  theme(legend.position = 'none')
 
-
+#stick the point legend onto the density plot
+dev.legend <- cowplot::get_legend(pca.stage + 
+                                    theme(legend.position='right') +
+                                    guides(colour = guide_legend(override.aes = list(size=5))))
+stageDensL = plot_grid(stageDens, dev.legend, rel_widths = c(2.5, 1), nrow=1)
 legend <- cowplot::get_legend(pca.proj + theme(legend.text=element_text(size=9)))
-plot_grid(pca.proj.noleg, legend, pca.stage, stageDens, nrow=2, axis='b', rel_widths=c(1, 1, 1, 0.75), labels=c('A', '', '\nB', '\nC'))
+plot_grid(pca.proj.noleg, legend, pca.stage, stageDensL, nrow=2, axis='b', rel_widths=c(1, 1, 1, 0.75), labels=c('A', '', '\nB', '\nC'))
+
+
+

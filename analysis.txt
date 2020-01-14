@@ -64,5 +64,5 @@
 	
 
 #organize contextual_annotation_table
-	figurePlotting/organize_contextual_annotations.R
+	figurePlotting/annotation_tables.R
 	

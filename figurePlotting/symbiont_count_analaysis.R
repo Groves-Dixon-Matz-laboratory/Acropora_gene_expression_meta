@@ -1,6 +1,7 @@
 #symbiont_count_analysis.R
 library(tidyverse)
 library(cowplot)
+theme_set(theme_cowplot())
 
 # PREPARE DATA ------------------------------------------------------------
 
@@ -174,6 +175,27 @@ tprops %>%
   geom_bar(stat='identity') +
   labs(y='proportion', x='species') +
   theme(axis.text.x=element_text(face="italic"))
+
+
+
+# SELECT INDIVIDUALS WITH MIXES -------------------------------------------
+
+fdat = adat %>% 
+  dplyr::select(Run,my_title, fracA:fracD)
+
+cutoff = 0.1
+f = fdat %>% 
+  dplyr::select(fracA:fracD)
+nOver = apply(f, 1, function(x) sum(x>cutoff))
+pass = nOver > 1
+
+select = fdat %>% 
+  filter(pass) %>% 
+  pull(my_title) %>% 
+  unique()
+
+
+
 
 
 # LOOK AT BEWW SYMBIONTS --------------------------------------------------

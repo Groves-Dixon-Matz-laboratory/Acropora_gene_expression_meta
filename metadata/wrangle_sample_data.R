@@ -1393,6 +1393,23 @@ stress %>%
 
 
 
+
+# OPTION TO CHECK FOR NEW STUDIES -----------------------------------------
+
+newSra = read_csv('~/Desktop/allAcropora_2-24-20.txt')
+new = newSra %>% 
+  pull(BioProject) %>% 
+  unique()
+old = read_csv('detailed_tables/BioProject_Publication_Table.csv') %>% 
+  pull(BioProject)
+newNew = new[!new %in% old]
+
+newSra %>% 
+  filter(!BioProject %in% old) %>% 
+  write_csv('~/Desktop/candidates.')
+
+
+
 #set back to default working dir
 setwd('../')
 

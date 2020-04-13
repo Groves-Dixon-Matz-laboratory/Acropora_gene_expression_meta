@@ -1,10 +1,7 @@
 #plot_all_stress.R
 
-
-library(tidyverse)
-library(cowplot)
-library(ggplot2)
 library(DESeq2)
+rm(list=ls())
 source('./figurePlotting/rna_functions.R')
 
 
@@ -61,15 +58,16 @@ coldata %>%
   summarize(N=n())
 
 
-#upload additional coldata with bleaching info
-coldata2 = read_csv('metadata/subset_tables/allStress_Coldata.csv') %>% 
-  mutate(bleached = if_else(is.na(bleached),
-                            'no',
-                            bleached))
-
-coldata2 %>% 
-  group_by(treat) %>% 
-  summarize(N=n())
+# #upload additional coldata with bleaching info
+# coldata2 = read_csv('metadata/subset_tables/allStress_Coldata.csv') %>% 
+#   mutate(bleached = if_else(is.na(bleached),
+#                             'no',
+#                             bleached))
+# 
+# #check counts
+# coldata2 %>% 
+#   group_by(treat) %>% 
+#   summarize(N=n())
 
 
 #get summary table
@@ -81,7 +79,7 @@ sumTab=coldata %>%
   mutate(`N bleached` = ifelse(Treatment=='control',
                                 0,
                                 `N bleached`))
-
+#check
 sumTab
 apply(sumTab[2:4], 2, sum)
 
@@ -89,6 +87,7 @@ apply(sumTab[2:4], 2, sum)
 # plot volcano ------------------------------------------------------------
 
 ll=load('deseqResults/stress_deseqResults.Rdata')
+ll
 volc=plot_volcano(data.frame(res), TITLE=NULL) 
 
 # plot PCA ----------------------------------------------------------------
@@ -176,17 +175,16 @@ save(pdat, file='figurePlotting/stress_pca_LD.Rdata')
 
 
 # plot stress prediction results -------------------------------------------
+library(caret)
 ll=load('./category_prediction/stratifiedRandom/stratified_allStress_train.csv__stratified_allStress_test.csv_predictionResults.Rdata')
 ll
-library(caret)
+cdat$gene=rownames(cdat)
+var.imp$gene=rownames(var.imp)
 head(cdat)
 head(lres)
 head(rfres)
 
 #look at category prediction models
-ll=load('./category_prediction/stratifiedRandom/stratified_allStress_train.csv__stratified_allStress_test.csv_predictionResults.Rdata')
-cdat$gene=rownames(cdat)
-var.imp$gene=rownames(var.imp)
 predDat = load_pred_stats('./category_prediction/stratifiedRandom/stratified_allStress_train.csv__stratified_allStress_test.csv_predictionResults.Rdata')
 predBp = plot_pred_stats(predDat, NULL) + theme(legend.position='top')
 

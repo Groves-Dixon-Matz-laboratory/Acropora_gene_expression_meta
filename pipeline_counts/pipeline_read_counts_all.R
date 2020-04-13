@@ -4,6 +4,7 @@
 
 library(tidyverse)
 library(cowplot)
+theme_set(theme_cowplot())
 
 input='./pipeline_counts/all_pipeline_counts.txt'
 sdat0 = read.table(input, header=F, col.names=c('Run', 'value', 'stat'), stringsAsFactors=F) %>% 
@@ -143,6 +144,35 @@ sharedLegend <- cowplot::get_legend(pp + theme(legend.position='right'))
 final=plot_grid(plts, xlab, sharedLegend, nrow=3, rel_heights=c(1, 0.05, 1))
 final
 
+
+
+
+# COMPARE FEATURE COUNTING EFFICIENCY FOR TAG-SEQ -------------------------
+
+view(mdat)
+mdat %>% 
+  filter(BioProject=='PRJNA559404')
+tag_seq_projects = c('H_matz_heatTolLat_PRJNA279192',
+                     'K_strader_redDiapause_PRJNA292574',
+                     'S_rachel_immune_PRJNA319662',
+                     'V_kenkel_co2seep_PRJNA362652',
+                     'j1_thisStudy_PRJNA559404',
+                     'X_strader_larvalCompetance_PRJNA379147')
+mdat %>% 
+  mutate(tagseq = my_title %in% tag_seq_projects) %>% 
+  filter(stat %in% c('dedupMapped', 'geneCounted')) %>% 
+  pivot_wider(stat,
+              id_cols = -stat,
+              values_from = m) %>% 
+  mutate(counting_efficiency = geneCounted/dedupMapped) %>% 
+  ggplot(aes(x=tagseq, y = counting_efficiency, color=my_title, shape=tagseq)) +
+  geom_jitter(size=5,
+              width=0.1) +
+  labs(x='Tag-seq',
+       y='feature counting efficiency',
+       shape = 'Tag-seq',
+       color='Bioproject')
+  
 
 
 # 

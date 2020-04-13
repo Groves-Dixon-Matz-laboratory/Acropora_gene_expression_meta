@@ -55,6 +55,14 @@ colnames(idat)=newColNames
 head(idat)
 write_tsv(idat, path='results_tables/bioproject_deseqResults.tsv')
 
+#look at Sacsin
+ss = idat %>% 
+  filter(gene %in% c('Amillepora11972',
+                     'Amillepora11973',
+                     'Amillepora11974'))
+ss
+  
+
 
 # LOG2 AND P-VALUES FOR STRESS TYPES --------------------------------------
 

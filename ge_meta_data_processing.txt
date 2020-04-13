@@ -295,12 +295,12 @@ done
 
 #SORT BY COORDIANTE, REMOVE DUPLICATES, THEN CONVERT BACK TO SAM FOR COUNTING
 
-###!!! NOTE! THE CONCENSUS ON REMOVING PCR DUPLICATES SEEMS TO BE IT DOES MORE HARM THAN GOOD:
+###!!! NOTE! REMOVING PCR DUPLICATES MAY DO MORE HARM THAN GOOD:
 #(https://dnatech.genomecenter.ucdavis.edu/faqs/should-i-remove-pcr-duplicates-from-my-rna-seq-data/)
 #https://www.biostars.org/p/55648/   and these excellent papers
 #Parekh et al 2016:  The impact of amplification on differential expression analyses by RNA-seq.  and
 #Fu et al. 2018:  Elimination of PCR duplicates in RNA-seq and small RNA-seq using unique molecular identifiers.
-# THE STEPS HERE ARE LEFT FOR REFERENCE, BUT IT IS RECOMMENDED NOT TO DO THIS
+# I'M STILL GOING TO DO IT, BUT MAYBE DON'T?
 # INSTEAD, JUST SORT THEM AND GO STRAIGHT TO FEATURECOUNTS
 
 
@@ -311,14 +311,15 @@ module load samtools
 for file in *.sam
 do runID=${file/.sam/}
  echo "samtools sort -O bam -o ${runID}_sorted.bam $file &&\
- java -Xms4g -jar /work/02260/grovesd/lonestar/picard/picard-tools-1.119/MarkDuplicates.jar\
+ java -Xms4g -jar /work/02260/grovesd/lonestar/picard/picard.jar MarkDuplicates\
  INPUT=${runID}_sorted.bam\
  OUTPUT=${runID}_dupsRemoved.bam\
  METRICS_FILE=${runID}_dupMetrics.txt\
- REMOVE_DUPLICATES=true" >> removeDups
+ REMOVE_DUPLICATES=true &&\
+ samtools index ${runID}_dupsRemoved.bam" >> removeDups
  done
  
-launcher_creator.py -n removeDups -j removeDups -t 20:00:00 -q normal -a $allo -e $email -N 30 -w 2
+launcher_creator.py -n removeDups -j removeDups -t 24:00:00 -q normal -a $allo -e $email -N 10 -w 2
 ##run only two per node, assuming 12 sam files, using six nodes allows for all to run simultaneously, expect run to last ~2-4 hours
 
 

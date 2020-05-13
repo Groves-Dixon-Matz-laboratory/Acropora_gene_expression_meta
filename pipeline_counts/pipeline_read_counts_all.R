@@ -149,7 +149,6 @@ final
 
 # COMPARE FEATURE COUNTING EFFICIENCY FOR TAG-SEQ -------------------------
 
-view(mdat)
 mdat %>% 
   filter(BioProject=='PRJNA559404')
 tag_seq_projects = c('H_matz_heatTolLat_PRJNA279192',
@@ -173,33 +172,6 @@ mdat %>%
        shape = 'Tag-seq',
        color='Bioproject')
   
-
-
-# 
-# 
-# 
-# lp = sdat %>% 
-#   filter(stat %in% c("rawCounts", "trimmedCounts", "predupMapped", "dedupMapped", "geneCounted")) %>% 
-#   mutate(stat=factor(stat, levels=c("rawCounts", "trimmedCounts", "predupMapped", "dedupMapped", "geneCounted"))) %>% 
-#   ggplot(aes(x=stat, y=fixValue, color=my_title)) +
-#   geom_point() +
-#   geom_line(aes(group=Run)) +
-#   theme(legend.position='none', axis.text.x=element_text(angle=20, vjust=0.75)) +
-#   labs(y='Read count', x='Pipeline step', subtitle='read counts')
-# 
-# 
-# pp<-sdat %>% 
-#   filter(stat %in% c("rawCounts", "trimmedCounts", "predupMapped", "dedupMapped", "geneCounted")) %>% 
-#   mutate(stat=factor(stat, levels=c("rawCounts", "trimmedCounts", "predupMapped", "dedupMapped", "geneCounted"))) %>% 
-#   group_by(Run) %>% 
-#   mutate(prop = fixValue/max(fixValue) ) %>% 
-#   ggplot(aes(x=stat, y=prop, color=my_title)) +
-#     geom_point() +
-#     geom_line(aes(group=Run)) +
-#     labs(y='Proportion raw reads', x='Pipeline step', subtitle='read proportions') +
-#     theme(legend.position='none', axis.text.x=element_text(angle=20, vjust=0.75))
-# plot_grid(lp, pp)
-
 
 # stats and writing out ---------------------------------------------------
 
@@ -247,4 +219,84 @@ long = sdat %>%
   spread(stat, fixValue) %>% 
   select('Run', 'Bioproject', 'LibraryLayout', 'rawCounts', 'trimmedCounts', 'predupMapped', 'dedupMapped', 'geneCounted') %>% 
   write_tsv(path='./pipeline_counts/pipeline_counts_table.tsv')
+
+
+
+# look at variation by BioProject and Species -----------------------------
+
+#add species info to the counts
+coldata = read_csv('metadata/ALL_Coldata.csv') %>% 
+  dplyr::select(Run, my_title, Organism)
+ldat = long %>% 
+  left_join(coldata, by = 'Run') %>% 
+  mutate(species = sub('Acropora ', '', Organism),
+         species = if_else(grepl('hyacinthus', species),
+                           'hyacinthus',
+                           species),
+         map_eff = predupMapped / trimmedCounts,
+         nonDup_rate = dedupMapped / predupMapped,
+         geneCount_rate = geneCounted / dedupMapped)
+dim(long)
+dim(ldat)
+
+#look at mapping efficiency by species
+ordered_spp = ldat %>% 
+  group_by(species) %>% 
+  summarize(med = median(map_eff)) %>% 
+  arrange(desc(med)) %>% 
+  pull(species)
+ldat %>% 
+  mutate(species = factor(species, levels = ordered_spp)) %>% 
+  ggplot(aes(x=species, y = map_eff)) +
+  geom_boxplot()
+
+#look at mapping efficiency by project
+ordered_spp = ldat %>% 
+  group_by(Bioproject) %>% 
+  summarize(med = median(map_eff)) %>% 
+  arrange(desc(med)) %>% 
+  pull(Bioproject)
+ldat %>% 
+  mutate(Bioproject = factor(Bioproject, levels = ordered_spp)) %>% 
+  ggplot(aes(x=Bioproject, y = map_eff, fill=species)) +
+  geom_boxplot() +
+  coord_flip()
+
+#check species
+spps = unique(ldat$species)
+spps
+length(spps)
+
+#model mapping efficiency 
+#put species first
+lm1 = lm(map_eff ~ species, data = ldat)
+summary(lm1)
+anova(lm1)
+aov_tab = data.frame(anova(lm1))
+aov_tab['species','Sum.Sq'] / sum(aov_tab$Sum.Sq)
+
+#control for Bioproject
+lm1 = lm(map_eff ~ my_title + species, data = ldat)
+summary(lm1)
+anova(lm1)
+aov_tab = data.frame(anova(lm1))
+aov_tab['my_title','Sum.Sq'] / sum(aov_tab$Sum.Sq)*100
+aov_tab['species','Sum.Sq'] / sum(aov_tab$Sum.Sq)*100
+
+
+#model mapping efficiency 
+#put species first
+lm1 = lm(geneCounted ~ species, data = ldat)
+summary(lm1)
+anova(lm1)
+aov_tab = data.frame(anova(lm1))
+aov_tab['species','Sum.Sq'] / sum(aov_tab$Sum.Sq)
+
+#control for Bioproject
+lm1 = lm(geneCounted ~ my_title + species, data = ldat)
+summary(lm1)
+anova(lm1)
+aov_tab = data.frame(anova(lm1))
+aov_tab['my_title','Sum.Sq'] / sum(aov_tab$Sum.Sq)*100
+aov_tab['species','Sum.Sq'] / sum(aov_tab$Sum.Sq)*100
 

@@ -3,7 +3,7 @@
 library(tidyverse)
 library(lubridate)
 library(cowplot)
-
+theme_set(theme_cowplot())
 
 #funciton to read in and format hobo data
 read_hobo_csv = function(infileName, group){
@@ -24,6 +24,7 @@ read_hobo_csv = function(infileName, group){
 
 #chilled
 source('beww_experiment/chilled/loadData.R')
+
 
 #heat1
 source('beww_experiment/heat/loadData.R')

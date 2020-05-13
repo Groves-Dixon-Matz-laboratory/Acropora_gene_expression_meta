@@ -90,6 +90,10 @@ ll=load('deseqResults/stress_deseqResults.Rdata')
 ll
 volc=plot_volcano(data.frame(res), TITLE=NULL) 
 
+#prop significant
+sum(res$padj < 0.05) / nrow(res)
+
+
 # plot PCA ----------------------------------------------------------------
 
 fraction = 1/10
@@ -233,7 +237,8 @@ ddens = pdat %>%
   geom_density(alpha=0.5) +
   labs(fill=NULL,
        x='DAPC') +
-  theme(legend.position='top')
+  theme(legend.position='top') +
+  lims(x=c(-5,5))
 
 
 
@@ -285,7 +290,10 @@ pdCorStsLvl = pdat %>%
        y='DAPC',
        color='stress\nlevel')
 
-
+#save pdat
+pdat = pdat %>% 
+  dplyr::select(Run, PC1, PC2, LD1, group)
+save(pdat, file='results_tables/pca_dapc_sample_loads.Rdata')
 
 #new one with prediction barplot (don't like this as much)
 quartz()

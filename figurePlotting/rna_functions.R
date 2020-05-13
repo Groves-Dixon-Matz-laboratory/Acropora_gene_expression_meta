@@ -167,10 +167,10 @@ write_out_up_and_down_go = function(deseqRes, outPrefix){
 }
 
 
-plot_volcano = function(df, TITLE){
+plot_volcano = function(df, TITLE, PADJ_CUT=0.05){
   sdf = df %>% 
     arrange(pvalue) %>% 
-    mutate(sig = !is.na(padj) & padj < 0.1) %>% 
+    mutate(sig = !is.na(padj) & padj < PADJ_CUT) %>% 
     as_tibble()
   sdf
   

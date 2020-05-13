@@ -68,6 +68,11 @@ pca.proj = plotProjectPCA(df = rld.df, coldat = coldata, intgroup = 'forLegend',
 legend <- cowplot::get_legend(pca.proj + theme(legend.text=element_text(size=5)))
 pca.proj.noleg = pca.proj + theme(legend.position='none')
 
+#just for kicks, what does it look like if you remove effect of developmental stage?
+contStage <- removeBatchEffect(rld.df, batch = coldata$my_stage)
+pca.contStage = plotProjectPCA(df = contStage, coldat = coldata, intgroup = 'forLegend', ntop=NTOP, main = "Project", SIZE=1, returnData = F) 
+
+
 #get the stage pca and density
 pca.stage = plotStressPCA(df = rld.df, coldat = coldata, intgroup = 'my_stage', ntop=NTOP, main = "Developmental stage", SIZE=1, returnData = F, xInvert=-1)
 stage.df = plotStressPCA(df = rld.df, coldat = coldata, intgroup = 'my_stage', ntop=NTOP, main = "Developmental stage", SIZE=1, returnData = T, xInvert=-1)

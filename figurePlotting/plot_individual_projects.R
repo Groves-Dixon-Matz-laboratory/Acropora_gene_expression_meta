@@ -69,6 +69,7 @@ save(idat, file= 'deseqResults/all_by_bioproject.Rdata')
 noAllBeww = ldat %>% 
   dplyr::select(-j1_thisStudy_PRJNA559404)
 c=cor(noAllBeww, use="pairwise.complete.obs")
+save(c, file='results_tables/bioproject_stress_correlation_matrix.Rdata')
 colnames(c) %>% 
   write.table('./metadata/detailed_tables/stressNamesRaw.tsv', quote=FALSE, row.names=FALSE)
 #manually fill in nicer names for plotting
@@ -306,7 +307,29 @@ c %>%
 alfc = abs(al$lfc)
 blcf = abs(bl$lfc)
 t.test(alfc, blcf)
+median(alfc, na.rm=TRUE)
+median(blcf, na.rm=TRUE)
 median(alfc, na.rm=TRUE) / median(blcf, na.rm=TRUE)
+
+
+#compare the medians for the individual bioprojects
+med_c = c %>% 
+  mutate(alfc = abs(lfc)) %>% 
+  group_by(proj, cluster) %>% 
+  summarize(med_alfc = median(alfc, na.rm=TRUE))
+
+t.test(med_c$med_alfc ~ med_c$cluster) #not significant
+
+med_c %>% 
+  mutate(cluster=factor(cluster, levels = c('A', 'B')),
+         num = as.numeric(cluster)) %>% 
+  ggplot(aes(x=cluster, y=med_alfc)) +
+  geom_violin() +
+  geom_jitter(aes(x=num, y=med_alfc), size=3, width=0.1) +
+  labs(y = bquote('median abs log'[2]~'fold difference'))
+
+med_c %>% 
+  arrange(cluster, med_alfc)
 
 #next show temperatures were higher in cluster A
 temps = read_csv('./metadata/detailed_tables/detailedHeat.csv')

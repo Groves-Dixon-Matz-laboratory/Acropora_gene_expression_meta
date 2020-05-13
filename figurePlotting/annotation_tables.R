@@ -36,6 +36,7 @@ source('figurePlotting/rna_functions.R')
 
 # LOG2 AND P-VALUES FOR INDIVIDUAL PROJECTS -------------------------------
 
+#here we want all the deseq2 results for each individual file
 mnames = read_tsv('metadata/detailed_tables/stressNamesModified.txt')
 ll=load('deseqResults/all_by_bioproject.Rdata')
 ll
@@ -53,7 +54,6 @@ for (i in 1:length(titles)){
 data.frame(colnames(idat),newColNames)
 colnames(idat)=newColNames
 head(idat)
-write_tsv(idat, path='results_tables/bioproject_deseqResults.tsv')
 
 #look at Sacsin
 ss = idat %>% 
@@ -61,48 +61,27 @@ ss = idat %>%
                      'Amillepora11973',
                      'Amillepora11974'))
 ss
-  
 
 
 # LOG2 AND P-VALUES FOR STRESS TYPES --------------------------------------
 
+#in addition to the individual BioProjects, we want all type A and all type B
+
 #get the high-stress and low-stress gruops
 clusterPaths = c('deseqResults/corStress_deseqResults.Rdata',
-                 'deseqResults/lowStress_deseqResults.Rdata')
+                 'deseqResults/lowStress_deseqResults.Rdata',
+                 'deseqResults/stress_deseqResults.Rdata')
 clusterNames = c('clusterA',
-                 'clusterB')
+                 'clusterB',
+                 'allStressStudies')
 names(clusterPaths)=clusterNames
-
-
-#gather grouped files
-gFileList = list.files(path = 'correlated_only/deseqResults', pattern = '*deseqResults.Rdata', full.names=TRUE)
-gNameList = list.files(path = 'correlated_only/deseqResults', pattern = '*deseqResults.Rdata', full.names=FALSE)
-gnames = sub('_deseqResults.Rdata', '', gNameList)
-names(gFileList)=gnames
-gnames
-keep = c('bleached',
-         'stressNOBLEACH',
-         'heat',
-         'heatNOBLEACH',
-         'immune',
-         'salinity',
-         'salinityNOBLEACH',
-         'ph')
-gFileList = gFileList[keep]
-length(gFileList)
-names(gFileList)
-
-#assemble
-cgFileList = append(clusterPaths, gFileList)
-cgNames = append(clusterNames, names(gFileList))
-data.frame(cgFileList,cgNames)
 
 #read in the stress desea results
 cgList = list()
-for (i in 1:length(cgFileList)){
-  x=cgFileList[[i]]
+for (i in 1:length(clusterPaths)){
+  x=clusterPaths[[i]]
   load(x)
-  n=cgNames[i]
+  n=clusterNames[i]
   cgList[[n]]=read_deseq_res(x,n)
 }
 
@@ -112,7 +91,18 @@ cgdat = cgList %>%
 orderCols = c('gene', colnames(cgdat)[colnames(cgdat)!='gene'])
 cgdat=cgdat[,orderCols]
 rownames(cgdat)=cgdat$gene
-write_tsv(cgdat, path='results_tables/stressType_deseqResults.tsv')
+
+#merge with results from individual bioprojects
+head(idat)
+head(cgdat)
+deseq_dat = cgdat %>% 
+  full_join(idat, by = 'gene') %>% 
+  arrange(clusterA_p)
+head(deseq_dat)
+dim(deseq_dat)
+
+#write out
+write_tsv(deseq_dat, path='results_tables/all_deseqResults.tsv')
 
 
 # WGCNA MODULE MEMBERSHIP -------------------------------------------------
@@ -129,28 +119,6 @@ gmdat=gmdat[,orderedCols]
 gmdat$assignment=moduleColors
 head(gmdat)
 write_tsv(gmdat, path='results_tables/wgcna_moduleMembership.tsv')
-
-
-
-# VARIABLE IMPORTANCE -----------------------------------------------------
-
-#load the pc1 and dapc loadings and contributions
-ll=load('results_tables/pcaDapcLoads.Rdata')
-ll
-head(pca.dapc.varImp)
-
-#load the classification model stats
-ll=load('results_tables/classificationImportance.Rdata')
-ll
-head(cdat)
-head(var.imp)
-
-#merge
-contribs = purrr::reduce(list(pca.dapc.varImp, cdat, var.imp),
-                  full_join, by= 'gene') %>% 
-  select(-stressed, -control, -rank)
-head(contribs)
-write_tsv(contribs, path='results_tables/gene_contibutions.tsv')
 
 
 # CONTEXTUAL ANNOTATIONS  -------------------------------------------------------

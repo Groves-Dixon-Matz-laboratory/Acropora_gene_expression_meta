@@ -46,7 +46,7 @@
 	figurePlotting/plot_go_correlations.R
 		(figure 4)
 
-#plot kog correlations
+#plot kog correlations (removed from final publication but kept for reference)
 	also in kog_mwu/kog_MWU.R
 
 

@@ -38,6 +38,10 @@ inputFiles = paste(scols, 'goInput.csv', sep='_')
 divisions=c('CC', 'MF', 'BP')
 
 
+
+divisions = c('CC')
+inputFiles = c("MMred_goInput.csv")
+
 # run go_mwu for each -----------------------------------------------------
 
 

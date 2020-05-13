@@ -106,6 +106,7 @@ mod = pdat %>%
 mod
 assembleList[[selectProject]] = mod
 
+table(mod$treatDescription)
 
 # C_palumbi_pools_PRJNA242821 ----------------------------------------------
 #note that pool 300 is the Highly Variable Pool and pool 400 is the Medium Variable Pool
@@ -148,6 +149,11 @@ mod = pdat %>%
   data.frame()
 mod
 assembleList[[selectProject]] = mod
+
+#get counts
+mod %>% 
+  group_by(treatDescription) %>% 
+  summarize(N=n())
 
 # F_Uqueensland_ph_PRJNA269992 --------------------------------------------
 selectProject = 'F_Uqueensland_ph_PRJNA269992'
@@ -218,6 +224,10 @@ mod = pdat %>%
 mod
 assembleList[[selectProject]] = mod
 
+#get counts
+mod %>% 
+  group_by(treat) %>% 
+  summarize(N=n())
 
 # I_bertucci_dayNight_PRJNA288809 -----------------------------------------
 
@@ -258,6 +268,11 @@ mod = pdat %>%
 mod
 assembleList[[selectProject]] = mod
 
+#get counts
+mod %>% 
+  group_by(treatDescription) %>% 
+  summarize(N=n())
+
 
 # K_strader_redDiapause_PRJNA292574 ---------------------------------------
 selectProject = 'K_strader_redDiapause_PRJNA292574'
@@ -291,6 +306,8 @@ mod = pdat %>%
 mod
 assembleList[[selectProject]] = mod
 
+table(mod$treat)
+
 # M_moya_juvenilePh_PRJNA260269 -------------------------------------------
 
 selectProject = 'M_moya_juvenilePh_PRJNA260269'
@@ -323,6 +340,11 @@ mod = pdat %>%
   data.frame()
 mod
 assembleList[[selectProject]] = mod
+
+#view for stats
+mod %>% 
+  group_by(treat) %>% 
+  summarize(N=n())
 
 # O_Mohamed_zoox_PRJNA309168 ----------------------------------------------
 selectProject = 'O_Mohamed_zoox_PRJNA309168'
@@ -442,6 +464,16 @@ mod = pdat %>%
 mod
 assembleList[[selectProject]] = mod
 
+#get stats
+nrow(mod)
+mod %>% 
+  mutate(treat_group = substr(treatDescription, start=1, stop=2)) %>% 
+  group_by(treat_group, treat) %>% 
+  summarize(N=n()) %>% 
+  mutate(abraision = substr(treat_group, start=1,stop=1)=='A',
+         bacteria = substr(treat_group, start=2,stop=2)!='C')
+
+
 # T_yasuoka_brachyury_PRJDB4579 -------------------------------------------
 selectProject = 'T_yasuoka_brachyury_PRJDB4579'
 pdat = datList[[selectProject]]
@@ -497,6 +529,7 @@ mod = pdat %>%
 mod
 assembleList[[selectProject]] = mod
 
+
 # W_gajigan_thermalMicroRNA_PRJNA298496 -----------------------------------
 selectProject = 'W_gajigan_thermalMicroRNA_PRJNA298496'
 pdat = datList[[selectProject]]
@@ -513,6 +546,12 @@ mod = pdat %>%
   data.frame()
 mod
 assembleList[[selectProject]] = mod
+
+#look at stats
+mod %>% 
+  group_by(treat) %>% 
+  summarize(N=n())
+
 
 # X_strader_larvalCompetance_PRJNA379147 ----------------------------------
 selectProject = 'X_strader_larvalCompetance_PRJNA379147'
@@ -597,6 +636,14 @@ mod
 assembleList[[selectProject]] = mod
 
 
+#look at sample counts
+mod %>% 
+  separate(treatDescription,
+           into = c('time', 'psu', 'geno', 'spp')) %>% 
+  group_by(time, psu, spp) %>% 
+  summarize(N=n())
+
+
 # c1_uga_diseaseTolerance_PRJNA386795 -------------------------------------
 
 selectProject = 'c1_uga_diseaseTolerance_PRJNA386795'
@@ -668,6 +715,11 @@ mod = pdat %>%
   data.frame()
 mod
 assembleList[[selectProject]] = mod
+
+#view for stats
+mod %>% 
+  group_by(treat) %>% 
+  summarize(N=n())
 
 # g1_unknown_earlySymbiosis -----------------------------------------------
 
@@ -772,6 +824,12 @@ mod = pdat %>%
 assembleList[[selectProject]] = mod
 dim(mod)
 
+#view stats
+mod %>% 
+  filter(grepl('chill', Library_Name)) %>% 
+  group_by(treat) %>% 
+  summarize(N=n())
+
 #---OUTPUT SPECIAL TABLE FOR SRA UPLOAD
 sra0 = pdat %>% 
   filter(!Run %in% c('s37_S74', 's38_S75', 's39_S76', 's40_S77', 's41_S78'))
@@ -833,6 +891,13 @@ head(sra)
 sra %>% 
   write_csv('project_specific_tables/sraUploadData.csv')
 
+#print some stats
+sra %>% 
+  separate(sample_name,
+           into = c('experiment', 'genotype', 'treatment', 'timepoint', 'rep')) %>% 
+  group_by(experiment, treatment, timepoint) %>% 
+  summarize(N=n())
+
 #This table has the information to paste into the SRA upload tables for both bioSamples and Runs
 #Project was uploaded with a unique bioSample for each Run
 #File upload was lane-concateanted fastq files for each sample
@@ -856,6 +921,13 @@ mod = pdat %>%
 mod
 assembleList[[selectProject]] = mod
 
+#get counts for each
+sum(grepl('_h_5h', pdat$Sample_Name)) #38 heated 5 hour sample points
+sum(grepl('_c_5h', pdat$Sample_Name)) #38 control 5 hour sample points
+sum(grepl('_h_20h', pdat$Sample_Name)) #38 heat 20 hour sample points
+sum(grepl('_c_20h', pdat$Sample_Name)) #38 control 20 hour sample points
+38*4
+nrow(mod)
 
 # ASSEMBLE TOGETHER -------------------------------------------------------
 names(datList)

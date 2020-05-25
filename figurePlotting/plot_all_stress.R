@@ -273,7 +273,7 @@ pdCor = pdat %>%
   ggplot(aes(x=PC1, y=LD1)) +
   geom_smooth(span=0.3, se=FALSE, lwd=1) +
   geom_point(aes(color=ttype,
-                 shape=blch), size=1) +
+                 shape=blch), size=1.5) +
   labs(x='PC1',
        y='DAPC',
        color='',
@@ -290,16 +290,16 @@ pdCorStsLvl = pdat %>%
        y='DAPC',
        color='stress\nlevel')
 
-#save pdat
-pdat = pdat %>% 
-  dplyr::select(Run, PC1, PC2, LD1, group)
-save(pdat, file='results_tables/pca_dapc_sample_loads.Rdata')
 
 #new one with prediction barplot (don't like this as much)
 quartz()
 #main version of figure 2
 plot_grid(tbl, volc+theme(legend.position='none'), treatPCA,  ddens, pdCor, predBp, nrow=3, rel_widths = c(1, 0.5), labels=LETTERS[1:6], axis='b')
 
+#save pdat
+pdat = pdat %>% 
+  dplyr::select(Run, PC1, PC2, LD1, group, treat)
+save(pdat, file='results_tables/pca_dapc_sample_loads.Rdata')
 
 #alternative versions:
 

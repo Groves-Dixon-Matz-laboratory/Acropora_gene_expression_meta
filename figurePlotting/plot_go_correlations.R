@@ -371,8 +371,8 @@ lowPlotColored = add_custom_go_overlay(lowstress, sub, more.sub) +
 
 
 #### FINAL PLOT
-ylab = ggdraw() + draw_label('bioproject delta rank', angle=90)
-xlab = ggdraw() + draw_label('all type A delta rank')
+ylab = ggdraw() + draw_label('independent bioproject delta rank', angle=90)
+xlab = ggdraw() + draw_label('full type A dataset delta rank')
 plts = plot_grid(highPlot+theme(legend.position='none'),
                  lowPlotColored+theme(legend.position='none'))
 top=plot_grid(ylab, plts, nrow=1, rel_widths=c(0.03, 1))
@@ -580,8 +580,8 @@ lowPlotColored = add_custom_go_overlay(lowstress, sub, more.sub) +
 
 
 #### FINAL PLOT
-ylab = ggdraw() + draw_label('bioproject delta rank', angle=90)
-xlab = ggdraw() + draw_label('all type B delta rank')
+ylab = ggdraw() + draw_label('independent bioproject delta rank', angle=90)
+xlab = ggdraw() + draw_label('full type B dataset delta rank')
 plts = plot_grid(highPlot+theme(legend.position='none'),
                  lowPlotColored+theme(legend.position='none'))
 top=plot_grid(ylab, plts, nrow=1, rel_widths=c(0.03, 1))

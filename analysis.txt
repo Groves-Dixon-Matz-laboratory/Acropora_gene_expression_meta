@@ -36,19 +36,12 @@
 
 #run GO MWU
 	go_mwu/GO_MWU.R
-	
-#run KOG
-	kog_mwu/kog_MWU.R
 
 
 #plot go correlations
 	figurePlotting/create_custom_go_groups.R
 	figurePlotting/plot_go_correlations.R
 		(figure 4)
-
-#plot kog correlations (removed from final publication but kept for reference)
-	also in kog_mwu/kog_MWU.R
-
 
 
 #plot correlations between stress responses
@@ -61,8 +54,13 @@
 #run WGCNA correlations
 	wgcna/wgcna4_module-correlations.R
 	wgcna/go_mwu/GO_MWU_wgcna.R
-	
+	#(figure assembled using Keynote)
+
+#plot red module associations
+	figure_plotting/red_module_analyses.R
+	(figure 6)
 
 #organize contextual_annotation_table
 	figurePlotting/annotation_tables.R
+	
 	
